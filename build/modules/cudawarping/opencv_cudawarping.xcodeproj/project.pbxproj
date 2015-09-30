@@ -1,0 +1,1433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3AE5D40A41CC49428666F3A3 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				A06FE00DF686479EA989BD2C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				E4905E71B4E341B890D67685 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 52E85C76575E4FE2A5F52239 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				9CF1D48A521541FDA6974F3D /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				74FC911F2D47450A9C1A237A /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4013AF0B99434511AAB652BD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A7EE48923F134279AF713A6D /* CMake Rules */,
+			);
+			dependencies = (
+				C7CED0E30DCE4680A12B1952 /* PBXTargetDependency */,
+				071C94BEF54C409BB9E2824D /* PBXTargetDependency */,
+				1186750F044E48CDBF172313 /* PBXTargetDependency */,
+				A9CAA45D55104B67AB0AA997 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B04A217C74404868ADF2E25F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				AF8E0BF61B27473EAEB45F37 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0300FC48303E4BB4BA1C9ED1 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/resize.cpp */ = {isa = PBXBuildFile; fileRef = CF613E5B94554CA78AEFA3D8 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/resize.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		039B99BABA8F42E5A783B030 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/warp.cu */ = {isa = PBXBuildFile; fileRef = D932BFB8791540B1A645115F /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/warp.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		06520F061A1E44398B40BC41 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_warp.cu.o */ = {isa = PBXBuildFile; fileRef = 97279C226E38426EABD48C3A /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_warp.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		094F5F042CDC4513B62B72E8 /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_warping.cpp */ = {isa = PBXBuildFile; fileRef = 2313A306C41C404AA22E4791 /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_warping.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		096AA1EFF3CF47D0A818128E /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_warp_affine.cpp */ = {isa = PBXBuildFile; fileRef = CAAADDA80D874C3AB877F214 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_warp_affine.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0A2EA42D046E44898EBE5B45 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FDB3C0BEEF3446E2AB6D2F96 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		0C306DC65FA84CF59062C398 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_resize.cu.o */ = {isa = PBXBuildFile; fileRef = 6400C24A0507484EB6858DE7 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_resize.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		1586EB7156774313A41A7BE3 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_remap.cu.o */ = {isa = PBXBuildFile; fileRef = 5300A98F049C474F89AB83C6 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_remap.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		2725D90B20CE409580C00864 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/remap.cpp */ = {isa = PBXBuildFile; fileRef = 044D39F4B3DB45DDB910909D /* /Users/elliotstaudt/opencv/modules/cudawarping/src/remap.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		28241E9A15ED4D90AE83E7F5 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/remap.cu */ = {isa = PBXBuildFile; fileRef = 9E8F382FB378447E8B1A07E1 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/remap.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		2998AF5ED16540909161A5B6 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_pyramids.cpp */ = {isa = PBXBuildFile; fileRef = FCC50BF50EE940B894C74F3E /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_pyramids.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2C9D35F92ABD4409992D550B /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 26AA9B6ACA1247038CD39E2F /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		37C3C3422E8749FCB79ED091 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_warp_perspective.cpp */ = {isa = PBXBuildFile; fileRef = D33B6B71D52F4EC8BBFE5A08 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_warp_perspective.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		402F5EAF79634CBA91C90B52 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/remap.cpp */ = {isa = PBXBuildFile; fileRef = 89496A6A0BDB4E7FA613DDEA /* /Users/elliotstaudt/opencv/modules/cudawarping/src/remap.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		40BCC3ED300A4739B10B8DD0 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/resize.cu */ = {isa = PBXBuildFile; fileRef = BE52CC607446437E855AC7A7 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/resize.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		5024F1333F334B7F993B65EF /* /Users/elliotstaudt/opencv/modules/cudawarping/include/opencv2/cudawarping.hpp */ = {isa = PBXBuildFile; fileRef = 2898FEF31B7C42E6B2A1DE37 /* /Users/elliotstaudt/opencv/modules/cudawarping/include/opencv2/cudawarping.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		56C54F43977E48C19E93CBBF /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_down.cu */ = {isa = PBXBuildFile; fileRef = 01C2283E85264CAE9985684B /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_down.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		70FCCE0F85824AD1BCD50C37 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = EB75130C1DAC4B6C9A889183 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		75FA6287AC54448790FADD69 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/interpolation.hpp */ = {isa = PBXBuildFile; fileRef = E1E2B6713EE447B9A32F4485 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/interpolation.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		77ED756A121D405C82AF7FA5 /* /Users/elliotstaudt/opencv/modules/cudawarping/include/opencv2/cudawarping.hpp */ = {isa = PBXBuildFile; fileRef = B7DA968E98B84B828B37A336 /* /Users/elliotstaudt/opencv/modules/cudawarping/include/opencv2/cudawarping.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7AF1ED0502004F47B775BD5B /* /Users/elliotstaudt/opencv/modules/cudawarping/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = DFA27CA216A3478C9E323FBC /* /Users/elliotstaudt/opencv/modules/cudawarping/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7B01DDE665FB4E368EFC0CA5 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = A11D2E41EF0245F586B92318 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		83E96CE8D1E548B081BF29E5 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/remap.cu */ = {isa = PBXBuildFile; fileRef = 3FDC014C765944F28C0EF986 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/remap.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		87D1EA079A674790BDA2F513 /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 7E2072A2F70547DCAD5D4ACA /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A75DDE69509D4049B898071B /* /Users/elliotstaudt/opencv/modules/cudawarping/src/warp.cpp */ = {isa = PBXBuildFile; fileRef = 5E9EB2EB256744C29D2B92CE /* /Users/elliotstaudt/opencv/modules/cudawarping/src/warp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A9D19225CD6045EC99B54739 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F2894DF872384BC48121C763 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		AAC92EE40EC74346AD71CC12 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 762D2D3DEF384A11B5987CEE /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		AEE302F723614260B4D3F254 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_down.cu */ = {isa = PBXBuildFile; fileRef = 3C020A43115D4A32B8EFE3A1 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_down.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		AEFB932C5D5A41928ED39FC3 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_resize.cpp */ = {isa = PBXBuildFile; fileRef = 53AF78350942431194407A9A /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_resize.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AF8C1F796DCB440E8460747D /* /Users/elliotstaudt/opencv/modules/cudawarping/src/warp.cpp */ = {isa = PBXBuildFile; fileRef = 7035B6BE995F46AEAFBFC455 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/warp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B242DEB23A994DD2AB02468C /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = D33EEBFDA2F24CF9AAAE5609 /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B40494DD24334A5B92983170 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/pyramids.cpp */ = {isa = PBXBuildFile; fileRef = AB1121903227479E91558264 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/pyramids.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B592C1AB30AB49D7AD2257EB /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_up.cu */ = {isa = PBXBuildFile; fileRef = FA93E47503864AE88F5486B2 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_up.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		B5B60B5D10804A778360402E /* /Users/elliotstaudt/opencv/modules/cudawarping/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 3E677BD748FE4554A9BF43B3 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BF586DD339B341B9A9419F4F /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = AF89B21A8F894C2C99BFDC8F /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BF73B53B38CC4F11AE6DA683 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_remap.cpp */ = {isa = PBXBuildFile; fileRef = 84CB8084A8584AB98D1B5A4A /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_remap.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C0AF38E86E864EFBA7EF0842 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_pyr_down.cu.o */ = {isa = PBXBuildFile; fileRef = 2E6A158374464C7F9873284B /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_pyr_down.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		C2081FE8B75D43A4BC3B85E2 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_up.cu */ = {isa = PBXBuildFile; fileRef = 381EFBBD616049ED86F1B9F8 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_up.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		CE0E9F617C45490A9D28612B /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_pyr_up.cu.o */ = {isa = PBXBuildFile; fileRef = 0C9C7A3CCDDC49EB8F846A8F /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_pyr_up.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		D4E49D8D4B9F43DD86C4D0B3 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F2991FEAD2AB4C6FBD68F276 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		D611611C003441089648DA74 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/warp.cu */ = {isa = PBXBuildFile; fileRef = 639504DB90EF469FA018A1D9 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/warp.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		D724D32EF2424616A60B1DD3 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/resize.cu */ = {isa = PBXBuildFile; fileRef = 0A9C02912C1C4A6CBCE92AC9 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/resize.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		DEF6FF4FB16B41E0B0829302 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/resize.cpp */ = {isa = PBXBuildFile; fileRef = B505F011697D49A8AD04804A /* /Users/elliotstaudt/opencv/modules/cudawarping/src/resize.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E3B6A77C269648CFBC56F3CA /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_main.cpp */ = {isa = PBXBuildFile; fileRef = CAA4A028B1DF473DA10A3F73 /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E739256092FE49428B926C2C /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 682A50114E6544C0BE576DD1 /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FE576EB4A1064A94BCABC28F /* /Users/elliotstaudt/opencv/modules/cudawarping/src/pyramids.cpp */ = {isa = PBXBuildFile; fileRef = F32664EC65E841F3832EB1AC /* /Users/elliotstaudt/opencv/modules/cudawarping/src/pyramids.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		872D9B3C317E4E71881D8279 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		925415352277410BBE921E97 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F385D8A0D7EE4DD3BABDEFEE = {
+			isa = PBXBuildStyle;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1B5B6CA5FB374D669A5D5F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376A904348634751B5076BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		1BC0C105FE9B400FBD06DEE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376A904348634751B5076BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D073B126B343E1B0DD0AC5;
+			remoteInfo = opencv_cudawarping;
+		};
+		1DC4892AF1754EB88B86D38E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376A904348634751B5076BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		397FD8165C8040CAB2AB861C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376A904348634751B5076BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		53E55DA9C18B4FE784C00282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376A904348634751B5076BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		8C8476D2CF6241D3A708A803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376A904348634751B5076BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		97CF09980A6E403DBB124860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376A904348634751B5076BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D073B126B343E1B0DD0AC5;
+			remoteInfo = opencv_cudawarping;
+		};
+		99EC04154DB04245B253D0ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376A904348634751B5076BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D073B126B343E1B0DD0AC5;
+			remoteInfo = opencv_cudawarping;
+		};
+		B0CE2072DC1A47419D7606F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376A904348634751B5076BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2947D7F1E9744606AAEDC75B;
+			remoteInfo = opencv_test_cudawarping;
+		};
+		C38BA380C9A54D97A9868EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376A904348634751B5076BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		D9529163E3F6466FA82680E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376A904348634751B5076BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7088FAE9089344AEB57BEE0C;
+			remoteInfo = opencv_perf_cudawarping;
+		};
+		E6C422CB65F54690A1503E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376A904348634751B5076BD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C2283E85264CAE9985684B /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_down.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pyr_down.cu; path = src/cuda/pyr_down.cu; sourceTree = SOURCE_ROOT; };
+		044D39F4B3DB45DDB910909D /* /Users/elliotstaudt/opencv/modules/cudawarping/src/remap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = remap.cpp; path = src/remap.cpp; sourceTree = SOURCE_ROOT; };
+		04F5ED42DF2F4D28A8562C0C /* opencv_perf_cudawarping */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_perf_cudawarping; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9C02912C1C4A6CBCE92AC9 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/resize.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = resize.cu; path = src/cuda/resize.cu; sourceTree = SOURCE_ROOT; };
+		0C9C7A3CCDDC49EB8F846A8F /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_pyr_up.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_pyr_up.cu.o; path = "../../build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_pyr_up.cu.o"; sourceTree = SOURCE_ROOT; };
+		10245D8A6AB840298E8E3F3F /* opencv_test_cudawarping */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_cudawarping; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		2313A306C41C404AA22E4791 /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_warping.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_warping.cpp; path = perf/perf_warping.cpp; sourceTree = SOURCE_ROOT; };
+		26AA9B6ACA1247038CD39E2F /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		2898FEF31B7C42E6B2A1DE37 /* /Users/elliotstaudt/opencv/modules/cudawarping/include/opencv2/cudawarping.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cudawarping.hpp; path = include/opencv2/cudawarping.hpp; sourceTree = SOURCE_ROOT; };
+		2B5B522F41BF4F0BAD5E5C05 /* opencv_cudawarping_object */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_cudawarping_object.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6A158374464C7F9873284B /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_pyr_down.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_pyr_down.cu.o; path = "../../build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_pyr_down.cu.o"; sourceTree = SOURCE_ROOT; };
+		381EFBBD616049ED86F1B9F8 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_up.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pyr_up.cu; path = src/cuda/pyr_up.cu; sourceTree = SOURCE_ROOT; };
+		3C020A43115D4A32B8EFE3A1 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_down.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pyr_down.cu; path = src/cuda/pyr_down.cu; sourceTree = SOURCE_ROOT; };
+		3D3ED7B2808B46A599B1541F /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3E677BD748FE4554A9BF43B3 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		3FDC014C765944F28C0EF986 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/remap.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = remap.cu; path = src/cuda/remap.cu; sourceTree = SOURCE_ROOT; };
+		52AB1E9EC3894F46A35B5301 /* opencv_cudawarping */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_cudawarping.dylib; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		5300A98F049C474F89AB83C6 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_remap.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_remap.cu.o; path = "../../build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_remap.cu.o"; sourceTree = SOURCE_ROOT; };
+		53AF78350942431194407A9A /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_resize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_resize.cpp; path = test/test_resize.cpp; sourceTree = SOURCE_ROOT; };
+		5E9EB2EB256744C29D2B92CE /* /Users/elliotstaudt/opencv/modules/cudawarping/src/warp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = warp.cpp; path = src/warp.cpp; sourceTree = SOURCE_ROOT; };
+		639504DB90EF469FA018A1D9 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/warp.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = warp.cu; path = src/cuda/warp.cu; sourceTree = SOURCE_ROOT; };
+		6400C24A0507484EB6858DE7 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_resize.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_resize.cu.o; path = "../../build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_resize.cu.o"; sourceTree = SOURCE_ROOT; };
+		682A50114E6544C0BE576DD1 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		7035B6BE995F46AEAFBFC455 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/warp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = warp.cpp; path = src/warp.cpp; sourceTree = SOURCE_ROOT; };
+		762D2D3DEF384A11B5987CEE /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7E2072A2F70547DCAD5D4ACA /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_precomp.hpp; path = perf/perf_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		84CB8084A8584AB98D1B5A4A /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_remap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_remap.cpp; path = test/test_remap.cpp; sourceTree = SOURCE_ROOT; };
+		858DF921C8AF4D379532CFBA /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		89496A6A0BDB4E7FA613DDEA /* /Users/elliotstaudt/opencv/modules/cudawarping/src/remap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = remap.cpp; path = src/remap.cpp; sourceTree = SOURCE_ROOT; };
+		97279C226E38426EABD48C3A /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_warp.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_warp.cu.o; path = "../../build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_warp.cu.o"; sourceTree = SOURCE_ROOT; };
+		9E8F382FB378447E8B1A07E1 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/remap.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = remap.cu; path = src/cuda/remap.cu; sourceTree = SOURCE_ROOT; };
+		A11D2E41EF0245F586B92318 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		AB1121903227479E91558264 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/pyramids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pyramids.cpp; path = src/pyramids.cpp; sourceTree = SOURCE_ROOT; };
+		AF89B21A8F894C2C99BFDC8F /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		B505F011697D49A8AD04804A /* /Users/elliotstaudt/opencv/modules/cudawarping/src/resize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = resize.cpp; path = src/resize.cpp; sourceTree = SOURCE_ROOT; };
+		B7DA968E98B84B828B37A336 /* /Users/elliotstaudt/opencv/modules/cudawarping/include/opencv2/cudawarping.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cudawarping.hpp; path = include/opencv2/cudawarping.hpp; sourceTree = SOURCE_ROOT; };
+		BE52CC607446437E855AC7A7 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/resize.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = resize.cu; path = src/cuda/resize.cu; sourceTree = SOURCE_ROOT; };
+		CAA4A028B1DF473DA10A3F73 /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_main.cpp; path = perf/perf_main.cpp; sourceTree = SOURCE_ROOT; };
+		CAAADDA80D874C3AB877F214 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_warp_affine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_warp_affine.cpp; path = test/test_warp_affine.cpp; sourceTree = SOURCE_ROOT; };
+		CF613E5B94554CA78AEFA3D8 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/resize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = resize.cpp; path = src/resize.cpp; sourceTree = SOURCE_ROOT; };
+		D33B6B71D52F4EC8BBFE5A08 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_warp_perspective.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_warp_perspective.cpp; path = test/test_warp_perspective.cpp; sourceTree = SOURCE_ROOT; };
+		D33EEBFDA2F24CF9AAAE5609 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		D932BFB8791540B1A645115F /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/warp.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = warp.cu; path = src/cuda/warp.cu; sourceTree = SOURCE_ROOT; };
+		DFA27CA216A3478C9E323FBC /* /Users/elliotstaudt/opencv/modules/cudawarping/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		E1E2B6713EE447B9A32F4485 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/interpolation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = interpolation.hpp; path = test/interpolation.hpp; sourceTree = SOURCE_ROOT; };
+		EB75130C1DAC4B6C9A889183 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		F2894DF872384BC48121C763 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F2991FEAD2AB4C6FBD68F276 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F32664EC65E841F3832EB1AC /* /Users/elliotstaudt/opencv/modules/cudawarping/src/pyramids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pyramids.cpp; path = src/pyramids.cpp; sourceTree = SOURCE_ROOT; };
+		FA93E47503864AE88F5486B2 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_up.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pyr_up.cu; path = src/cuda/pyr_up.cu; sourceTree = SOURCE_ROOT; };
+		FCC50BF50EE940B894C74F3E /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_pyramids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_pyramids.cpp; path = test/test_pyramids.cpp; sourceTree = SOURCE_ROOT; };
+		FDB3C0BEEF3446E2AB6D2F96 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7343A3190EDC42A18F091F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AF38E86E864EFBA7EF0842 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_pyr_down.cu.o */,
+				CE0E9F617C45490A9D28612B /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_pyr_up.cu.o */,
+				1586EB7156774313A41A7BE3 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_remap.cu.o */,
+				0C306DC65FA84CF59062C398 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_resize.cu.o */,
+				06520F061A1E44398B40BC41 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_warp.cu.o */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12D5F1DF568A44ECBE84C631 /* opencv_cudawarping */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2AB9CDC31468DAC682435 /* Include */,
+				34AA17B733D4445A8EE2EBB8 /* Src */,
+				33C10EE191AC43E3854DCA74 /* Header Files */,
+				1E6BA2A6D14E43F28321CB79 /* Object Files */,
+				FDB3C0BEEF3446E2AB6D2F96 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */,
+			);
+			name = opencv_cudawarping;
+			sourceTree = "<group>";
+		};
+		140657CC0CF547F3B947F788 /* tests performance */ = {
+			isa = PBXGroup;
+			children = (
+				921FF87DAC464769A0662A2E /* opencv_perf_cudawarping */,
+			);
+			name = "tests performance";
+			sourceTree = "<group>";
+		};
+		1B5909AEFD3C49EBB3CF49F5 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				AF89B21A8F894C2C99BFDC8F /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_main.cpp */,
+				FCC50BF50EE940B894C74F3E /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_pyramids.cpp */,
+				84CB8084A8584AB98D1B5A4A /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_remap.cpp */,
+				53AF78350942431194407A9A /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_resize.cpp */,
+				CAAADDA80D874C3AB877F214 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_warp_affine.cpp */,
+				D33B6B71D52F4EC8BBFE5A08 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_warp_perspective.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		1E6BA2A6D14E43F28321CB79 /* Object Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E6A158374464C7F9873284B /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_pyr_down.cu.o */,
+				0C9C7A3CCDDC49EB8F846A8F /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_pyr_up.cu.o */,
+				5300A98F049C474F89AB83C6 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_remap.cu.o */,
+				6400C24A0507484EB6858DE7 /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_resize.cu.o */,
+				97279C226E38426EABD48C3A /* /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_warp.cu.o */,
+			);
+			name = "Object Files";
+			sourceTree = "<group>";
+		};
+		220068A8218D40F3A8FDE304 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				94EEFC4BB92B43A686D56951 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		33C10EE191AC43E3854DCA74 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				682A50114E6544C0BE576DD1 /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				EB75130C1DAC4B6C9A889183 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		34AA17B733D4445A8EE2EBB8 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				A5A3CAFDDE93423A8F4D87D9 /* Cuda */,
+				DFA27CA216A3478C9E323FBC /* /Users/elliotstaudt/opencv/modules/cudawarping/src/precomp.hpp */,
+				AB1121903227479E91558264 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/pyramids.cpp */,
+				89496A6A0BDB4E7FA613DDEA /* /Users/elliotstaudt/opencv/modules/cudawarping/src/remap.cpp */,
+				B505F011697D49A8AD04804A /* /Users/elliotstaudt/opencv/modules/cudawarping/src/resize.cpp */,
+				7035B6BE995F46AEAFBFC455 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/warp.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		399799DF0A4146198E3FF70A /* Cuda */ = {
+			isa = PBXGroup;
+			children = (
+				3C020A43115D4A32B8EFE3A1 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_down.cu */,
+				381EFBBD616049ED86F1B9F8 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_up.cu */,
+				9E8F382FB378447E8B1A07E1 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/remap.cu */,
+				BE52CC607446437E855AC7A7 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/resize.cu */,
+				D932BFB8791540B1A645115F /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/warp.cu */,
+			);
+			name = Cuda;
+			sourceTree = "<group>";
+		};
+		3AE6025D43924DBC9284ABC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3C556F75DD78456388D9B530 = {
+			isa = PBXGroup;
+			children = (
+				FD1157FDFF7B42D6997D8CF8 /* Sources */,
+				3AE6025D43924DBC9284ABC7 /* Resources */,
+				E57533B94FF844FF85242397 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		440C34DB56B343EDBAB470D0 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				12D5F1DF568A44ECBE84C631 /* opencv_cudawarping */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		4C60A71E15074C439AD64CDB /* opencv_cudawarping_object */ = {
+			isa = PBXGroup;
+			children = (
+				220068A8218D40F3A8FDE304 /* Include */,
+				ED830ACCE81E432996A6ED7A /* Src */,
+				CA133FFA15CB4AD9BE8772FE /* Header Files */,
+				F2894DF872384BC48121C763 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */,
+			);
+			name = opencv_cudawarping_object;
+			sourceTree = "<group>";
+		};
+		4C73DA9F43D24A3E91FAAA9D /* opencv_test_cudawarping */ = {
+			isa = PBXGroup;
+			children = (
+				1B5909AEFD3C49EBB3CF49F5 /* Src */,
+				DCE7552F672D483BA07AD743 /* Include */,
+				762D2D3DEF384A11B5987CEE /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */,
+			);
+			name = opencv_test_cudawarping;
+			sourceTree = "<group>";
+		};
+		82317B9CD0A94FF4929234E7 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				2898FEF31B7C42E6B2A1DE37 /* /Users/elliotstaudt/opencv/modules/cudawarping/include/opencv2/cudawarping.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		8A60636B28E948AA9ED3B9B9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		91D08FA5FA6B4617A9C80994 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				EC411AAB60C74733ABC30E81 /* CMake Rules */,
+				3D3ED7B2808B46A599B1541F /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		921FF87DAC464769A0662A2E /* opencv_perf_cudawarping */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5D9B64C1C40E0A18468BE /* Src */,
+				B1717D99865044F4A0778D42 /* Include */,
+				F2991FEAD2AB4C6FBD68F276 /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */,
+			);
+			name = opencv_perf_cudawarping;
+			sourceTree = "<group>";
+		};
+		94EEFC4BB92B43A686D56951 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				B7DA968E98B84B828B37A336 /* /Users/elliotstaudt/opencv/modules/cudawarping/include/opencv2/cudawarping.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		A3B2AB9CDC31468DAC682435 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				82317B9CD0A94FF4929234E7 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		A5A3CAFDDE93423A8F4D87D9 /* Cuda */ = {
+			isa = PBXGroup;
+			children = (
+				01C2283E85264CAE9985684B /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_down.cu */,
+				FA93E47503864AE88F5486B2 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/pyr_up.cu */,
+				3FDC014C765944F28C0EF986 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/remap.cu */,
+				0A9C02912C1C4A6CBCE92AC9 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/resize.cu */,
+				639504DB90EF469FA018A1D9 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/cuda/warp.cu */,
+			);
+			name = Cuda;
+			sourceTree = "<group>";
+		};
+		B0E5D9B64C1C40E0A18468BE /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				CAA4A028B1DF473DA10A3F73 /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_main.cpp */,
+				2313A306C41C404AA22E4791 /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_warping.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		B1717D99865044F4A0778D42 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				7E2072A2F70547DCAD5D4ACA /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		CA133FFA15CB4AD9BE8772FE /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D33EEBFDA2F24CF9AAAE5609 /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				26AA9B6ACA1247038CD39E2F /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		CE61140451C645F195F051B5 /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				4C73DA9F43D24A3E91FAAA9D /* opencv_test_cudawarping */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		DCE7552F672D483BA07AD743 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				E1E2B6713EE447B9A32F4485 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/interpolation.hpp */,
+				A11D2E41EF0245F586B92318 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		E57533B94FF844FF85242397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52AB1E9EC3894F46A35B5301 /* opencv_cudawarping */,
+				2B5B522F41BF4F0BAD5E5C05 /* opencv_cudawarping_object */,
+				04F5ED42DF2F4D28A8562C0C /* opencv_perf_cudawarping */,
+				10245D8A6AB840298E8E3F3F /* opencv_test_cudawarping */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5FEC61FA3FA442A925BF917 /* object_libraries */ = {
+			isa = PBXGroup;
+			children = (
+				4C60A71E15074C439AD64CDB /* opencv_cudawarping_object */,
+			);
+			name = object_libraries;
+			sourceTree = "<group>";
+		};
+		EC411AAB60C74733ABC30E81 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		ED830ACCE81E432996A6ED7A /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				399799DF0A4146198E3FF70A /* Cuda */,
+				3E677BD748FE4554A9BF43B3 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/precomp.hpp */,
+				F32664EC65E841F3832EB1AC /* /Users/elliotstaudt/opencv/modules/cudawarping/src/pyramids.cpp */,
+				044D39F4B3DB45DDB910909D /* /Users/elliotstaudt/opencv/modules/cudawarping/src/remap.cpp */,
+				CF613E5B94554CA78AEFA3D8 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/resize.cpp */,
+				5E9EB2EB256744C29D2B92CE /* /Users/elliotstaudt/opencv/modules/cudawarping/src/warp.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		F340B0278BF248138EC9133C /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				8A60636B28E948AA9ED3B9B9 /* CMake Rules */,
+				858DF921C8AF4D379532CFBA /* /Users/elliotstaudt/opencv/modules/cudawarping/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		FD1157FDFF7B42D6997D8CF8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				440C34DB56B343EDBAB470D0 /* modules */,
+				CE61140451C645F195F051B5 /* tests accuracy */,
+				E5FEC61FA3FA442A925BF917 /* object_libraries */,
+				91D08FA5FA6B4617A9C80994 /* ALL_BUILD */,
+				F340B0278BF248138EC9133C /* ZERO_CHECK */,
+				140657CC0CF547F3B947F788 /* tests performance */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2947D7F1E9744606AAEDC75B /* opencv_test_cudawarping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F56B16711024ADD85D688DF /* Build configuration list for PBXNativeTarget "opencv_test_cudawarping" */;
+			buildPhases = (
+				4F83FCA93FA04E8BBCF9D0E0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E48B15A7C6FC49F88E2739D3 /* PBXTargetDependency */,
+				2FEAA37619324348869972ED /* PBXTargetDependency */,
+			);
+			name = opencv_test_cudawarping;
+			productName = opencv_test_cudawarping;
+			productReference = 10245D8A6AB840298E8E3F3F /* opencv_test_cudawarping */;
+			productType = "com.apple.product-type.tool";
+		};
+		3040F879FD364745AD4C0B84 /* opencv_cudawarping_object */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CDD478834748969DF4D097 /* Build configuration list for PBXNativeTarget "opencv_cudawarping_object" */;
+			buildPhases = (
+				5509F48BEC1E45719E2F8EC4 /* CMake Rules */,
+				292FEF1AFCFF4CAD9041EF87 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DF8C6309E87435CB8B1C3B8 /* PBXTargetDependency */,
+			);
+			name = opencv_cudawarping_object;
+			productName = opencv_cudawarping_object;
+			productReference = 2B5B522F41BF4F0BAD5E5C05 /* opencv_cudawarping_object */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7088FAE9089344AEB57BEE0C /* opencv_perf_cudawarping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C34417385B34BF884218DA0 /* Build configuration list for PBXNativeTarget "opencv_perf_cudawarping" */;
+			buildPhases = (
+				37436CDDABE944679F9973EF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E75ACF364264360A322AC23 /* PBXTargetDependency */,
+				25694974B3DC4C54B51CF8FA /* PBXTargetDependency */,
+			);
+			name = opencv_perf_cudawarping;
+			productName = opencv_perf_cudawarping;
+			productReference = 04F5ED42DF2F4D28A8562C0C /* opencv_perf_cudawarping */;
+			productType = "com.apple.product-type.tool";
+		};
+		B3D073B126B343E1B0DD0AC5 /* opencv_cudawarping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933936A15CB34434BBACE918 /* Build configuration list for PBXNativeTarget "opencv_cudawarping" */;
+			buildPhases = (
+				28B660200FAE43C3903CDDB7 /* CMake Rules */,
+				28C7BB09272346429F424575 /* Sources */,
+				7343A3190EDC42A18F091F4B /* Frameworks */,
+				06809A54B6A94A71BD5A38D2 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06A51AF6F3FF4568AAD398C9 /* PBXTargetDependency */,
+			);
+			name = opencv_cudawarping;
+			productName = opencv_cudawarping;
+			productReference = 52AB1E9EC3894F46A35B5301 /* opencv_cudawarping */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		376A904348634751B5076BD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 2F3DEFD6AD6646929BC1A61B /* Build configuration list for PBXProject "opencv_cudawarping" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				872D9B3C317E4E71881D8279 /* Debug */,
+				925415352277410BBE921E97 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3C556F75DD78456388D9B530;
+			projectDirPath = ../../../modules/cudawarping;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				B3D073B126B343E1B0DD0AC5 /* opencv_cudawarping */,
+				3040F879FD364745AD4C0B84 /* opencv_cudawarping_object */,
+				7088FAE9089344AEB57BEE0C /* opencv_perf_cudawarping */,
+				2947D7F1E9744606AAEDC75B /* opencv_test_cudawarping */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06809A54B6A94A71BD5A38D2 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudawarping -f /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeScripts/opencv_cudawarping_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		0F2D96679E9D4DFAB8E1A9EA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2130650EC57041C4B0C4FF04 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		28B660200FAE43C3903CDDB7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudawarping -f /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeScripts/opencv_cudawarping_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5509F48BEC1E45719E2F8EC4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudawarping -f /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeScripts/opencv_cudawarping_object_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7ED9647CDEA342CAB3659253 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		830AE07731184437AB1FE6DD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9CF1D48A521541FDA6974F3D /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudawarping -f /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A06FE00DF686479EA989BD2C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudawarping -f /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A7EE48923F134279AF713A6D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudawarping -f /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AF8E0BF61B27473EAEB45F37 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudawarping -f /Users/elliotstaudt/opencv/build/modules/cudawarping/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C7BB09272346429F424575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B40494DD24334A5B92983170 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/pyramids.cpp */,
+				402F5EAF79634CBA91C90B52 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/remap.cpp */,
+				DEF6FF4FB16B41E0B0829302 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/resize.cpp */,
+				AF8C1F796DCB440E8460747D /* /Users/elliotstaudt/opencv/modules/cudawarping/src/warp.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292FEF1AFCFF4CAD9041EF87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE576EB4A1064A94BCABC28F /* /Users/elliotstaudt/opencv/modules/cudawarping/src/pyramids.cpp */,
+				2725D90B20CE409580C00864 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/remap.cpp */,
+				0300FC48303E4BB4BA1C9ED1 /* /Users/elliotstaudt/opencv/modules/cudawarping/src/resize.cpp */,
+				A75DDE69509D4049B898071B /* /Users/elliotstaudt/opencv/modules/cudawarping/src/warp.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37436CDDABE944679F9973EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B6A77C269648CFBC56F3CA /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_main.cpp */,
+				094F5F042CDC4513B62B72E8 /* /Users/elliotstaudt/opencv/modules/cudawarping/perf/perf_warping.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F83FCA93FA04E8BBCF9D0E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF586DD339B341B9A9419F4F /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_main.cpp */,
+				2998AF5ED16540909161A5B6 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_pyramids.cpp */,
+				BF73B53B38CC4F11AE6DA683 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_remap.cpp */,
+				AEFB932C5D5A41928ED39FC3 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_resize.cpp */,
+				096AA1EFF3CF47D0A818128E /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_warp_affine.cpp */,
+				37C3C3422E8749FCB79ED091 /* /Users/elliotstaudt/opencv/modules/cudawarping/test/test_warp_perspective.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06A51AF6F3FF4568AAD398C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 1B5B6CA5FB374D669A5D5F64 /* PBXContainerItemProxy */;
+		};
+		071C94BEF54C409BB9E2824D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = E6C422CB65F54690A1503E71 /* PBXContainerItemProxy */;
+		};
+		1186750F044E48CDBF172313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7088FAE9089344AEB57BEE0C /* opencv_perf_cudawarping */;
+			targetProxy = D9529163E3F6466FA82680E4 /* PBXContainerItemProxy */;
+		};
+		1E75ACF364264360A322AC23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 397FD8165C8040CAB2AB861C /* PBXContainerItemProxy */;
+		};
+		25694974B3DC4C54B51CF8FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D073B126B343E1B0DD0AC5 /* opencv_cudawarping */;
+			targetProxy = 97CF09980A6E403DBB124860 /* PBXContainerItemProxy */;
+		};
+		2FEAA37619324348869972ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D073B126B343E1B0DD0AC5 /* opencv_cudawarping */;
+			targetProxy = 99EC04154DB04245B253D0ED /* PBXContainerItemProxy */;
+		};
+		74FC911F2D47450A9C1A237A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 8C8476D2CF6241D3A708A803 /* PBXContainerItemProxy */;
+		};
+		9DF8C6309E87435CB8B1C3B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 1DC4892AF1754EB88B86D38E /* PBXContainerItemProxy */;
+		};
+		A9CAA45D55104B67AB0AA997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D073B126B343E1B0DD0AC5 /* opencv_cudawarping */;
+			targetProxy = 1BC0C105FE9B400FBD06DEE1 /* PBXContainerItemProxy */;
+		};
+		C7CED0E30DCE4680A12B1952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2947D7F1E9744606AAEDC75B /* opencv_test_cudawarping */;
+			targetProxy = B0CE2072DC1A47419D7606F9 /* PBXContainerItemProxy */;
+		};
+		E48B15A7C6FC49F88E2739D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 53E55DA9C18B4FE784C00282 /* PBXContainerItemProxy */;
+		};
+		E4905E71B4E341B890D67685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = C38BA380C9A54D97A9868EC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		120383E3FEC341B8B8E0E868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		41AE7E5040054F449507682E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		46398AC681C94E00BC11B542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_cudawarping;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		4B16E50B9C1E48CF89CE3829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudawarping.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudawarping.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		54E1F7265C6847369EFDD395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_cudawarping;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		7633D42D84E647B5A2163BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/cudawarping/opencv_cudawarping.build/Debug/opencv_cudawarping_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudawarping_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		96F1FB6E065A42669D81533C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping/build;
+			};
+			name = Debug;
+		};
+		A230B5F1A57A496B91D03D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		A2F9F5FE51DC4FBCA81642B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B33358C9D54548359183F077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_cudawarping;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B9FEAF1280484AF9BF9E1CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		C7258EAEB34C45B4942AAC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_cudawarping;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		CC554C722CF14EFC82AE8A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		E3669028CA2C40E788335A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		E6D9C703A686491488FAAA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F2DF2DA1DF944CC9BD49F57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping/build;
+			};
+			name = Release;
+		};
+		F931EFA30F274F92B72EB408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/cudawarping/opencv_cudawarping.build/Release/opencv_cudawarping_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudawarping_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		FF02C2152CF04E18BDA8F525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/cudawarping/src, /Users/elliotstaudt/opencv/build/modules/cudawarping, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudawarping/test, /Users/elliotstaudt/opencv/modules/cudawarping/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudawarping.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudawarping.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudawarping;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F3DEFD6AD6646929BC1A61B /* Build configuration list for PBXProject "opencv_cudawarping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F1FB6E065A42669D81533C /* Debug */,
+				F2DF2DA1DF944CC9BD49F57D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3AE5D40A41CC49428666F3A3 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D9C703A686491488FAAA8D /* Debug */,
+				120383E3FEC341B8B8E0E868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4013AF0B99434511AAB652BD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F9F5FE51DC4FBCA81642B5 /* Debug */,
+				A230B5F1A57A496B91D03D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45CDD478834748969DF4D097 /* Build configuration list for PBXNativeTarget "opencv_cudawarping_object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7633D42D84E647B5A2163BE7 /* Debug */,
+				F931EFA30F274F92B72EB408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F56B16711024ADD85D688DF /* Build configuration list for PBXNativeTarget "opencv_test_cudawarping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46398AC681C94E00BC11B542 /* Debug */,
+				C7258EAEB34C45B4942AAC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		52E85C76575E4FE2A5F52239 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC554C722CF14EFC82AE8A1B /* Debug */,
+				B9FEAF1280484AF9BF9E1CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C34417385B34BF884218DA0 /* Build configuration list for PBXNativeTarget "opencv_perf_cudawarping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33358C9D54548359183F077 /* Debug */,
+				54E1F7265C6847369EFDD395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		933936A15CB34434BBACE918 /* Build configuration list for PBXNativeTarget "opencv_cudawarping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B16E50B9C1E48CF89CE3829 /* Debug */,
+				FF02C2152CF04E18BDA8F525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B04A217C74404868ADF2E25F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AE7E5040054F449507682E /* Debug */,
+				E3669028CA2C40E788335A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 376A904348634751B5076BD7 /* Project object */;
+}

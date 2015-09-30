@@ -1,0 +1,1632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0CB6D8012B1542798AF4F63C /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				B7D91F22401046B79740E0E5 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				27AD945914C140C0A9A5DDD2 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6724DEA22D6643588C8C8757 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				365364F20C034580A6FC160D /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				9E80D129561E4455AE413C50 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 20051017E7B44DD8A820FD6C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D7B174E9DEDA43F1AF901344 /* CMake Rules */,
+			);
+			dependencies = (
+				194F2049443F4687A5B627A7 /* PBXTargetDependency */,
+				B65202F5CB4D4A3D9E7BBD87 /* PBXTargetDependency */,
+				7AAB01163112482DA21F269B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BBFE5811D92141B79F11EC28 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				107787DB07DC4876BBCD371C /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03831901563C48658B4CAF27 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/constant.hpp */ = {isa = PBXBuildFile; fileRef = E2DC1646DEDC4BF0823525BF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/constant.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		04C334F6F8A84370BDBD9660 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/histogram.hpp */ = {isa = PBXBuildFile; fileRef = 24E6565860674F3990A21C9B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/histogram.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0651FF9EEE554F0C8850F149 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/histogram.hpp */ = {isa = PBXBuildFile; fileRef = C472FC3118EC48E1BA7951B9 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/histogram.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		096DCA0ADD134124B487CBA1 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_reduction.cu.o */ = {isa = PBXBuildFile; fileRef = EBA28DE491044FACB4E4CD53 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_reduction.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		0C69419795984E4292EE9CF5 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transform.hpp */ = {isa = PBXBuildFile; fileRef = ACA35FF9E8A44B96A4A9C027 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transform.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0CEDFFEE10D14C87994F24D0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/vec_distance.hpp */ = {isa = PBXBuildFile; fileRef = 263C55DAD3804C54A855B148 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/vec_distance.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0EB6F9852D7E47AC9E51F881 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/pyramids.hpp */ = {isa = PBXBuildFile; fileRef = 5402B89C6D5442039A765ECA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/pyramids.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0F956C722F794928B97B1C16 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_traits.hpp */ = {isa = PBXBuildFile; fileRef = 6FE8589EEC9C47E38A45D2AA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_traits.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		10BE5E5E9D2B4EBD9C331670 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_split_merge.cu */ = {isa = PBXBuildFile; fileRef = 44158C49E8CE4BE885D30892 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_split_merge.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		11C3CB402CD54E4D97CAE9BC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce.hpp */ = {isa = PBXBuildFile; fileRef = 8B44F6CC82CB463EBA190518 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		164F1305E95B47229FBB3D3E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/limits.hpp */ = {isa = PBXBuildFile; fileRef = EAE9240BDC7A4B648EC0FFA0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/limits.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1793CA08FAB74857AF23DFB8 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_transpose.cu.o */ = {isa = PBXBuildFile; fileRef = F89A8C9F232B4D53AB39C40D /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_transpose.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		17B2B6205FCA48F4ADFC024D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/constant.hpp */ = {isa = PBXBuildFile; fileRef = 2829F6CD3C8948ADB7B91F22 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/constant.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		18D4BF0B9C644B928FBD517A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce.hpp */ = {isa = PBXBuildFile; fileRef = 927F801CCB994F949481F062 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		190B17C931374A6BB25BF307 /* /Users/elliotstaudt/opencv/modules/cudev/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DEAFB4C1B30242AA99DC76C5 /* /Users/elliotstaudt/opencv/modules/cudev/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		1A4B49EFCD0148E6B51888E5 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/copy.hpp */ = {isa = PBXBuildFile; fileRef = 9CDC1592066346588D838899 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/copy.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1AEE75D23F314FDD8E3A1F16 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/saturate_cast.hpp */ = {isa = PBXBuildFile; fileRef = B0BCB3AFB94F44CAB4B08506 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/saturate_cast.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1B29E17D07354FCF8006A558 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_cmp_op.cu.o */ = {isa = PBXBuildFile; fileRef = 942BEC9992964EE1AA52A00F /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_cmp_op.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		1CA88BA3D0CF4FED8178A850 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/block.hpp */ = {isa = PBXBuildFile; fileRef = 4B8143564C194837A9267A62 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/block.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1CB69AFD6C484A47978B37EC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/reduce.hpp */ = {isa = PBXBuildFile; fileRef = A47BF34AD48C4EE098365A2D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/reduce.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1D3A5357B3674BF8AC680426 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_cvt.cu */ = {isa = PBXBuildFile; fileRef = 05A10AF3A7B946B38FE6979B /* /Users/elliotstaudt/opencv/modules/cudev/test/test_cvt.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		1D5FB503DB63467380F65DDB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/copy.hpp */ = {isa = PBXBuildFile; fileRef = 71E030C8E0F64B34A810EB2A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/copy.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1E9C54CC354E4D9E8B78BA70 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transpose.hpp */ = {isa = PBXBuildFile; fileRef = 9290E0517E5040A18FB49AA6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transpose.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2124931AF4264E4C8186D060 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 98F031B9FE584A03977BD1B5 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2188A448F9AD424BA0BA83D8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/deriv.hpp */ = {isa = PBXBuildFile; fileRef = 35908F72A8174A838C114974 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/deriv.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		21DF41626E094CD18A3B0987 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/split_merge.hpp */ = {isa = PBXBuildFile; fileRef = 18A2ACE7D57E443E9F9499A8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/split_merge.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		22607F32CE9746479D952F6C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/type_traits.hpp */ = {isa = PBXBuildFile; fileRef = 8C52D3EDB88041D687FF7065 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/type_traits.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		235A927F91DE44B693BC1B54 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_lut.cu.o */ = {isa = PBXBuildFile; fileRef = 191A6788C303419A890CE4AF /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_lut.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		23CE2DA86EB94C7F8F5263EE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/reduction.hpp */ = {isa = PBXBuildFile; fileRef = D77F0D6FDFF243BEB3E8C486 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/reduction.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		243B983A86754C54806F5536 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/detail/color_cvt.hpp */ = {isa = PBXBuildFile; fileRef = 056155BEB647442EAF9E5EB3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/detail/color_cvt.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		268EC52C933D426E9C27B4AE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/atomic.hpp */ = {isa = PBXBuildFile; fileRef = D98A95D21C4A461FB6322566 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/atomic.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		26EF3E66B554456FA52BDE82 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/integral.hpp */ = {isa = PBXBuildFile; fileRef = BE25CD27D12F4CF6B2DEFF5F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/integral.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		283461374C4842B48AA8EF13 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_math.hpp */ = {isa = PBXBuildFile; fileRef = B4C0CA939B0D4C1695CF76FC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_math.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2ADD60B046CD45E9A6C20525 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/gpumat.hpp */ = {isa = PBXBuildFile; fileRef = ED2FA843296C4BD59D09CA2A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/gpumat.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2AE046B8BF7F4062B54F7D5E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_up.hpp */ = {isa = PBXBuildFile; fileRef = E3B716881608484989FF896B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_up.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2B818EDAABBB4FCEAB7479A2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce.hpp */ = {isa = PBXBuildFile; fileRef = 4370A10F09944D18B049B85C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2E19FD08B2A7483B89609828 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 90FFC3184E394F0CBFA406E2 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3001AE39B6684697B2A3B794 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_deriv.cu.o */ = {isa = PBXBuildFile; fileRef = 5C8FCC0A0DEA4CECA775452E /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_deriv.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		30967735F9EC448B88D6CB97 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce_key_val.hpp */ = {isa = PBXBuildFile; fileRef = 4EFACB5178F147649829A01E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce_key_val.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		318AC862146C48A3BADDAA9F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/shuffle.hpp */ = {isa = PBXBuildFile; fileRef = 712AD0B021B44D4D97345E96 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/shuffle.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		32963D4741564DB8A17F7E8E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/zip.hpp */ = {isa = PBXBuildFile; fileRef = 042D6E8FBB1D4DA192864251 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/zip.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		32AC098C082F43CBA0B0869E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/color_cvt.hpp */ = {isa = PBXBuildFile; fileRef = A5535140946D415ABF1B473B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/color_cvt.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		372229439B8F4C8BB2B9AA0D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_down.hpp */ = {isa = PBXBuildFile; fileRef = 38F9DEECF4CB41B394011182 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_down.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		380A1697A01D4DCD9E22855B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/deriv.hpp */ = {isa = PBXBuildFile; fileRef = C53DF49FE4E64222ACF3445F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/deriv.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3DC4AF2204EE4C0F91952780 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transpose.hpp */ = {isa = PBXBuildFile; fileRef = 225575136B8A4FD0A2F40EE6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transpose.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3E36CEDFFDB5469D9A78F4E4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/expr.hpp */ = {isa = PBXBuildFile; fileRef = 3EF85EE85A71495AB832BF3D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/expr.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3E92FB64ACBC41F996750CF6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_column.hpp */ = {isa = PBXBuildFile; fileRef = 90E586BA94714A43AAADDABA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_column.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3F28EBFE5075471D8C29F63C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/functional.hpp */ = {isa = PBXBuildFile; fileRef = C62EB1F570794F9F8CE274A2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/functional.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3F345FAD318F4CE19D6A30B9 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_func.hpp */ = {isa = PBXBuildFile; fileRef = A9A7EEB55D15407A96727738 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_func.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		430F0CF14EE7402795DE7054 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_pyramids.cu */ = {isa = PBXBuildFile; fileRef = F81638B69D7F491F891B98E4 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_pyramids.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		467992CA52544518A3BA2932 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/saturate_cast.hpp */ = {isa = PBXBuildFile; fileRef = 03833D5090FA43659A73D244 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/saturate_cast.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		47FD38E832874D0AB43B83E1 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/integral.hpp */ = {isa = PBXBuildFile; fileRef = 277CF4C55D8D4FE9AC8F69FE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/integral.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		484B6F5949A947E28077B5B6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/reduction.hpp */ = {isa = PBXBuildFile; fileRef = 19DE092FC808443C9B4B3114 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/reduction.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		48A914BF4EBA49AB9745CC7F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/dynamic_smem.hpp */ = {isa = PBXBuildFile; fileRef = C1BAE9CBFB54472EA7864FE5 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/dynamic_smem.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		49D736D465AA46E9B356D368 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_pyramids.cu.o */ = {isa = PBXBuildFile; fileRef = 8BDD10AE3DAC41089077126B /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_pyramids.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		4C500549907748C4A8DCAA28 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transform.hpp */ = {isa = PBXBuildFile; fileRef = 2E17B8F29C924A5AB16A54EF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transform.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4C6F5DA24F904A78B9D05563 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce_to_vec.hpp */ = {isa = PBXBuildFile; fileRef = 6D1099F00FAF4F179CBDF52F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce_to_vec.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4CFB8B22E80748FA83DCBA94 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_bitwize_op.cu.o */ = {isa = PBXBuildFile; fileRef = A1A4E6E6881C40A184F11399 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_bitwize_op.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		4CFF03BB66B3440898291D89 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/per_element_func.hpp */ = {isa = PBXBuildFile; fileRef = 690EAFF407664BA3B8E49894 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/per_element_func.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4ED1A7C47E634BB3BA2213FB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/tuple_adapter.hpp */ = {isa = PBXBuildFile; fileRef = A23E6113638549F7B3BCF75A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/tuple_adapter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5188C87F628E43F78D89822D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/mask.hpp */ = {isa = PBXBuildFile; fileRef = 5CC8515827E04619924A2D93 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/mask.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		526FEC8BCD9E40E8A23BC1CF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce.hpp */ = {isa = PBXBuildFile; fileRef = 88BE3B61B4644D99B7E88C52 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		52D7025E319A42E79AAD0B01 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/functional.hpp */ = {isa = PBXBuildFile; fileRef = 27EBDA4B4C484CDDA5C92DEB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/functional.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5523B9E23BD9456FAD7FFFAF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/resize.hpp */ = {isa = PBXBuildFile; fileRef = 5438B01FFCA8407BA3560693 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/resize.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5562DF673D484BF8A367ED1C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/integral.hpp */ = {isa = PBXBuildFile; fileRef = 393913A8A7FF41FC85A6C7F0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/integral.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5639B4807DC54CCCA99768B6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/warping.hpp */ = {isa = PBXBuildFile; fileRef = F1C84BCDEFE54D909AF510EE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/warping.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5715E08636D24661BDD61C49 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/copy.hpp */ = {isa = PBXBuildFile; fileRef = 1C6D69AA3EB94D29A74983BF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/copy.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5877BAD9F42B4D2D901CDCB4 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_lut.cu */ = {isa = PBXBuildFile; fileRef = 7482312C40DD424CB2B93563 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_lut.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		59BD0D1F254547629E58B802 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/remap.hpp */ = {isa = PBXBuildFile; fileRef = 35A607C1E6874F71B7F67B4F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/remap.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5B1371DFAFEC4A18A9005470 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 2FCC63CC67AD4665BE244FF3 /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5F327550D5DD45869D9A65B9 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_deriv.cu */ = {isa = PBXBuildFile; fileRef = B53ECC09BEF848F9A474C849 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_deriv.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		61CE09B2E14D424097DD1C2A /* /Users/elliotstaudt/opencv/modules/cudev/test/test_arithm_op.cu */ = {isa = PBXBuildFile; fileRef = 3926D4F382F443EEA7DA06E5 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_arithm_op.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		62B65AE39BC94218A595855A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/histogram.hpp */ = {isa = PBXBuildFile; fileRef = E77C71C1CAF54E52A4011014 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/histogram.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6491C18C9D4F4287A8E79176 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_arithm_func.cu.o */ = {isa = PBXBuildFile; fileRef = AD719044632248249BE9F654 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_arithm_func.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		66E8F82EB132444292F157BA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/warp.hpp */ = {isa = PBXBuildFile; fileRef = F93EA178C0834060BFEA500F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/warp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6738B431E5034B58831526B7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/remap.hpp */ = {isa = PBXBuildFile; fileRef = 672FC184C85F4FDB965F3004 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/remap.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		67D8C9E18557425B8E30DC32 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_color_cvt.cu */ = {isa = PBXBuildFile; fileRef = 6EFC82D864A442C1BE513CB0 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_color_cvt.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		6A6556CECED746A4A2753278 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/reduce.hpp */ = {isa = PBXBuildFile; fileRef = 4B6EAFDEC72D4423B98A9EF8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/reduce.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6AA2EE734BC54669B6431111 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 1709485A76E54B16B2362B49 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6AF322772C134ABDB20AAEF2 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_reduction.cu */ = {isa = PBXBuildFile; fileRef = 0761678C18E2489DA3FBF5FD /* /Users/elliotstaudt/opencv/modules/cudev/test/test_reduction.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		6CEACFAEB2644027B8EA47F0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transpose.hpp */ = {isa = PBXBuildFile; fileRef = DBE191C0252046F7A2EDF72A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transpose.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6D19A53D39EC47C9B7C94EA2 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_integral.cu.o */ = {isa = PBXBuildFile; fileRef = 608AE420F00144B981C290E4 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_integral.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		6DA3C2A838CB419A8D20880C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_func.hpp */ = {isa = PBXBuildFile; fileRef = 07F8AE42B0EC4573BBC474B4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_func.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6ED77D15EB1342E8B9F4825C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/transform.hpp */ = {isa = PBXBuildFile; fileRef = 02D192AF868244CCB40BFB9E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/transform.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6F26EED947DB47C7903D081D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/detail/gpumat.hpp */ = {isa = PBXBuildFile; fileRef = 75FE3CF1E8DF41A39F62B7DC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/detail/gpumat.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6F82FEAAC2714A9BA595B6D9 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/dynamic_smem.hpp */ = {isa = PBXBuildFile; fileRef = 14A05BF893154A8E9BF330D6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/dynamic_smem.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7266A306905C4916AA4C5E70 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev.hpp */ = {isa = PBXBuildFile; fileRef = 8EE4B4565BEA49008761F550 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		738E6806176B4C2AB2DA39D7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/color.hpp */ = {isa = PBXBuildFile; fileRef = 65E487CCC3DC4023AFDCF57D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/color.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7737DA40185643018F350579 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/type_traits.hpp */ = {isa = PBXBuildFile; fileRef = 130E58BA0B964FB387901EBA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/type_traits.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		77CF1875A26B4813A2B9901B /* /Users/elliotstaudt/opencv/modules/cudev/src/stub.cpp */ = {isa = PBXBuildFile; fileRef = D46229CCC8944B71B0F84E48 /* /Users/elliotstaudt/opencv/modules/cudev/src/stub.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		78CEACB9FC6D4F3196A269B7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/expr.hpp */ = {isa = PBXBuildFile; fileRef = 82C34D6AC9FF476A89A4A317 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/expr.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7901DED203E84FC9BAA2EA9D /* /Users/elliotstaudt/opencv/modules/cudev/src/stub.cpp */ = {isa = PBXBuildFile; fileRef = 718C87FF73614EDBBF14D18D /* /Users/elliotstaudt/opencv/modules/cudev/src/stub.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7A7AA7DFF77C470BBBF243B3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/per_element_func.hpp */ = {isa = PBXBuildFile; fileRef = 94547874E40A46BDA2274170 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/per_element_func.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7B346C4535654057B3B224E9 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/split_merge.hpp */ = {isa = PBXBuildFile; fileRef = 283561CE4E074A42BB087C9C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/split_merge.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7B3DD931677A42DD93E64D3F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/tuple.hpp */ = {isa = PBXBuildFile; fileRef = 0FF9DB4BAE824AE989A37D2C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/tuple.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7B8ADDE07DB642A58CEBD797 /* /Users/elliotstaudt/opencv/modules/cudev/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2B22062E006849A8A5B9DC71 /* /Users/elliotstaudt/opencv/modules/cudev/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		7C1DBCC17C96435E8CFED35D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/scan.hpp */ = {isa = PBXBuildFile; fileRef = 745137816AF34B75A0277F03 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/scan.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7D81D5345BB949208FF06896 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/warping.hpp */ = {isa = PBXBuildFile; fileRef = E1B148C57E6B465FA66C35C3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/warping.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7DDCBC518E81421CA9522685 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = D7CCDC9688EF439C8371E2F4 /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7E709A4D505B4292A2A95AA9 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_split_merge.cu.o */ = {isa = PBXBuildFile; fileRef = 204C8C8780CE42FAAC076A58 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_split_merge.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		817EDC69FE634BFDB90879D8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/scan.hpp */ = {isa = PBXBuildFile; fileRef = 440B063CFD224E899CFAA91C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/scan.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		872FBBAF2E7A43AA9D8D8C94 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/resize.hpp */ = {isa = PBXBuildFile; fileRef = E5C7485F2B36414EA4BE6683 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/resize.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		87F6903D16944487984081A9 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/warp.hpp */ = {isa = PBXBuildFile; fileRef = E711F4B1C99948F8AEFEBC89 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/warp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8874F6148DD542D6AD3897A4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transpose.hpp */ = {isa = PBXBuildFile; fileRef = 07B0C7A7BBE74178A0D114B4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transpose.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		89144199E4E74A51AEDC679E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/lut.hpp */ = {isa = PBXBuildFile; fileRef = 908794882D424FA5A004476F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/lut.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		896A03949CA94822A52F7269 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/split_merge.hpp */ = {isa = PBXBuildFile; fileRef = 79C938C5BB5C46D4B57D16F7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/split_merge.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8A425E9EC3D749C9BB21B738 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce_key_val.hpp */ = {isa = PBXBuildFile; fileRef = 35BEA19E3F9746F6A1BACF8A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce_key_val.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8A7E09DA02CE4E688BA61F62 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/deriv.hpp */ = {isa = PBXBuildFile; fileRef = E1C9830A03154BC7B6AD6913 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/deriv.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8B36483930284DEAB4BFD3F9 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/tuple.hpp */ = {isa = PBXBuildFile; fileRef = 9360845E154F4418A80DBD8D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/tuple.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8B7BFDBD0BBE4B858B6846E0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/warping.hpp */ = {isa = PBXBuildFile; fileRef = 392809A515DA423DA4CB69DB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/warping.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8CF37105CCF64C43A9D5AF17 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/pyramids.hpp */ = {isa = PBXBuildFile; fileRef = FC5952924BC246CD96848AD7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/pyramids.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8E609A4A8D5A474295C1E1C7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transform.hpp */ = {isa = PBXBuildFile; fileRef = 428572FE306E44FBB0736290 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transform.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8E661AE65A2B4D5EAA6158ED /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/limits.hpp */ = {isa = PBXBuildFile; fileRef = D99B2110C36F49C684410839 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/limits.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		90558CC9AD4F4749A13AA3B3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/color.hpp */ = {isa = PBXBuildFile; fileRef = 185D6D775F4F4C23977E7918 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/color.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		910961882EC64A1D9F97E604 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/interpolation.hpp */ = {isa = PBXBuildFile; fileRef = D0EDB3F4AD2C4383A8EAFA36 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/interpolation.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9112213B280E4A65823B81CF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/traits.hpp */ = {isa = PBXBuildFile; fileRef = A16D8FAA2B7647EBB1AC6432 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/traits.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		939B49C4BC9D4A629D29E900 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/texture.hpp */ = {isa = PBXBuildFile; fileRef = 09F3388E414E4EA6AFC9E574 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/texture.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		97BE0D58D079452BB361DE99 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce.hpp */ = {isa = PBXBuildFile; fileRef = 82D51B7AAA2741E19477A207 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9A02E929B2764834A08611AA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_op.hpp */ = {isa = PBXBuildFile; fileRef = B130AE695F5544A08EFCC097 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_op.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9B7C60CD844548DBAB658799 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_math.hpp */ = {isa = PBXBuildFile; fileRef = 5C8FE8C59E674F5B8E4821B1 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_math.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9B9859EB7E1547BE9FDD259A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/detail/color_cvt.hpp */ = {isa = PBXBuildFile; fileRef = EC60D852BDF14C95AF04DFBD /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/detail/color_cvt.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9BA13FAE89F147529AAA8400 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_op.hpp */ = {isa = PBXBuildFile; fileRef = 71C840547FB04BF68D8AE420 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_op.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9C823F6C61F043CA8ECC6736 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce_key_val.hpp */ = {isa = PBXBuildFile; fileRef = 94BCD61A315B44CBA4876F95 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce_key_val.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9C8E1D90D7A749A18E009C2E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/color_cvt.hpp */ = {isa = PBXBuildFile; fileRef = 7577849BABE6487D9D8203D4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/color_cvt.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9EF6E367F0D640A284B16531 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/tuple.hpp */ = {isa = PBXBuildFile; fileRef = 6AC3F03CD8884485BD7EE403 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/tuple.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9F308C8305DF4CA89741DCC8 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_arithm_op.cu.o */ = {isa = PBXBuildFile; fileRef = B2042031E7694514B6677DD1 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_arithm_op.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		A009CA32A3344FBAA3055AEC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_row.hpp */ = {isa = PBXBuildFile; fileRef = DBE586FD59D64C4EB17846E4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_row.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A35F70CAF2B14EF2BF2D042C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/common.hpp */ = {isa = PBXBuildFile; fileRef = 0583B0E375F941EA82794C63 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/common.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A373CC4E48AA43B1B7BF2B59 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/split_merge.hpp */ = {isa = PBXBuildFile; fileRef = 42EAEF9CCB7A459E8F1FF458 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/split_merge.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A39B7876EE5948DDA5FC1A5F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/vec_distance.hpp */ = {isa = PBXBuildFile; fileRef = A1EEE9B41140496EABD66E02 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/vec_distance.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A53F3BF1285B441FA6639BFF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/copy.hpp */ = {isa = PBXBuildFile; fileRef = 5DDAF83DE841454E85BEA063 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/copy.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A62B6B894CA14553BAD225FE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/minmaxloc.hpp */ = {isa = PBXBuildFile; fileRef = 7DE3226FFAF64EDA8ED88B0E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/minmaxloc.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A7CF5ED0A7FA4431A8A3753C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/type_traits.hpp */ = {isa = PBXBuildFile; fileRef = 0F29F20B96F849418045AE27 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/type_traits.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A7FC84E46F09420182790069 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/lut.hpp */ = {isa = PBXBuildFile; fileRef = 201CC904BF224E53969878A0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/lut.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A8830A13C1494F2DA2FDBFB2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce.hpp */ = {isa = PBXBuildFile; fileRef = C9D0F3BC402043A49DEC41CA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A9310F0CD7804B8188742AD7 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_warp.cu.o */ = {isa = PBXBuildFile; fileRef = 5FA2C8705EC1489B841ACC13 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_warp.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		A97E37FA04D74C37A207EE5E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_func.hpp */ = {isa = PBXBuildFile; fileRef = 2CCE2E4E7B3E439C8C1C2B28 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_func.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AA79C9EEB4264501B56BF659 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce_key_val.hpp */ = {isa = PBXBuildFile; fileRef = 0C688D651E7A4554B6995DDF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce_key_val.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AA8F0CACA4874E828631A745 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/extrapolation.hpp */ = {isa = PBXBuildFile; fileRef = E990057B00ED484AA9DD6EE8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/extrapolation.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AAF91B8E55F3417395787169 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/texture.hpp */ = {isa = PBXBuildFile; fileRef = BDD36C79B09943719E2394CC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/texture.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B522CF5A3E7C4E01B56FF90D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/scan.hpp */ = {isa = PBXBuildFile; fileRef = EB6FDE65455C432C93816ACF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/scan.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B5F8E3D0A74B479AAA738188 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/mask.hpp */ = {isa = PBXBuildFile; fileRef = A9C939D95B224692861EDB78 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/mask.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BA46574492CA4CB980E47B3B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/interpolation.hpp */ = {isa = PBXBuildFile; fileRef = A56687E7619D47D080F9BFA0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/interpolation.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BBCEC3CFF37D4D86A36F1825 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/reduce.hpp */ = {isa = PBXBuildFile; fileRef = 57CC9CECC081415C8C85BD9C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/reduce.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BC9085A370914F58B805ED46 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/histogram.hpp */ = {isa = PBXBuildFile; fileRef = 31ACC2D2538E4A49A47A1790 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/histogram.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BDE13B33929544B28AFEBE83 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/simd_functions.hpp */ = {isa = PBXBuildFile; fileRef = 975AD12D18484AF7A167A6B8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/simd_functions.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BE1E5E3A182B4BFD8AB4CDE3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/reduce.hpp */ = {isa = PBXBuildFile; fileRef = 3661F4EA726842B68DCA4C4A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/reduce.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BEE5FA3BDA3748188225824B /* /Users/elliotstaudt/opencv/modules/cudev/test/test_warp.cu */ = {isa = PBXBuildFile; fileRef = 8E1E48002CD84678822FAC69 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_warp.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		C22BA3C56C0A426DAAEDEA37 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_arithm_func.cu */ = {isa = PBXBuildFile; fileRef = FBD130ED267443638090BC26 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_arithm_func.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		C347C541A1B842FFACD0D4D3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/block.hpp */ = {isa = PBXBuildFile; fileRef = E0CAD6164B3A4A188BDA726A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/block.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C362999C88CA4E4B924BB376 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/transform.hpp */ = {isa = PBXBuildFile; fileRef = 352A4B9F4B744CFD9545ADDE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/transform.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C3E9FE99C3AF466E9FD15DE8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/integral.hpp */ = {isa = PBXBuildFile; fileRef = B39FF504F42B4D67A99FEC41 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/integral.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C44A4E05C762493E925EC35D /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_color_cvt.cu.o */ = {isa = PBXBuildFile; fileRef = A7E7973CE79C44A290558334 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_color_cvt.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		C8AA979699FC4BA5B1E9DBDD /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_cvt.cu.o */ = {isa = PBXBuildFile; fileRef = 4C857CE364954C229C5ED771 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_cvt.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		C9E3C2C56EF243D9A2792B9A /* /Users/elliotstaudt/opencv/modules/cudev/test/transpose.cu */ = {isa = PBXBuildFile; fileRef = A85199370F344380B6541261 /* /Users/elliotstaudt/opencv/modules/cudev/test/transpose.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		CA9EAF866E97468A98160743 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_traits.hpp */ = {isa = PBXBuildFile; fileRef = 02E9DC9E48F9456098357586 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_traits.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CAB11C0C2CAC4B9585FAA880 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/gpumat.hpp */ = {isa = PBXBuildFile; fileRef = 807E80125076455D9D224FB2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/gpumat.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CACC8C1169CF457E9627A7B2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_column.hpp */ = {isa = PBXBuildFile; fileRef = 5CD33830801649D4860180C3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_column.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CDE59CAA967F414FB89C6793 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/extrapolation.hpp */ = {isa = PBXBuildFile; fileRef = 15493E4AC81442C5A8C9FE05 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/extrapolation.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D066ADEB870A481B9F999C0E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/warping.hpp */ = {isa = PBXBuildFile; fileRef = 724964CC55554BABB91A189B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/warping.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D35A6CB5F5454B26BC463CA1 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_func.hpp */ = {isa = PBXBuildFile; fileRef = 2F0A94EE6E8A4C2F82E90535 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_func.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D58ED652C3964162B6E56569 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/detail/gpumat.hpp */ = {isa = PBXBuildFile; fileRef = DE217F96468E412DAC0851DF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/detail/gpumat.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D8E8664E643840A58EF861BC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/deriv.hpp */ = {isa = PBXBuildFile; fileRef = 0B73816A83E94C85B7EE01DC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/deriv.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DB5380C7A4D74AA6B3E33933 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_op.hpp */ = {isa = PBXBuildFile; fileRef = 00B4896CE18B49EE83A71E80 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_op.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DB92D1DC50FE45C4A94FC5D4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/minmaxloc.hpp */ = {isa = PBXBuildFile; fileRef = 61E620593CB846358812BE38 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/minmaxloc.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DE86D590A6CE4535AE5F8375 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/shuffle.hpp */ = {isa = PBXBuildFile; fileRef = DB6563D743314D20826FA78F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/shuffle.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E04489B6C84448E9AB574DB5 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_op.hpp */ = {isa = PBXBuildFile; fileRef = 17D9B966B7CC4C7AB16463E7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_op.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E07AC58675A547029DD6874F /* /Users/elliotstaudt/opencv/modules/cudev/test/test_bitwize_op.cu */ = {isa = PBXBuildFile; fileRef = 88300AB6E96144178C425399 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_bitwize_op.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		E168030072534E3C8A585E9B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/simd_functions.hpp */ = {isa = PBXBuildFile; fileRef = FCA05AB6666849AB9C931783 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/simd_functions.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E22515EE814C495D961FAF33 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/common.hpp */ = {isa = PBXBuildFile; fileRef = 50ED6F2CCC6240C5B78099B8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/common.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E26AFABB829443CCACE06931 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/traits.hpp */ = {isa = PBXBuildFile; fileRef = 80EEBAF341D541968E04BCE8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/traits.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E397F060249C43498D9931AE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/type_traits.hpp */ = {isa = PBXBuildFile; fileRef = 60E562477D2442AD99C11943 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/type_traits.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E427681354E1461A945A1DB2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce.hpp */ = {isa = PBXBuildFile; fileRef = A61770741D07402EA6A8D9F2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E60FE8A7670D4C9FBD23D4D4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_row.hpp */ = {isa = PBXBuildFile; fileRef = 68B3BF191EC3408DB51B2DAE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_row.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E90DC35BE406421DAF4B3A06 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/atomic.hpp */ = {isa = PBXBuildFile; fileRef = 52872B77BC134B1E97EFD261 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/atomic.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EA0278CC9F1143F29C6DA291 /* /Users/elliotstaudt/opencv/modules/cudev/test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 16CCE78F90D44B829BD96136 /* /Users/elliotstaudt/opencv/modules/cudev/test/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		EABF0ABCE9254CB692B045F6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transform.hpp */ = {isa = PBXBuildFile; fileRef = 37DFB8DD21674C93ABA11578 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transform.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		ECE7F986E4064BE491880728 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = D7EE90880612421C9A6F62A9 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EEA3F9D8DD014D7DB736311D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/tuple.hpp */ = {isa = PBXBuildFile; fileRef = 1AB13EF29A69494F9F2BC492 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/tuple.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EFAABB0896A94F8CBA450C22 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/glob.hpp */ = {isa = PBXBuildFile; fileRef = 13AAF0674BB9460F8D6373B7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/glob.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F0F263FBD31641CF8ED2F540 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/glob.hpp */ = {isa = PBXBuildFile; fileRef = 6A5FFF5FD6044B1D83A5F334 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/glob.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F41D521449A6447EBE328ED8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev.hpp */ = {isa = PBXBuildFile; fileRef = 1EC79686B06E4BE8866BD07C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F5C21951B33C4A12A54A3431 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/scan.hpp */ = {isa = PBXBuildFile; fileRef = 93552B1FEF1346689E692A05 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/scan.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F837DA84765F4219AB90976C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_up.hpp */ = {isa = PBXBuildFile; fileRef = 04FE4EE8D72947918869CF2C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_up.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F9DF57BDCD2C43A3A1DDAA44 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_down.hpp */ = {isa = PBXBuildFile; fileRef = D2D7C04CEB2D43B3ADC09FAF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_down.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FACE3B85CDD340B1AEE96982 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce_to_vec.hpp */ = {isa = PBXBuildFile; fileRef = EFF91A43D6474601ADE9A8EC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce_to_vec.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FB3349A5EE4A4D7F95C8C52A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/zip.hpp */ = {isa = PBXBuildFile; fileRef = 0A53E17B4796409FB3081A46 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/zip.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FB73714DDB5240B59CBD5FE9 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce.hpp */ = {isa = PBXBuildFile; fileRef = 12DFA4B7BCC645ED97C1E6FB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FCF5727B8586462E8DA15A0D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/tuple_adapter.hpp */ = {isa = PBXBuildFile; fileRef = 9B00207A9BD3408685C7A0AB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/tuple_adapter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FE02BF68CF534FCFAFC96555 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_integral.cu */ = {isa = PBXBuildFile; fileRef = B7A08CEE1D8645D7BC786403 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_integral.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		FF0FDA43BC334E4E93F613CF /* /Users/elliotstaudt/opencv/modules/cudev/test/test_cmp_op.cu */ = {isa = PBXBuildFile; fileRef = 5598669F094B4C708DEAFFE1 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_cmp_op.cu */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2F6692D8060140B6B707A8B5 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6FFD1AE918BB40CE828969A6 = {
+			isa = PBXBuildStyle;
+		};
+		BA323D7218E548BDA181497C /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		154346A6C5B04E27A8928691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501CA1AA00BB4521A6D77E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19ACC01DD94B430D9E1EBEE1;
+			remoteInfo = opencv_cudev;
+		};
+		21478E32779D4A2B874D6A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501CA1AA00BB4521A6D77E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		4B2256CA71C445F3A8A4AAB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501CA1AA00BB4521A6D77E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		57AA607875744033BEFA61FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501CA1AA00BB4521A6D77E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		9E38880AFA0E46A8BBD30B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501CA1AA00BB4521A6D77E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		B8514BC93E554A2D8B187D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501CA1AA00BB4521A6D77E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19ACC01DD94B430D9E1EBEE1;
+			remoteInfo = opencv_cudev;
+		};
+		BAC8E4DBC24F462C92C08943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501CA1AA00BB4521A6D77E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		CB01C588AA75415BA4ADD208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 501CA1AA00BB4521A6D77E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E7ACD991854BBE8C236BCA;
+			remoteInfo = opencv_test_cudev;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B4896CE18B49EE83A71E80 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_op.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = unary_op.hpp; path = include/opencv2/cudev/expr/unary_op.hpp; sourceTree = SOURCE_ROOT; };
+		02D192AF868244CCB40BFB9E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = transform.hpp; path = include/opencv2/cudev/ptr2d/transform.hpp; sourceTree = SOURCE_ROOT; };
+		02E9DC9E48F9456098357586 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vec_traits.hpp; path = include/opencv2/cudev/util/vec_traits.hpp; sourceTree = SOURCE_ROOT; };
+		03833D5090FA43659A73D244 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/saturate_cast.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = saturate_cast.hpp; path = include/opencv2/cudev/util/saturate_cast.hpp; sourceTree = SOURCE_ROOT; };
+		042D6E8FBB1D4DA192864251 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/zip.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = zip.hpp; path = include/opencv2/cudev/ptr2d/zip.hpp; sourceTree = SOURCE_ROOT; };
+		04FE4EE8D72947918869CF2C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_up.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pyr_up.hpp; path = include/opencv2/cudev/grid/detail/pyr_up.hpp; sourceTree = SOURCE_ROOT; };
+		056155BEB647442EAF9E5EB3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/detail/color_cvt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color_cvt.hpp; path = include/opencv2/cudev/functional/detail/color_cvt.hpp; sourceTree = SOURCE_ROOT; };
+		0583B0E375F941EA82794C63 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = common.hpp; path = include/opencv2/cudev/common.hpp; sourceTree = SOURCE_ROOT; };
+		05A10AF3A7B946B38FE6979B /* /Users/elliotstaudt/opencv/modules/cudev/test/test_cvt.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_cvt.cu; path = test/test_cvt.cu; sourceTree = SOURCE_ROOT; };
+		0761678C18E2489DA3FBF5FD /* /Users/elliotstaudt/opencv/modules/cudev/test/test_reduction.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_reduction.cu; path = test/test_reduction.cu; sourceTree = SOURCE_ROOT; };
+		07B0C7A7BBE74178A0D114B4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transpose.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = transpose.hpp; path = include/opencv2/cudev/grid/detail/transpose.hpp; sourceTree = SOURCE_ROOT; };
+		07F8AE42B0EC4573BBC474B4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_func.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = binary_func.hpp; path = include/opencv2/cudev/expr/binary_func.hpp; sourceTree = SOURCE_ROOT; };
+		09F3388E414E4EA6AFC9E574 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/texture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = texture.hpp; path = include/opencv2/cudev/ptr2d/texture.hpp; sourceTree = SOURCE_ROOT; };
+		0A53E17B4796409FB3081A46 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/zip.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = zip.hpp; path = include/opencv2/cudev/ptr2d/zip.hpp; sourceTree = SOURCE_ROOT; };
+		0B73816A83E94C85B7EE01DC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/deriv.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = deriv.hpp; path = include/opencv2/cudev/ptr2d/deriv.hpp; sourceTree = SOURCE_ROOT; };
+		0C688D651E7A4554B6995DDF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce_key_val.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce_key_val.hpp; path = include/opencv2/cudev/warp/detail/reduce_key_val.hpp; sourceTree = SOURCE_ROOT; };
+		0F29F20B96F849418045AE27 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/type_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_traits.hpp; path = include/opencv2/cudev/util/type_traits.hpp; sourceTree = SOURCE_ROOT; };
+		0FF9DB4BAE824AE989A37D2C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/tuple.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tuple.hpp; path = include/opencv2/cudev/util/detail/tuple.hpp; sourceTree = SOURCE_ROOT; };
+		12DFA4B7BCC645ED97C1E6FB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce.hpp; path = include/opencv2/cudev/warp/detail/reduce.hpp; sourceTree = SOURCE_ROOT; };
+		130E58BA0B964FB387901EBA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/type_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_traits.hpp; path = include/opencv2/cudev/util/detail/type_traits.hpp; sourceTree = SOURCE_ROOT; };
+		13AAF0674BB9460F8D6373B7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/glob.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = glob.hpp; path = include/opencv2/cudev/ptr2d/glob.hpp; sourceTree = SOURCE_ROOT; };
+		14A05BF893154A8E9BF330D6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/dynamic_smem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = dynamic_smem.hpp; path = include/opencv2/cudev/block/dynamic_smem.hpp; sourceTree = SOURCE_ROOT; };
+		15493E4AC81442C5A8C9FE05 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/extrapolation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = extrapolation.hpp; path = include/opencv2/cudev/ptr2d/extrapolation.hpp; sourceTree = SOURCE_ROOT; };
+		16CCE78F90D44B829BD96136 /* /Users/elliotstaudt/opencv/modules/cudev/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = test/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1709485A76E54B16B2362B49 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		17D9B966B7CC4C7AB16463E7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_op.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = binary_op.hpp; path = include/opencv2/cudev/expr/binary_op.hpp; sourceTree = SOURCE_ROOT; };
+		185D6D775F4F4C23977E7918 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/color.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color.hpp; path = include/opencv2/cudev/expr/color.hpp; sourceTree = SOURCE_ROOT; };
+		18A2ACE7D57E443E9F9499A8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/split_merge.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = split_merge.hpp; path = include/opencv2/cudev/grid/detail/split_merge.hpp; sourceTree = SOURCE_ROOT; };
+		191A6788C303419A890CE4AF /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_lut.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_lut.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_lut.cu.o"; sourceTree = SOURCE_ROOT; };
+		19DE092FC808443C9B4B3114 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/reduction.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduction.hpp; path = include/opencv2/cudev/expr/reduction.hpp; sourceTree = SOURCE_ROOT; };
+		1AB13EF29A69494F9F2BC492 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/tuple.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tuple.hpp; path = include/opencv2/cudev/util/tuple.hpp; sourceTree = SOURCE_ROOT; };
+		1C6D69AA3EB94D29A74983BF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/copy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = copy.hpp; path = include/opencv2/cudev/grid/detail/copy.hpp; sourceTree = SOURCE_ROOT; };
+		1EC79686B06E4BE8866BD07C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cudev.hpp; path = include/opencv2/cudev.hpp; sourceTree = SOURCE_ROOT; };
+		201CC904BF224E53969878A0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/lut.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = lut.hpp; path = include/opencv2/cudev/ptr2d/lut.hpp; sourceTree = SOURCE_ROOT; };
+		204C8C8780CE42FAAC076A58 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_split_merge.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_split_merge.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_split_merge.cu.o"; sourceTree = SOURCE_ROOT; };
+		225575136B8A4FD0A2F40EE6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transpose.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = transpose.hpp; path = include/opencv2/cudev/grid/transpose.hpp; sourceTree = SOURCE_ROOT; };
+		24E6565860674F3990A21C9B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/histogram.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = histogram.hpp; path = include/opencv2/cudev/grid/histogram.hpp; sourceTree = SOURCE_ROOT; };
+		263C55DAD3804C54A855B148 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/vec_distance.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vec_distance.hpp; path = include/opencv2/cudev/block/vec_distance.hpp; sourceTree = SOURCE_ROOT; };
+		277CF4C55D8D4FE9AC8F69FE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/integral.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = integral.hpp; path = include/opencv2/cudev/grid/integral.hpp; sourceTree = SOURCE_ROOT; };
+		27EBDA4B4C484CDDA5C92DEB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/functional.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = functional.hpp; path = include/opencv2/cudev/functional/functional.hpp; sourceTree = SOURCE_ROOT; };
+		2829F6CD3C8948ADB7B91F22 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/constant.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = constant.hpp; path = include/opencv2/cudev/ptr2d/constant.hpp; sourceTree = SOURCE_ROOT; };
+		283561CE4E074A42BB087C9C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/split_merge.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = split_merge.hpp; path = include/opencv2/cudev/grid/split_merge.hpp; sourceTree = SOURCE_ROOT; };
+		2B22062E006849A8A5B9DC71 /* /Users/elliotstaudt/opencv/modules/cudev/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2CCE2E4E7B3E439C8C1C2B28 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_func.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = binary_func.hpp; path = include/opencv2/cudev/expr/binary_func.hpp; sourceTree = SOURCE_ROOT; };
+		2E17B8F29C924A5AB16A54EF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = transform.hpp; path = include/opencv2/cudev/grid/detail/transform.hpp; sourceTree = SOURCE_ROOT; };
+		2F0A94EE6E8A4C2F82E90535 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_func.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = unary_func.hpp; path = include/opencv2/cudev/expr/unary_func.hpp; sourceTree = SOURCE_ROOT; };
+		2FCC63CC67AD4665BE244FF3 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		31ACC2D2538E4A49A47A1790 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/histogram.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = histogram.hpp; path = include/opencv2/cudev/grid/histogram.hpp; sourceTree = SOURCE_ROOT; };
+		352A4B9F4B744CFD9545ADDE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = transform.hpp; path = include/opencv2/cudev/ptr2d/transform.hpp; sourceTree = SOURCE_ROOT; };
+		35908F72A8174A838C114974 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/deriv.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = deriv.hpp; path = include/opencv2/cudev/ptr2d/deriv.hpp; sourceTree = SOURCE_ROOT; };
+		35A607C1E6874F71B7F67B4F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/remap.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = remap.hpp; path = include/opencv2/cudev/ptr2d/remap.hpp; sourceTree = SOURCE_ROOT; };
+		35BEA19E3F9746F6A1BACF8A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce_key_val.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce_key_val.hpp; path = include/opencv2/cudev/block/detail/reduce_key_val.hpp; sourceTree = SOURCE_ROOT; };
+		3661F4EA726842B68DCA4C4A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce.hpp; path = include/opencv2/cudev/warp/reduce.hpp; sourceTree = SOURCE_ROOT; };
+		37DFB8DD21674C93ABA11578 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = transform.hpp; path = include/opencv2/cudev/grid/detail/transform.hpp; sourceTree = SOURCE_ROOT; };
+		38F9DEECF4CB41B394011182 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_down.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pyr_down.hpp; path = include/opencv2/cudev/grid/detail/pyr_down.hpp; sourceTree = SOURCE_ROOT; };
+		3926D4F382F443EEA7DA06E5 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_arithm_op.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_arithm_op.cu; path = test/test_arithm_op.cu; sourceTree = SOURCE_ROOT; };
+		392809A515DA423DA4CB69DB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/warping.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warping.hpp; path = include/opencv2/cudev/ptr2d/warping.hpp; sourceTree = SOURCE_ROOT; };
+		393913A8A7FF41FC85A6C7F0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/integral.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = integral.hpp; path = include/opencv2/cudev/grid/integral.hpp; sourceTree = SOURCE_ROOT; };
+		3EF85EE85A71495AB832BF3D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/expr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = expr.hpp; path = include/opencv2/cudev/expr/expr.hpp; sourceTree = SOURCE_ROOT; };
+		428572FE306E44FBB0736290 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = transform.hpp; path = include/opencv2/cudev/grid/transform.hpp; sourceTree = SOURCE_ROOT; };
+		42EAEF9CCB7A459E8F1FF458 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/split_merge.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = split_merge.hpp; path = include/opencv2/cudev/grid/detail/split_merge.hpp; sourceTree = SOURCE_ROOT; };
+		4370A10F09944D18B049B85C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce.hpp; path = include/opencv2/cudev/warp/detail/reduce.hpp; sourceTree = SOURCE_ROOT; };
+		440B063CFD224E899CFAA91C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/scan.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = scan.hpp; path = include/opencv2/cudev/warp/scan.hpp; sourceTree = SOURCE_ROOT; };
+		44158C49E8CE4BE885D30892 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_split_merge.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_split_merge.cu; path = test/test_split_merge.cu; sourceTree = SOURCE_ROOT; };
+		476B0548B44147A2BC0ABE7E /* opencv_cudev */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_cudev.dylib; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6EAFDEC72D4423B98A9EF8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce.hpp; path = include/opencv2/cudev/warp/reduce.hpp; sourceTree = SOURCE_ROOT; };
+		4B8143564C194837A9267A62 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/block.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = block.hpp; path = include/opencv2/cudev/block/block.hpp; sourceTree = SOURCE_ROOT; };
+		4C857CE364954C229C5ED771 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_cvt.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_cvt.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_cvt.cu.o"; sourceTree = SOURCE_ROOT; };
+		4EFACB5178F147649829A01E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce_key_val.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce_key_val.hpp; path = include/opencv2/cudev/block/detail/reduce_key_val.hpp; sourceTree = SOURCE_ROOT; };
+		50ED6F2CCC6240C5B78099B8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = common.hpp; path = include/opencv2/cudev/common.hpp; sourceTree = SOURCE_ROOT; };
+		52872B77BC134B1E97EFD261 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/atomic.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = atomic.hpp; path = include/opencv2/cudev/util/atomic.hpp; sourceTree = SOURCE_ROOT; };
+		5402B89C6D5442039A765ECA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/pyramids.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pyramids.hpp; path = include/opencv2/cudev/grid/pyramids.hpp; sourceTree = SOURCE_ROOT; };
+		5438B01FFCA8407BA3560693 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/resize.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = resize.hpp; path = include/opencv2/cudev/ptr2d/resize.hpp; sourceTree = SOURCE_ROOT; };
+		5598669F094B4C708DEAFFE1 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_cmp_op.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_cmp_op.cu; path = test/test_cmp_op.cu; sourceTree = SOURCE_ROOT; };
+		57CC9CECC081415C8C85BD9C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce.hpp; path = include/opencv2/cudev/block/reduce.hpp; sourceTree = SOURCE_ROOT; };
+		5C8FCC0A0DEA4CECA775452E /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_deriv.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_deriv.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_deriv.cu.o"; sourceTree = SOURCE_ROOT; };
+		5C8FE8C59E674F5B8E4821B1 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_math.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vec_math.hpp; path = include/opencv2/cudev/util/vec_math.hpp; sourceTree = SOURCE_ROOT; };
+		5CC8515827E04619924A2D93 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/mask.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mask.hpp; path = include/opencv2/cudev/ptr2d/mask.hpp; sourceTree = SOURCE_ROOT; };
+		5CD33830801649D4860180C3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_column.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce_to_column.hpp; path = include/opencv2/cudev/grid/detail/reduce_to_column.hpp; sourceTree = SOURCE_ROOT; };
+		5DDAF83DE841454E85BEA063 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/copy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = copy.hpp; path = include/opencv2/cudev/grid/copy.hpp; sourceTree = SOURCE_ROOT; };
+		5FA2C8705EC1489B841ACC13 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_warp.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_warp.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_warp.cu.o"; sourceTree = SOURCE_ROOT; };
+		5FF5482AC19C4C8CA4B41ECE /* /Users/elliotstaudt/opencv/modules/cudev/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		608AE420F00144B981C290E4 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_integral.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_integral.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_integral.cu.o"; sourceTree = SOURCE_ROOT; };
+		60E562477D2442AD99C11943 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/type_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_traits.hpp; path = include/opencv2/cudev/util/detail/type_traits.hpp; sourceTree = SOURCE_ROOT; };
+		61E620593CB846358812BE38 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/minmaxloc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = minmaxloc.hpp; path = include/opencv2/cudev/grid/detail/minmaxloc.hpp; sourceTree = SOURCE_ROOT; };
+		65371085F2E4450DBF242FAE /* /Users/elliotstaudt/opencv/modules/cudev/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		65E487CCC3DC4023AFDCF57D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/color.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color.hpp; path = include/opencv2/cudev/expr/color.hpp; sourceTree = SOURCE_ROOT; };
+		672FC184C85F4FDB965F3004 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/remap.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = remap.hpp; path = include/opencv2/cudev/ptr2d/remap.hpp; sourceTree = SOURCE_ROOT; };
+		68B3BF191EC3408DB51B2DAE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_row.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce_to_row.hpp; path = include/opencv2/cudev/grid/detail/reduce_to_row.hpp; sourceTree = SOURCE_ROOT; };
+		690EAFF407664BA3B8E49894 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/per_element_func.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = per_element_func.hpp; path = include/opencv2/cudev/expr/per_element_func.hpp; sourceTree = SOURCE_ROOT; };
+		6A5FFF5FD6044B1D83A5F334 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/glob.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = glob.hpp; path = include/opencv2/cudev/ptr2d/glob.hpp; sourceTree = SOURCE_ROOT; };
+		6AC3F03CD8884485BD7EE403 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/tuple.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tuple.hpp; path = include/opencv2/cudev/util/detail/tuple.hpp; sourceTree = SOURCE_ROOT; };
+		6D1099F00FAF4F179CBDF52F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce_to_vec.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce_to_vec.hpp; path = include/opencv2/cudev/grid/reduce_to_vec.hpp; sourceTree = SOURCE_ROOT; };
+		6EFC82D864A442C1BE513CB0 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_color_cvt.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_color_cvt.cu; path = test/test_color_cvt.cu; sourceTree = SOURCE_ROOT; };
+		6FE8589EEC9C47E38A45D2AA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vec_traits.hpp; path = include/opencv2/cudev/util/vec_traits.hpp; sourceTree = SOURCE_ROOT; };
+		712AD0B021B44D4D97345E96 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/shuffle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = shuffle.hpp; path = include/opencv2/cudev/warp/shuffle.hpp; sourceTree = SOURCE_ROOT; };
+		718C87FF73614EDBBF14D18D /* /Users/elliotstaudt/opencv/modules/cudev/src/stub.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stub.cpp; path = src/stub.cpp; sourceTree = SOURCE_ROOT; };
+		71C840547FB04BF68D8AE420 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_op.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = binary_op.hpp; path = include/opencv2/cudev/expr/binary_op.hpp; sourceTree = SOURCE_ROOT; };
+		71E030C8E0F64B34A810EB2A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/copy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = copy.hpp; path = include/opencv2/cudev/grid/detail/copy.hpp; sourceTree = SOURCE_ROOT; };
+		724964CC55554BABB91A189B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/warping.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warping.hpp; path = include/opencv2/cudev/expr/warping.hpp; sourceTree = SOURCE_ROOT; };
+		745137816AF34B75A0277F03 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/scan.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = scan.hpp; path = include/opencv2/cudev/warp/scan.hpp; sourceTree = SOURCE_ROOT; };
+		7482312C40DD424CB2B93563 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_lut.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_lut.cu; path = test/test_lut.cu; sourceTree = SOURCE_ROOT; };
+		7577849BABE6487D9D8203D4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/color_cvt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color_cvt.hpp; path = include/opencv2/cudev/functional/color_cvt.hpp; sourceTree = SOURCE_ROOT; };
+		75FE3CF1E8DF41A39F62B7DC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/detail/gpumat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = gpumat.hpp; path = include/opencv2/cudev/ptr2d/detail/gpumat.hpp; sourceTree = SOURCE_ROOT; };
+		79C938C5BB5C46D4B57D16F7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/split_merge.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = split_merge.hpp; path = include/opencv2/cudev/grid/split_merge.hpp; sourceTree = SOURCE_ROOT; };
+		7DE3226FFAF64EDA8ED88B0E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/minmaxloc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = minmaxloc.hpp; path = include/opencv2/cudev/grid/detail/minmaxloc.hpp; sourceTree = SOURCE_ROOT; };
+		807E80125076455D9D224FB2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/gpumat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = gpumat.hpp; path = include/opencv2/cudev/ptr2d/gpumat.hpp; sourceTree = SOURCE_ROOT; };
+		80EEBAF341D541968E04BCE8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = traits.hpp; path = include/opencv2/cudev/ptr2d/traits.hpp; sourceTree = SOURCE_ROOT; };
+		82C34D6AC9FF476A89A4A317 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/expr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = expr.hpp; path = include/opencv2/cudev/expr/expr.hpp; sourceTree = SOURCE_ROOT; };
+		82D51B7AAA2741E19477A207 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce.hpp; path = include/opencv2/cudev/block/detail/reduce.hpp; sourceTree = SOURCE_ROOT; };
+		88300AB6E96144178C425399 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_bitwize_op.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_bitwize_op.cu; path = test/test_bitwize_op.cu; sourceTree = SOURCE_ROOT; };
+		88BE3B61B4644D99B7E88C52 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce.hpp; path = include/opencv2/cudev/block/detail/reduce.hpp; sourceTree = SOURCE_ROOT; };
+		8B44F6CC82CB463EBA190518 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce.hpp; path = include/opencv2/cudev/grid/reduce.hpp; sourceTree = SOURCE_ROOT; };
+		8BDD10AE3DAC41089077126B /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_pyramids.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_pyramids.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_pyramids.cu.o"; sourceTree = SOURCE_ROOT; };
+		8C52D3EDB88041D687FF7065 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/type_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = type_traits.hpp; path = include/opencv2/cudev/util/type_traits.hpp; sourceTree = SOURCE_ROOT; };
+		8E1E48002CD84678822FAC69 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_warp.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_warp.cu; path = test/test_warp.cu; sourceTree = SOURCE_ROOT; };
+		8EE4B4565BEA49008761F550 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cudev.hpp; path = include/opencv2/cudev.hpp; sourceTree = SOURCE_ROOT; };
+		908794882D424FA5A004476F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/lut.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = lut.hpp; path = include/opencv2/cudev/ptr2d/lut.hpp; sourceTree = SOURCE_ROOT; };
+		90E586BA94714A43AAADDABA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_column.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce_to_column.hpp; path = include/opencv2/cudev/grid/detail/reduce_to_column.hpp; sourceTree = SOURCE_ROOT; };
+		90FFC3184E394F0CBFA406E2 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		927F801CCB994F949481F062 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce.hpp; path = include/opencv2/cudev/grid/detail/reduce.hpp; sourceTree = SOURCE_ROOT; };
+		9290E0517E5040A18FB49AA6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transpose.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = transpose.hpp; path = include/opencv2/cudev/grid/transpose.hpp; sourceTree = SOURCE_ROOT; };
+		93552B1FEF1346689E692A05 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/scan.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = scan.hpp; path = include/opencv2/cudev/block/scan.hpp; sourceTree = SOURCE_ROOT; };
+		9360845E154F4418A80DBD8D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/tuple.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tuple.hpp; path = include/opencv2/cudev/util/tuple.hpp; sourceTree = SOURCE_ROOT; };
+		942BEC9992964EE1AA52A00F /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_cmp_op.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_cmp_op.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_cmp_op.cu.o"; sourceTree = SOURCE_ROOT; };
+		94547874E40A46BDA2274170 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/per_element_func.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = per_element_func.hpp; path = include/opencv2/cudev/expr/per_element_func.hpp; sourceTree = SOURCE_ROOT; };
+		94BCD61A315B44CBA4876F95 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce_key_val.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce_key_val.hpp; path = include/opencv2/cudev/warp/detail/reduce_key_val.hpp; sourceTree = SOURCE_ROOT; };
+		975AD12D18484AF7A167A6B8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/simd_functions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = simd_functions.hpp; path = include/opencv2/cudev/util/simd_functions.hpp; sourceTree = SOURCE_ROOT; };
+		98F031B9FE584A03977BD1B5 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		9B00207A9BD3408685C7A0AB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/tuple_adapter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tuple_adapter.hpp; path = include/opencv2/cudev/functional/tuple_adapter.hpp; sourceTree = SOURCE_ROOT; };
+		9CDC1592066346588D838899 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/copy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = copy.hpp; path = include/opencv2/cudev/grid/copy.hpp; sourceTree = SOURCE_ROOT; };
+		A16D8FAA2B7647EBB1AC6432 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = traits.hpp; path = include/opencv2/cudev/ptr2d/traits.hpp; sourceTree = SOURCE_ROOT; };
+		A1A4E6E6881C40A184F11399 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_bitwize_op.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_bitwize_op.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_bitwize_op.cu.o"; sourceTree = SOURCE_ROOT; };
+		A1EEE9B41140496EABD66E02 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/vec_distance.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vec_distance.hpp; path = include/opencv2/cudev/block/vec_distance.hpp; sourceTree = SOURCE_ROOT; };
+		A23E6113638549F7B3BCF75A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/tuple_adapter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tuple_adapter.hpp; path = include/opencv2/cudev/functional/tuple_adapter.hpp; sourceTree = SOURCE_ROOT; };
+		A47BF34AD48C4EE098365A2D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce.hpp; path = include/opencv2/cudev/block/reduce.hpp; sourceTree = SOURCE_ROOT; };
+		A5535140946D415ABF1B473B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/color_cvt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color_cvt.hpp; path = include/opencv2/cudev/functional/color_cvt.hpp; sourceTree = SOURCE_ROOT; };
+		A56687E7619D47D080F9BFA0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/interpolation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = interpolation.hpp; path = include/opencv2/cudev/ptr2d/interpolation.hpp; sourceTree = SOURCE_ROOT; };
+		A61770741D07402EA6A8D9F2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce.hpp; path = include/opencv2/cudev/grid/detail/reduce.hpp; sourceTree = SOURCE_ROOT; };
+		A7E7973CE79C44A290558334 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_color_cvt.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_color_cvt.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_color_cvt.cu.o"; sourceTree = SOURCE_ROOT; };
+		A85199370F344380B6541261 /* /Users/elliotstaudt/opencv/modules/cudev/test/transpose.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = transpose.cu; path = test/transpose.cu; sourceTree = SOURCE_ROOT; };
+		A9A7EEB55D15407A96727738 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_func.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = unary_func.hpp; path = include/opencv2/cudev/expr/unary_func.hpp; sourceTree = SOURCE_ROOT; };
+		A9C939D95B224692861EDB78 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/mask.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mask.hpp; path = include/opencv2/cudev/ptr2d/mask.hpp; sourceTree = SOURCE_ROOT; };
+		ABDF2A3816EA4702BC54CAE6 /* opencv_test_cudev */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_cudev; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA35FF9E8A44B96A4A9C027 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = transform.hpp; path = include/opencv2/cudev/grid/transform.hpp; sourceTree = SOURCE_ROOT; };
+		AD719044632248249BE9F654 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_arithm_func.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_arithm_func.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_arithm_func.cu.o"; sourceTree = SOURCE_ROOT; };
+		B0BCB3AFB94F44CAB4B08506 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/saturate_cast.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = saturate_cast.hpp; path = include/opencv2/cudev/util/saturate_cast.hpp; sourceTree = SOURCE_ROOT; };
+		B130AE695F5544A08EFCC097 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_op.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = unary_op.hpp; path = include/opencv2/cudev/expr/unary_op.hpp; sourceTree = SOURCE_ROOT; };
+		B2042031E7694514B6677DD1 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_arithm_op.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_arithm_op.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_arithm_op.cu.o"; sourceTree = SOURCE_ROOT; };
+		B39FF504F42B4D67A99FEC41 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/integral.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = integral.hpp; path = include/opencv2/cudev/grid/detail/integral.hpp; sourceTree = SOURCE_ROOT; };
+		B4C0CA939B0D4C1695CF76FC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_math.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vec_math.hpp; path = include/opencv2/cudev/util/vec_math.hpp; sourceTree = SOURCE_ROOT; };
+		B53ECC09BEF848F9A474C849 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_deriv.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_deriv.cu; path = test/test_deriv.cu; sourceTree = SOURCE_ROOT; };
+		B7A08CEE1D8645D7BC786403 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_integral.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_integral.cu; path = test/test_integral.cu; sourceTree = SOURCE_ROOT; };
+		BDD36C79B09943719E2394CC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/texture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = texture.hpp; path = include/opencv2/cudev/ptr2d/texture.hpp; sourceTree = SOURCE_ROOT; };
+		BE25CD27D12F4CF6B2DEFF5F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/integral.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = integral.hpp; path = include/opencv2/cudev/grid/detail/integral.hpp; sourceTree = SOURCE_ROOT; };
+		C1BAE9CBFB54472EA7864FE5 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/dynamic_smem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = dynamic_smem.hpp; path = include/opencv2/cudev/block/dynamic_smem.hpp; sourceTree = SOURCE_ROOT; };
+		C472FC3118EC48E1BA7951B9 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/histogram.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = histogram.hpp; path = include/opencv2/cudev/grid/detail/histogram.hpp; sourceTree = SOURCE_ROOT; };
+		C53DF49FE4E64222ACF3445F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/deriv.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = deriv.hpp; path = include/opencv2/cudev/expr/deriv.hpp; sourceTree = SOURCE_ROOT; };
+		C62EB1F570794F9F8CE274A2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/functional.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = functional.hpp; path = include/opencv2/cudev/functional/functional.hpp; sourceTree = SOURCE_ROOT; };
+		C9D0F3BC402043A49DEC41CA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce.hpp; path = include/opencv2/cudev/grid/reduce.hpp; sourceTree = SOURCE_ROOT; };
+		D0EDB3F4AD2C4383A8EAFA36 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/interpolation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = interpolation.hpp; path = include/opencv2/cudev/ptr2d/interpolation.hpp; sourceTree = SOURCE_ROOT; };
+		D2D7C04CEB2D43B3ADC09FAF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_down.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pyr_down.hpp; path = include/opencv2/cudev/grid/detail/pyr_down.hpp; sourceTree = SOURCE_ROOT; };
+		D46229CCC8944B71B0F84E48 /* /Users/elliotstaudt/opencv/modules/cudev/src/stub.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stub.cpp; path = src/stub.cpp; sourceTree = SOURCE_ROOT; };
+		D77F0D6FDFF243BEB3E8C486 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/reduction.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduction.hpp; path = include/opencv2/cudev/expr/reduction.hpp; sourceTree = SOURCE_ROOT; };
+		D7CCDC9688EF439C8371E2F4 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		D7EE90880612421C9A6F62A9 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		D98A95D21C4A461FB6322566 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/atomic.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = atomic.hpp; path = include/opencv2/cudev/util/atomic.hpp; sourceTree = SOURCE_ROOT; };
+		D99B2110C36F49C684410839 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/limits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = limits.hpp; path = include/opencv2/cudev/util/limits.hpp; sourceTree = SOURCE_ROOT; };
+		DB6563D743314D20826FA78F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/shuffle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = shuffle.hpp; path = include/opencv2/cudev/warp/shuffle.hpp; sourceTree = SOURCE_ROOT; };
+		DBE191C0252046F7A2EDF72A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transpose.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = transpose.hpp; path = include/opencv2/cudev/grid/detail/transpose.hpp; sourceTree = SOURCE_ROOT; };
+		DBE586FD59D64C4EB17846E4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_row.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce_to_row.hpp; path = include/opencv2/cudev/grid/detail/reduce_to_row.hpp; sourceTree = SOURCE_ROOT; };
+		DE217F96468E412DAC0851DF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/detail/gpumat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = gpumat.hpp; path = include/opencv2/cudev/ptr2d/detail/gpumat.hpp; sourceTree = SOURCE_ROOT; };
+		DEAFB4C1B30242AA99DC76C5 /* /Users/elliotstaudt/opencv/modules/cudev/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E0CAD6164B3A4A188BDA726A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/block.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = block.hpp; path = include/opencv2/cudev/block/block.hpp; sourceTree = SOURCE_ROOT; };
+		E1B148C57E6B465FA66C35C3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/warping.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warping.hpp; path = include/opencv2/cudev/expr/warping.hpp; sourceTree = SOURCE_ROOT; };
+		E1C9830A03154BC7B6AD6913 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/deriv.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = deriv.hpp; path = include/opencv2/cudev/expr/deriv.hpp; sourceTree = SOURCE_ROOT; };
+		E2DC1646DEDC4BF0823525BF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/constant.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = constant.hpp; path = include/opencv2/cudev/ptr2d/constant.hpp; sourceTree = SOURCE_ROOT; };
+		E3B716881608484989FF896B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_up.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pyr_up.hpp; path = include/opencv2/cudev/grid/detail/pyr_up.hpp; sourceTree = SOURCE_ROOT; };
+		E5C7485F2B36414EA4BE6683 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/resize.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = resize.hpp; path = include/opencv2/cudev/ptr2d/resize.hpp; sourceTree = SOURCE_ROOT; };
+		E711F4B1C99948F8AEFEBC89 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/warp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warp.hpp; path = include/opencv2/cudev/warp/warp.hpp; sourceTree = SOURCE_ROOT; };
+		E77C71C1CAF54E52A4011014 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/histogram.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = histogram.hpp; path = include/opencv2/cudev/grid/detail/histogram.hpp; sourceTree = SOURCE_ROOT; };
+		E990057B00ED484AA9DD6EE8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/extrapolation.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = extrapolation.hpp; path = include/opencv2/cudev/ptr2d/extrapolation.hpp; sourceTree = SOURCE_ROOT; };
+		EAE9240BDC7A4B648EC0FFA0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/limits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = limits.hpp; path = include/opencv2/cudev/util/limits.hpp; sourceTree = SOURCE_ROOT; };
+		EB6FDE65455C432C93816ACF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/scan.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = scan.hpp; path = include/opencv2/cudev/block/scan.hpp; sourceTree = SOURCE_ROOT; };
+		EBA28DE491044FACB4E4CD53 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_reduction.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_test_reduction.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_reduction.cu.o"; sourceTree = SOURCE_ROOT; };
+		EC60D852BDF14C95AF04DFBD /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/detail/color_cvt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color_cvt.hpp; path = include/opencv2/cudev/functional/detail/color_cvt.hpp; sourceTree = SOURCE_ROOT; };
+		ED2FA843296C4BD59D09CA2A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/gpumat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = gpumat.hpp; path = include/opencv2/cudev/ptr2d/gpumat.hpp; sourceTree = SOURCE_ROOT; };
+		EFF91A43D6474601ADE9A8EC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce_to_vec.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = reduce_to_vec.hpp; path = include/opencv2/cudev/grid/reduce_to_vec.hpp; sourceTree = SOURCE_ROOT; };
+		F1C84BCDEFE54D909AF510EE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/warping.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warping.hpp; path = include/opencv2/cudev/ptr2d/warping.hpp; sourceTree = SOURCE_ROOT; };
+		F81638B69D7F491F891B98E4 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_pyramids.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_pyramids.cu; path = test/test_pyramids.cu; sourceTree = SOURCE_ROOT; };
+		F89A8C9F232B4D53AB39C40D /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_transpose.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = opencv_test_cudev_generated_transpose.cu.o; path = "../../build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_transpose.cu.o"; sourceTree = SOURCE_ROOT; };
+		F93EA178C0834060BFEA500F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/warp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warp.hpp; path = include/opencv2/cudev/warp/warp.hpp; sourceTree = SOURCE_ROOT; };
+		FA15648B2BC7485EA82ED99D /* opencv_cudev_object */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_cudev_object.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD130ED267443638090BC26 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_arithm_func.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = test_arithm_func.cu; path = test/test_arithm_func.cu; sourceTree = SOURCE_ROOT; };
+		FC5952924BC246CD96848AD7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/pyramids.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pyramids.hpp; path = include/opencv2/cudev/grid/pyramids.hpp; sourceTree = SOURCE_ROOT; };
+		FCA05AB6666849AB9C931783 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/simd_functions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = simd_functions.hpp; path = include/opencv2/cudev/util/simd_functions.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2268A8BD636F478E8CB3C9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6491C18C9D4F4287A8E79176 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_arithm_func.cu.o */,
+				9F308C8305DF4CA89741DCC8 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_arithm_op.cu.o */,
+				4CFB8B22E80748FA83DCBA94 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_bitwize_op.cu.o */,
+				1B29E17D07354FCF8006A558 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_cmp_op.cu.o */,
+				C44A4E05C762493E925EC35D /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_color_cvt.cu.o */,
+				C8AA979699FC4BA5B1E9DBDD /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_cvt.cu.o */,
+				3001AE39B6684697B2A3B794 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_deriv.cu.o */,
+				6D19A53D39EC47C9B7C94EA2 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_integral.cu.o */,
+				235A927F91DE44B693BC1B54 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_lut.cu.o */,
+				49D736D465AA46E9B356D368 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_pyramids.cu.o */,
+				096DCA0ADD134124B487CBA1 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_reduction.cu.o */,
+				7E709A4D505B4292A2A95AA9 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_split_merge.cu.o */,
+				A9310F0CD7804B8188742AD7 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_warp.cu.o */,
+				1793CA08FAB74857AF23DFB8 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_transpose.cu.o */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100BD4BD9D604816A5ED12C1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1F1D5AA665DB480AA3F00059 /* object_libraries */,
+				C2828F7F19144A279E822DD8 /* modules */,
+				E7F59C2B53434960AFE56537 /* ALL_BUILD */,
+				F9F74D1EDC624CF0860500D8 /* ZERO_CHECK */,
+				C9734BCD499F4B4882AF6001 /* tests accuracy */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		1F1D5AA665DB480AA3F00059 /* object_libraries */ = {
+			isa = PBXGroup;
+			children = (
+				AAE1BA1510644A70BE05573A /* opencv_cudev_object */,
+			);
+			name = object_libraries;
+			sourceTree = "<group>";
+		};
+		200AE0521D3B433D961EBCBC /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				98F031B9FE584A03977BD1B5 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		3E772DD82C494746944C73E5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D46229CCC8944B71B0F84E48 /* /Users/elliotstaudt/opencv/modules/cudev/src/stub.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		439B0ECFA336465F9CBDC3BF /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				FBD130ED267443638090BC26 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_arithm_func.cu */,
+				3926D4F382F443EEA7DA06E5 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_arithm_op.cu */,
+				88300AB6E96144178C425399 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_bitwize_op.cu */,
+				5598669F094B4C708DEAFFE1 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_cmp_op.cu */,
+				6EFC82D864A442C1BE513CB0 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_color_cvt.cu */,
+				05A10AF3A7B946B38FE6979B /* /Users/elliotstaudt/opencv/modules/cudev/test/test_cvt.cu */,
+				B53ECC09BEF848F9A474C849 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_deriv.cu */,
+				B7A08CEE1D8645D7BC786403 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_integral.cu */,
+				7482312C40DD424CB2B93563 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_lut.cu */,
+				D7EE90880612421C9A6F62A9 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_main.cpp */,
+				F81638B69D7F491F891B98E4 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_pyramids.cu */,
+				0761678C18E2489DA3FBF5FD /* /Users/elliotstaudt/opencv/modules/cudev/test/test_reduction.cu */,
+				44158C49E8CE4BE885D30892 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_split_merge.cu */,
+				8E1E48002CD84678822FAC69 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_warp.cu */,
+				A85199370F344380B6541261 /* /Users/elliotstaudt/opencv/modules/cudev/test/transpose.cu */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		4999CDE42B3144E09EFC3C4E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				718C87FF73614EDBBF14D18D /* /Users/elliotstaudt/opencv/modules/cudev/src/stub.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5684266BFC3F449A8FA0B97D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				476B0548B44147A2BC0ABE7E /* opencv_cudev */,
+				FA15648B2BC7485EA82ED99D /* opencv_cudev_object */,
+				ABDF2A3816EA4702BC54CAE6 /* opencv_test_cudev */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639206BA52F64D3A907670A5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		87129D95EEC74471ABBDF5FD /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7CCDC9688EF439C8371E2F4 /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				90FFC3184E394F0CBFA406E2 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+				8EE4B4565BEA49008761F550 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev.hpp */,
+				4B8143564C194837A9267A62 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/block.hpp */,
+				88BE3B61B4644D99B7E88C52 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce.hpp */,
+				4EFACB5178F147649829A01E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce_key_val.hpp */,
+				C1BAE9CBFB54472EA7864FE5 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/dynamic_smem.hpp */,
+				57CC9CECC081415C8C85BD9C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/reduce.hpp */,
+				93552B1FEF1346689E692A05 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/scan.hpp */,
+				A1EEE9B41140496EABD66E02 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/vec_distance.hpp */,
+				50ED6F2CCC6240C5B78099B8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/common.hpp */,
+				07F8AE42B0EC4573BBC474B4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_func.hpp */,
+				17D9B966B7CC4C7AB16463E7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_op.hpp */,
+				65E487CCC3DC4023AFDCF57D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/color.hpp */,
+				C53DF49FE4E64222ACF3445F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/deriv.hpp */,
+				3EF85EE85A71495AB832BF3D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/expr.hpp */,
+				690EAFF407664BA3B8E49894 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/per_element_func.hpp */,
+				19DE092FC808443C9B4B3114 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/reduction.hpp */,
+				A9A7EEB55D15407A96727738 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_func.hpp */,
+				B130AE695F5544A08EFCC097 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_op.hpp */,
+				724964CC55554BABB91A189B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/warping.hpp */,
+				7577849BABE6487D9D8203D4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/color_cvt.hpp */,
+				EC60D852BDF14C95AF04DFBD /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/detail/color_cvt.hpp */,
+				27EBDA4B4C484CDDA5C92DEB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/functional.hpp */,
+				9B00207A9BD3408685C7A0AB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/tuple_adapter.hpp */,
+				9CDC1592066346588D838899 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/copy.hpp */,
+				71E030C8E0F64B34A810EB2A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/copy.hpp */,
+				E77C71C1CAF54E52A4011014 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/histogram.hpp */,
+				B39FF504F42B4D67A99FEC41 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/integral.hpp */,
+				61E620593CB846358812BE38 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/minmaxloc.hpp */,
+				38F9DEECF4CB41B394011182 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_down.hpp */,
+				E3B716881608484989FF896B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_up.hpp */,
+				A61770741D07402EA6A8D9F2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce.hpp */,
+				90E586BA94714A43AAADDABA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_column.hpp */,
+				DBE586FD59D64C4EB17846E4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_row.hpp */,
+				42EAEF9CCB7A459E8F1FF458 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/split_merge.hpp */,
+				37DFB8DD21674C93ABA11578 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transform.hpp */,
+				DBE191C0252046F7A2EDF72A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transpose.hpp */,
+				24E6565860674F3990A21C9B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/histogram.hpp */,
+				393913A8A7FF41FC85A6C7F0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/integral.hpp */,
+				FC5952924BC246CD96848AD7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/pyramids.hpp */,
+				C9D0F3BC402043A49DEC41CA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce.hpp */,
+				6D1099F00FAF4F179CBDF52F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce_to_vec.hpp */,
+				79C938C5BB5C46D4B57D16F7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/split_merge.hpp */,
+				ACA35FF9E8A44B96A4A9C027 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transform.hpp */,
+				9290E0517E5040A18FB49AA6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transpose.hpp */,
+				E2DC1646DEDC4BF0823525BF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/constant.hpp */,
+				0B73816A83E94C85B7EE01DC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/deriv.hpp */,
+				DE217F96468E412DAC0851DF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/detail/gpumat.hpp */,
+				15493E4AC81442C5A8C9FE05 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/extrapolation.hpp */,
+				6A5FFF5FD6044B1D83A5F334 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/glob.hpp */,
+				ED2FA843296C4BD59D09CA2A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/gpumat.hpp */,
+				D0EDB3F4AD2C4383A8EAFA36 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/interpolation.hpp */,
+				908794882D424FA5A004476F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/lut.hpp */,
+				A9C939D95B224692861EDB78 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/mask.hpp */,
+				35A607C1E6874F71B7F67B4F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/remap.hpp */,
+				5438B01FFCA8407BA3560693 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/resize.hpp */,
+				09F3388E414E4EA6AFC9E574 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/texture.hpp */,
+				A16D8FAA2B7647EBB1AC6432 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/traits.hpp */,
+				02D192AF868244CCB40BFB9E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/transform.hpp */,
+				392809A515DA423DA4CB69DB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/warping.hpp */,
+				0A53E17B4796409FB3081A46 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/zip.hpp */,
+				D98A95D21C4A461FB6322566 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/atomic.hpp */,
+				6AC3F03CD8884485BD7EE403 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/tuple.hpp */,
+				130E58BA0B964FB387901EBA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/type_traits.hpp */,
+				D99B2110C36F49C684410839 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/limits.hpp */,
+				B0BCB3AFB94F44CAB4B08506 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/saturate_cast.hpp */,
+				FCA05AB6666849AB9C931783 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/simd_functions.hpp */,
+				9360845E154F4418A80DBD8D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/tuple.hpp */,
+				8C52D3EDB88041D687FF7065 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/type_traits.hpp */,
+				B4C0CA939B0D4C1695CF76FC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_math.hpp */,
+				6FE8589EEC9C47E38A45D2AA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_traits.hpp */,
+				12DFA4B7BCC645ED97C1E6FB /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce.hpp */,
+				0C688D651E7A4554B6995DDF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce_key_val.hpp */,
+				3661F4EA726842B68DCA4C4A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/reduce.hpp */,
+				440B063CFD224E899CFAA91C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/scan.hpp */,
+				712AD0B021B44D4D97345E96 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/shuffle.hpp */,
+				E711F4B1C99948F8AEFEBC89 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/warp.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		964804E8B6AB4191B771325B /* Object Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD719044632248249BE9F654 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_arithm_func.cu.o */,
+				B2042031E7694514B6677DD1 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_arithm_op.cu.o */,
+				A1A4E6E6881C40A184F11399 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_bitwize_op.cu.o */,
+				942BEC9992964EE1AA52A00F /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_cmp_op.cu.o */,
+				A7E7973CE79C44A290558334 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_color_cvt.cu.o */,
+				4C857CE364954C229C5ED771 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_cvt.cu.o */,
+				5C8FCC0A0DEA4CECA775452E /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_deriv.cu.o */,
+				608AE420F00144B981C290E4 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_integral.cu.o */,
+				191A6788C303419A890CE4AF /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_lut.cu.o */,
+				8BDD10AE3DAC41089077126B /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_pyramids.cu.o */,
+				EBA28DE491044FACB4E4CD53 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_reduction.cu.o */,
+				204C8C8780CE42FAAC076A58 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_split_merge.cu.o */,
+				5FA2C8705EC1489B841ACC13 /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_test_warp.cu.o */,
+				F89A8C9F232B4D53AB39C40D /* /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeFiles/opencv_test_cudev.dir/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/opencv_test_cudev_generated_transpose.cu.o */,
+			);
+			name = "Object Files";
+			sourceTree = "<group>";
+		};
+		96DC72472DF44EB2A2BC83DA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AAE1BA1510644A70BE05573A /* opencv_cudev_object */ = {
+			isa = PBXGroup;
+			children = (
+				87129D95EEC74471ABBDF5FD /* Header Files */,
+				4999CDE42B3144E09EFC3C4E /* Source Files */,
+				2B22062E006849A8A5B9DC71 /* /Users/elliotstaudt/opencv/modules/cudev/CMakeLists.txt */,
+			);
+			name = opencv_cudev_object;
+			sourceTree = "<group>";
+		};
+		B2645D6A01E3422EAB067C94 = {
+			isa = PBXGroup;
+			children = (
+				100BD4BD9D604816A5ED12C1 /* Sources */,
+				D982A358A52E41C1A4DB11A6 /* Resources */,
+				5684266BFC3F449A8FA0B97D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2828F7F19144A279E822DD8 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				EA0E99526748465989966313 /* opencv_cudev */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		C9734BCD499F4B4882AF6001 /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				F6B5D9EFF4874B4293C8DC9F /* opencv_test_cudev */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		D982A358A52E41C1A4DB11A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E19EE159D8DD423C8A1ACEB7 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FCC63CC67AD4665BE244FF3 /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				1709485A76E54B16B2362B49 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+				1EC79686B06E4BE8866BD07C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev.hpp */,
+				E0CAD6164B3A4A188BDA726A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/block.hpp */,
+				82D51B7AAA2741E19477A207 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce.hpp */,
+				35BEA19E3F9746F6A1BACF8A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/detail/reduce_key_val.hpp */,
+				14A05BF893154A8E9BF330D6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/dynamic_smem.hpp */,
+				A47BF34AD48C4EE098365A2D /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/reduce.hpp */,
+				EB6FDE65455C432C93816ACF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/scan.hpp */,
+				263C55DAD3804C54A855B148 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/block/vec_distance.hpp */,
+				0583B0E375F941EA82794C63 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/common.hpp */,
+				2CCE2E4E7B3E439C8C1C2B28 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_func.hpp */,
+				71C840547FB04BF68D8AE420 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/binary_op.hpp */,
+				185D6D775F4F4C23977E7918 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/color.hpp */,
+				E1C9830A03154BC7B6AD6913 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/deriv.hpp */,
+				82C34D6AC9FF476A89A4A317 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/expr.hpp */,
+				94547874E40A46BDA2274170 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/per_element_func.hpp */,
+				D77F0D6FDFF243BEB3E8C486 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/reduction.hpp */,
+				2F0A94EE6E8A4C2F82E90535 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_func.hpp */,
+				00B4896CE18B49EE83A71E80 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/unary_op.hpp */,
+				E1B148C57E6B465FA66C35C3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/expr/warping.hpp */,
+				A5535140946D415ABF1B473B /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/color_cvt.hpp */,
+				056155BEB647442EAF9E5EB3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/detail/color_cvt.hpp */,
+				C62EB1F570794F9F8CE274A2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/functional.hpp */,
+				A23E6113638549F7B3BCF75A /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/functional/tuple_adapter.hpp */,
+				5DDAF83DE841454E85BEA063 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/copy.hpp */,
+				1C6D69AA3EB94D29A74983BF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/copy.hpp */,
+				C472FC3118EC48E1BA7951B9 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/histogram.hpp */,
+				BE25CD27D12F4CF6B2DEFF5F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/integral.hpp */,
+				7DE3226FFAF64EDA8ED88B0E /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/minmaxloc.hpp */,
+				D2D7C04CEB2D43B3ADC09FAF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_down.hpp */,
+				04FE4EE8D72947918869CF2C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/pyr_up.hpp */,
+				927F801CCB994F949481F062 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce.hpp */,
+				5CD33830801649D4860180C3 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_column.hpp */,
+				68B3BF191EC3408DB51B2DAE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/reduce_to_row.hpp */,
+				18A2ACE7D57E443E9F9499A8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/split_merge.hpp */,
+				2E17B8F29C924A5AB16A54EF /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transform.hpp */,
+				07B0C7A7BBE74178A0D114B4 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/detail/transpose.hpp */,
+				31ACC2D2538E4A49A47A1790 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/histogram.hpp */,
+				277CF4C55D8D4FE9AC8F69FE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/integral.hpp */,
+				5402B89C6D5442039A765ECA /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/pyramids.hpp */,
+				8B44F6CC82CB463EBA190518 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce.hpp */,
+				EFF91A43D6474601ADE9A8EC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/reduce_to_vec.hpp */,
+				283561CE4E074A42BB087C9C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/split_merge.hpp */,
+				428572FE306E44FBB0736290 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transform.hpp */,
+				225575136B8A4FD0A2F40EE6 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/grid/transpose.hpp */,
+				2829F6CD3C8948ADB7B91F22 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/constant.hpp */,
+				35908F72A8174A838C114974 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/deriv.hpp */,
+				75FE3CF1E8DF41A39F62B7DC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/detail/gpumat.hpp */,
+				E990057B00ED484AA9DD6EE8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/extrapolation.hpp */,
+				13AAF0674BB9460F8D6373B7 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/glob.hpp */,
+				807E80125076455D9D224FB2 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/gpumat.hpp */,
+				A56687E7619D47D080F9BFA0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/interpolation.hpp */,
+				201CC904BF224E53969878A0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/lut.hpp */,
+				5CC8515827E04619924A2D93 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/mask.hpp */,
+				672FC184C85F4FDB965F3004 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/remap.hpp */,
+				E5C7485F2B36414EA4BE6683 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/resize.hpp */,
+				BDD36C79B09943719E2394CC /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/texture.hpp */,
+				80EEBAF341D541968E04BCE8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/traits.hpp */,
+				352A4B9F4B744CFD9545ADDE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/transform.hpp */,
+				F1C84BCDEFE54D909AF510EE /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/warping.hpp */,
+				042D6E8FBB1D4DA192864251 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/ptr2d/zip.hpp */,
+				52872B77BC134B1E97EFD261 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/atomic.hpp */,
+				0FF9DB4BAE824AE989A37D2C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/tuple.hpp */,
+				60E562477D2442AD99C11943 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/detail/type_traits.hpp */,
+				EAE9240BDC7A4B648EC0FFA0 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/limits.hpp */,
+				03833D5090FA43659A73D244 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/saturate_cast.hpp */,
+				975AD12D18484AF7A167A6B8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/simd_functions.hpp */,
+				1AB13EF29A69494F9F2BC492 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/tuple.hpp */,
+				0F29F20B96F849418045AE27 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/type_traits.hpp */,
+				5C8FE8C59E674F5B8E4821B1 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_math.hpp */,
+				02E9DC9E48F9456098357586 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/util/vec_traits.hpp */,
+				4370A10F09944D18B049B85C /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce.hpp */,
+				94BCD61A315B44CBA4876F95 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/detail/reduce_key_val.hpp */,
+				4B6EAFDEC72D4423B98A9EF8 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/reduce.hpp */,
+				745137816AF34B75A0277F03 /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/scan.hpp */,
+				DB6563D743314D20826FA78F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/shuffle.hpp */,
+				F93EA178C0834060BFEA500F /* /Users/elliotstaudt/opencv/modules/cudev/include/opencv2/cudev/warp/warp.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E7F59C2B53434960AFE56537 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				639206BA52F64D3A907670A5 /* CMake Rules */,
+				65371085F2E4450DBF242FAE /* /Users/elliotstaudt/opencv/modules/cudev/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		EA0E99526748465989966313 /* opencv_cudev */ = {
+			isa = PBXGroup;
+			children = (
+				E19EE159D8DD423C8A1ACEB7 /* Header Files */,
+				3E772DD82C494746944C73E5 /* Source Files */,
+				DEAFB4C1B30242AA99DC76C5 /* /Users/elliotstaudt/opencv/modules/cudev/CMakeLists.txt */,
+			);
+			name = opencv_cudev;
+			sourceTree = "<group>";
+		};
+		F6B5D9EFF4874B4293C8DC9F /* opencv_test_cudev */ = {
+			isa = PBXGroup;
+			children = (
+				964804E8B6AB4191B771325B /* Object Files */,
+				439B0ECFA336465F9CBDC3BF /* Src */,
+				200AE0521D3B433D961EBCBC /* Include */,
+				16CCE78F90D44B829BD96136 /* /Users/elliotstaudt/opencv/modules/cudev/test/CMakeLists.txt */,
+			);
+			name = opencv_test_cudev;
+			sourceTree = "<group>";
+		};
+		F9F74D1EDC624CF0860500D8 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				96DC72472DF44EB2A2BC83DA /* CMake Rules */,
+				5FF5482AC19C4C8CA4B41ECE /* /Users/elliotstaudt/opencv/modules/cudev/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19ACC01DD94B430D9E1EBEE1 /* opencv_cudev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E1A9D10A424ACAB55E10CF /* Build configuration list for PBXNativeTarget "opencv_cudev" */;
+			buildPhases = (
+				24B7FFC1DB6944789864A22F /* Sources */,
+				4B64F96A0A3342A7A353C32B /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8623F537A0848C58ED2F18A /* PBXTargetDependency */,
+			);
+			name = opencv_cudev;
+			productName = opencv_cudev;
+			productReference = 476B0548B44147A2BC0ABE7E /* opencv_cudev */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		5AC6CF3F57F0422AA5642753 /* opencv_cudev_object */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB6E5C0590C45D4803E0C87 /* Build configuration list for PBXNativeTarget "opencv_cudev_object" */;
+			buildPhases = (
+				9CF887736EC54377BC37A86B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94934A25017746548FDE16D9 /* PBXTargetDependency */,
+			);
+			name = opencv_cudev_object;
+			productName = opencv_cudev_object;
+			productReference = FA15648B2BC7485EA82ED99D /* opencv_cudev_object */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D0E7ACD991854BBE8C236BCA /* opencv_test_cudev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F46758E7189412AA8AD741E /* Build configuration list for PBXNativeTarget "opencv_test_cudev" */;
+			buildPhases = (
+				A17165E9ECE04222BA224D14 /* CMake Rules */,
+				CD7DC4AEFD4E4731BBB44711 /* Sources */,
+				2268A8BD636F478E8CB3C9F7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0936DECF2B2F416188FBA496 /* PBXTargetDependency */,
+			);
+			name = opencv_test_cudev;
+			productName = opencv_test_cudev;
+			productReference = ABDF2A3816EA4702BC54CAE6 /* opencv_test_cudev */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		501CA1AA00BB4521A6D77E37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = D784ACCD577B4845B9BA557F /* Build configuration list for PBXProject "opencv_cudev" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				BA323D7218E548BDA181497C /* Debug */,
+				2F6692D8060140B6B707A8B5 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B2645D6A01E3422EAB067C94;
+			projectDirPath = ../../../modules/cudev;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				19ACC01DD94B430D9E1EBEE1 /* opencv_cudev */,
+				5AC6CF3F57F0422AA5642753 /* opencv_cudev_object */,
+				31613DB07150419D8029959F /* package */,
+				D0E7ACD991854BBE8C236BCA /* opencv_test_cudev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		107787DB07DC4876BBCD371C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudev -f /Users/elliotstaudt/opencv/build/modules/cudev/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		365364F20C034580A6FC160D /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudev -f /Users/elliotstaudt/opencv/build/modules/cudev/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4B64F96A0A3342A7A353C32B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudev -f /Users/elliotstaudt/opencv/build/modules/cudev/CMakeScripts/opencv_cudev_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7C0291241CF74DEEA3477B2B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8A50C573DECC495AB28BA72F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9059B8C01007494AB6DB9AFF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A17165E9ECE04222BA224D14 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudev/test -f /Users/elliotstaudt/opencv/build/modules/cudev/test/CMakeScripts/opencv_test_cudev_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AC0018E8EA674971BD425089 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B7D91F22401046B79740E0E5 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudev -f /Users/elliotstaudt/opencv/build/modules/cudev/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D7B174E9DEDA43F1AF901344 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudev -f /Users/elliotstaudt/opencv/build/modules/cudev/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24B7FFC1DB6944789864A22F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CF1875A26B4813A2B9901B /* /Users/elliotstaudt/opencv/modules/cudev/src/stub.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF887736EC54377BC37A86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7901DED203E84FC9BAA2EA9D /* /Users/elliotstaudt/opencv/modules/cudev/src/stub.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7DC4AEFD4E4731BBB44711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE7F986E4064BE491880728 /* /Users/elliotstaudt/opencv/modules/cudev/test/test_main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0936DECF2B2F416188FBA496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19ACC01DD94B430D9E1EBEE1 /* opencv_cudev */;
+			targetProxy = B8514BC93E554A2D8B187D56 /* PBXContainerItemProxy */;
+		};
+		194F2049443F4687A5B627A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E7ACD991854BBE8C236BCA /* opencv_test_cudev */;
+			targetProxy = CB01C588AA75415BA4ADD208 /* PBXContainerItemProxy */;
+		};
+		27AD945914C140C0A9A5DDD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = BAC8E4DBC24F462C92C08943 /* PBXContainerItemProxy */;
+		};
+		7AAB01163112482DA21F269B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 21478E32779D4A2B874D6A89 /* PBXContainerItemProxy */;
+		};
+		94934A25017746548FDE16D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 57AA607875744033BEFA61FF /* PBXContainerItemProxy */;
+		};
+		9E80D129561E4455AE413C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 9E38880AFA0E46A8BBD30B47 /* PBXContainerItemProxy */;
+		};
+		B65202F5CB4D4A3D9E7BBD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19ACC01DD94B430D9E1EBEE1 /* opencv_cudev */;
+			targetProxy = 154346A6C5B04E27A8928691 /* PBXContainerItemProxy */;
+		};
+		F8623F537A0848C58ED2F18A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 4B2256CA71C445F3A8A4AAB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0841CF641ADC4472B9BD65BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-unused-function -Wno-unused-variable -Wno-enum-compare -Wno-shadow         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.dylib  /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudev.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		16F43AE6FFCE499EA3BFF82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/cudev/opencv_cudev.build/Debug/opencv_cudev_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-unused-function -Wno-unused-variable -Wno-enum-compare -Wno-shadow         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudev_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		2A708450484A4C718BA7AFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-unused-function -Wno-unused-variable -Wno-enum-compare -Wno-shadow     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.dylib  /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudev.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		33E6678AF543430BAE17968D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		3EAB7992D19C45338D125A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		42FFE03A4664469182ADC255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/cudev/opencv_cudev.build/Release/opencv_cudev_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-unused-function -Wno-unused-variable -Wno-enum-compare -Wno-shadow     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudev_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		43FE53CC6EFF4384A69BA625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		4837168CD9524F51BAF370E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/build/modules/cudev/test, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden  -Wno-undef -Wno-missing-declarations -Wno-unused-function -Wno-unused-variable -Wno-enum-compare -Wno-shadow     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lcudart /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_cudev;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev/test;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		4A88F50F1218468AB1198C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev/build;
+			};
+			name = Release;
+		};
+		62290A9D216B454B843F0FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		8E0AA5A6D2934C51ABF9FB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		928E90051A7D4297A7213BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/build/modules/cudev/test, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith   -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden  -Wno-undef -Wno-missing-declarations -Wno-unused-function -Wno-unused-variable -Wno-enum-compare -Wno-shadow         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lcudart /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_cudev;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev/test;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		BBDC032996B0475BA9DC870D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		C540C2D7C0DA46E5ABC457FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev/build;
+			};
+			name = Debug;
+		};
+		C92196748B064421A312AE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F396C8D94EB34197B745DC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/cudev/src, /Users/elliotstaudt/opencv/build/modules/cudev, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/hal/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudev;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CB6D8012B1542798AF4F63C /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43FE53CC6EFF4384A69BA625 /* Debug */,
+				F396C8D94EB34197B745DC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		20051017E7B44DD8A820FD6C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92196748B064421A312AE4B /* Debug */,
+				BBDC032996B0475BA9DC870D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6724DEA22D6643588C8C8757 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E6678AF543430BAE17968D /* Debug */,
+				8E0AA5A6D2934C51ABF9FB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		67E1A9D10A424ACAB55E10CF /* Build configuration list for PBXNativeTarget "opencv_cudev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0841CF641ADC4472B9BD65BB /* Debug */,
+				2A708450484A4C718BA7AFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7BB6E5C0590C45D4803E0C87 /* Build configuration list for PBXNativeTarget "opencv_cudev_object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F43AE6FFCE499EA3BFF82D /* Debug */,
+				42FFE03A4664469182ADC255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7F46758E7189412AA8AD741E /* Build configuration list for PBXNativeTarget "opencv_test_cudev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928E90051A7D4297A7213BB9 /* Debug */,
+				4837168CD9524F51BAF370E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BBFE5811D92141B79F11EC28 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62290A9D216B454B843F0FA6 /* Debug */,
+				3EAB7992D19C45338D125A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D784ACCD577B4845B9BA557F /* Build configuration list for PBXProject "opencv_cudev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C540C2D7C0DA46E5ABC457FD /* Debug */,
+				4A88F50F1218468AB1198C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 501CA1AA00BB4521A6D77E37 /* Project object */;
+}

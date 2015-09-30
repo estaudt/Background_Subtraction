@@ -1,0 +1,932 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8A8743744BAF4682A1EAE332 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				6D527A4F09A543718531BC9C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				8A6E43B490284197A0CC20B7 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DB03D1E5FD924B9CA7328B8E /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				3D4978C9EC3843FB97E46E35 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				79BC02CA61ED44CEBBA8103E /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 83B5DB3404AC418F88366D0A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5895D52CB89C413EB1D0F0BE /* CMake Rules */,
+			);
+			dependencies = (
+				99DC5DDBAA184359828B0AB1 /* PBXTargetDependency */,
+				BF875EEFF789477896A16669 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B4F75DCD27E4392B6688B6C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6BBF638EB3A14716A2BB4F71 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0225EDBFAA83482C92B96322 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmaster.c */ = {isa = PBXBuildFile; fileRef = A5397CFC47604FADB35FAFE0 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmaster.c */; settings = {COMPILER_FLAGS = ""; }; };
+		09EA533E039C4AF298065775 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctint.c */ = {isa = PBXBuildFile; fileRef = 4C88615D4C6143D293739653 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctint.c */; settings = {COMPILER_FLAGS = ""; }; };
+		117810C040FE498C8E90EF6B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jinclude.h */ = {isa = PBXBuildFile; fileRef = FFF341DF45ED4A658892BFBC /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jinclude.h */; settings = {COMPILER_FLAGS = ""; }; };
+		128D7226C5344167B234096A /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcomapi.c */ = {isa = PBXBuildFile; fileRef = D1B1E175F5EA4471BB3F7FD0 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcomapi.c */; settings = {COMPILER_FLAGS = ""; }; };
+		12A866B964DA41408DC5F3C0 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jpegint.h */ = {isa = PBXBuildFile; fileRef = 4FAD8FB95F544B9291DDC408 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jpegint.h */; settings = {COMPILER_FLAGS = ""; }; };
+		16D35D8A5F1F4D65A8EB0099 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctflt.c */ = {isa = PBXBuildFile; fileRef = 4CE160551D324B9DB901B8CE /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctflt.c */; settings = {COMPILER_FLAGS = ""; }; };
+		19BE51DD8EEE4BE4856C4740 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdinput.c */ = {isa = PBXBuildFile; fileRef = 77F451C768C04E748D807AC5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdinput.c */; settings = {COMPILER_FLAGS = ""; }; };
+		24FD35FF30264A5EB5CCC0F5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jccoefct.c */ = {isa = PBXBuildFile; fileRef = 930291D212104570B2A389DB /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jccoefct.c */; settings = {COMPILER_FLAGS = ""; }; };
+		25D9C3DD9D7D4177967861AC /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcprepct.c */ = {isa = PBXBuildFile; fileRef = 6D1D0DBB386F43F99DD26FC7 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcprepct.c */; settings = {COMPILER_FLAGS = ""; }; };
+		2A05C2506526446B98A21E6F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jquant1.c */ = {isa = PBXBuildFile; fileRef = 9738D7A778C84236900C96A7 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jquant1.c */; settings = {COMPILER_FLAGS = ""; }; };
+		36CBCAEAD8854B7FA2D2D46E /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmerge.c */ = {isa = PBXBuildFile; fileRef = CF1457C60BD5402AA9C06DC5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmerge.c */; settings = {COMPILER_FLAGS = ""; }; };
+		38C7666EE04C47FBA6722AD5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jquant2.c */ = {isa = PBXBuildFile; fileRef = 0C1AD651662746EB8D265EDE /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jquant2.c */; settings = {COMPILER_FLAGS = ""; }; };
+		3AEC6E6981064A8EA5ACD854 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jaricom.c */ = {isa = PBXBuildFile; fileRef = 81E368A4315F4D16A320719B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jaricom.c */; settings = {COMPILER_FLAGS = ""; }; };
+		3DCC74FBE1374075A3F64667 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmainct.c */ = {isa = PBXBuildFile; fileRef = 36122E7D1B364E9CAF489E0F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmainct.c */; settings = {COMPILER_FLAGS = ""; }; };
+		492E334E9E0B4BD3ABBE2862 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctflt.c */ = {isa = PBXBuildFile; fileRef = AED3733280FE4A26AD04198D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctflt.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4FA686493DFF47D9A356B490 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmarker.c */ = {isa = PBXBuildFile; fileRef = 855ED478C6004684AB0D7453 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmarker.c */; settings = {COMPILER_FLAGS = ""; }; };
+		56026414C7FC4536BC51378E /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemsys.h */ = {isa = PBXBuildFile; fileRef = EB2B823FB80D4731BE569A6B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemsys.h */; settings = {COMPILER_FLAGS = ""; }; };
+		57B4F93CCE9B4F49827D2667 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jchuff.c */ = {isa = PBXBuildFile; fileRef = 0BE5E67A4341425088CBA773 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jchuff.c */; settings = {COMPILER_FLAGS = ""; }; };
+		6526F1F6A4EF434C8F7247D4 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jerror.c */ = {isa = PBXBuildFile; fileRef = D99B1BAF9B9E42C49D03BA3B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jerror.c */; settings = {COMPILER_FLAGS = ""; }; };
+		65E7900AB96D48D2A873DCD6 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctfst.c */ = {isa = PBXBuildFile; fileRef = 251B68FC94DA4707934C86BF /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctfst.c */; settings = {COMPILER_FLAGS = ""; }; };
+		69FEA28DFEE14FBAA43A1F05 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmorecfg.h */ = {isa = PBXBuildFile; fileRef = 041B51F2BB76406181A3160F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmorecfg.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7268287F38524D91AB873C11 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 93979C9A88D84124A131C674 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		73A6090003C84735AEC277C5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdhuff.c */ = {isa = PBXBuildFile; fileRef = 55883B3663FD40A390BDD321 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdhuff.c */; settings = {COMPILER_FLAGS = ""; }; };
+		758E4849CB9A4407AECAE5EB /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jctrans.c */ = {isa = PBXBuildFile; fileRef = 708714FFF71140B4A3A4FCDA /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jctrans.c */; settings = {COMPILER_FLAGS = ""; }; };
+		762461A1A9E44E9B9BE31840 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jccolor.c */ = {isa = PBXBuildFile; fileRef = 0EDE555E83C1419E8756F693 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jccolor.c */; settings = {COMPILER_FLAGS = ""; }; };
+		78859900938C45D2B53AA349 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdcoefct.c */ = {isa = PBXBuildFile; fileRef = 04E3AFE134234F0390CE0D6B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdcoefct.c */; settings = {COMPILER_FLAGS = ""; }; };
+		7AA24D5BD72E4278A68C19D3 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcdctmgr.c */ = {isa = PBXBuildFile; fileRef = ED4C2CCD70EF47E8973DEC5F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcdctmgr.c */; settings = {COMPILER_FLAGS = "-O1"; }; };
+		7B337BCFD0D2487A8FD79706 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdtrans.c */ = {isa = PBXBuildFile; fileRef = C1A10AD7CE0346208CB7F882 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdtrans.c */; settings = {COMPILER_FLAGS = ""; }; };
+		7E02954CD9B04F289DD3AD0B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcsample.c */ = {isa = PBXBuildFile; fileRef = A0C0CCBE09DD4AAEA555C90D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcsample.c */; settings = {COMPILER_FLAGS = ""; }; };
+		818FC3991CDD4AC38C55D057 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdcolor.c */ = {isa = PBXBuildFile; fileRef = E38F7761069D4F0C8A0BC0EE /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdcolor.c */; settings = {COMPILER_FLAGS = ""; }; };
+		8252EB2E080A48BEA26BFCAB /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdapistd.c */ = {isa = PBXBuildFile; fileRef = 952CE6ED41A7491E97316401 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdapistd.c */; settings = {COMPILER_FLAGS = ""; }; };
+		831A2349A73F4825A5225250 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdatadst.c */ = {isa = PBXBuildFile; fileRef = B1B2D597286B44519682B48A /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdatadst.c */; settings = {COMPILER_FLAGS = ""; }; };
+		84C65C19CAEE454DB6F777AA /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmarker.c */ = {isa = PBXBuildFile; fileRef = 085104C16F164211A0DA6F18 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmarker.c */; settings = {COMPILER_FLAGS = ""; }; };
+		86CC213013214F129C85FE82 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdarith.c */ = {isa = PBXBuildFile; fileRef = 84DB48A1AFC8495E88CA2E87 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdarith.c */; settings = {COMPILER_FLAGS = ""; }; };
+		8CFC9A8F5B3B416EAE024FDC /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdct.h */ = {isa = PBXBuildFile; fileRef = 81FE475C71544F98B245380D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdct.h */; settings = {COMPILER_FLAGS = ""; }; };
+		949F1065114F4B8091C43542 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmainct.c */ = {isa = PBXBuildFile; fileRef = 2BDE40C142604ED6B4131DC5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmainct.c */; settings = {COMPILER_FLAGS = ""; }; };
+		9694A169918E41BB9DE90888 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jerror.h */ = {isa = PBXBuildFile; fileRef = 74E801244765487E9A3602E3 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jerror.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9FDA1BF49F6345D29414532E /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdsample.c */ = {isa = PBXBuildFile; fileRef = C2DA000FECE14CD7ACC20953 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdsample.c */; settings = {COMPILER_FLAGS = ""; }; };
+		A381A63D312C4FCABE257BBB /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jpeglib.h */ = {isa = PBXBuildFile; fileRef = EC0BEEC1828A40DA8A617C9B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jpeglib.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A646583231ED450B99ECBF34 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcarith.c */ = {isa = PBXBuildFile; fileRef = 12B185BAAD3548F8B3B505F3 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcarith.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B80D969FB8DF459191619C3F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jutils.c */ = {isa = PBXBuildFile; fileRef = 4713CC8EE7A24503B68A01C6 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jutils.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B9C6D6631B5048E4BBCD26D8 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcparam.c */ = {isa = PBXBuildFile; fileRef = C8C4C79D975C44CE9548867D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcparam.c */; settings = {COMPILER_FLAGS = ""; }; };
+		BC945BA516B1462BAE0CA6A3 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jddctmgr.c */ = {isa = PBXBuildFile; fileRef = 2579C389A41C4749873A3370 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jddctmgr.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C156D48A08FA4C719EC6DD4B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctfst.c */ = {isa = PBXBuildFile; fileRef = 120FE6C4088F4E489AE4917E /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctfst.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C5D91082CC72454B9F248A8C /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemmgr.c */ = {isa = PBXBuildFile; fileRef = B47130A96F54419A855AFFA7 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemmgr.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C8153C02986C4490B147572B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmaster.c */ = {isa = PBXBuildFile; fileRef = CE9ECB59D19C41DDBA52CE19 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmaster.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C84A8A9413004C4C9EAB3BE2 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdatasrc.c */ = {isa = PBXBuildFile; fileRef = B11E2DB5933D49748083EBDC /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdatasrc.c */; settings = {COMPILER_FLAGS = ""; }; };
+		CA70321E1BA840B6A82EEA50 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcapimin.c */ = {isa = PBXBuildFile; fileRef = F8DFCF39D98E434E8D7F9BA5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcapimin.c */; settings = {COMPILER_FLAGS = ""; }; };
+		CABF4E84AF89464EA87B920D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcapistd.c */ = {isa = PBXBuildFile; fileRef = 33A1786AB87744A88BC8711B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcapistd.c */; settings = {COMPILER_FLAGS = ""; }; };
+		CD5B7851E1B343B79D6DFCA5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdapimin.c */ = {isa = PBXBuildFile; fileRef = 021FB19BD51C4D2296A1828D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdapimin.c */; settings = {COMPILER_FLAGS = ""; }; };
+		D06FFAD082D0411DA8157551 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctint.c */ = {isa = PBXBuildFile; fileRef = BBCCF5D3D53A4ED38F90D686 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctint.c */; settings = {COMPILER_FLAGS = ""; }; };
+		D8653EEF7A774E98A91C3A0B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemnobs.c */ = {isa = PBXBuildFile; fileRef = 9B4FB3B0C2F94CE28FB1FF1A /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemnobs.c */; settings = {COMPILER_FLAGS = ""; }; };
+		D872C57EC8364D8E8FCB28EB /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdpostct.c */ = {isa = PBXBuildFile; fileRef = A6FA945A50F44CE0BABE6CEA /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdpostct.c */; settings = {COMPILER_FLAGS = ""; }; };
+		E6BCF7B831B2487599F011E7 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jconfig.h */ = {isa = PBXBuildFile; fileRef = 950012C5E8674393862AB802 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F54D7A7D99DD4E479FBC9631 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcinit.c */ = {isa = PBXBuildFile; fileRef = 20573C7ECD7A4D2981525AC9 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcinit.c */; settings = {COMPILER_FLAGS = ""; }; };
+		F7D9C04F75534393B2F02C30 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jversion.h */ = {isa = PBXBuildFile; fileRef = 2388663027394DB9B1A5BB1D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jversion.h */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		09F800036A334A8F877D3E6F = {
+			isa = PBXBuildStyle;
+		};
+		1BF2655A48CA42B78C264A40 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		242506B3794F46F89391507C /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2CEF0E58AFAA449CBEECE8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEBE31E7FE06402399F83A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		78BBFD3275FF4B9789481E87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEBE31E7FE06402399F83A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		A5DC06C463C2494B9EF3D8EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEBE31E7FE06402399F83A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACF39BC3F1F4980BAF5C8C4;
+			remoteInfo = libjpeg;
+		};
+		AD90C4651EE246CEABC89489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEBE31E7FE06402399F83A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		D19360D11F6549D7A8C1DC16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEBE31E7FE06402399F83A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021FB19BD51C4D2296A1828D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdapimin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdapimin.c; path = jdapimin.c; sourceTree = SOURCE_ROOT; };
+		041B51F2BB76406181A3160F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmorecfg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jmorecfg.h; path = jmorecfg.h; sourceTree = SOURCE_ROOT; };
+		04E3AFE134234F0390CE0D6B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdcoefct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdcoefct.c; path = jdcoefct.c; sourceTree = SOURCE_ROOT; };
+		05203C82373443A1A88F6305 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		085104C16F164211A0DA6F18 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmarker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmarker.c; path = jdmarker.c; sourceTree = SOURCE_ROOT; };
+		0BE5E67A4341425088CBA773 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jchuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jchuff.c; path = jchuff.c; sourceTree = SOURCE_ROOT; };
+		0C1AD651662746EB8D265EDE /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jquant2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jquant2.c; path = jquant2.c; sourceTree = SOURCE_ROOT; };
+		0DEA5207BFD740FD8E841C24 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0EDE555E83C1419E8756F693 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jccolor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jccolor.c; path = jccolor.c; sourceTree = SOURCE_ROOT; };
+		120FE6C4088F4E489AE4917E /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctfst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctfst.c; path = jfdctfst.c; sourceTree = SOURCE_ROOT; };
+		12B185BAAD3548F8B3B505F3 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcarith.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcarith.c; path = jcarith.c; sourceTree = SOURCE_ROOT; };
+		20573C7ECD7A4D2981525AC9 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcinit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcinit.c; path = jcinit.c; sourceTree = SOURCE_ROOT; };
+		2388663027394DB9B1A5BB1D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jversion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jversion.h; path = jversion.h; sourceTree = SOURCE_ROOT; };
+		251B68FC94DA4707934C86BF /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctfst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctfst.c; path = jidctfst.c; sourceTree = SOURCE_ROOT; };
+		2579C389A41C4749873A3370 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jddctmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jddctmgr.c; path = jddctmgr.c; sourceTree = SOURCE_ROOT; };
+		2BDE40C142604ED6B4131DC5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmainct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmainct.c; path = jcmainct.c; sourceTree = SOURCE_ROOT; };
+		33A1786AB87744A88BC8711B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcapistd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcapistd.c; path = jcapistd.c; sourceTree = SOURCE_ROOT; };
+		36122E7D1B364E9CAF489E0F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmainct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmainct.c; path = jdmainct.c; sourceTree = SOURCE_ROOT; };
+		4713CC8EE7A24503B68A01C6 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jutils.c; path = jutils.c; sourceTree = SOURCE_ROOT; };
+		4C88615D4C6143D293739653 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctint.c; path = jidctint.c; sourceTree = SOURCE_ROOT; };
+		4CE160551D324B9DB901B8CE /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctflt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctflt.c; path = jfdctflt.c; sourceTree = SOURCE_ROOT; };
+		4FAD8FB95F544B9291DDC408 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jpegint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpegint.h; path = jpegint.h; sourceTree = SOURCE_ROOT; };
+		55883B3663FD40A390BDD321 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdhuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdhuff.c; path = jdhuff.c; sourceTree = SOURCE_ROOT; };
+		6D1D0DBB386F43F99DD26FC7 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcprepct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcprepct.c; path = jcprepct.c; sourceTree = SOURCE_ROOT; };
+		708714FFF71140B4A3A4FCDA /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jctrans.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jctrans.c; path = jctrans.c; sourceTree = SOURCE_ROOT; };
+		74E801244765487E9A3602E3 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jerror.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jerror.h; path = jerror.h; sourceTree = SOURCE_ROOT; };
+		77F451C768C04E748D807AC5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdinput.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdinput.c; path = jdinput.c; sourceTree = SOURCE_ROOT; };
+		816F5FA2AF054C8D96ABCD43 /* libjpeg */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibjpeg.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E368A4315F4D16A320719B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jaricom.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jaricom.c; path = jaricom.c; sourceTree = SOURCE_ROOT; };
+		81FE475C71544F98B245380D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jdct.h; path = jdct.h; sourceTree = SOURCE_ROOT; };
+		84DB48A1AFC8495E88CA2E87 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdarith.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdarith.c; path = jdarith.c; sourceTree = SOURCE_ROOT; };
+		855ED478C6004684AB0D7453 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmarker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmarker.c; path = jcmarker.c; sourceTree = SOURCE_ROOT; };
+		930291D212104570B2A389DB /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jccoefct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jccoefct.c; path = jccoefct.c; sourceTree = SOURCE_ROOT; };
+		93979C9A88D84124A131C674 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		950012C5E8674393862AB802 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jconfig.h; path = jconfig.h; sourceTree = SOURCE_ROOT; };
+		952CE6ED41A7491E97316401 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdapistd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdapistd.c; path = jdapistd.c; sourceTree = SOURCE_ROOT; };
+		9738D7A778C84236900C96A7 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jquant1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jquant1.c; path = jquant1.c; sourceTree = SOURCE_ROOT; };
+		9B4FB3B0C2F94CE28FB1FF1A /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemnobs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jmemnobs.c; path = jmemnobs.c; sourceTree = SOURCE_ROOT; };
+		A0C0CCBE09DD4AAEA555C90D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcsample.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcsample.c; path = jcsample.c; sourceTree = SOURCE_ROOT; };
+		A5397CFC47604FADB35FAFE0 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmaster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmaster.c; path = jcmaster.c; sourceTree = SOURCE_ROOT; };
+		A6FA945A50F44CE0BABE6CEA /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdpostct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdpostct.c; path = jdpostct.c; sourceTree = SOURCE_ROOT; };
+		AED3733280FE4A26AD04198D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctflt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctflt.c; path = jidctflt.c; sourceTree = SOURCE_ROOT; };
+		B11E2DB5933D49748083EBDC /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdatasrc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdatasrc.c; path = jdatasrc.c; sourceTree = SOURCE_ROOT; };
+		B1B2D597286B44519682B48A /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdatadst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdatadst.c; path = jdatadst.c; sourceTree = SOURCE_ROOT; };
+		B47130A96F54419A855AFFA7 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jmemmgr.c; path = jmemmgr.c; sourceTree = SOURCE_ROOT; };
+		BBCCF5D3D53A4ED38F90D686 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctint.c; path = jfdctint.c; sourceTree = SOURCE_ROOT; };
+		C1A10AD7CE0346208CB7F882 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdtrans.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdtrans.c; path = jdtrans.c; sourceTree = SOURCE_ROOT; };
+		C2DA000FECE14CD7ACC20953 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdsample.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdsample.c; path = jdsample.c; sourceTree = SOURCE_ROOT; };
+		C8C4C79D975C44CE9548867D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcparam.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcparam.c; path = jcparam.c; sourceTree = SOURCE_ROOT; };
+		CE9ECB59D19C41DDBA52CE19 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmaster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmaster.c; path = jdmaster.c; sourceTree = SOURCE_ROOT; };
+		CF1457C60BD5402AA9C06DC5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmerge.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmerge.c; path = jdmerge.c; sourceTree = SOURCE_ROOT; };
+		D1B1E175F5EA4471BB3F7FD0 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcomapi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcomapi.c; path = jcomapi.c; sourceTree = SOURCE_ROOT; };
+		D99B1BAF9B9E42C49D03BA3B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jerror.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jerror.c; path = jerror.c; sourceTree = SOURCE_ROOT; };
+		E38F7761069D4F0C8A0BC0EE /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdcolor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdcolor.c; path = jdcolor.c; sourceTree = SOURCE_ROOT; };
+		EB2B823FB80D4731BE569A6B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemsys.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jmemsys.h; path = jmemsys.h; sourceTree = SOURCE_ROOT; };
+		EC0BEEC1828A40DA8A617C9B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jpeglib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpeglib.h; path = jpeglib.h; sourceTree = SOURCE_ROOT; };
+		ED4C2CCD70EF47E8973DEC5F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcdctmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcdctmgr.c; path = jcdctmgr.c; sourceTree = SOURCE_ROOT; };
+		F8DFCF39D98E434E8D7F9BA5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcapimin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcapimin.c; path = jcapimin.c; sourceTree = SOURCE_ROOT; };
+		FFF341DF45ED4A658892BFBC /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jinclude.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jinclude.h; path = jinclude.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		132B516195794988AB1174B5 /* libjpeg */ = {
+			isa = PBXGroup;
+			children = (
+				914A5DD24D124737AFE3475C /* Source Files */,
+				E2AB99CC11D9466886F9FAEB /* Header Files */,
+				93979C9A88D84124A131C674 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/CMakeLists.txt */,
+			);
+			name = libjpeg;
+			sourceTree = "<group>";
+		};
+		2CE1333DD3F1499296F0AF8C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		530A2AD3E7104A41827989A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816F5FA2AF054C8D96ABCD43 /* libjpeg */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6869B6A85D964FF090EE63FF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2CE1333DD3F1499296F0AF8C /* CMake Rules */,
+				0DEA5207BFD740FD8E841C24 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		89FDD64CBDD1482CB3948501 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				BB391BDB11074185AAFBF4EC /* CMake Rules */,
+				05203C82373443A1A88F6305 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		914A5DD24D124737AFE3475C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				81E368A4315F4D16A320719B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jaricom.c */,
+				F8DFCF39D98E434E8D7F9BA5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcapimin.c */,
+				33A1786AB87744A88BC8711B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcapistd.c */,
+				12B185BAAD3548F8B3B505F3 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcarith.c */,
+				930291D212104570B2A389DB /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jccoefct.c */,
+				0EDE555E83C1419E8756F693 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jccolor.c */,
+				ED4C2CCD70EF47E8973DEC5F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcdctmgr.c */,
+				0BE5E67A4341425088CBA773 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jchuff.c */,
+				20573C7ECD7A4D2981525AC9 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcinit.c */,
+				2BDE40C142604ED6B4131DC5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmainct.c */,
+				855ED478C6004684AB0D7453 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmarker.c */,
+				A5397CFC47604FADB35FAFE0 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmaster.c */,
+				D1B1E175F5EA4471BB3F7FD0 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcomapi.c */,
+				C8C4C79D975C44CE9548867D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcparam.c */,
+				6D1D0DBB386F43F99DD26FC7 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcprepct.c */,
+				A0C0CCBE09DD4AAEA555C90D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcsample.c */,
+				708714FFF71140B4A3A4FCDA /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jctrans.c */,
+				021FB19BD51C4D2296A1828D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdapimin.c */,
+				952CE6ED41A7491E97316401 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdapistd.c */,
+				84DB48A1AFC8495E88CA2E87 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdarith.c */,
+				B1B2D597286B44519682B48A /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdatadst.c */,
+				B11E2DB5933D49748083EBDC /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdatasrc.c */,
+				04E3AFE134234F0390CE0D6B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdcoefct.c */,
+				E38F7761069D4F0C8A0BC0EE /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdcolor.c */,
+				2579C389A41C4749873A3370 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jddctmgr.c */,
+				55883B3663FD40A390BDD321 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdhuff.c */,
+				77F451C768C04E748D807AC5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdinput.c */,
+				36122E7D1B364E9CAF489E0F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmainct.c */,
+				085104C16F164211A0DA6F18 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmarker.c */,
+				CE9ECB59D19C41DDBA52CE19 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmaster.c */,
+				CF1457C60BD5402AA9C06DC5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmerge.c */,
+				A6FA945A50F44CE0BABE6CEA /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdpostct.c */,
+				C2DA000FECE14CD7ACC20953 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdsample.c */,
+				C1A10AD7CE0346208CB7F882 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdtrans.c */,
+				D99B1BAF9B9E42C49D03BA3B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jerror.c */,
+				4CE160551D324B9DB901B8CE /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctflt.c */,
+				120FE6C4088F4E489AE4917E /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctfst.c */,
+				BBCCF5D3D53A4ED38F90D686 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctint.c */,
+				AED3733280FE4A26AD04198D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctflt.c */,
+				251B68FC94DA4707934C86BF /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctfst.c */,
+				4C88615D4C6143D293739653 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctint.c */,
+				B47130A96F54419A855AFFA7 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemmgr.c */,
+				9B4FB3B0C2F94CE28FB1FF1A /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemnobs.c */,
+				9738D7A778C84236900C96A7 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jquant1.c */,
+				0C1AD651662746EB8D265EDE /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jquant2.c */,
+				4713CC8EE7A24503B68A01C6 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jutils.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BB391BDB11074185AAFBF4EC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DD83B2F6D36644B2A1E7F337 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E2AB99CC11D9466886F9FAEB /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				950012C5E8674393862AB802 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jconfig.h */,
+				81FE475C71544F98B245380D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdct.h */,
+				74E801244765487E9A3602E3 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jerror.h */,
+				FFF341DF45ED4A658892BFBC /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jinclude.h */,
+				EB2B823FB80D4731BE569A6B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemsys.h */,
+				041B51F2BB76406181A3160F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmorecfg.h */,
+				4FAD8FB95F544B9291DDC408 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jpegint.h */,
+				EC0BEEC1828A40DA8A617C9B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jpeglib.h */,
+				2388663027394DB9B1A5BB1D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jversion.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E2CC3980DCE84585B69016B7 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				132B516195794988AB1174B5 /* libjpeg */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		EF0A32887D844EBCBD87F1FC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E2CC3980DCE84585B69016B7 /* 3rdparty */,
+				6869B6A85D964FF090EE63FF /* ALL_BUILD */,
+				89FDD64CBDD1482CB3948501 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		FC1DA08A08CA4284959B0F22 = {
+			isa = PBXGroup;
+			children = (
+				EF0A32887D844EBCBD87F1FC /* Sources */,
+				DD83B2F6D36644B2A1E7F337 /* Resources */,
+				530A2AD3E7104A41827989A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACF39BC3F1F4980BAF5C8C4 /* libjpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B889DC1B7E7E4ED59C56E667 /* Build configuration list for PBXNativeTarget "libjpeg" */;
+			buildPhases = (
+				2FD8BADF21C6411399103479 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C81A825F1AB54D8EACDC82CB /* PBXTargetDependency */,
+			);
+			name = libjpeg;
+			productName = libjpeg;
+			productReference = 816F5FA2AF054C8D96ABCD43 /* libjpeg */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEBE31E7FE06402399F83A69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = C9B0687BDFA547B598DBBEAD /* Build configuration list for PBXProject "libjpeg" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				242506B3794F46F89391507C /* Debug */,
+				1BF2655A48CA42B78C264A40 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = FC1DA08A08CA4284959B0F22;
+			projectDirPath = ../../../3rdparty/libjpeg;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				DACF39BC3F1F4980BAF5C8C4 /* libjpeg */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D71B10BE17542129F347EF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		18555BAA777043F199E6DA96 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2D08356F6C334FD18264984B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3D4978C9EC3843FB97E46E35 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libjpeg -f /Users/elliotstaudt/opencv/build/3rdparty/libjpeg/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5895D52CB89C413EB1D0F0BE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libjpeg -f /Users/elliotstaudt/opencv/build/3rdparty/libjpeg/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6BBF638EB3A14716A2BB4F71 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libjpeg -f /Users/elliotstaudt/opencv/build/3rdparty/libjpeg/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6D527A4F09A543718531BC9C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libjpeg -f /Users/elliotstaudt/opencv/build/3rdparty/libjpeg/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		83EFC1DF34C847C8B0359A29 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD8BADF21C6411399103479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEC6E6981064A8EA5ACD854 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jaricom.c */,
+				CA70321E1BA840B6A82EEA50 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcapimin.c */,
+				CABF4E84AF89464EA87B920D /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcapistd.c */,
+				A646583231ED450B99ECBF34 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcarith.c */,
+				24FD35FF30264A5EB5CCC0F5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jccoefct.c */,
+				762461A1A9E44E9B9BE31840 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jccolor.c */,
+				7AA24D5BD72E4278A68C19D3 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcdctmgr.c */,
+				57B4F93CCE9B4F49827D2667 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jchuff.c */,
+				F54D7A7D99DD4E479FBC9631 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcinit.c */,
+				949F1065114F4B8091C43542 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmainct.c */,
+				4FA686493DFF47D9A356B490 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmarker.c */,
+				0225EDBFAA83482C92B96322 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcmaster.c */,
+				128D7226C5344167B234096A /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcomapi.c */,
+				B9C6D6631B5048E4BBCD26D8 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcparam.c */,
+				25D9C3DD9D7D4177967861AC /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcprepct.c */,
+				7E02954CD9B04F289DD3AD0B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jcsample.c */,
+				758E4849CB9A4407AECAE5EB /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jctrans.c */,
+				CD5B7851E1B343B79D6DFCA5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdapimin.c */,
+				8252EB2E080A48BEA26BFCAB /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdapistd.c */,
+				86CC213013214F129C85FE82 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdarith.c */,
+				831A2349A73F4825A5225250 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdatadst.c */,
+				C84A8A9413004C4C9EAB3BE2 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdatasrc.c */,
+				78859900938C45D2B53AA349 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdcoefct.c */,
+				818FC3991CDD4AC38C55D057 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdcolor.c */,
+				BC945BA516B1462BAE0CA6A3 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jddctmgr.c */,
+				73A6090003C84735AEC277C5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdhuff.c */,
+				19BE51DD8EEE4BE4856C4740 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdinput.c */,
+				3DCC74FBE1374075A3F64667 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmainct.c */,
+				84C65C19CAEE454DB6F777AA /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmarker.c */,
+				C8153C02986C4490B147572B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmaster.c */,
+				36CBCAEAD8854B7FA2D2D46E /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdmerge.c */,
+				D872C57EC8364D8E8FCB28EB /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdpostct.c */,
+				9FDA1BF49F6345D29414532E /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdsample.c */,
+				7B337BCFD0D2487A8FD79706 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jdtrans.c */,
+				6526F1F6A4EF434C8F7247D4 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jerror.c */,
+				16D35D8A5F1F4D65A8EB0099 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctflt.c */,
+				C156D48A08FA4C719EC6DD4B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctfst.c */,
+				D06FFAD082D0411DA8157551 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jfdctint.c */,
+				492E334E9E0B4BD3ABBE2862 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctflt.c */,
+				65E7900AB96D48D2A873DCD6 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctfst.c */,
+				09EA533E039C4AF298065775 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jidctint.c */,
+				C5D91082CC72454B9F248A8C /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemmgr.c */,
+				D8653EEF7A774E98A91C3A0B /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jmemnobs.c */,
+				2A05C2506526446B98A21E6F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jquant1.c */,
+				38C7666EE04C47FBA6722AD5 /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jquant2.c */,
+				B80D969FB8DF459191619C3F /* /Users/elliotstaudt/opencv/3rdparty/libjpeg/jutils.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79BC02CA61ED44CEBBA8103E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 78BBFD3275FF4B9789481E87 /* PBXContainerItemProxy */;
+		};
+		8A6E43B490284197A0CC20B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = AD90C4651EE246CEABC89489 /* PBXContainerItemProxy */;
+		};
+		99DC5DDBAA184359828B0AB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACF39BC3F1F4980BAF5C8C4 /* libjpeg */;
+			targetProxy = A5DC06C463C2494B9EF3D8EA /* PBXContainerItemProxy */;
+		};
+		BF875EEFF789477896A16669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = D19360D11F6549D7A8C1DC16 /* PBXContainerItemProxy */;
+		};
+		C81A825F1AB54D8EACDC82CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 2CEF0E58AFAA449CBEECE8C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0861C7A5CF36498D81FF9F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjpeg, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjpeg;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		13A6433A64BA44B8B1C0ECA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjpeg, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjpeg;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		47AEED5B4BD84190B8AAD9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/3rdparty/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjpeg, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -Wno-cast-align -Wno-shadow -Wno-unused -Wno-unused-parameter     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libjpeg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjpeg;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		4FA854DA928A4301AF67ACCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjpeg, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjpeg;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		564DDC571CB14EEA91A9F00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjpeg, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjpeg;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		65B0901D251E4FD9B26BE5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjpeg, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjpeg;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		783773E24B1D48D197A91FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjpeg/build;
+			};
+			name = Debug;
+		};
+		7CBFF3FB404040EC93C679BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjpeg, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjpeg;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		8E16CD6F2B2347DCBF32AA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjpeg/build;
+			};
+			name = Release;
+		};
+		93C2C0D064FD47DAA62FE138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjpeg, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjpeg;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		C4209FF42F334ECC8390700E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjpeg, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjpeg;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		C9903D30826C4772A4376B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/3rdparty/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjpeg, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -Wno-cast-align -Wno-shadow -Wno-unused -Wno-unused-parameter         -DDEBUG -D_DEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libjpeg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjpeg;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B4F75DCD27E4392B6688B6C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CBFF3FB404040EC93C679BF /* Debug */,
+				C4209FF42F334ECC8390700E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		83B5DB3404AC418F88366D0A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA854DA928A4301AF67ACCF /* Debug */,
+				0861C7A5CF36498D81FF9F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A8743744BAF4682A1EAE332 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C2C0D064FD47DAA62FE138 /* Debug */,
+				65B0901D251E4FD9B26BE5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B889DC1B7E7E4ED59C56E667 /* Build configuration list for PBXNativeTarget "libjpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9903D30826C4772A4376B77 /* Debug */,
+				47AEED5B4BD84190B8AAD9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C9B0687BDFA547B598DBBEAD /* Build configuration list for PBXProject "libjpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783773E24B1D48D197A91FAF /* Debug */,
+				8E16CD6F2B2347DCBF32AA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DB03D1E5FD924B9CA7328B8E /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564DDC571CB14EEA91A9F00E /* Debug */,
+				13A6433A64BA44B8B1C0ECA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEBE31E7FE06402399F83A69 /* Project object */;
+}

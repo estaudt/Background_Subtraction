@@ -1,0 +1,1190 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 35F470E5FA6F4DDD810DCF6B /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				8689C7E78AE446D8920178D6 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				52776C9F33C748D29B0DBD8D /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3649F5DD8E8B4ACB804AAB63 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				F9FD96BBA62849769D48FF76 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				8906D8501A674C3FB0207F5C /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BFC8C81CD0524EFBAC23271D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8BBFA47592E943939ECB9C90 /* CMake Rules */,
+			);
+			dependencies = (
+				88B24A60545B400D844B3F49 /* PBXTargetDependency */,
+				E29FDF5CF5A74030A1CC681A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D970549B6E554822A9C6C635 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3EF37F6E7DFC427E853B1C8F /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0438143664B34890BF61ECB3 /* /Users/elliotstaudt/opencv/modules/videostab/src/inpainting.cpp */ = {isa = PBXBuildFile; fileRef = AD4E69A6517F43179F387E90 /* /Users/elliotstaudt/opencv/modules/videostab/src/inpainting.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0A693E736C5643B9B26A8686 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/frame_source.hpp */ = {isa = PBXBuildFile; fileRef = EFFC295709A54E209DD0DCE4 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/frame_source.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0ABCAEEFA81E43088DA19919 /* /Users/elliotstaudt/opencv/modules/videostab/src/frame_source.cpp */ = {isa = PBXBuildFile; fileRef = E8888D7B236C477DA79D67F1 /* /Users/elliotstaudt/opencv/modules/videostab/src/frame_source.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0BF8084C643F4E8689F1F19B /* /Users/elliotstaudt/opencv/modules/videostab/src/wobble_suppression.cpp */ = {isa = PBXBuildFile; fileRef = 093AF79A7C9C466CB92CAAD7 /* /Users/elliotstaudt/opencv/modules/videostab/src/wobble_suppression.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0E95CAA96563440EBBC56EC3 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp */ = {isa = PBXBuildFile; fileRef = E0205F4C92574EF997856CF6 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0F4813DE7FE14DA1B8784A83 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp */ = {isa = PBXBuildFile; fileRef = AD304F399A364D6E834C5D3C /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		117DB8920BFA434EBE22B245 /* /Users/elliotstaudt/opencv/modules/videostab/src/clp.hpp */ = {isa = PBXBuildFile; fileRef = 8E438135D6AA41EAA2589D6C /* /Users/elliotstaudt/opencv/modules/videostab/src/clp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		16C73188AD8A4CD7BEAC8DDE /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 267BC6C036514C0398D699A2 /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		18558F45EC074F45A337C89D /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab.hpp */ = {isa = PBXBuildFile; fileRef = DFC24C7553404F0084091112 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		18AF7F11EBCB46478526A19B /* /Users/elliotstaudt/opencv/modules/videostab/src/deblurring.cpp */ = {isa = PBXBuildFile; fileRef = CAA870EBA72542C9BE48C589 /* /Users/elliotstaudt/opencv/modules/videostab/src/deblurring.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1EE885E2217D4DC39838A858 /* /Users/elliotstaudt/opencv/modules/videostab/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2B56B4DF57714A30A9CC961B /* /Users/elliotstaudt/opencv/modules/videostab/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		2353B6E360354F2B97444692 /* /Users/elliotstaudt/opencv/modules/videostab/src/cuda/global_motion.cu */ = {isa = PBXBuildFile; fileRef = E2FF5021C0BA400FB8506280 /* /Users/elliotstaudt/opencv/modules/videostab/src/cuda/global_motion.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		2AF2BD8E422A4667B1BABF83 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/global_motion.hpp */ = {isa = PBXBuildFile; fileRef = A2E81EDAAD574EDC8C6F206B /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/global_motion.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		453D2B2EEF1A4EE69B82BEA3 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/deblurring.hpp */ = {isa = PBXBuildFile; fileRef = F709F7A2675941709EF85498 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/deblurring.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		46212F01D351412084E78D76 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 29CF5F911AE24130BF571941 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		47FB284A2A304CBB861B7667 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching.hpp */ = {isa = PBXBuildFile; fileRef = 6D4C45369995420B91A274EC /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		495286F4B1C645EEA8DDD153 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp */ = {isa = PBXBuildFile; fileRef = 758D8F19569248D48B5502F5 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		51E6AA123C7347828DC16543 /* /Users/elliotstaudt/opencv/build/modules/videostab/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_global_motion.cu.o */ = {isa = PBXBuildFile; fileRef = 5FF64380450B496A8FE60128 /* /Users/elliotstaudt/opencv/build/modules/videostab/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_global_motion.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		5656187ADAC949728D382AD1 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_core.hpp */ = {isa = PBXBuildFile; fileRef = E18CF935CEE94BDE846DB279 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_core.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		57B4B0341DF94CE8B0D8653C /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/log.hpp */ = {isa = PBXBuildFile; fileRef = 425CE927242440999D176A2B /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/log.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5A23C70BB84248D9BE9D58D7 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp */ = {isa = PBXBuildFile; fileRef = 9E841ADF4A91467F85E07561 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5CF304A7BEF245D88FE434C7 /* /Users/elliotstaudt/opencv/modules/videostab/src/wobble_suppression.cpp */ = {isa = PBXBuildFile; fileRef = AAF180F1A14D4320ADAB1059 /* /Users/elliotstaudt/opencv/modules/videostab/src/wobble_suppression.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		60C68013322B44C8B1790B7C /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/optical_flow.hpp */ = {isa = PBXBuildFile; fileRef = A8A8E85B78934F0FA02B1AC5 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/optical_flow.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		644FB15AA1614C6D88668E05 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/inpainting.hpp */ = {isa = PBXBuildFile; fileRef = B4D290C521034A32B745114E /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/inpainting.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		681A1A9CB2CE4DA88F0A5AD5 /* /Users/elliotstaudt/opencv/modules/videostab/src/motion_stabilizing.cpp */ = {isa = PBXBuildFile; fileRef = 12510BFB37334F5B81682F4F /* /Users/elliotstaudt/opencv/modules/videostab/src/motion_stabilizing.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6ED1B2C7B92E4D8A9024EBA7 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/optical_flow.hpp */ = {isa = PBXBuildFile; fileRef = CA297702689A40B1A99668B7 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/optical_flow.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		71BF60C7211A47B488F76AC4 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_core.hpp */ = {isa = PBXBuildFile; fileRef = 29EBEF9A987D4EB997A2487E /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_core.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		77C880F2D83A400CA0DFAA20 /* /Users/elliotstaudt/opencv/modules/videostab/src/fast_marching.cpp */ = {isa = PBXBuildFile; fileRef = 8A01048C36F14EB3B994CD81 /* /Users/elliotstaudt/opencv/modules/videostab/src/fast_marching.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		79BE728DF6E449228C769003 /* /Users/elliotstaudt/opencv/modules/videostab/src/global_motion.cpp */ = {isa = PBXBuildFile; fileRef = 377499543811405E92FD5BF6 /* /Users/elliotstaudt/opencv/modules/videostab/src/global_motion.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7C34D323159841859522769F /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/log.hpp */ = {isa = PBXBuildFile; fileRef = 80C9037DC6BE469597CFF8D0 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/log.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		83A47F28C0C54BC5A16047BB /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp */ = {isa = PBXBuildFile; fileRef = 9DEDB7595FA24489B8333477 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8A7589E8E9FE42CDA349CA50 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab.hpp */ = {isa = PBXBuildFile; fileRef = A441F992DDF64E33B5417B0A /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8C19D77541144490A0E779AC /* /Users/elliotstaudt/opencv/modules/videostab/src/fast_marching.cpp */ = {isa = PBXBuildFile; fileRef = B7718F873CFE43C5A1986D14 /* /Users/elliotstaudt/opencv/modules/videostab/src/fast_marching.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		919FDB44B4F94BE3B7AB3D00 /* /Users/elliotstaudt/opencv/modules/videostab/src/outlier_rejection.cpp */ = {isa = PBXBuildFile; fileRef = 78364E9766F94D76B8328C76 /* /Users/elliotstaudt/opencv/modules/videostab/src/outlier_rejection.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		95087E3813EA4157AEB53129 /* /Users/elliotstaudt/opencv/modules/videostab/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 028597BDC28C4CC1A54400AD /* /Users/elliotstaudt/opencv/modules/videostab/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		98A2DC2D98FC43BDACE5E74B /* /Users/elliotstaudt/opencv/modules/videostab/src/optical_flow.cpp */ = {isa = PBXBuildFile; fileRef = 4668B09C012B4F8E9320D55D /* /Users/elliotstaudt/opencv/modules/videostab/src/optical_flow.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9C6791929FA24F01A1A40DF0 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/deblurring.hpp */ = {isa = PBXBuildFile; fileRef = 39083C118C2843D7835B002F /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/deblurring.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9E55D4FA180C4A9282512B77 /* /Users/elliotstaudt/opencv/modules/videostab/src/log.cpp */ = {isa = PBXBuildFile; fileRef = 5EAB196959094C81B75C5F20 /* /Users/elliotstaudt/opencv/modules/videostab/src/log.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9FD61C5A5BFE426D8F1834B5 /* /Users/elliotstaudt/opencv/modules/videostab/src/motion_stabilizing.cpp */ = {isa = PBXBuildFile; fileRef = FC81C2AA4A2B43E49D7FC613 /* /Users/elliotstaudt/opencv/modules/videostab/src/motion_stabilizing.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A2E0553EF1BC4A34BA863083 /* /Users/elliotstaudt/opencv/modules/videostab/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FF1A3A3BDDA94E3B8193A252 /* /Users/elliotstaudt/opencv/modules/videostab/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		A32CA6D270B1493A96D6E7B6 /* /Users/elliotstaudt/opencv/modules/videostab/src/outlier_rejection.cpp */ = {isa = PBXBuildFile; fileRef = 8E70B7838B6347F0913548F1 /* /Users/elliotstaudt/opencv/modules/videostab/src/outlier_rejection.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A630A927FB9B45ABAD7574A0 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp */ = {isa = PBXBuildFile; fileRef = 44027DE35E5343009398A0A9 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AD4AC3717A2149129512C1AD /* /Users/elliotstaudt/opencv/modules/videostab/src/frame_source.cpp */ = {isa = PBXBuildFile; fileRef = 025A2486A9CD41BD87BBFD65 /* /Users/elliotstaudt/opencv/modules/videostab/src/frame_source.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B040BDD8BE794A2F9673E978 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = C6890D5179BC4817B27BB441 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B2BFE85D92E04F48BAACEE2A /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/ring_buffer.hpp */ = {isa = PBXBuildFile; fileRef = 3301277448F6431F800284EC /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/ring_buffer.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B4CD7124AF2342E98F96FCD3 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp */ = {isa = PBXBuildFile; fileRef = 04293FFEA0CA44C6B99EBF61 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B624823241AA47359F360462 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching.hpp */ = {isa = PBXBuildFile; fileRef = 600320429BAD4ABDADC76F56 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B80B2653FA0942C7BCC57609 /* /Users/elliotstaudt/opencv/modules/videostab/src/optical_flow.cpp */ = {isa = PBXBuildFile; fileRef = BA9419310EB44F258E2BDF71 /* /Users/elliotstaudt/opencv/modules/videostab/src/optical_flow.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B8683955F61B4455800D22BA /* /Users/elliotstaudt/opencv/modules/videostab/src/clp.hpp */ = {isa = PBXBuildFile; fileRef = EB90E2CA528B4A60B7F28E74 /* /Users/elliotstaudt/opencv/modules/videostab/src/clp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B8685FBFBDA64EA2BE12B323 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/global_motion.hpp */ = {isa = PBXBuildFile; fileRef = 41EF79E1D0654B438DC44157 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/global_motion.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BC54B7BE230744CF9DB26FB5 /* /Users/elliotstaudt/opencv/modules/videostab/src/deblurring.cpp */ = {isa = PBXBuildFile; fileRef = 3B90481CDDCC49F8B7021872 /* /Users/elliotstaudt/opencv/modules/videostab/src/deblurring.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C19E319D8AF24AEAB5ADB49A /* /Users/elliotstaudt/opencv/modules/videostab/src/log.cpp */ = {isa = PBXBuildFile; fileRef = 1BD3F7C240AA4F42968CFB20 /* /Users/elliotstaudt/opencv/modules/videostab/src/log.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C5FB4C877D23412B968BAB67 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/inpainting.hpp */ = {isa = PBXBuildFile; fileRef = 3AE2D7AFD8614B87A1B1B7CD /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/inpainting.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C7ED8521CC50453FB9378D53 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 247DC9BEA38A44AAB30D740F /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D0D1261CF898411F9055238A /* /Users/elliotstaudt/opencv/modules/videostab/src/stabilizer.cpp */ = {isa = PBXBuildFile; fileRef = 79EA3F7F85CA4599BA23396C /* /Users/elliotstaudt/opencv/modules/videostab/src/stabilizer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D2C38AE6BD164A56B08B40E0 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/ring_buffer.hpp */ = {isa = PBXBuildFile; fileRef = A912A1530D564B4386D2E34E /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/ring_buffer.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D5E8B22EBF9146E7B83F7FCF /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/stabilizer.hpp */ = {isa = PBXBuildFile; fileRef = 7FC6E308663549CAA4ABB967 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/stabilizer.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D6F49EF8ADB94323858DFA2A /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp */ = {isa = PBXBuildFile; fileRef = 731F0DF5DE674BE9927D7A2D /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E00A033CF10945158D5E3A99 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/stabilizer.hpp */ = {isa = PBXBuildFile; fileRef = C151FF20DF094E44B1EA3AD5 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/stabilizer.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E16C1B6400B540EDBFD48C80 /* /Users/elliotstaudt/opencv/modules/videostab/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 296FFFC87C61422691C82376 /* /Users/elliotstaudt/opencv/modules/videostab/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E27B7B02F6C8457AA0A3C1DE /* /Users/elliotstaudt/opencv/modules/videostab/src/cuda/global_motion.cu */ = {isa = PBXBuildFile; fileRef = 5E9145D163CA465CB52629C6 /* /Users/elliotstaudt/opencv/modules/videostab/src/cuda/global_motion.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		ECB6D4FE5CA949D0B39C6516 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/frame_source.hpp */ = {isa = PBXBuildFile; fileRef = 19972563361642849164E5D1 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/frame_source.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F25F2C0EEF304C7DB1A20FC6 /* /Users/elliotstaudt/opencv/modules/videostab/src/stabilizer.cpp */ = {isa = PBXBuildFile; fileRef = 270A8477C65A41C5A5299BB0 /* /Users/elliotstaudt/opencv/modules/videostab/src/stabilizer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F56B69581A38412DBA3D4606 /* /Users/elliotstaudt/opencv/modules/videostab/src/global_motion.cpp */ = {isa = PBXBuildFile; fileRef = B5ADE99E60D045A4825893B5 /* /Users/elliotstaudt/opencv/modules/videostab/src/global_motion.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F7FD1CFC05B14E7FBB01A5D1 /* /Users/elliotstaudt/opencv/modules/videostab/src/inpainting.cpp */ = {isa = PBXBuildFile; fileRef = 239D07DEF232450894299204 /* /Users/elliotstaudt/opencv/modules/videostab/src/inpainting.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		249854A3254A4D8BB7C19853 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6E4B3EAA98AE42CB8D9849E0 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		993CCA6BF6344416BB356A55 = {
+			isa = PBXBuildStyle;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0133558CDDEE4C3F8B97B33E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D19C6367A2440F68F4111B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		8B00C94E927B4AAEBFD137FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D19C6367A2440F68F4111B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		95FD9FE5B5FC42789D45492D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D19C6367A2440F68F4111B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		C63024B8DEE948DE939197DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D19C6367A2440F68F4111B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		C9D891C1924249C98A44528B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D19C6367A2440F68F4111B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB74B275F07C4F9391CDB0D4;
+			remoteInfo = opencv_videostab;
+		};
+		E1F4A67265C542629A4904FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D19C6367A2440F68F4111B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025A2486A9CD41BD87BBFD65 /* /Users/elliotstaudt/opencv/modules/videostab/src/frame_source.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = frame_source.cpp; path = src/frame_source.cpp; sourceTree = SOURCE_ROOT; };
+		028597BDC28C4CC1A54400AD /* /Users/elliotstaudt/opencv/modules/videostab/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		04293FFEA0CA44C6B99EBF61 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = motion_stabilizing.hpp; path = include/opencv2/videostab/motion_stabilizing.hpp; sourceTree = SOURCE_ROOT; };
+		093AF79A7C9C466CB92CAAD7 /* /Users/elliotstaudt/opencv/modules/videostab/src/wobble_suppression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wobble_suppression.cpp; path = src/wobble_suppression.cpp; sourceTree = SOURCE_ROOT; };
+		12510BFB37334F5B81682F4F /* /Users/elliotstaudt/opencv/modules/videostab/src/motion_stabilizing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = motion_stabilizing.cpp; path = src/motion_stabilizing.cpp; sourceTree = SOURCE_ROOT; };
+		19972563361642849164E5D1 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/frame_source.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = frame_source.hpp; path = include/opencv2/videostab/frame_source.hpp; sourceTree = SOURCE_ROOT; };
+		1BD3F7C240AA4F42968CFB20 /* /Users/elliotstaudt/opencv/modules/videostab/src/log.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = log.cpp; path = src/log.cpp; sourceTree = SOURCE_ROOT; };
+		239D07DEF232450894299204 /* /Users/elliotstaudt/opencv/modules/videostab/src/inpainting.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = inpainting.cpp; path = src/inpainting.cpp; sourceTree = SOURCE_ROOT; };
+		247DC9BEA38A44AAB30D740F /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		267BC6C036514C0398D699A2 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		270A8477C65A41C5A5299BB0 /* /Users/elliotstaudt/opencv/modules/videostab/src/stabilizer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stabilizer.cpp; path = src/stabilizer.cpp; sourceTree = SOURCE_ROOT; };
+		296FFFC87C61422691C82376 /* /Users/elliotstaudt/opencv/modules/videostab/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		29CF5F911AE24130BF571941 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		29EBEF9A987D4EB997A2487E /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_core.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = motion_core.hpp; path = include/opencv2/videostab/motion_core.hpp; sourceTree = SOURCE_ROOT; };
+		2B56B4DF57714A30A9CC961B /* /Users/elliotstaudt/opencv/modules/videostab/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3301277448F6431F800284EC /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/ring_buffer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ring_buffer.hpp; path = include/opencv2/videostab/ring_buffer.hpp; sourceTree = SOURCE_ROOT; };
+		377499543811405E92FD5BF6 /* /Users/elliotstaudt/opencv/modules/videostab/src/global_motion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = global_motion.cpp; path = src/global_motion.cpp; sourceTree = SOURCE_ROOT; };
+		39083C118C2843D7835B002F /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/deblurring.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = deblurring.hpp; path = include/opencv2/videostab/deblurring.hpp; sourceTree = SOURCE_ROOT; };
+		3AE2D7AFD8614B87A1B1B7CD /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/inpainting.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = inpainting.hpp; path = include/opencv2/videostab/inpainting.hpp; sourceTree = SOURCE_ROOT; };
+		3B90481CDDCC49F8B7021872 /* /Users/elliotstaudt/opencv/modules/videostab/src/deblurring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = deblurring.cpp; path = src/deblurring.cpp; sourceTree = SOURCE_ROOT; };
+		41EF79E1D0654B438DC44157 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/global_motion.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = global_motion.hpp; path = include/opencv2/videostab/global_motion.hpp; sourceTree = SOURCE_ROOT; };
+		425CE927242440999D176A2B /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/log.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = log.hpp; path = include/opencv2/videostab/log.hpp; sourceTree = SOURCE_ROOT; };
+		44027DE35E5343009398A0A9 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = motion_stabilizing.hpp; path = include/opencv2/videostab/motion_stabilizing.hpp; sourceTree = SOURCE_ROOT; };
+		460FFE748B9E44909ADC5939 /* /Users/elliotstaudt/opencv/modules/videostab/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4668B09C012B4F8E9320D55D /* /Users/elliotstaudt/opencv/modules/videostab/src/optical_flow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = optical_flow.cpp; path = src/optical_flow.cpp; sourceTree = SOURCE_ROOT; };
+		5C83DCA290D440CCA1576EDB /* opencv_videostab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_videostab.dylib; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9145D163CA465CB52629C6 /* /Users/elliotstaudt/opencv/modules/videostab/src/cuda/global_motion.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = global_motion.cu; path = src/cuda/global_motion.cu; sourceTree = SOURCE_ROOT; };
+		5EAB196959094C81B75C5F20 /* /Users/elliotstaudt/opencv/modules/videostab/src/log.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = log.cpp; path = src/log.cpp; sourceTree = SOURCE_ROOT; };
+		5FF64380450B496A8FE60128 /* /Users/elliotstaudt/opencv/build/modules/videostab/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_global_motion.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_global_motion.cu.o; path = "../../build/modules/videostab/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_global_motion.cu.o"; sourceTree = SOURCE_ROOT; };
+		600320429BAD4ABDADC76F56 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fast_marching.hpp; path = include/opencv2/videostab/fast_marching.hpp; sourceTree = SOURCE_ROOT; };
+		6D4C45369995420B91A274EC /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fast_marching.hpp; path = include/opencv2/videostab/fast_marching.hpp; sourceTree = SOURCE_ROOT; };
+		731F0DF5DE674BE9927D7A2D /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = outlier_rejection.hpp; path = include/opencv2/videostab/outlier_rejection.hpp; sourceTree = SOURCE_ROOT; };
+		758D8F19569248D48B5502F5 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = wobble_suppression.hpp; path = include/opencv2/videostab/wobble_suppression.hpp; sourceTree = SOURCE_ROOT; };
+		78364E9766F94D76B8328C76 /* /Users/elliotstaudt/opencv/modules/videostab/src/outlier_rejection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = outlier_rejection.cpp; path = src/outlier_rejection.cpp; sourceTree = SOURCE_ROOT; };
+		79EA3F7F85CA4599BA23396C /* /Users/elliotstaudt/opencv/modules/videostab/src/stabilizer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stabilizer.cpp; path = src/stabilizer.cpp; sourceTree = SOURCE_ROOT; };
+		7FC6E308663549CAA4ABB967 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/stabilizer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stabilizer.hpp; path = include/opencv2/videostab/stabilizer.hpp; sourceTree = SOURCE_ROOT; };
+		80C9037DC6BE469597CFF8D0 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/log.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = log.hpp; path = include/opencv2/videostab/log.hpp; sourceTree = SOURCE_ROOT; };
+		8A01048C36F14EB3B994CD81 /* /Users/elliotstaudt/opencv/modules/videostab/src/fast_marching.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fast_marching.cpp; path = src/fast_marching.cpp; sourceTree = SOURCE_ROOT; };
+		8E438135D6AA41EAA2589D6C /* /Users/elliotstaudt/opencv/modules/videostab/src/clp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = clp.hpp; path = src/clp.hpp; sourceTree = SOURCE_ROOT; };
+		8E70B7838B6347F0913548F1 /* /Users/elliotstaudt/opencv/modules/videostab/src/outlier_rejection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = outlier_rejection.cpp; path = src/outlier_rejection.cpp; sourceTree = SOURCE_ROOT; };
+		9DEDB7595FA24489B8333477 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fast_marching_inl.hpp; path = include/opencv2/videostab/fast_marching_inl.hpp; sourceTree = SOURCE_ROOT; };
+		9E841ADF4A91467F85E07561 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fast_marching_inl.hpp; path = include/opencv2/videostab/fast_marching_inl.hpp; sourceTree = SOURCE_ROOT; };
+		A2E81EDAAD574EDC8C6F206B /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/global_motion.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = global_motion.hpp; path = include/opencv2/videostab/global_motion.hpp; sourceTree = SOURCE_ROOT; };
+		A441F992DDF64E33B5417B0A /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = videostab.hpp; path = include/opencv2/videostab.hpp; sourceTree = SOURCE_ROOT; };
+		A8A8E85B78934F0FA02B1AC5 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/optical_flow.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = optical_flow.hpp; path = include/opencv2/videostab/optical_flow.hpp; sourceTree = SOURCE_ROOT; };
+		A912A1530D564B4386D2E34E /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/ring_buffer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ring_buffer.hpp; path = include/opencv2/videostab/ring_buffer.hpp; sourceTree = SOURCE_ROOT; };
+		AAF180F1A14D4320ADAB1059 /* /Users/elliotstaudt/opencv/modules/videostab/src/wobble_suppression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wobble_suppression.cpp; path = src/wobble_suppression.cpp; sourceTree = SOURCE_ROOT; };
+		AD304F399A364D6E834C5D3C /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = outlier_rejection.hpp; path = include/opencv2/videostab/outlier_rejection.hpp; sourceTree = SOURCE_ROOT; };
+		AD4E69A6517F43179F387E90 /* /Users/elliotstaudt/opencv/modules/videostab/src/inpainting.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = inpainting.cpp; path = src/inpainting.cpp; sourceTree = SOURCE_ROOT; };
+		B4D290C521034A32B745114E /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/inpainting.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = inpainting.hpp; path = include/opencv2/videostab/inpainting.hpp; sourceTree = SOURCE_ROOT; };
+		B5ADE99E60D045A4825893B5 /* /Users/elliotstaudt/opencv/modules/videostab/src/global_motion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = global_motion.cpp; path = src/global_motion.cpp; sourceTree = SOURCE_ROOT; };
+		B7718F873CFE43C5A1986D14 /* /Users/elliotstaudt/opencv/modules/videostab/src/fast_marching.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fast_marching.cpp; path = src/fast_marching.cpp; sourceTree = SOURCE_ROOT; };
+		BA9419310EB44F258E2BDF71 /* /Users/elliotstaudt/opencv/modules/videostab/src/optical_flow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = optical_flow.cpp; path = src/optical_flow.cpp; sourceTree = SOURCE_ROOT; };
+		C151FF20DF094E44B1EA3AD5 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/stabilizer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stabilizer.hpp; path = include/opencv2/videostab/stabilizer.hpp; sourceTree = SOURCE_ROOT; };
+		C6890D5179BC4817B27BB441 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		CA297702689A40B1A99668B7 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/optical_flow.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = optical_flow.hpp; path = include/opencv2/videostab/optical_flow.hpp; sourceTree = SOURCE_ROOT; };
+		CAA870EBA72542C9BE48C589 /* /Users/elliotstaudt/opencv/modules/videostab/src/deblurring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = deblurring.cpp; path = src/deblurring.cpp; sourceTree = SOURCE_ROOT; };
+		D6B48D485E214154997A15D6 /* opencv_videostab_object */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_videostab_object.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88BB2289E174C63A22F868B /* /Users/elliotstaudt/opencv/modules/videostab/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DFC24C7553404F0084091112 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = videostab.hpp; path = include/opencv2/videostab.hpp; sourceTree = SOURCE_ROOT; };
+		E0205F4C92574EF997856CF6 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = wobble_suppression.hpp; path = include/opencv2/videostab/wobble_suppression.hpp; sourceTree = SOURCE_ROOT; };
+		E18CF935CEE94BDE846DB279 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_core.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = motion_core.hpp; path = include/opencv2/videostab/motion_core.hpp; sourceTree = SOURCE_ROOT; };
+		E2FF5021C0BA400FB8506280 /* /Users/elliotstaudt/opencv/modules/videostab/src/cuda/global_motion.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = global_motion.cu; path = src/cuda/global_motion.cu; sourceTree = SOURCE_ROOT; };
+		E8888D7B236C477DA79D67F1 /* /Users/elliotstaudt/opencv/modules/videostab/src/frame_source.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = frame_source.cpp; path = src/frame_source.cpp; sourceTree = SOURCE_ROOT; };
+		EB90E2CA528B4A60B7F28E74 /* /Users/elliotstaudt/opencv/modules/videostab/src/clp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = clp.hpp; path = src/clp.hpp; sourceTree = SOURCE_ROOT; };
+		EFFC295709A54E209DD0DCE4 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/frame_source.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = frame_source.hpp; path = include/opencv2/videostab/frame_source.hpp; sourceTree = SOURCE_ROOT; };
+		F709F7A2675941709EF85498 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/deblurring.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = deblurring.hpp; path = include/opencv2/videostab/deblurring.hpp; sourceTree = SOURCE_ROOT; };
+		FC81C2AA4A2B43E49D7FC613 /* /Users/elliotstaudt/opencv/modules/videostab/src/motion_stabilizing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = motion_stabilizing.cpp; path = src/motion_stabilizing.cpp; sourceTree = SOURCE_ROOT; };
+		FF1A3A3BDDA94E3B8193A252 /* /Users/elliotstaudt/opencv/modules/videostab/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378CA175C5934448989507B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E6AA123C7347828DC16543 /* /Users/elliotstaudt/opencv/build/modules/videostab/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_global_motion.cu.o */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C83C516BB54AB9BBEE792A /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				D0F795A8037D4D2EA8DD21DF /* Cuda */,
+				8E438135D6AA41EAA2589D6C /* /Users/elliotstaudt/opencv/modules/videostab/src/clp.hpp */,
+				CAA870EBA72542C9BE48C589 /* /Users/elliotstaudt/opencv/modules/videostab/src/deblurring.cpp */,
+				8A01048C36F14EB3B994CD81 /* /Users/elliotstaudt/opencv/modules/videostab/src/fast_marching.cpp */,
+				025A2486A9CD41BD87BBFD65 /* /Users/elliotstaudt/opencv/modules/videostab/src/frame_source.cpp */,
+				B5ADE99E60D045A4825893B5 /* /Users/elliotstaudt/opencv/modules/videostab/src/global_motion.cpp */,
+				AD4E69A6517F43179F387E90 /* /Users/elliotstaudt/opencv/modules/videostab/src/inpainting.cpp */,
+				1BD3F7C240AA4F42968CFB20 /* /Users/elliotstaudt/opencv/modules/videostab/src/log.cpp */,
+				12510BFB37334F5B81682F4F /* /Users/elliotstaudt/opencv/modules/videostab/src/motion_stabilizing.cpp */,
+				BA9419310EB44F258E2BDF71 /* /Users/elliotstaudt/opencv/modules/videostab/src/optical_flow.cpp */,
+				78364E9766F94D76B8328C76 /* /Users/elliotstaudt/opencv/modules/videostab/src/outlier_rejection.cpp */,
+				296FFFC87C61422691C82376 /* /Users/elliotstaudt/opencv/modules/videostab/src/precomp.hpp */,
+				270A8477C65A41C5A5299BB0 /* /Users/elliotstaudt/opencv/modules/videostab/src/stabilizer.cpp */,
+				093AF79A7C9C466CB92CAAD7 /* /Users/elliotstaudt/opencv/modules/videostab/src/wobble_suppression.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		0E9D2580429A4E528CD5EE1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C83DCA290D440CCA1576EDB /* opencv_videostab */,
+				D6B48D485E214154997A15D6 /* opencv_videostab_object */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12FF438D64304386AE09E4C8 /* opencv_videostab_object */ = {
+			isa = PBXGroup;
+			children = (
+				F2B97F675F1A4C3A9240FB89 /* Include */,
+				EB795FF9EF344637940839E9 /* Src */,
+				9A968C8646A44551969A46B6 /* Header Files */,
+				2B56B4DF57714A30A9CC961B /* /Users/elliotstaudt/opencv/modules/videostab/CMakeLists.txt */,
+			);
+			name = opencv_videostab_object;
+			sourceTree = "<group>";
+		};
+		1D6F60E5589B47B8B66F223B /* videostab */ = {
+			isa = PBXGroup;
+			children = (
+				F709F7A2675941709EF85498 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/deblurring.hpp */,
+				6D4C45369995420B91A274EC /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching.hpp */,
+				9E841ADF4A91467F85E07561 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp */,
+				EFFC295709A54E209DD0DCE4 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/frame_source.hpp */,
+				41EF79E1D0654B438DC44157 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/global_motion.hpp */,
+				B4D290C521034A32B745114E /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/inpainting.hpp */,
+				425CE927242440999D176A2B /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/log.hpp */,
+				29EBEF9A987D4EB997A2487E /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_core.hpp */,
+				04293FFEA0CA44C6B99EBF61 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp */,
+				A8A8E85B78934F0FA02B1AC5 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/optical_flow.hpp */,
+				731F0DF5DE674BE9927D7A2D /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp */,
+				3301277448F6431F800284EC /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/ring_buffer.hpp */,
+				7FC6E308663549CAA4ABB967 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/stabilizer.hpp */,
+				758D8F19569248D48B5502F5 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp */,
+			);
+			name = videostab;
+			sourceTree = "<group>";
+		};
+		1F47EAEBEDF048EFB5CBE045 /* Cuda */ = {
+			isa = PBXGroup;
+			children = (
+				E2FF5021C0BA400FB8506280 /* /Users/elliotstaudt/opencv/modules/videostab/src/cuda/global_motion.cu */,
+			);
+			name = Cuda;
+			sourceTree = "<group>";
+		};
+		30217F09C6304ED3959ACD77 = {
+			isa = PBXGroup;
+			children = (
+				6E2EBC87DDF1473FB6232E3B /* Sources */,
+				6BB13A8B100E4DF18E47FD43 /* Resources */,
+				0E9D2580429A4E528CD5EE1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3291DCB30FC34F76ACC45D8C /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				47B8E74E06434709B69E284D /* opencv_videostab */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		35C0F8134B4E48C4A37C7FE9 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				3AA5865E0805413E8BB41395 /* CMake Rules */,
+				D88BB2289E174C63A22F868B /* /Users/elliotstaudt/opencv/modules/videostab/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		3AA5865E0805413E8BB41395 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		47B8E74E06434709B69E284D /* opencv_videostab */ = {
+			isa = PBXGroup;
+			children = (
+				90BD366C547E49398CC48A27 /* Include */,
+				00C83C516BB54AB9BBEE792A /* Src */,
+				D939F0F5A61045E18D6419CA /* Header Files */,
+				C989D61C2CA44A7187A17068 /* Object Files */,
+				FF1A3A3BDDA94E3B8193A252 /* /Users/elliotstaudt/opencv/modules/videostab/CMakeLists.txt */,
+			);
+			name = opencv_videostab;
+			sourceTree = "<group>";
+		};
+		5C142E11C47C45EE8221F58D /* videostab */ = {
+			isa = PBXGroup;
+			children = (
+				39083C118C2843D7835B002F /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/deblurring.hpp */,
+				600320429BAD4ABDADC76F56 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching.hpp */,
+				9DEDB7595FA24489B8333477 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp */,
+				19972563361642849164E5D1 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/frame_source.hpp */,
+				A2E81EDAAD574EDC8C6F206B /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/global_motion.hpp */,
+				3AE2D7AFD8614B87A1B1B7CD /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/inpainting.hpp */,
+				80C9037DC6BE469597CFF8D0 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/log.hpp */,
+				E18CF935CEE94BDE846DB279 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_core.hpp */,
+				44027DE35E5343009398A0A9 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp */,
+				CA297702689A40B1A99668B7 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/optical_flow.hpp */,
+				AD304F399A364D6E834C5D3C /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp */,
+				A912A1530D564B4386D2E34E /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/ring_buffer.hpp */,
+				C151FF20DF094E44B1EA3AD5 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/stabilizer.hpp */,
+				E0205F4C92574EF997856CF6 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp */,
+			);
+			name = videostab;
+			sourceTree = "<group>";
+		};
+		6BB13A8B100E4DF18E47FD43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6E2EBC87DDF1473FB6232E3B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D758AF543FFA42B0848807DD /* ALL_BUILD */,
+				3291DCB30FC34F76ACC45D8C /* modules */,
+				D19A3576FAB64B5088DA1B3D /* object_libraries */,
+				35C0F8134B4E48C4A37C7FE9 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		81051D69B4E548BDA033F797 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				5C142E11C47C45EE8221F58D /* videostab */,
+				DFC24C7553404F0084091112 /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		90BD366C547E49398CC48A27 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				CEC352BFF8F14CB08C06F56F /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		9A968C8646A44551969A46B6 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				267BC6C036514C0398D699A2 /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				29CF5F911AE24130BF571941 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		C989D61C2CA44A7187A17068 /* Object Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FF64380450B496A8FE60128 /* /Users/elliotstaudt/opencv/build/modules/videostab/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_global_motion.cu.o */,
+			);
+			name = "Object Files";
+			sourceTree = "<group>";
+		};
+		CEC352BFF8F14CB08C06F56F /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				1D6F60E5589B47B8B66F223B /* videostab */,
+				A441F992DDF64E33B5417B0A /* /Users/elliotstaudt/opencv/modules/videostab/include/opencv2/videostab.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		D0F795A8037D4D2EA8DD21DF /* Cuda */ = {
+			isa = PBXGroup;
+			children = (
+				5E9145D163CA465CB52629C6 /* /Users/elliotstaudt/opencv/modules/videostab/src/cuda/global_motion.cu */,
+			);
+			name = Cuda;
+			sourceTree = "<group>";
+		};
+		D19A3576FAB64B5088DA1B3D /* object_libraries */ = {
+			isa = PBXGroup;
+			children = (
+				12FF438D64304386AE09E4C8 /* opencv_videostab_object */,
+			);
+			name = object_libraries;
+			sourceTree = "<group>";
+		};
+		D758AF543FFA42B0848807DD /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F21FBEAC9A0D427EA0EC6E1C /* CMake Rules */,
+				460FFE748B9E44909ADC5939 /* /Users/elliotstaudt/opencv/modules/videostab/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D939F0F5A61045E18D6419CA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				247DC9BEA38A44AAB30D740F /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				C6890D5179BC4817B27BB441 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EB795FF9EF344637940839E9 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				1F47EAEBEDF048EFB5CBE045 /* Cuda */,
+				EB90E2CA528B4A60B7F28E74 /* /Users/elliotstaudt/opencv/modules/videostab/src/clp.hpp */,
+				3B90481CDDCC49F8B7021872 /* /Users/elliotstaudt/opencv/modules/videostab/src/deblurring.cpp */,
+				B7718F873CFE43C5A1986D14 /* /Users/elliotstaudt/opencv/modules/videostab/src/fast_marching.cpp */,
+				E8888D7B236C477DA79D67F1 /* /Users/elliotstaudt/opencv/modules/videostab/src/frame_source.cpp */,
+				377499543811405E92FD5BF6 /* /Users/elliotstaudt/opencv/modules/videostab/src/global_motion.cpp */,
+				239D07DEF232450894299204 /* /Users/elliotstaudt/opencv/modules/videostab/src/inpainting.cpp */,
+				5EAB196959094C81B75C5F20 /* /Users/elliotstaudt/opencv/modules/videostab/src/log.cpp */,
+				FC81C2AA4A2B43E49D7FC613 /* /Users/elliotstaudt/opencv/modules/videostab/src/motion_stabilizing.cpp */,
+				4668B09C012B4F8E9320D55D /* /Users/elliotstaudt/opencv/modules/videostab/src/optical_flow.cpp */,
+				8E70B7838B6347F0913548F1 /* /Users/elliotstaudt/opencv/modules/videostab/src/outlier_rejection.cpp */,
+				028597BDC28C4CC1A54400AD /* /Users/elliotstaudt/opencv/modules/videostab/src/precomp.hpp */,
+				79EA3F7F85CA4599BA23396C /* /Users/elliotstaudt/opencv/modules/videostab/src/stabilizer.cpp */,
+				AAF180F1A14D4320ADAB1059 /* /Users/elliotstaudt/opencv/modules/videostab/src/wobble_suppression.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		F21FBEAC9A0D427EA0EC6E1C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F2B97F675F1A4C3A9240FB89 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				81051D69B4E548BDA033F797 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FE828DCDE54475C91B5753C /* opencv_videostab_object */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D231B2CA250F4C2CAEA53FCA /* Build configuration list for PBXNativeTarget "opencv_videostab_object" */;
+			buildPhases = (
+				165D79E98AF94ED1B4EF47E0 /* CMake Rules */,
+				A6EDCB2CC8AC4D8BB10B612B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D03BC099F43143B8808FF176 /* PBXTargetDependency */,
+			);
+			name = opencv_videostab_object;
+			productName = opencv_videostab_object;
+			productReference = D6B48D485E214154997A15D6 /* opencv_videostab_object */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DB74B275F07C4F9391CDB0D4 /* opencv_videostab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4E576802A4465081CBA6FA /* Build configuration list for PBXNativeTarget "opencv_videostab" */;
+			buildPhases = (
+				DB71584A7FF34C3BA363FDBA /* CMake Rules */,
+				D55D2595236040B981CEC3A4 /* Sources */,
+				378CA175C5934448989507B9 /* Frameworks */,
+				AD9A72BC72554953BBE4EB4E /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				304FF08FDEE54B999BA03897 /* PBXTargetDependency */,
+			);
+			name = opencv_videostab;
+			productName = opencv_videostab;
+			productReference = 5C83DCA290D440CCA1576EDB /* opencv_videostab */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D19C6367A2440F68F4111B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = D2F1CA997C594683A7BE1F39 /* Build configuration list for PBXProject "opencv_videostab" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6E4B3EAA98AE42CB8D9849E0 /* Debug */,
+				249854A3254A4D8BB7C19853 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 30217F09C6304ED3959ACD77;
+			projectDirPath = ../../../modules/videostab;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				DB74B275F07C4F9391CDB0D4 /* opencv_videostab */,
+				6FE828DCDE54475C91B5753C /* opencv_videostab_object */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116A9144E3D644948B3357D1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		165D79E98AF94ED1B4EF47E0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/videostab -f /Users/elliotstaudt/opencv/build/modules/videostab/CMakeScripts/opencv_videostab_object_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3EF37F6E7DFC427E853B1C8F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/videostab -f /Users/elliotstaudt/opencv/build/modules/videostab/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		58E7FD3FC63A40DFAB142A70 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		76D6E8C5FA2F4717BD9E35B9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8689C7E78AE446D8920178D6 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/videostab -f /Users/elliotstaudt/opencv/build/modules/videostab/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8BBFA47592E943939ECB9C90 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/videostab -f /Users/elliotstaudt/opencv/build/modules/videostab/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AD9A72BC72554953BBE4EB4E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/videostab -f /Users/elliotstaudt/opencv/build/modules/videostab/CMakeScripts/opencv_videostab_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BF4A58A8C6E2475A9E13695D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DB71584A7FF34C3BA363FDBA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/videostab -f /Users/elliotstaudt/opencv/build/modules/videostab/CMakeScripts/opencv_videostab_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F9FD96BBA62849769D48FF76 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/videostab -f /Users/elliotstaudt/opencv/build/modules/videostab/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EDCB2CC8AC4D8BB10B612B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC54B7BE230744CF9DB26FB5 /* /Users/elliotstaudt/opencv/modules/videostab/src/deblurring.cpp */,
+				8C19D77541144490A0E779AC /* /Users/elliotstaudt/opencv/modules/videostab/src/fast_marching.cpp */,
+				0ABCAEEFA81E43088DA19919 /* /Users/elliotstaudt/opencv/modules/videostab/src/frame_source.cpp */,
+				79BE728DF6E449228C769003 /* /Users/elliotstaudt/opencv/modules/videostab/src/global_motion.cpp */,
+				F7FD1CFC05B14E7FBB01A5D1 /* /Users/elliotstaudt/opencv/modules/videostab/src/inpainting.cpp */,
+				9E55D4FA180C4A9282512B77 /* /Users/elliotstaudt/opencv/modules/videostab/src/log.cpp */,
+				9FD61C5A5BFE426D8F1834B5 /* /Users/elliotstaudt/opencv/modules/videostab/src/motion_stabilizing.cpp */,
+				98A2DC2D98FC43BDACE5E74B /* /Users/elliotstaudt/opencv/modules/videostab/src/optical_flow.cpp */,
+				A32CA6D270B1493A96D6E7B6 /* /Users/elliotstaudt/opencv/modules/videostab/src/outlier_rejection.cpp */,
+				D0D1261CF898411F9055238A /* /Users/elliotstaudt/opencv/modules/videostab/src/stabilizer.cpp */,
+				5CF304A7BEF245D88FE434C7 /* /Users/elliotstaudt/opencv/modules/videostab/src/wobble_suppression.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55D2595236040B981CEC3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AF7F11EBCB46478526A19B /* /Users/elliotstaudt/opencv/modules/videostab/src/deblurring.cpp */,
+				77C880F2D83A400CA0DFAA20 /* /Users/elliotstaudt/opencv/modules/videostab/src/fast_marching.cpp */,
+				AD4AC3717A2149129512C1AD /* /Users/elliotstaudt/opencv/modules/videostab/src/frame_source.cpp */,
+				F56B69581A38412DBA3D4606 /* /Users/elliotstaudt/opencv/modules/videostab/src/global_motion.cpp */,
+				0438143664B34890BF61ECB3 /* /Users/elliotstaudt/opencv/modules/videostab/src/inpainting.cpp */,
+				C19E319D8AF24AEAB5ADB49A /* /Users/elliotstaudt/opencv/modules/videostab/src/log.cpp */,
+				681A1A9CB2CE4DA88F0A5AD5 /* /Users/elliotstaudt/opencv/modules/videostab/src/motion_stabilizing.cpp */,
+				B80B2653FA0942C7BCC57609 /* /Users/elliotstaudt/opencv/modules/videostab/src/optical_flow.cpp */,
+				919FDB44B4F94BE3B7AB3D00 /* /Users/elliotstaudt/opencv/modules/videostab/src/outlier_rejection.cpp */,
+				F25F2C0EEF304C7DB1A20FC6 /* /Users/elliotstaudt/opencv/modules/videostab/src/stabilizer.cpp */,
+				0BF8084C643F4E8689F1F19B /* /Users/elliotstaudt/opencv/modules/videostab/src/wobble_suppression.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		304FF08FDEE54B999BA03897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = C63024B8DEE948DE939197DD /* PBXContainerItemProxy */;
+		};
+		52776C9F33C748D29B0DBD8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 95FD9FE5B5FC42789D45492D /* PBXContainerItemProxy */;
+		};
+		88B24A60545B400D844B3F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB74B275F07C4F9391CDB0D4 /* opencv_videostab */;
+			targetProxy = C9D891C1924249C98A44528B /* PBXContainerItemProxy */;
+		};
+		8906D8501A674C3FB0207F5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 0133558CDDEE4C3F8B97B33E /* PBXContainerItemProxy */;
+		};
+		D03BC099F43143B8808FF176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 8B00C94E927B4AAEBFD137FE /* PBXContainerItemProxy */;
+		};
+		E29FDF5CF5A74030A1CC681A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = E1F4A67265C542629A4904FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F6187B61CB74DF282964A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/videostab/include, /Users/elliotstaudt/opencv/modules/videostab/src, /Users/elliotstaudt/opencv/build/modules/videostab, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		1384ED6E75904100A84944DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/videostab/include, /Users/elliotstaudt/opencv/modules/videostab/src, /Users/elliotstaudt/opencv/build/modules/videostab, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		363F581C58884F939CB1E401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/videostab/include, /Users/elliotstaudt/opencv/modules/videostab/src, /Users/elliotstaudt/opencv/build/modules/videostab, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		3ED9CFD281A9432291C32308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/videostab/include, /Users/elliotstaudt/opencv/modules/videostab/src, /Users/elliotstaudt/opencv/build/modules/videostab, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videostab.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_photo.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaoptflow.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudalegacy.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_video.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaimgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudafilters.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_objdetect.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_videostab.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		44C8726436D741D48F6C5632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/videostab/include, /Users/elliotstaudt/opencv/modules/videostab/src, /Users/elliotstaudt/opencv/build/modules/videostab, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		677C7ADF37A142D7883B91DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/videostab/include, /Users/elliotstaudt/opencv/modules/videostab/src, /Users/elliotstaudt/opencv/build/modules/videostab, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		797862B9D5F842F280AF1F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/videostab/include, /Users/elliotstaudt/opencv/modules/videostab/src, /Users/elliotstaudt/opencv/build/modules/videostab, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		7C14E17D375F42CBB9D94FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/videostab/include, /Users/elliotstaudt/opencv/modules/videostab/src, /Users/elliotstaudt/opencv/build/modules/videostab, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videostab.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_photo.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaoptflow.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudalegacy.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_video.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaimgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudafilters.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_objdetect.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_videostab.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		A7F1107BE8B242C991FD0F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/videostab/opencv_videostab.build/Debug/opencv_videostab_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/videostab/include, /Users/elliotstaudt/opencv/modules/videostab/src, /Users/elliotstaudt/opencv/build/modules/videostab, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_videostab_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B54250C95DA34EB4B53EBEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab/build;
+			};
+			name = Debug;
+		};
+		D846D051E6BA42EA914C6149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/videostab/opencv_videostab.build/Release/opencv_videostab_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/videostab/include, /Users/elliotstaudt/opencv/modules/videostab/src, /Users/elliotstaudt/opencv/build/modules/videostab, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_videostab_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		D99C0ACD805D43F5B81AF101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab/build;
+			};
+			name = Release;
+		};
+		E938C9610C2A48A3ACD91A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/videostab/include, /Users/elliotstaudt/opencv/modules/videostab/src, /Users/elliotstaudt/opencv/build/modules/videostab, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		FAD510BC968C4261AD1CAF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/videostab/include, /Users/elliotstaudt/opencv/modules/videostab/src, /Users/elliotstaudt/opencv/build/modules/videostab, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /usr/local/cuda/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/videostab;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35F470E5FA6F4DDD810DCF6B /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797862B9D5F842F280AF1F33 /* Debug */,
+				363F581C58884F939CB1E401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3649F5DD8E8B4ACB804AAB63 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1384ED6E75904100A84944DD /* Debug */,
+				0F6187B61CB74DF282964A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC4E576802A4465081CBA6FA /* Build configuration list for PBXNativeTarget "opencv_videostab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C14E17D375F42CBB9D94FD8 /* Debug */,
+				3ED9CFD281A9432291C32308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BFC8C81CD0524EFBAC23271D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C8726436D741D48F6C5632 /* Debug */,
+				FAD510BC968C4261AD1CAF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D231B2CA250F4C2CAEA53FCA /* Build configuration list for PBXNativeTarget "opencv_videostab_object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F1107BE8B242C991FD0F08 /* Debug */,
+				D846D051E6BA42EA914C6149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2F1CA997C594683A7BE1F39 /* Build configuration list for PBXProject "opencv_videostab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54250C95DA34EB4B53EBEDC /* Debug */,
+				D99C0ACD805D43F5B81AF101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D970549B6E554822A9C6C635 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E938C9610C2A48A3ACD91A6C /* Debug */,
+				677C7ADF37A142D7883B91DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D19C6367A2440F68F4111B3 /* Project object */;
+}

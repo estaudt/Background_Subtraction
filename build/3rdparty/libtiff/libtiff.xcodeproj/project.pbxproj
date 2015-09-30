@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BA7DB38E5BC1473184D1F57E /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				9D9E015FA1594174AE92DA50 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				05432E275BA7427F861C18E7 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 662D9B4FD9B34367BF60039A /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				D73B2467424A494F9A2BFDE2 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				33BAE7AF0D2F4A2C99D3A7D3 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 536CDE3786A64102BA1EE6DE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				67BB730047CF43A088E5674B /* CMake Rules */,
+			);
+			dependencies = (
+				FC295AB84D134BA586577255 /* PBXTargetDependency */,
+				5773C2091469406AA3CC263E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B83AF695B04E409885B1D9A6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F5B07732DC1E418AB13D1411 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03A9DF833B6F427187BCA183 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_compress.c */ = {isa = PBXBuildFile; fileRef = 7315A713089746E9BCEC8667 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_compress.c */; settings = {COMPILER_FLAGS = ""; }; };
+		0B399476169348F88644B694 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_warning.c */ = {isa = PBXBuildFile; fileRef = 44351F14CD0C4F5DB2E9F633 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_warning.c */; settings = {COMPILER_FLAGS = ""; }; };
+		0D6BB9850B684294AF716209 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3sm.c */ = {isa = PBXBuildFile; fileRef = A2699FD712BC4790B865F768 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3sm.c */; settings = {COMPILER_FLAGS = ""; }; };
+		19947568745948D68449288B /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_close.c */ = {isa = PBXBuildFile; fileRef = 291A7AE15B8C4D048122A723 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_close.c */; settings = {COMPILER_FLAGS = ""; }; };
+		1A2DD0FB3D38487BA1A61108 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirread.c */ = {isa = PBXBuildFile; fileRef = D3FB6A4DFD1D4147A2A6C735 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirread.c */; settings = {COMPILER_FLAGS = ""; }; };
+		1C767B24B10441AA9046A83F /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_ojpeg.c */ = {isa = PBXBuildFile; fileRef = 3AD66382BFB642739E6E9390 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_ojpeg.c */; settings = {COMPILER_FLAGS = ""; }; };
+		1CA70CD6D8DF4816AEAB5CBD /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_aux.c */ = {isa = PBXBuildFile; fileRef = 43291961966D42B3AB88EBEF /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_aux.c */; settings = {COMPILER_FLAGS = ""; }; };
+		1CAA4DFE917F40F8AC90A0B4 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dir.h */ = {isa = PBXBuildFile; fileRef = BF76B6F719274B22B4932D46 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dir.h */; settings = {COMPILER_FLAGS = ""; }; };
+		23E9AE5C58794E24B199A204 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_lzma.c */ = {isa = PBXBuildFile; fileRef = D0606FA6DEFA4F0A89B12756 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_lzma.c */; settings = {COMPILER_FLAGS = ""; }; };
+		24AE02DE7F6F4C6A9C8A7963 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiff.h */ = {isa = PBXBuildFile; fileRef = 43996F1A00B24A6EBACB38B0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiff.h */; settings = {COMPILER_FLAGS = ""; }; };
+		378930E2DAD24735A823BC17 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_getimage.c */ = {isa = PBXBuildFile; fileRef = EA71BC13B21E47E5BAC3FAC9 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_getimage.c */; settings = {COMPILER_FLAGS = ""; }; };
+		383C558323BC49C9A16CB77C /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_extension.c */ = {isa = PBXBuildFile; fileRef = 4BB1F5B27FF248BC8B3036C7 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_extension.c */; settings = {COMPILER_FLAGS = ""; }; };
+		403EBEE573BA45EF870C44EB /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_strip.c */ = {isa = PBXBuildFile; fileRef = 4553E0D53F29490D92F43564 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_strip.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4528145F38BA461491C219BA /* /Users/elliotstaudt/opencv/3rdparty/libtiff/t4.h */ = {isa = PBXBuildFile; fileRef = 3C343C81978D4CBFA61D65A5 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/t4.h */; settings = {COMPILER_FLAGS = ""; }; };
+		465AE205AACE4D63A801F34A /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jpeg_12.c */ = {isa = PBXBuildFile; fileRef = 7C86329CF5B54994BAA7A401 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jpeg_12.c */; settings = {COMPILER_FLAGS = ""; }; };
+		47D4ED84EEB44DCD8BEEB4C1 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dumpmode.c */ = {isa = PBXBuildFile; fileRef = 8BE3DCE5CF66422DBFAC6791 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dumpmode.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4F3CEBAB53174442AD0EAF17 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_stream.cxx */ = {isa = PBXBuildFile; fileRef = 822519BC616A49B09E728FF3 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_stream.cxx */; settings = {COMPILER_FLAGS = ""; }; };
+		50F80685C1194F2BB65FA7AB /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffiop.h */ = {isa = PBXBuildFile; fileRef = FD208B3725DF4F17AFD15A71 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffiop.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5688A9661AED4911BC35A523 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_unix.c */ = {isa = PBXBuildFile; fileRef = 428FD782992D445EA21E8AC5 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_unix.c */; settings = {COMPILER_FLAGS = ""; }; };
+		58C7277E05AB43F4A7179265 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/uvcode.h */ = {isa = PBXBuildFile; fileRef = 1DCE39F97F6B42C1812651F6 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/uvcode.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6045074D30354B1EA95F3417 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_swab.c */ = {isa = PBXBuildFile; fileRef = 7F720F506A5E427B82AC6795 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_swab.c */; settings = {COMPILER_FLAGS = ""; }; };
+		6B65990A246C4402B3CC6B24 /* /Users/elliotstaudt/opencv/build/3rdparty/libtiff/tif_config.h */ = {isa = PBXBuildFile; fileRef = C48A2F025DF24099ACE66E98 /* /Users/elliotstaudt/opencv/build/3rdparty/libtiff/tif_config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6B748BD64A864119BF83AB65 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_packbits.c */ = {isa = PBXBuildFile; fileRef = 835411ECF8A241DCAF68BDF1 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_packbits.c */; settings = {COMPILER_FLAGS = ""; }; };
+		6D53E0444DBC4E01B51A9DB0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_tile.c */ = {isa = PBXBuildFile; fileRef = 71462D246DEC42048AA14590 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_tile.c */; settings = {COMPILER_FLAGS = ""; }; };
+		6F41B24FC8724F1EB3C6B9C2 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirwrite.c */ = {isa = PBXBuildFile; fileRef = 9B1E88120D8F41AD80AF8236 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirwrite.c */; settings = {COMPILER_FLAGS = ""; }; };
+		82D0201C39A44836B23B94B0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffio.hxx */ = {isa = PBXBuildFile; fileRef = AE04FC1BE306428A9945C5A5 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffio.hxx */; settings = {COMPILER_FLAGS = ""; }; };
+		8CA4D7F5F375407CA0CB3BDE /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_error.c */ = {isa = PBXBuildFile; fileRef = 879BD9BEFF254A9EB4E0E6DA /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_error.c */; settings = {COMPILER_FLAGS = ""; }; };
+		91841514C21F4AD9B6B332BC /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_read.c */ = {isa = PBXBuildFile; fileRef = 3862CE341DC14870916DBDF2 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_read.c */; settings = {COMPILER_FLAGS = ""; }; };
+		9210330C69D842F0B5B4D1D4 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_next.c */ = {isa = PBXBuildFile; fileRef = 76880E9720B04F09B9679D71 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_next.c */; settings = {COMPILER_FLAGS = ""; }; };
+		94A16A6E30C847D5B0D1B97A /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_codec.c */ = {isa = PBXBuildFile; fileRef = 0B60CCB206FD41DE85E116D5 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_codec.c */; settings = {COMPILER_FLAGS = ""; }; };
+		98B2A9995D3C46C194B50631 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A72D64A6C69D4B088164FDEA /* /Users/elliotstaudt/opencv/3rdparty/libtiff/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		98FCD4EDF72B4047B310D531 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dir.c */ = {isa = PBXBuildFile; fileRef = 4422F1DB0F9D44F687D64EE8 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dir.c */; settings = {COMPILER_FLAGS = ""; }; };
+		9BD9E3C304CD45CF9EA275AB /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_predict.c */ = {isa = PBXBuildFile; fileRef = 722BF55D0BD4494B80ECB435 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_predict.c */; settings = {COMPILER_FLAGS = ""; }; };
+		A49C3E3716164476BDB15A3A /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_write.c */ = {isa = PBXBuildFile; fileRef = 77C4DBAEFA4E48DFA97C0457 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_write.c */; settings = {COMPILER_FLAGS = ""; }; };
+		A8C27719CEC546E5B58954DC /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffio.h */ = {isa = PBXBuildFile; fileRef = 660B9DE02B394B059F08ABB0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffio.h */; settings = {COMPILER_FLAGS = ""; }; };
+		BE509F78B70044BBBA6EEDA7 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_thunder.c */ = {isa = PBXBuildFile; fileRef = E765CEA9C00E45BB8F230043 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_thunder.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C1EAC0F745404BE38404C024 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_luv.c */ = {isa = PBXBuildFile; fileRef = 1E14F65369E14A419D21EA86 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_luv.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C47C3F8D8A844ACAAE6B8678 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_color.c */ = {isa = PBXBuildFile; fileRef = 4B26CA4384C141E18FE6D29D /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_color.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C620974577E74AC8BAA92B76 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_lzw.c */ = {isa = PBXBuildFile; fileRef = 78BBC0FE22BD4A03BBE0EFA0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_lzw.c */; settings = {COMPILER_FLAGS = ""; }; };
+		D8085F6102E54070A98ACF0C /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3.h */ = {isa = PBXBuildFile; fileRef = E73212C4D55C410E95A72156 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D885B2E4B4F844E58A46E669 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_flush.c */ = {isa = PBXBuildFile; fileRef = 1F03682859964A1C9ADF3050 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_flush.c */; settings = {COMPILER_FLAGS = ""; }; };
+		D931D3842F5F47E786F64566 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_version.c */ = {isa = PBXBuildFile; fileRef = 10BED2BC4D724AABBAE91C15 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_version.c */; settings = {COMPILER_FLAGS = ""; }; };
+		DF496452280248FB8C056A10 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirinfo.c */ = {isa = PBXBuildFile; fileRef = CA64110E0D754922814810EB /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirinfo.c */; settings = {COMPILER_FLAGS = ""; }; };
+		DF91E7BB95F94D059FDE10E7 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jbig.c */ = {isa = PBXBuildFile; fileRef = 1688E648ED8B46C2A22FC48B /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jbig.c */; settings = {COMPILER_FLAGS = ""; }; };
+		E083834CA2D54667B5EA11FA /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_print.c */ = {isa = PBXBuildFile; fileRef = 469CA015567B4F52BAEB9178 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_print.c */; settings = {COMPILER_FLAGS = ""; }; };
+		E1149BF69E114CC1B2529502 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffvers.h */ = {isa = PBXBuildFile; fileRef = 85472A15161441F3A199C5D0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffvers.h */; settings = {COMPILER_FLAGS = ""; }; };
+		ED4514432C6F4BACA20DCDF9 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_zip.c */ = {isa = PBXBuildFile; fileRef = C7C2250579E74EE3B9E4C9F4 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_zip.c */; settings = {COMPILER_FLAGS = ""; }; };
+		F6A683FDF7FD491FBA26E3BB /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3.c */ = {isa = PBXBuildFile; fileRef = E623099BC14C47F3ADCD358A /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3.c */; settings = {COMPILER_FLAGS = ""; }; };
+		F9AA780F1A8A458DA1B48469 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_open.c */ = {isa = PBXBuildFile; fileRef = 83C20312A4E44FBE9DF547ED /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_open.c */; settings = {COMPILER_FLAGS = ""; }; };
+		F9B6D7BE00314951B4BEF95B /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jpeg.c */ = {isa = PBXBuildFile; fileRef = 35E16F6B26584D97B0D44D47 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jpeg.c */; settings = {COMPILER_FLAGS = ""; }; };
+		FDE71F31812242EDACD25C32 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_predict.h */ = {isa = PBXBuildFile; fileRef = 1E4FF868BF76474FB43F067E /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_predict.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FEBF68B3FEBC429281AE3CED /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_pixarlog.c */ = {isa = PBXBuildFile; fileRef = EEFD04E0EC4A40FFAAE9ADAF /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_pixarlog.c */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		25E77B20E3284DD1BCDC165E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A6B95BEFBD44405081ACEF44 = {
+			isa = PBXBuildStyle;
+		};
+		CE4CB6DB4FDA4219BF652F54 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		07ABCFE0AEB24E95800E3485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DBFB860A834B65903046C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		15CAA1BEB79F4C37BA840EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DBFB860A834B65903046C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		43ABF502F4AA4A9B959B33DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DBFB860A834B65903046C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		49196B28D79A49488512B01D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DBFB860A834B65903046C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70058F647894AD3A0C5BB48;
+			remoteInfo = libtiff;
+		};
+		EE791A9AE6AB480389ABE90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DBFB860A834B65903046C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B60CCB206FD41DE85E116D5 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_codec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_codec.c; path = tif_codec.c; sourceTree = SOURCE_ROOT; };
+		10BED2BC4D724AABBAE91C15 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_version.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_version.c; path = tif_version.c; sourceTree = SOURCE_ROOT; };
+		1688E648ED8B46C2A22FC48B /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jbig.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_jbig.c; path = tif_jbig.c; sourceTree = SOURCE_ROOT; };
+		1DCE39F97F6B42C1812651F6 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/uvcode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uvcode.h; path = uvcode.h; sourceTree = SOURCE_ROOT; };
+		1E14F65369E14A419D21EA86 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_luv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_luv.c; path = tif_luv.c; sourceTree = SOURCE_ROOT; };
+		1E4FF868BF76474FB43F067E /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_predict.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tif_predict.h; path = tif_predict.h; sourceTree = SOURCE_ROOT; };
+		1F03682859964A1C9ADF3050 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_flush.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_flush.c; path = tif_flush.c; sourceTree = SOURCE_ROOT; };
+		291A7AE15B8C4D048122A723 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_close.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_close.c; path = tif_close.c; sourceTree = SOURCE_ROOT; };
+		35E16F6B26584D97B0D44D47 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jpeg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_jpeg.c; path = tif_jpeg.c; sourceTree = SOURCE_ROOT; };
+		3862CE341DC14870916DBDF2 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_read.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_read.c; path = tif_read.c; sourceTree = SOURCE_ROOT; };
+		3AD66382BFB642739E6E9390 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_ojpeg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_ojpeg.c; path = tif_ojpeg.c; sourceTree = SOURCE_ROOT; };
+		3C343C81978D4CBFA61D65A5 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/t4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = t4.h; path = t4.h; sourceTree = SOURCE_ROOT; };
+		428FD782992D445EA21E8AC5 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_unix.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_unix.c; path = tif_unix.c; sourceTree = SOURCE_ROOT; };
+		43291961966D42B3AB88EBEF /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_aux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_aux.c; path = tif_aux.c; sourceTree = SOURCE_ROOT; };
+		43996F1A00B24A6EBACB38B0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiff.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiff.h; path = tiff.h; sourceTree = SOURCE_ROOT; };
+		4422F1DB0F9D44F687D64EE8 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dir.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dir.c; path = tif_dir.c; sourceTree = SOURCE_ROOT; };
+		44351F14CD0C4F5DB2E9F633 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_warning.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_warning.c; path = tif_warning.c; sourceTree = SOURCE_ROOT; };
+		4553E0D53F29490D92F43564 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_strip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_strip.c; path = tif_strip.c; sourceTree = SOURCE_ROOT; };
+		469CA015567B4F52BAEB9178 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_print.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_print.c; path = tif_print.c; sourceTree = SOURCE_ROOT; };
+		4B26CA4384C141E18FE6D29D /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_color.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_color.c; path = tif_color.c; sourceTree = SOURCE_ROOT; };
+		4BB1F5B27FF248BC8B3036C7 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_extension.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_extension.c; path = tif_extension.c; sourceTree = SOURCE_ROOT; };
+		660B9DE02B394B059F08ABB0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiffio.h; path = tiffio.h; sourceTree = SOURCE_ROOT; };
+		71462D246DEC42048AA14590 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_tile.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_tile.c; path = tif_tile.c; sourceTree = SOURCE_ROOT; };
+		72168A9179A848E88549DD22 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		722BF55D0BD4494B80ECB435 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_predict.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_predict.c; path = tif_predict.c; sourceTree = SOURCE_ROOT; };
+		7315A713089746E9BCEC8667 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_compress.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_compress.c; path = tif_compress.c; sourceTree = SOURCE_ROOT; };
+		76880E9720B04F09B9679D71 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_next.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_next.c; path = tif_next.c; sourceTree = SOURCE_ROOT; };
+		77C4DBAEFA4E48DFA97C0457 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_write.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_write.c; path = tif_write.c; sourceTree = SOURCE_ROOT; };
+		78BBC0FE22BD4A03BBE0EFA0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_lzw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_lzw.c; path = tif_lzw.c; sourceTree = SOURCE_ROOT; };
+		7937B679702B4DF0967F01F0 /* libtiff */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibtiff.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C86329CF5B54994BAA7A401 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jpeg_12.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_jpeg_12.c; path = tif_jpeg_12.c; sourceTree = SOURCE_ROOT; };
+		7F720F506A5E427B82AC6795 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_swab.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_swab.c; path = tif_swab.c; sourceTree = SOURCE_ROOT; };
+		822519BC616A49B09E728FF3 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_stream.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tif_stream.cxx; path = tif_stream.cxx; sourceTree = SOURCE_ROOT; };
+		835411ECF8A241DCAF68BDF1 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_packbits.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_packbits.c; path = tif_packbits.c; sourceTree = SOURCE_ROOT; };
+		83C20312A4E44FBE9DF547ED /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_open.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_open.c; path = tif_open.c; sourceTree = SOURCE_ROOT; };
+		85472A15161441F3A199C5D0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffvers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiffvers.h; path = tiffvers.h; sourceTree = SOURCE_ROOT; };
+		879BD9BEFF254A9EB4E0E6DA /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_error.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_error.c; path = tif_error.c; sourceTree = SOURCE_ROOT; };
+		8BE3DCE5CF66422DBFAC6791 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dumpmode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dumpmode.c; path = tif_dumpmode.c; sourceTree = SOURCE_ROOT; };
+		9B1E88120D8F41AD80AF8236 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dirwrite.c; path = tif_dirwrite.c; sourceTree = SOURCE_ROOT; };
+		A2699FD712BC4790B865F768 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3sm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_fax3sm.c; path = tif_fax3sm.c; sourceTree = SOURCE_ROOT; };
+		A72D64A6C69D4B088164FDEA /* /Users/elliotstaudt/opencv/3rdparty/libtiff/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AE04FC1BE306428A9945C5A5 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffio.hxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tiffio.hxx; path = tiffio.hxx; sourceTree = SOURCE_ROOT; };
+		BF76B6F719274B22B4932D46 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dir.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tif_dir.h; path = tif_dir.h; sourceTree = SOURCE_ROOT; };
+		C48A2F025DF24099ACE66E98 /* /Users/elliotstaudt/opencv/build/3rdparty/libtiff/tif_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tif_config.h; path = ../../build/3rdparty/libtiff/tif_config.h; sourceTree = SOURCE_ROOT; };
+		C7C2250579E74EE3B9E4C9F4 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_zip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_zip.c; path = tif_zip.c; sourceTree = SOURCE_ROOT; };
+		CA64110E0D754922814810EB /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dirinfo.c; path = tif_dirinfo.c; sourceTree = SOURCE_ROOT; };
+		D0606FA6DEFA4F0A89B12756 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_lzma.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_lzma.c; path = tif_lzma.c; sourceTree = SOURCE_ROOT; };
+		D3FB6A4DFD1D4147A2A6C735 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dirread.c; path = tif_dirread.c; sourceTree = SOURCE_ROOT; };
+		E4966A45EBD8450DBEE33190 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E623099BC14C47F3ADCD358A /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_fax3.c; path = tif_fax3.c; sourceTree = SOURCE_ROOT; };
+		E73212C4D55C410E95A72156 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tif_fax3.h; path = tif_fax3.h; sourceTree = SOURCE_ROOT; };
+		E765CEA9C00E45BB8F230043 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_thunder.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_thunder.c; path = tif_thunder.c; sourceTree = SOURCE_ROOT; };
+		EA71BC13B21E47E5BAC3FAC9 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_getimage.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_getimage.c; path = tif_getimage.c; sourceTree = SOURCE_ROOT; };
+		EEFD04E0EC4A40FFAAE9ADAF /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_pixarlog.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_pixarlog.c; path = tif_pixarlog.c; sourceTree = SOURCE_ROOT; };
+		FD208B3725DF4F17AFD15A71 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffiop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiffiop.h; path = tiffiop.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		23E13EFC2F82453EB9C5B12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7937B679702B4DF0967F01F0 /* libtiff */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4291F93D6C9F4A6A9C60A867 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C951ADAA9B9748E985897133 /* CMake Rules */,
+				72168A9179A848E88549DD22 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4E0836CB52CA40C1B8970A8B /* libtiff */ = {
+			isa = PBXGroup;
+			children = (
+				D696A60132524989B347E7F0 /* Source Files */,
+				4EDC6E0934E74297A83F7F04 /* Header Files */,
+				A72D64A6C69D4B088164FDEA /* /Users/elliotstaudt/opencv/3rdparty/libtiff/CMakeLists.txt */,
+			);
+			name = libtiff;
+			sourceTree = "<group>";
+		};
+		4EDC6E0934E74297A83F7F04 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C343C81978D4CBFA61D65A5 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/t4.h */,
+				BF76B6F719274B22B4932D46 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dir.h */,
+				E73212C4D55C410E95A72156 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3.h */,
+				1E4FF868BF76474FB43F067E /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_predict.h */,
+				43996F1A00B24A6EBACB38B0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiff.h */,
+				660B9DE02B394B059F08ABB0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffio.h */,
+				AE04FC1BE306428A9945C5A5 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffio.hxx */,
+				FD208B3725DF4F17AFD15A71 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffiop.h */,
+				85472A15161441F3A199C5D0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tiffvers.h */,
+				1DCE39F97F6B42C1812651F6 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/uvcode.h */,
+				C48A2F025DF24099ACE66E98 /* /Users/elliotstaudt/opencv/build/3rdparty/libtiff/tif_config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		50E2056B2756406E8145CE8A = {
+			isa = PBXGroup;
+			children = (
+				FF95393AA216454DB94A4024 /* Sources */,
+				F4580F392C144724811ADAC9 /* Resources */,
+				23E13EFC2F82453EB9C5B12E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD40726AD8243F1BB885A08 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A875C6E56C3A4477B76A27FE /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				8CD40726AD8243F1BB885A08 /* CMake Rules */,
+				E4966A45EBD8450DBEE33190 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		C951ADAA9B9748E985897133 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D696A60132524989B347E7F0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				43291961966D42B3AB88EBEF /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_aux.c */,
+				291A7AE15B8C4D048122A723 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_close.c */,
+				0B60CCB206FD41DE85E116D5 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_codec.c */,
+				4B26CA4384C141E18FE6D29D /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_color.c */,
+				7315A713089746E9BCEC8667 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_compress.c */,
+				4422F1DB0F9D44F687D64EE8 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dir.c */,
+				CA64110E0D754922814810EB /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirinfo.c */,
+				D3FB6A4DFD1D4147A2A6C735 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirread.c */,
+				9B1E88120D8F41AD80AF8236 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirwrite.c */,
+				8BE3DCE5CF66422DBFAC6791 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dumpmode.c */,
+				879BD9BEFF254A9EB4E0E6DA /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_error.c */,
+				4BB1F5B27FF248BC8B3036C7 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_extension.c */,
+				E623099BC14C47F3ADCD358A /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3.c */,
+				A2699FD712BC4790B865F768 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3sm.c */,
+				1F03682859964A1C9ADF3050 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_flush.c */,
+				EA71BC13B21E47E5BAC3FAC9 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_getimage.c */,
+				1688E648ED8B46C2A22FC48B /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jbig.c */,
+				35E16F6B26584D97B0D44D47 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jpeg.c */,
+				7C86329CF5B54994BAA7A401 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jpeg_12.c */,
+				1E14F65369E14A419D21EA86 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_luv.c */,
+				D0606FA6DEFA4F0A89B12756 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_lzma.c */,
+				78BBC0FE22BD4A03BBE0EFA0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_lzw.c */,
+				76880E9720B04F09B9679D71 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_next.c */,
+				3AD66382BFB642739E6E9390 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_ojpeg.c */,
+				83C20312A4E44FBE9DF547ED /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_open.c */,
+				835411ECF8A241DCAF68BDF1 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_packbits.c */,
+				EEFD04E0EC4A40FFAAE9ADAF /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_pixarlog.c */,
+				722BF55D0BD4494B80ECB435 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_predict.c */,
+				469CA015567B4F52BAEB9178 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_print.c */,
+				3862CE341DC14870916DBDF2 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_read.c */,
+				822519BC616A49B09E728FF3 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_stream.cxx */,
+				4553E0D53F29490D92F43564 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_strip.c */,
+				7F720F506A5E427B82AC6795 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_swab.c */,
+				E765CEA9C00E45BB8F230043 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_thunder.c */,
+				71462D246DEC42048AA14590 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_tile.c */,
+				428FD782992D445EA21E8AC5 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_unix.c */,
+				10BED2BC4D724AABBAE91C15 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_version.c */,
+				44351F14CD0C4F5DB2E9F633 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_warning.c */,
+				77C4DBAEFA4E48DFA97C0457 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_write.c */,
+				C7C2250579E74EE3B9E4C9F4 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_zip.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F055D90FF54A49DC954F5CC3 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				4E0836CB52CA40C1B8970A8B /* libtiff */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		F4580F392C144724811ADAC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FF95393AA216454DB94A4024 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4291F93D6C9F4A6A9C60A867 /* ALL_BUILD */,
+				A875C6E56C3A4477B76A27FE /* ZERO_CHECK */,
+				F055D90FF54A49DC954F5CC3 /* 3rdparty */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C70058F647894AD3A0C5BB48 /* libtiff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E44CC4D06CC46308D4652AF /* Build configuration list for PBXNativeTarget "libtiff" */;
+			buildPhases = (
+				E8D05B2A3A6048559A861AE2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDF9BBEED7F402187539EEF /* PBXTargetDependency */,
+			);
+			name = libtiff;
+			productName = libtiff;
+			productReference = 7937B679702B4DF0967F01F0 /* libtiff */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DBFB860A834B65903046C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 38F9E2EDACDB4D4BA2D3228E /* Build configuration list for PBXProject "libtiff" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				CE4CB6DB4FDA4219BF652F54 /* Debug */,
+				25E77B20E3284DD1BCDC165E /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 50E2056B2756406E8145CE8A;
+			projectDirPath = ../../../3rdparty/libtiff;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				C70058F647894AD3A0C5BB48 /* libtiff */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67BB730047CF43A088E5674B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libtiff -f /Users/elliotstaudt/opencv/build/3rdparty/libtiff/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9D9E015FA1594174AE92DA50 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libtiff -f /Users/elliotstaudt/opencv/build/3rdparty/libtiff/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A227C93566B04C74B6B54A55 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A43F6445E31B4C8F93CF601A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D73B2467424A494F9A2BFDE2 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libtiff -f /Users/elliotstaudt/opencv/build/3rdparty/libtiff/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F5B07732DC1E418AB13D1411 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libtiff -f /Users/elliotstaudt/opencv/build/3rdparty/libtiff/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F71B7C72FD364C5DA44E32EA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F763389263944A3FA872E559 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8D05B2A3A6048559A861AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA70CD6D8DF4816AEAB5CBD /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_aux.c */,
+				19947568745948D68449288B /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_close.c */,
+				94A16A6E30C847D5B0D1B97A /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_codec.c */,
+				C47C3F8D8A844ACAAE6B8678 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_color.c */,
+				03A9DF833B6F427187BCA183 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_compress.c */,
+				98FCD4EDF72B4047B310D531 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dir.c */,
+				DF496452280248FB8C056A10 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirinfo.c */,
+				1A2DD0FB3D38487BA1A61108 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirread.c */,
+				6F41B24FC8724F1EB3C6B9C2 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dirwrite.c */,
+				47D4ED84EEB44DCD8BEEB4C1 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_dumpmode.c */,
+				8CA4D7F5F375407CA0CB3BDE /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_error.c */,
+				383C558323BC49C9A16CB77C /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_extension.c */,
+				F6A683FDF7FD491FBA26E3BB /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3.c */,
+				0D6BB9850B684294AF716209 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_fax3sm.c */,
+				D885B2E4B4F844E58A46E669 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_flush.c */,
+				378930E2DAD24735A823BC17 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_getimage.c */,
+				DF91E7BB95F94D059FDE10E7 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jbig.c */,
+				F9B6D7BE00314951B4BEF95B /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jpeg.c */,
+				465AE205AACE4D63A801F34A /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_jpeg_12.c */,
+				C1EAC0F745404BE38404C024 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_luv.c */,
+				23E9AE5C58794E24B199A204 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_lzma.c */,
+				C620974577E74AC8BAA92B76 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_lzw.c */,
+				9210330C69D842F0B5B4D1D4 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_next.c */,
+				1C767B24B10441AA9046A83F /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_ojpeg.c */,
+				F9AA780F1A8A458DA1B48469 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_open.c */,
+				6B748BD64A864119BF83AB65 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_packbits.c */,
+				FEBF68B3FEBC429281AE3CED /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_pixarlog.c */,
+				9BD9E3C304CD45CF9EA275AB /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_predict.c */,
+				E083834CA2D54667B5EA11FA /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_print.c */,
+				91841514C21F4AD9B6B332BC /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_read.c */,
+				4F3CEBAB53174442AD0EAF17 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_stream.cxx */,
+				403EBEE573BA45EF870C44EB /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_strip.c */,
+				6045074D30354B1EA95F3417 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_swab.c */,
+				BE509F78B70044BBBA6EEDA7 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_thunder.c */,
+				6D53E0444DBC4E01B51A9DB0 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_tile.c */,
+				5688A9661AED4911BC35A523 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_unix.c */,
+				D931D3842F5F47E786F64566 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_version.c */,
+				0B399476169348F88644B694 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_warning.c */,
+				A49C3E3716164476BDB15A3A /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_write.c */,
+				ED4514432C6F4BACA20DCDF9 /* /Users/elliotstaudt/opencv/3rdparty/libtiff/tif_zip.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05432E275BA7427F861C18E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = EE791A9AE6AB480389ABE90C /* PBXContainerItemProxy */;
+		};
+		33BAE7AF0D2F4A2C99D3A7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 07ABCFE0AEB24E95800E3485 /* PBXContainerItemProxy */;
+		};
+		5773C2091469406AA3CC263E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 43ABF502F4AA4A9B959B33DA /* PBXContainerItemProxy */;
+		};
+		DEDF9BBEED7F402187539EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 15CAA1BEB79F4C37BA840EBB /* PBXContainerItemProxy */;
+		};
+		FC295AB84D134BA586577255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70058F647894AD3A0C5BB48 /* libtiff */;
+			targetProxy = 49196B28D79A49488512B01D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0842847825C044B2AD263644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/3rdparty/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/libtiff, /Users/elliotstaudt/opencv/3rdparty/libtiff, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-unused-parameter -fPIC     -DNDEBUG  -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libtiff;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libtiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		147EFDE2410C46B79F8B97A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/libtiff, /Users/elliotstaudt/opencv/3rdparty/libtiff, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libtiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		1F5DD60A049A4C9BA61C18BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/libtiff, /Users/elliotstaudt/opencv/3rdparty/libtiff, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libtiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		334163C1BA9F40688ADAB28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/3rdparty/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/libtiff, /Users/elliotstaudt/opencv/3rdparty/libtiff, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-unused-parameter -fPIC         -DDEBUG -D_DEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter         -DDEBUG -D_DEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libtiff;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libtiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		5F9F3356B81C4C6ABA7F2E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/libtiff, /Users/elliotstaudt/opencv/3rdparty/libtiff, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libtiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		60E6BFE5A6FF4920B381D7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/libtiff, /Users/elliotstaudt/opencv/3rdparty/libtiff, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libtiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		88BAFA52F8394F6F8BFE30AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/libtiff, /Users/elliotstaudt/opencv/3rdparty/libtiff, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libtiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		93B467B918A2401E85CCA5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libtiff/build;
+			};
+			name = Debug;
+		};
+		9F812845B0B6421CA07E7FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/libtiff, /Users/elliotstaudt/opencv/3rdparty/libtiff, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libtiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		AD52FD1B0F064E7DA492732B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libtiff/build;
+			};
+			name = Release;
+		};
+		F851BBAB0811403EBE43264A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/libtiff, /Users/elliotstaudt/opencv/3rdparty/libtiff, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libtiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		FDD7C16143944865A9706BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/libtiff, /Users/elliotstaudt/opencv/3rdparty/libtiff, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libtiff;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38F9E2EDACDB4D4BA2D3228E /* Build configuration list for PBXProject "libtiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B467B918A2401E85CCA5AB /* Debug */,
+				AD52FD1B0F064E7DA492732B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		536CDE3786A64102BA1EE6DE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88BAFA52F8394F6F8BFE30AF /* Debug */,
+				9F812845B0B6421CA07E7FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		662D9B4FD9B34367BF60039A /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5DD60A049A4C9BA61C18BF /* Debug */,
+				147EFDE2410C46B79F8B97A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6E44CC4D06CC46308D4652AF /* Build configuration list for PBXNativeTarget "libtiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334163C1BA9F40688ADAB28E /* Debug */,
+				0842847825C044B2AD263644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B83AF695B04E409885B1D9A6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9F3356B81C4C6ABA7F2E78 /* Debug */,
+				F851BBAB0811403EBE43264A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BA7DB38E5BC1473184D1F57E /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD7C16143944865A9706BCC /* Debug */,
+				60E6BFE5A6FF4920B381D7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89DBFB860A834B65903046C5 /* Project object */;
+}

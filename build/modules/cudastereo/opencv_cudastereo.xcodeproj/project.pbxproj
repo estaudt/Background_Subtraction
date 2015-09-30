@@ -1,0 +1,1450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5365553382C24419A7181D0D /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				B6EF934D82CD46BB9C0A4534 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				41E10C268FF54B9982F2DFD8 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7055395FA18949B7B67B14FD /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				3C7DE6AE0B684D6082CEC332 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				136E8CD230484749B9BB927F /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 29194349456D45B9809AEE92 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BB2DFEEDCEB140DFBEB9BAD1 /* CMake Rules */,
+			);
+			dependencies = (
+				6238601F354A48029CA868E7 /* PBXTargetDependency */,
+				AE0C3897A4FF4AD49F71AD8E /* PBXTargetDependency */,
+				795CCD35C7994F108F1B85A6 /* PBXTargetDependency */,
+				342B2D242659494991917D45 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48F294E1F11E4CB28673154A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0AD1F47E762D4049BD1E0696 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		098E217A259B412F9963FDF6 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_stereo.cpp */ = {isa = PBXBuildFile; fileRef = 4D442F3F2B8147FEAE1866A3 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_stereo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0AB3CB12F7634AF190440CF6 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 7F60C74886274A69AF106CE5 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0DABEF15B1F2402C9352A36F /* /Users/elliotstaudt/opencv/modules/cudastereo/include/opencv2/cudastereo.hpp */ = {isa = PBXBuildFile; fileRef = 594842217A184C08A76F2737 /* /Users/elliotstaudt/opencv/modules/cudastereo/include/opencv2/cudastereo.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0E7D1EEDE4E34DF784459FD0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.hpp */ = {isa = PBXBuildFile; fileRef = 006E168F090240BCAB3E91C1 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		13586AE284174BC6AB4AF5F9 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 7AA201CACEFC4BBB84F158EF /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1B3219E49D944C838AF9B0C2 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_disparity_bilateral_filter.cu.o */ = {isa = PBXBuildFile; fileRef = 258579E3ED3B406889C301C7 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_disparity_bilateral_filter.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		1B6683AC90DE4EB8BF00537A /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobm.cu */ = {isa = PBXBuildFile; fileRef = 1D3A204EC901481A927BCBF5 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobm.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		1C172FC27EEB491AB0E043D1 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 6C426F6C8E164696A0784422 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1EDFCFFF742441C8A3EA7F0E /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 576B24C946EC4FC3AC4BA507 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1F3752577C294C14B463BECF /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 7192E464ACF34E5591217206 /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		281CDB5495FD474BB7B768D6 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.hpp */ = {isa = PBXBuildFile; fileRef = 01E3F38978D9423AA712E097 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2A7575D58B694504BA754DC2 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobm.cu */ = {isa = PBXBuildFile; fileRef = 814B3CB5E96E417E80E6AAF3 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobm.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		3A07667D2BD04757AA305C55 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_main.cpp */ = {isa = PBXBuildFile; fileRef = EF7BB0CA895D42F69661D6D2 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		42571BFD25434FD0BEC6F3D2 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/util.cu */ = {isa = PBXBuildFile; fileRef = C8D357228EED4B5DADBAB75D /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/util.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		48797297854B433FB581CA47 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/util.cpp */ = {isa = PBXBuildFile; fileRef = 5BE6771AE4EA46BBAA255836 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/util.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		489E31C2A3CE4F6AA7857992 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobp.cpp */ = {isa = PBXBuildFile; fileRef = 3F9556939C32486DB47D1B02 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4917BEA5FB9F45F0BFEBA272 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = DA0A6316361C4A58B7301126 /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		60D28C007A764605963AA6AA /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereocsbp.cu.o */ = {isa = PBXBuildFile; fileRef = DFD9E03BE9D94731807BC320 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereocsbp.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		6547470BEE23415BBDC00711 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobp.cu */ = {isa = PBXBuildFile; fileRef = 4CCE4971890C403ABF14F0FC /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobp.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		6848277D35CB4610AE6B8BEE /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereocsbp.cpp */ = {isa = PBXBuildFile; fileRef = 054DB7C4EEE74BACB2890CE5 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereocsbp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6C13A0EBD9C7487FB9DDE4B5 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BDDD70B951D14A96AC3FC160 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		73822BD110EC4DA191807EAB /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/util.cu */ = {isa = PBXBuildFile; fileRef = 9A0B7D6D44524135AE6011FC /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/util.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		7978379490B740DD8A112292 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.hpp */ = {isa = PBXBuildFile; fileRef = 6DDBC91ED403441CBB4303A0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7A8BC6C7F5F0408DA20D213D /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.cu */ = {isa = PBXBuildFile; fileRef = 69CEEC376DC2426E9E298BEE /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		7DF1D33BEF774BDEA9405CC0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 33B7A9AA7BBA4B53A35660C0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		879D5E8DAA5B469C9323FF83 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = F878C4137A5642CB9B42A993 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8A495DD6F0F84857A8E45875 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.cu */ = {isa = PBXBuildFile; fileRef = 9866E86B091743FBB545DFFD /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		9597AB7F1D1A462DB0527A5F /* /Users/elliotstaudt/opencv/modules/cudastereo/include/opencv2/cudastereo.hpp */ = {isa = PBXBuildFile; fileRef = 206877BD12154B3382D9EDCE /* /Users/elliotstaudt/opencv/modules/cudastereo/include/opencv2/cudastereo.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		99F2DB17DBF14A59BC955E4A /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobm.cpp */ = {isa = PBXBuildFile; fileRef = FC4FF23B2DA640579E3D563B /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A5EF60868FB84F52A234F337 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereobp.cu.o */ = {isa = PBXBuildFile; fileRef = E1E2B5CEA9DD4AA7AEB04AEE /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereobp.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		A73EB32CA0B4446382418ABA /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 317DC9F94D39419B84B7B78D /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		A9D8791B05E54ABEA577FEF1 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobm.cpp */ = {isa = PBXBuildFile; fileRef = 3E61E5FEE4B546E9A4642C92 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AF06DAAD18EB4A8B9E83400B /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_util.cu.o */ = {isa = PBXBuildFile; fileRef = 8D712FC3D51B4E19B05AB894 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_util.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		B46443B5057D407592B1AFF6 /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_stereo.cpp */ = {isa = PBXBuildFile; fileRef = 6480DED505654719A96D1CAD /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_stereo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B9A1B538C1354F79AA426CF9 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.cu */ = {isa = PBXBuildFile; fileRef = EE652240372B49EA96561452 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		B9AC0EBCB10D48A2842D3FA2 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7D0969838A544C919B9B0CB5 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		BA59B69869124E1AA40624A0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobp.cpp */ = {isa = PBXBuildFile; fileRef = 4344F011432D465EB73C18B6 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C7D4D24368DA47BC8638A129 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.cu */ = {isa = PBXBuildFile; fileRef = A389DD6612014322ABE206D7 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		C8D9501C529647F388C92D1E /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = DDD2848D391148E8A60843AE /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CF2F99B92B1F42F8AA035B52 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobp.cu */ = {isa = PBXBuildFile; fileRef = EC55438CD1A648F98799D0FA /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobp.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		CF79FE31FFE84CAB990F1CEB /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B899A5511CA6461EA4DC6749 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		D01FECA7748C4907A4425BF4 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.hpp */ = {isa = PBXBuildFile; fileRef = CFC35E7F79294E5FB632DB2D /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D21A3F92D9254786BA64B6C4 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/disparity_bilateral_filter.cpp */ = {isa = PBXBuildFile; fileRef = 0A1165E96CB7484295C41DEE /* /Users/elliotstaudt/opencv/modules/cudastereo/src/disparity_bilateral_filter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E6F2C816BD49473C9B5FA924 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/disparity_bilateral_filter.cpp */ = {isa = PBXBuildFile; fileRef = 9D1BA41D7D7247D6BD4FBE11 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/disparity_bilateral_filter.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EB7F11415DAB477C8D8F1A44 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereobm.cu.o */ = {isa = PBXBuildFile; fileRef = 667BF99786B84068A5DDD365 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereobm.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		F0B28111BAD94D48B24AE515 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/util.cpp */ = {isa = PBXBuildFile; fileRef = 38E5D5AA6C684DE8975D5FF0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/util.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FD1E60CB511A4A74B50EC59A /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereocsbp.cpp */ = {isa = PBXBuildFile; fileRef = 5BE59168EDC441E786C5012B /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereocsbp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4E17A0F8875B48509CC289DB /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		717680284FC54B8B918C3164 = {
+			isa = PBXBuildStyle;
+		};
+		D3E54904184541868E3AD2BF /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3E997CB4B8AF4EB7A478F990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD69D1D63942C2970866C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		4004960BB6634D40B13859F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD69D1D63942C2970866C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E0D58189244DD4A3ACD694;
+			remoteInfo = opencv_cudastereo;
+		};
+		48901979D3834E019DCB6D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD69D1D63942C2970866C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		4DD3BDE6C0BE4578BECF8288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD69D1D63942C2970866C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		63D2AF9763C94E7DA95F16BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD69D1D63942C2970866C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E0D58189244DD4A3ACD694;
+			remoteInfo = opencv_cudastereo;
+		};
+		7D7A6CEDFF1742DE881E903D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD69D1D63942C2970866C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BCB3EAC87004132BE6B99B0;
+			remoteInfo = opencv_test_cudastereo;
+		};
+		8695F7EDAF7B49988089F410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD69D1D63942C2970866C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		9D59FF9D34F74B6682A8156F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD69D1D63942C2970866C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F795167F1ED44E53A0C019FE;
+			remoteInfo = opencv_perf_cudastereo;
+		};
+		B3D3FE2A53394315BD7A269C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD69D1D63942C2970866C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		C2F53BBED8044E9C85D9218C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD69D1D63942C2970866C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E0D58189244DD4A3ACD694;
+			remoteInfo = opencv_cudastereo;
+		};
+		E20C8B83B7BF4581BA01DDA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD69D1D63942C2970866C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		FD47A07EB61A4FF492C073D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD69D1D63942C2970866C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006E168F090240BCAB3E91C1 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = disparity_bilateral_filter.hpp; path = src/cuda/disparity_bilateral_filter.hpp; sourceTree = SOURCE_ROOT; };
+		01E3F38978D9423AA712E097 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = disparity_bilateral_filter.hpp; path = src/cuda/disparity_bilateral_filter.hpp; sourceTree = SOURCE_ROOT; };
+		054DB7C4EEE74BACB2890CE5 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereocsbp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereocsbp.cpp; path = src/stereocsbp.cpp; sourceTree = SOURCE_ROOT; };
+		0A1165E96CB7484295C41DEE /* /Users/elliotstaudt/opencv/modules/cudastereo/src/disparity_bilateral_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = disparity_bilateral_filter.cpp; path = src/disparity_bilateral_filter.cpp; sourceTree = SOURCE_ROOT; };
+		1D3A204EC901481A927BCBF5 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobm.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = stereobm.cu; path = src/cuda/stereobm.cu; sourceTree = SOURCE_ROOT; };
+		206877BD12154B3382D9EDCE /* /Users/elliotstaudt/opencv/modules/cudastereo/include/opencv2/cudastereo.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cudastereo.hpp; path = include/opencv2/cudastereo.hpp; sourceTree = SOURCE_ROOT; };
+		210F231CB716461FA0A24E66 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		258579E3ED3B406889C301C7 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_disparity_bilateral_filter.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_disparity_bilateral_filter.cu.o; path = "../../build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_disparity_bilateral_filter.cu.o"; sourceTree = SOURCE_ROOT; };
+		317DC9F94D39419B84B7B78D /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		33B7A9AA7BBA4B53A35660C0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		38E5D5AA6C684DE8975D5FF0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = src/util.cpp; sourceTree = SOURCE_ROOT; };
+		3E61E5FEE4B546E9A4642C92 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereobm.cpp; path = src/stereobm.cpp; sourceTree = SOURCE_ROOT; };
+		3F9556939C32486DB47D1B02 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereobp.cpp; path = src/stereobp.cpp; sourceTree = SOURCE_ROOT; };
+		4231B7F168424671A52ACDD8 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4344F011432D465EB73C18B6 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereobp.cpp; path = src/stereobp.cpp; sourceTree = SOURCE_ROOT; };
+		4CCE4971890C403ABF14F0FC /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobp.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = stereobp.cu; path = src/cuda/stereobp.cu; sourceTree = SOURCE_ROOT; };
+		4D442F3F2B8147FEAE1866A3 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_stereo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_stereo.cpp; path = perf/perf_stereo.cpp; sourceTree = SOURCE_ROOT; };
+		576B24C946EC4FC3AC4BA507 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		594842217A184C08A76F2737 /* /Users/elliotstaudt/opencv/modules/cudastereo/include/opencv2/cudastereo.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cudastereo.hpp; path = include/opencv2/cudastereo.hpp; sourceTree = SOURCE_ROOT; };
+		5BE59168EDC441E786C5012B /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereocsbp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereocsbp.cpp; path = src/stereocsbp.cpp; sourceTree = SOURCE_ROOT; };
+		5BE6771AE4EA46BBAA255836 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = src/util.cpp; sourceTree = SOURCE_ROOT; };
+		6480DED505654719A96D1CAD /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_stereo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_stereo.cpp; path = test/test_stereo.cpp; sourceTree = SOURCE_ROOT; };
+		667BF99786B84068A5DDD365 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereobm.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_stereobm.cu.o; path = "../../build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereobm.cu.o"; sourceTree = SOURCE_ROOT; };
+		69CEEC376DC2426E9E298BEE /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = disparity_bilateral_filter.cu; path = src/cuda/disparity_bilateral_filter.cu; sourceTree = SOURCE_ROOT; };
+		6C426F6C8E164696A0784422 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		6DDBC91ED403441CBB4303A0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stereocsbp.hpp; path = src/cuda/stereocsbp.hpp; sourceTree = SOURCE_ROOT; };
+		7192E464ACF34E5591217206 /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		7AA201CACEFC4BBB84F158EF /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		7D0969838A544C919B9B0CB5 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7F60C74886274A69AF106CE5 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_precomp.hpp; path = perf/perf_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		814B3CB5E96E417E80E6AAF3 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobm.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = stereobm.cu; path = src/cuda/stereobm.cu; sourceTree = SOURCE_ROOT; };
+		8D712FC3D51B4E19B05AB894 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_util.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_util.cu.o; path = "../../build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_util.cu.o"; sourceTree = SOURCE_ROOT; };
+		9866E86B091743FBB545DFFD /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = disparity_bilateral_filter.cu; path = src/cuda/disparity_bilateral_filter.cu; sourceTree = SOURCE_ROOT; };
+		9A0B7D6D44524135AE6011FC /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/util.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = util.cu; path = src/cuda/util.cu; sourceTree = SOURCE_ROOT; };
+		9D1BA41D7D7247D6BD4FBE11 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/disparity_bilateral_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = disparity_bilateral_filter.cpp; path = src/disparity_bilateral_filter.cpp; sourceTree = SOURCE_ROOT; };
+		A06B4D68775C41BF9AC68F9A /* opencv_test_cudastereo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_cudastereo; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		A389DD6612014322ABE206D7 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = stereocsbp.cu; path = src/cuda/stereocsbp.cu; sourceTree = SOURCE_ROOT; };
+		B899A5511CA6461EA4DC6749 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BDDD70B951D14A96AC3FC160 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C8D357228EED4B5DADBAB75D /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/util.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = util.cu; path = src/cuda/util.cu; sourceTree = SOURCE_ROOT; };
+		CCEFF2260C124B5B9D844A19 /* opencv_cudastereo_object */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_cudastereo_object.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC35E7F79294E5FB632DB2D /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stereocsbp.hpp; path = src/cuda/stereocsbp.hpp; sourceTree = SOURCE_ROOT; };
+		DA0A6316361C4A58B7301126 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		DDD2848D391148E8A60843AE /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		DFD9E03BE9D94731807BC320 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereocsbp.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_stereocsbp.cu.o; path = "../../build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereocsbp.cu.o"; sourceTree = SOURCE_ROOT; };
+		E1E2B5CEA9DD4AA7AEB04AEE /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereobp.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_stereobp.cu.o; path = "../../build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereobp.cu.o"; sourceTree = SOURCE_ROOT; };
+		E5BBF76CDE3D419F8481687E /* opencv_perf_cudastereo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_perf_cudastereo; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D53B2AADC14A9895D5F3DA /* opencv_cudastereo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_cudastereo.dylib; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC55438CD1A648F98799D0FA /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobp.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = stereobp.cu; path = src/cuda/stereobp.cu; sourceTree = SOURCE_ROOT; };
+		EE652240372B49EA96561452 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = stereocsbp.cu; path = src/cuda/stereocsbp.cu; sourceTree = SOURCE_ROOT; };
+		EF7BB0CA895D42F69661D6D2 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_main.cpp; path = perf/perf_main.cpp; sourceTree = SOURCE_ROOT; };
+		F878C4137A5642CB9B42A993 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		FC4FF23B2DA640579E3D563B /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereobm.cpp; path = src/stereobm.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BCD4EED71FD4D3A92DA59C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3219E49D944C838AF9B0C2 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_disparity_bilateral_filter.cu.o */,
+				EB7F11415DAB477C8D8F1A44 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereobm.cu.o */,
+				A5EF60868FB84F52A234F337 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereobp.cu.o */,
+				60D28C007A764605963AA6AA /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereocsbp.cu.o */,
+				AF06DAAD18EB4A8B9E83400B /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_util.cu.o */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006F073652E44B19BC4C45CD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		017971DBB1724A439144D4B1 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				7192E464ACF34E5591217206 /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		0285DE953E2140C4BF46571A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		193A16995ED94B13A9F3E827 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AA201CACEFC4BBB84F158EF /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				6C426F6C8E164696A0784422 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		1C1A1B2F7FF143C389B3ADA2 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				594842217A184C08A76F2737 /* /Users/elliotstaudt/opencv/modules/cudastereo/include/opencv2/cudastereo.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		23EC5BA566604182A6E12525 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		294F70C7325C418494DC7498 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				EF3CA048B2894BC79F1DB708 /* cuda */,
+				41BC5D85C39D4426A5B2B2BF /* Cuda */,
+				9D1BA41D7D7247D6BD4FBE11 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/disparity_bilateral_filter.cpp */,
+				F878C4137A5642CB9B42A993 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/precomp.hpp */,
+				FC4FF23B2DA640579E3D563B /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobm.cpp */,
+				3F9556939C32486DB47D1B02 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobp.cpp */,
+				054DB7C4EEE74BACB2890CE5 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereocsbp.cpp */,
+				5BE6771AE4EA46BBAA255836 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/util.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		35906ED59870479EBCED1BB0 /* tests performance */ = {
+			isa = PBXGroup;
+			children = (
+				4AC6BE7885B2441BBAC0F5F7 /* opencv_perf_cudastereo */,
+			);
+			name = "tests performance";
+			sourceTree = "<group>";
+		};
+		38D291CBE53C4755BFB53D25 /* opencv_cudastereo_object */ = {
+			isa = PBXGroup;
+			children = (
+				76D23F3731914E5DA1C911EF /* Include */,
+				EEE8775AEBD14A02B0D09D03 /* Src */,
+				D565D56D61934386BAC9F2E5 /* Header Files */,
+				317DC9F94D39419B84B7B78D /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */,
+			);
+			name = opencv_cudastereo_object;
+			sourceTree = "<group>";
+		};
+		39D0FEF3B1D9421E8C7CDC16 = {
+			isa = PBXGroup;
+			children = (
+				62099F04FBB84A71B55B3D28 /* Sources */,
+				23EC5BA566604182A6E12525 /* Resources */,
+				F09520333C644A2A9E9FA1B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41BC5D85C39D4426A5B2B2BF /* Cuda */ = {
+			isa = PBXGroup;
+			children = (
+				9866E86B091743FBB545DFFD /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.cu */,
+				814B3CB5E96E417E80E6AAF3 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobm.cu */,
+				EC55438CD1A648F98799D0FA /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobp.cu */,
+				A389DD6612014322ABE206D7 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.cu */,
+				C8D357228EED4B5DADBAB75D /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/util.cu */,
+			);
+			name = Cuda;
+			sourceTree = "<group>";
+		};
+		4AC6BE7885B2441BBAC0F5F7 /* opencv_perf_cudastereo */ = {
+			isa = PBXGroup;
+			children = (
+				7B1796D2AD97442893F1AE4A /* Src */,
+				F9711AF3E9AF4EEDAB5EC150 /* Include */,
+				BDDD70B951D14A96AC3FC160 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */,
+			);
+			name = opencv_perf_cudastereo;
+			sourceTree = "<group>";
+		};
+		4E80C0F1B8CB4BFCAEBFCEFA /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				D3181ADD584B424BB5FF2B07 /* opencv_cudastereo */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		51734F81BDAD49508A42A7E1 /* Object Files */ = {
+			isa = PBXGroup;
+			children = (
+				258579E3ED3B406889C301C7 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_disparity_bilateral_filter.cu.o */,
+				667BF99786B84068A5DDD365 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereobm.cu.o */,
+				E1E2B5CEA9DD4AA7AEB04AEE /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereobp.cu.o */,
+				DFD9E03BE9D94731807BC320 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_stereocsbp.cu.o */,
+				8D712FC3D51B4E19B05AB894 /* /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_util.cu.o */,
+			);
+			name = "Object Files";
+			sourceTree = "<group>";
+		};
+		62099F04FBB84A71B55B3D28 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				884BD7D7D99A46C5BBBB04DA /* tests accuracy */,
+				4E80C0F1B8CB4BFCAEBFCEFA /* modules */,
+				C113C798230B49C28D32B26F /* ALL_BUILD */,
+				7E2CCE53E7BE4F008B7B6752 /* object_libraries */,
+				897608616A574A46A2965914 /* ZERO_CHECK */,
+				35906ED59870479EBCED1BB0 /* tests performance */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		728FF467CDB44C0295B6061E /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				DDD2848D391148E8A60843AE /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_main.cpp */,
+				6480DED505654719A96D1CAD /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_stereo.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		76D23F3731914E5DA1C911EF /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				1C1A1B2F7FF143C389B3ADA2 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		7B1796D2AD97442893F1AE4A /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				EF7BB0CA895D42F69661D6D2 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_main.cpp */,
+				4D442F3F2B8147FEAE1866A3 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_stereo.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		7E2CCE53E7BE4F008B7B6752 /* object_libraries */ = {
+			isa = PBXGroup;
+			children = (
+				38D291CBE53C4755BFB53D25 /* opencv_cudastereo_object */,
+			);
+			name = object_libraries;
+			sourceTree = "<group>";
+		};
+		884BD7D7D99A46C5BBBB04DA /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				CC442C4578A040138203FF0C /* opencv_test_cudastereo */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		897608616A574A46A2965914 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				006F073652E44B19BC4C45CD /* CMake Rules */,
+				210F231CB716461FA0A24E66 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		8DDA9192D56F496BA2CF1FDC /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				F1B644828509410E8708E5F1 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		B213AB604F9342B889665472 /* cuda */ = {
+			isa = PBXGroup;
+			children = (
+				01E3F38978D9423AA712E097 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.hpp */,
+				CFC35E7F79294E5FB632DB2D /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.hpp */,
+			);
+			name = cuda;
+			sourceTree = "<group>";
+		};
+		C113C798230B49C28D32B26F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0285DE953E2140C4BF46571A /* CMake Rules */,
+				4231B7F168424671A52ACDD8 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C7526F9A4D8440569DAC1613 /* Cuda */ = {
+			isa = PBXGroup;
+			children = (
+				69CEEC376DC2426E9E298BEE /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.cu */,
+				1D3A204EC901481A927BCBF5 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobm.cu */,
+				4CCE4971890C403ABF14F0FC /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereobp.cu */,
+				EE652240372B49EA96561452 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.cu */,
+				9A0B7D6D44524135AE6011FC /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/util.cu */,
+			);
+			name = Cuda;
+			sourceTree = "<group>";
+		};
+		CC442C4578A040138203FF0C /* opencv_test_cudastereo */ = {
+			isa = PBXGroup;
+			children = (
+				728FF467CDB44C0295B6061E /* Src */,
+				017971DBB1724A439144D4B1 /* Include */,
+				B899A5511CA6461EA4DC6749 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */,
+			);
+			name = opencv_test_cudastereo;
+			sourceTree = "<group>";
+		};
+		D3181ADD584B424BB5FF2B07 /* opencv_cudastereo */ = {
+			isa = PBXGroup;
+			children = (
+				8DDA9192D56F496BA2CF1FDC /* Include */,
+				294F70C7325C418494DC7498 /* Src */,
+				193A16995ED94B13A9F3E827 /* Header Files */,
+				51734F81BDAD49508A42A7E1 /* Object Files */,
+				7D0969838A544C919B9B0CB5 /* /Users/elliotstaudt/opencv/modules/cudastereo/CMakeLists.txt */,
+			);
+			name = opencv_cudastereo;
+			sourceTree = "<group>";
+		};
+		D565D56D61934386BAC9F2E5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA0A6316361C4A58B7301126 /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				576B24C946EC4FC3AC4BA507 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EEE8775AEBD14A02B0D09D03 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				B213AB604F9342B889665472 /* cuda */,
+				C7526F9A4D8440569DAC1613 /* Cuda */,
+				0A1165E96CB7484295C41DEE /* /Users/elliotstaudt/opencv/modules/cudastereo/src/disparity_bilateral_filter.cpp */,
+				33B7A9AA7BBA4B53A35660C0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/precomp.hpp */,
+				3E61E5FEE4B546E9A4642C92 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobm.cpp */,
+				4344F011432D465EB73C18B6 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobp.cpp */,
+				5BE59168EDC441E786C5012B /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereocsbp.cpp */,
+				38E5D5AA6C684DE8975D5FF0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/util.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		EF3CA048B2894BC79F1DB708 /* cuda */ = {
+			isa = PBXGroup;
+			children = (
+				006E168F090240BCAB3E91C1 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/disparity_bilateral_filter.hpp */,
+				6DDBC91ED403441CBB4303A0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/cuda/stereocsbp.hpp */,
+			);
+			name = cuda;
+			sourceTree = "<group>";
+		};
+		F09520333C644A2A9E9FA1B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6D53B2AADC14A9895D5F3DA /* opencv_cudastereo */,
+				CCEFF2260C124B5B9D844A19 /* opencv_cudastereo_object */,
+				E5BBF76CDE3D419F8481687E /* opencv_perf_cudastereo */,
+				A06B4D68775C41BF9AC68F9A /* opencv_test_cudastereo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1B644828509410E8708E5F1 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				206877BD12154B3382D9EDCE /* /Users/elliotstaudt/opencv/modules/cudastereo/include/opencv2/cudastereo.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		F9711AF3E9AF4EEDAB5EC150 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				7F60C74886274A69AF106CE5 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BCB3EAC87004132BE6B99B0 /* opencv_test_cudastereo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0783E680F8840CE994421AB /* Build configuration list for PBXNativeTarget "opencv_test_cudastereo" */;
+			buildPhases = (
+				A5FA621870AA4BAFB8D31D32 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EFEE1101C204A9C99BDD1F8 /* PBXTargetDependency */,
+				262A86198EF24A36A7EE03B0 /* PBXTargetDependency */,
+			);
+			name = opencv_test_cudastereo;
+			productName = opencv_test_cudastereo;
+			productReference = A06B4D68775C41BF9AC68F9A /* opencv_test_cudastereo */;
+			productType = "com.apple.product-type.tool";
+		};
+		62E0D58189244DD4A3ACD694 /* opencv_cudastereo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD58D25DEB714083B88149B8 /* Build configuration list for PBXNativeTarget "opencv_cudastereo" */;
+			buildPhases = (
+				8BE82035367646D1A57A0A7B /* CMake Rules */,
+				68830DED8D1A478184DD42AE /* Sources */,
+				9BCD4EED71FD4D3A92DA59C4 /* Frameworks */,
+				D957CCAB33534CB2AA7083B7 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A013ABB78E413286AE900E /* PBXTargetDependency */,
+			);
+			name = opencv_cudastereo;
+			productName = opencv_cudastereo;
+			productReference = E6D53B2AADC14A9895D5F3DA /* opencv_cudastereo */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		F49494FA715842528075873C /* opencv_cudastereo_object */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50CF5CC46D14F4DA9E5F7AB /* Build configuration list for PBXNativeTarget "opencv_cudastereo_object" */;
+			buildPhases = (
+				50F0E653EC214EB897ACA5A5 /* CMake Rules */,
+				D965BCCEDB43410D8FCD4B9C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A627DE27871C4165B26BA4B1 /* PBXTargetDependency */,
+			);
+			name = opencv_cudastereo_object;
+			productName = opencv_cudastereo_object;
+			productReference = CCEFF2260C124B5B9D844A19 /* opencv_cudastereo_object */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F795167F1ED44E53A0C019FE /* opencv_perf_cudastereo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68EFFD71123497A91A55979 /* Build configuration list for PBXNativeTarget "opencv_perf_cudastereo" */;
+			buildPhases = (
+				2E8CACF3573B4FE291460B84 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DA9FE9F186842E1BC346352 /* PBXTargetDependency */,
+				2EDECEF80C7743979943C3A6 /* PBXTargetDependency */,
+			);
+			name = opencv_perf_cudastereo;
+			productName = opencv_perf_cudastereo;
+			productReference = E5BBF76CDE3D419F8481687E /* opencv_perf_cudastereo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78CD69D1D63942C2970866C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = ED91BA8ACC87485BBB51D6B1 /* Build configuration list for PBXProject "opencv_cudastereo" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4E17A0F8875B48509CC289DB /* Debug */,
+				D3E54904184541868E3AD2BF /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 39D0FEF3B1D9421E8C7CDC16;
+			projectDirPath = ../../../modules/cudastereo;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				62E0D58189244DD4A3ACD694 /* opencv_cudastereo */,
+				F49494FA715842528075873C /* opencv_cudastereo_object */,
+				F795167F1ED44E53A0C019FE /* opencv_perf_cudastereo */,
+				0BCB3EAC87004132BE6B99B0 /* opencv_test_cudastereo */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD1F47E762D4049BD1E0696 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudastereo -f /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		0C3168A7CBE84A6B9307B654 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C7DE6AE0B684D6082CEC332 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudastereo -f /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		50F0E653EC214EB897ACA5A5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudastereo -f /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeScripts/opencv_cudastereo_object_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8BE82035367646D1A57A0A7B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudastereo -f /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeScripts/opencv_cudastereo_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		95A2BB9C03824040BE204ED0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A95791FF3FFB404BB2EEAE25 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B6EF934D82CD46BB9C0A4534 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudastereo -f /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BB2DFEEDCEB140DFBEB9BAD1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudastereo -f /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D957CCAB33534CB2AA7083B7 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudastereo -f /Users/elliotstaudt/opencv/build/modules/cudastereo/CMakeScripts/opencv_cudastereo_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DA5DD88A8A7E4A6E8ADB5CD4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E8CACF3573B4FE291460B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A07667D2BD04757AA305C55 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_main.cpp */,
+				098E217A259B412F9963FDF6 /* /Users/elliotstaudt/opencv/modules/cudastereo/perf/perf_stereo.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68830DED8D1A478184DD42AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F2C816BD49473C9B5FA924 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/disparity_bilateral_filter.cpp */,
+				99F2DB17DBF14A59BC955E4A /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobm.cpp */,
+				489E31C2A3CE4F6AA7857992 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobp.cpp */,
+				6848277D35CB4610AE6B8BEE /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereocsbp.cpp */,
+				48797297854B433FB581CA47 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/util.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FA621870AA4BAFB8D31D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D9501C529647F388C92D1E /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_main.cpp */,
+				B46443B5057D407592B1AFF6 /* /Users/elliotstaudt/opencv/modules/cudastereo/test/test_stereo.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D965BCCEDB43410D8FCD4B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21A3F92D9254786BA64B6C4 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/disparity_bilateral_filter.cpp */,
+				A9D8791B05E54ABEA577FEF1 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobm.cpp */,
+				BA59B69869124E1AA40624A0 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereobp.cpp */,
+				FD1E60CB511A4A74B50EC59A /* /Users/elliotstaudt/opencv/modules/cudastereo/src/stereocsbp.cpp */,
+				F0B28111BAD94D48B24AE515 /* /Users/elliotstaudt/opencv/modules/cudastereo/src/util.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		136E8CD230484749B9BB927F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 48901979D3834E019DCB6D1D /* PBXContainerItemProxy */;
+		};
+		21A013ABB78E413286AE900E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 3E997CB4B8AF4EB7A478F990 /* PBXContainerItemProxy */;
+		};
+		262A86198EF24A36A7EE03B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 8695F7EDAF7B49988089F410 /* PBXContainerItemProxy */;
+		};
+		2EDECEF80C7743979943C3A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 4DD3BDE6C0BE4578BECF8288 /* PBXContainerItemProxy */;
+		};
+		342B2D242659494991917D45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = FD47A07EB61A4FF492C073D7 /* PBXContainerItemProxy */;
+		};
+		41E10C268FF54B9982F2DFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = B3D3FE2A53394315BD7A269C /* PBXContainerItemProxy */;
+		};
+		5DA9FE9F186842E1BC346352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E0D58189244DD4A3ACD694 /* opencv_cudastereo */;
+			targetProxy = 4004960BB6634D40B13859F4 /* PBXContainerItemProxy */;
+		};
+		6238601F354A48029CA868E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BCB3EAC87004132BE6B99B0 /* opencv_test_cudastereo */;
+			targetProxy = 7D7A6CEDFF1742DE881E903D /* PBXContainerItemProxy */;
+		};
+		795CCD35C7994F108F1B85A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F795167F1ED44E53A0C019FE /* opencv_perf_cudastereo */;
+			targetProxy = 9D59FF9D34F74B6682A8156F /* PBXContainerItemProxy */;
+		};
+		7EFEE1101C204A9C99BDD1F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E0D58189244DD4A3ACD694 /* opencv_cudastereo */;
+			targetProxy = C2F53BBED8044E9C85D9218C /* PBXContainerItemProxy */;
+		};
+		A627DE27871C4165B26BA4B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = E20C8B83B7BF4581BA01DDA2 /* PBXContainerItemProxy */;
+		};
+		AE0C3897A4FF4AD49F71AD8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E0D58189244DD4A3ACD694 /* opencv_cudastereo */;
+			targetProxy = 63D2AF9763C94E7DA95F16BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D3C05E535FE4D208E611B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudastereo.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_cudastereo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		0DE9ABF366A34374B7E9AA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudastereo.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudastereo.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		105F16B9122542D29B7B33A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		14FC0F3BFEB049709D480ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/cudastereo/opencv_cudastereo.build/Release/opencv_cudastereo_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudastereo_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		157E1CADF8AE4A90B7793793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudastereo.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_cudastereo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		2007E77EE825410C95D1F146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo/build;
+			};
+			name = Release;
+		};
+		4FA816E0966945FCAAEB7FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		582434FB24BC4B439F604446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		677831B02B1C458881E26B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		7DCCD8EC9F1E479982BE8A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		98682F09E6614E44B0472200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo/build;
+			};
+			name = Debug;
+		};
+		A695ED9C43144C8E8C921287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		A80B943FBB7543BBACB07E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/cudastereo/opencv_cudastereo.build/Debug/opencv_cudastereo_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudastereo_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		AE9D95784DCF4214BAFD3894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		C0FD59715ABF43359CE8DFFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudastereo.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudastereo.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		C784E152D336480E8CCB5BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudastereo.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_cudastereo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		C8AD71DEC35E4A13AA4161D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		CAC22E0531D24B46A55262D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudastereo/include, /Users/elliotstaudt/opencv/modules/cudastereo/src, /Users/elliotstaudt/opencv/build/modules/cudastereo, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/cudastereo/test, /Users/elliotstaudt/opencv/modules/cudastereo/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudastereo.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_cudastereo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudastereo;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29194349456D45B9809AEE92 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA816E0966945FCAAEB7FD3 /* Debug */,
+				7DCCD8EC9F1E479982BE8A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		48F294E1F11E4CB28673154A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A695ED9C43144C8E8C921287 /* Debug */,
+				677831B02B1C458881E26B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5365553382C24419A7181D0D /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9D95784DCF4214BAFD3894 /* Debug */,
+				582434FB24BC4B439F604446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7055395FA18949B7B67B14FD /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AD71DEC35E4A13AA4161D6 /* Debug */,
+				105F16B9122542D29B7B33A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A50CF5CC46D14F4DA9E5F7AB /* Build configuration list for PBXNativeTarget "opencv_cudastereo_object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80B943FBB7543BBACB07E5E /* Debug */,
+				14FC0F3BFEB049709D480ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A68EFFD71123497A91A55979 /* Build configuration list for PBXNativeTarget "opencv_perf_cudastereo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C784E152D336480E8CCB5BC5 /* Debug */,
+				157E1CADF8AE4A90B7793793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0783E680F8840CE994421AB /* Build configuration list for PBXNativeTarget "opencv_test_cudastereo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3C05E535FE4D208E611B8A /* Debug */,
+				CAC22E0531D24B46A55262D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD58D25DEB714083B88149B8 /* Build configuration list for PBXNativeTarget "opencv_cudastereo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FD59715ABF43359CE8DFFC /* Debug */,
+				0DE9ABF366A34374B7E9AA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED91BA8ACC87485BBB51D6B1 /* Build configuration list for PBXProject "opencv_cudastereo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98682F09E6614E44B0472200 /* Debug */,
+				2007E77EE825410C95D1F146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78CD69D1D63942C2970866C6 /* Project object */;
+}

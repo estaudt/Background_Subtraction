@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9017AC201BBB9DF200E44103 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9017AC1F1BBB9DF200E44103 /* main.cpp */; };
+		9017AC531BBC407400E44103 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9017AC481BBC407400E44103 /* tinystr.cpp */; settings = {ASSET_TAGS = (); }; };
+		9017AC541BBC407400E44103 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9017AC4A1BBC407400E44103 /* tinyxml.cpp */; settings = {ASSET_TAGS = (); }; };
+		9017AC551BBC407400E44103 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9017AC4C1BBC407400E44103 /* tinyxmlerror.cpp */; settings = {ASSET_TAGS = (); }; };
+		9017AC561BBC407400E44103 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9017AC4D1BBC407400E44103 /* tinyxmlparser.cpp */; settings = {ASSET_TAGS = (); }; };
+		9017AC571BBC407400E44103 /* VCL_BackgroundSubtraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9017AC4E1BBC407400E44103 /* VCL_BackgroundSubtraction.cpp */; settings = {ASSET_TAGS = (); }; };
+		9017AC581BBC407400E44103 /* VCL_BGS_Parameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9017AC501BBC407400E44103 /* VCL_BGS_Parameter.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		9017AC1C1BBB9DF200E44103 /* Background Subtraction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Background Subtraction"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9017AC1F1BBB9DF200E44103 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9017AC471BBC407400E44103 /* parameters_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = parameters_default.xml; path = ../parameters_default.xml; sourceTree = "<group>"; };
+		9017AC481BBC407400E44103 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinystr.cpp; path = ../tinystr.cpp; sourceTree = "<group>"; };
+		9017AC491BBC407400E44103 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinystr.h; path = ../tinystr.h; sourceTree = "<group>"; };
+		9017AC4A1BBC407400E44103 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml.cpp; path = ../tinyxml.cpp; sourceTree = "<group>"; };
+		9017AC4B1BBC407400E44103 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyxml.h; path = ../tinyxml.h; sourceTree = "<group>"; };
+		9017AC4C1BBC407400E44103 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = ../tinyxmlerror.cpp; sourceTree = "<group>"; };
+		9017AC4D1BBC407400E44103 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlparser.cpp; path = ../tinyxmlparser.cpp; sourceTree = "<group>"; };
+		9017AC4E1BBC407400E44103 /* VCL_BackgroundSubtraction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VCL_BackgroundSubtraction.cpp; path = ../VCL_BackgroundSubtraction.cpp; sourceTree = "<group>"; };
+		9017AC4F1BBC407400E44103 /* VCL_BackgroundSubtraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCL_BackgroundSubtraction.h; path = ../VCL_BackgroundSubtraction.h; sourceTree = "<group>"; };
+		9017AC501BBC407400E44103 /* VCL_BGS_Parameter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VCL_BGS_Parameter.cpp; path = ../VCL_BGS_Parameter.cpp; sourceTree = "<group>"; };
+		9017AC511BBC407400E44103 /* VCL_BGS_Parameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCL_BGS_Parameter.h; path = ../VCL_BGS_Parameter.h; sourceTree = "<group>"; };
+		9017AC521BBC407400E44103 /* VCL_Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCL_Utilities.h; path = ../VCL_Utilities.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				9017AC1F1BBB9DF200E44103 /* main.cpp */,
+				9017AC471BBC407400E44103 /* parameters_default.xml */,
+				9017AC481BBC407400E44103 /* tinystr.cpp */,
+				9017AC491BBC407400E44103 /* tinystr.h */,
+				9017AC4A1BBC407400E44103 /* tinyxml.cpp */,
+				9017AC4B1BBC407400E44103 /* tinyxml.h */,
+				9017AC4C1BBC407400E44103 /* tinyxmlerror.cpp */,
+				9017AC4D1BBC407400E44103 /* tinyxmlparser.cpp */,
+				9017AC4E1BBC407400E44103 /* VCL_BackgroundSubtraction.cpp */,
+				9017AC4F1BBC407400E44103 /* VCL_BackgroundSubtraction.h */,
+				9017AC501BBC407400E44103 /* VCL_BGS_Parameter.cpp */,
+				9017AC511BBC407400E44103 /* VCL_BGS_Parameter.h */,
+				9017AC521BBC407400E44103 /* VCL_Utilities.h */,
 			);
 			path = "Background Subtraction";
 			sourceTree = "<group>";
@@ -118,7 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9017AC571BBC407400E44103 /* VCL_BackgroundSubtraction.cpp in Sources */,
+				9017AC551BBC407400E44103 /* tinyxmlerror.cpp in Sources */,
 				9017AC201BBB9DF200E44103 /* main.cpp in Sources */,
+				9017AC541BBC407400E44103 /* tinyxml.cpp in Sources */,
+				9017AC581BBC407400E44103 /* VCL_BGS_Parameter.cpp in Sources */,
+				9017AC561BBC407400E44103 /* tinyxmlparser.cpp in Sources */,
+				9017AC531BBC407400E44103 /* tinystr.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +241,36 @@
 		9017AC241BBB9DF200E44103 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = (
+					"-lboost_system",
+					"-lboost_filesystem",
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +278,36 @@
 		9017AC251BBB9DF200E44103 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = (
+					"-lboost_system",
+					"-lboost_filesystem",
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

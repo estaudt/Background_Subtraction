@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AAFA98D2A8544A1C90761849 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				CC5A132378B04C0DAD069663 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				32639F47C4D849DD97CE436E /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B7E58CDC1B79414BABAACE10 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				674325D975DA47999A7EE589 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				93D62A4B8CF74A6AAC4727A8 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AB76C6901C4B4C9E9D97C0D3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				48F7A0E81DE34228B2EE68F6 /* CMake Rules */,
+			);
+			dependencies = (
+				5EBD82C6E77D4FC7A7DC17D9 /* PBXTargetDependency */,
+				2EE69ACA94AA41FFA58F7018 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8A7A753738534249B6F640F9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1C659277A5164420ABA82A28 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0355F1065FE74612A46309A5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/backward_references.h */ = {isa = PBXBuildFile; fileRef = 8B172840349542CAB88A85D4 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/backward_references.h */; settings = {COMPILER_FLAGS = ""; }; };
+		05AD37EFA29D472CAFA3DAD4 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/iterator.c */ = {isa = PBXBuildFile; fileRef = 534FC27D79204B85B1B56AB7 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/iterator.c */; settings = {COMPILER_FLAGS = ""; }; };
+		0AFE77494A13464A8D47EECB /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxi.h */ = {isa = PBXBuildFile; fileRef = B7C8A1FDA745431D8367B6D5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxi.h */; settings = {COMPILER_FLAGS = ""; }; };
+		10FD84F598D149F7B675C551 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8.c */ = {isa = PBXBuildFile; fileRef = 8450523739B0406B8DE5C137 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8.c */; settings = {COMPILER_FLAGS = ""; }; };
+		121A7816CCB74473876051EA /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/thread.c */ = {isa = PBXBuildFile; fileRef = 8CE1D222321D4FE2804F0F84 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/thread.c */; settings = {COMPILER_FLAGS = ""; }; };
+		157F259DC65D429A8CB527B7 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/io.c */ = {isa = PBXBuildFile; fileRef = 4FFEB1D4111A46819068DB57 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/io.c */; settings = {COMPILER_FLAGS = ""; }; };
+		20AA15CD15C346F3986C1F8C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/rescaler.c */ = {isa = PBXBuildFile; fileRef = 07FCC684D294448EA6B111FB /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/rescaler.c */; settings = {COMPILER_FLAGS = ""; }; };
+		2353B4BC023A41BFA708961D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/decode_vp8.h */ = {isa = PBXBuildFile; fileRef = 4343F0B16C62474F90FBBF76 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/decode_vp8.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2BA2C7DBAD1745D599AB9803 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels.h */ = {isa = PBXBuildFile; fileRef = E4FC2CD3A59A4314AFAC04A7 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2F31260D84DB4EBEBDF3E0AD /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec_sse2.c */ = {isa = PBXBuildFile; fileRef = A9B2455AF3C8417D88516BC2 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec_sse2.c */; settings = {COMPILER_FLAGS = ""; }; };
+		314B9DEA635A4DF0816531D8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/tree.c */ = {isa = PBXBuildFile; fileRef = 8F6C7D58493047358DB7AAE2 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/tree.c */; settings = {COMPILER_FLAGS = ""; }; };
+		32CC8EC733B847489BD6A553 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/color_cache.c */ = {isa = PBXBuildFile; fileRef = 11CDC2102A52455485C9F963 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/color_cache.c */; settings = {COMPILER_FLAGS = ""; }; };
+		372E7288AA5F492FB46FB570 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dsp.h */ = {isa = PBXBuildFile; fileRef = AC588FE9DB08414294F5479F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dsp.h */; settings = {COMPILER_FLAGS = ""; }; };
+		464F2E138B9E4911B3873611 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxread.c */ = {isa = PBXBuildFile; fileRef = 70470B6D625041CFBD7ABA9F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxread.c */; settings = {COMPILER_FLAGS = ""; }; };
+		478F799F35F14E828098BDF4 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/color_cache.h */ = {isa = PBXBuildFile; fileRef = 4C381E78FE654043AF6B1AA1 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/color_cache.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4905FEA535314A5ABE49C0E1 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/filters.c */ = {isa = PBXBuildFile; fileRef = 61D15D62C596479693541F1A /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/filters.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4BBF7C94EEC849ACAD30B5F9 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/encode.h */ = {isa = PBXBuildFile; fileRef = A54E68664E874F018372425D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/encode.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4C65AB3AEF3A45848DBE5D20 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/format_constants.h */ = {isa = PBXBuildFile; fileRef = A68159B62BD74AF3BD44F618 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/format_constants.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4CBDD07406564A959AA20D76 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/frame.c */ = {isa = PBXBuildFile; fileRef = 8D689FC6F13F4D11B45343CF /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/frame.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4EC9864CE22A4F3DB9B7F34F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/syntax.c */ = {isa = PBXBuildFile; fileRef = 6903C2116AF74ACEA3A683FB /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/syntax.c */; settings = {COMPILER_FLAGS = ""; }; };
+		50C8ECDE0C9544269F60B03C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/quant.c */ = {isa = PBXBuildFile; fileRef = E879D8467A3C4A729F16BCBC /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/quant.c */; settings = {COMPILER_FLAGS = ""; }; };
+		51E8E4958A7C44F583E12193 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_reader.h */ = {isa = PBXBuildFile; fileRef = 69138082724D401DBF11CB0C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_reader.h */; settings = {COMPILER_FLAGS = ""; }; };
+		525C8DF8D5F644DE9CCEAC6E /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/histogram.c */ = {isa = PBXBuildFile; fileRef = C144061E3F6F4AA4841357F3 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/histogram.c */; settings = {COMPILER_FLAGS = ""; }; };
+		55833643DB20488C8DAB7A54 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels.c */ = {isa = PBXBuildFile; fileRef = 91037F3D22B248089647BD63 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels.c */; settings = {COMPILER_FLAGS = ""; }; };
+		55E17E564AFA4307889C4547 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling.c */ = {isa = PBXBuildFile; fileRef = C1CD21AA242B4F148290FB70 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling.c */; settings = {COMPILER_FLAGS = ""; }; };
+		587B52ADC8394349847E8A18 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc_neon.c */ = {isa = PBXBuildFile; fileRef = 1C4C6FE7CBFC49498516E080 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc_neon.c */; settings = {COMPILER_FLAGS = ""; }; };
+		5B7256A2F4E441639D1D1DDD /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/picture.c */ = {isa = PBXBuildFile; fileRef = 0E0E753BE25849C3BFF50C2D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/picture.c */; settings = {COMPILER_FLAGS = ""; }; };
+		5CAD7C6C0462440E8F1D37CD /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/token.c */ = {isa = PBXBuildFile; fileRef = C19947DA57AC48AFA8F2E4C2 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/token.c */; settings = {COMPILER_FLAGS = ""; }; };
+		5DAA9ADE8C2D4274ACF9FD5D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/alpha.c */ = {isa = PBXBuildFile; fileRef = 2582513C1F134E45A69ACB06 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/alpha.c */; settings = {COMPILER_FLAGS = ""; }; };
+		5E26738971B748CD8D6EAE85 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec_neon.c */ = {isa = PBXBuildFile; fileRef = 2F04814410ED4633B4B31E6C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec_neon.c */; settings = {COMPILER_FLAGS = ""; }; };
+		5E924734941B4436864516B9 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman.c */ = {isa = PBXBuildFile; fileRef = A5972AC3E2C641DDA867FE46 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman.c */; settings = {COMPILER_FLAGS = ""; }; };
+		65D98AF9DD9F462EA1BBB91A /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/yuv.h */ = {isa = PBXBuildFile; fileRef = EAC26753651745569996EB57 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/yuv.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6A63A492E8E249C993BF50D8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/idec.c */ = {isa = PBXBuildFile; fileRef = 8010E4EDC653425AA68F5FF6 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/idec.c */; settings = {COMPILER_FLAGS = ""; }; };
+		6D053B0ED7F04C969F5F7DB4 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8li.h */ = {isa = PBXBuildFile; fileRef = 792DAF851F6149F18FD249A8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8li.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6F64935238A7448985AB6DA3 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/mux.h */ = {isa = PBXBuildFile; fileRef = A4B23389E9F74283A92C22A3 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/mux.h */; settings = {COMPILER_FLAGS = ""; }; };
+		72F6487674994B22AFB31D8E /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8li.h */ = {isa = PBXBuildFile; fileRef = D29507C13E1E48FD88F21B67 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8li.h */; settings = {COMPILER_FLAGS = ""; }; };
+		73EEAC5AD9964A20AE1DAEC4 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/mux_types.h */ = {isa = PBXBuildFile; fileRef = AE8293CE50004BA487C25764 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/mux_types.h */; settings = {COMPILER_FLAGS = ""; }; };
+		764DACFBA3A64F7BB884FC11 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling_sse2.c */ = {isa = PBXBuildFile; fileRef = FA903770F5DF485EAF0A2D30 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling_sse2.c */; settings = {COMPILER_FLAGS = ""; }; };
+		76D49F87BFC34613BF013A0C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec.c */ = {isa = PBXBuildFile; fileRef = 521D4DFD3A0D46B58497D786 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec.c */; settings = {COMPILER_FLAGS = ""; }; };
+		7905D42D552D48A799E96B59 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman_encode.h */ = {isa = PBXBuildFile; fileRef = 5D4E1CC5011F4C23A572B994 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman_encode.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7AD753237D114AD889DD29B5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/yuv.c */ = {isa = PBXBuildFile; fileRef = FE5320D853494C99A59484D8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/yuv.c */; settings = {COMPILER_FLAGS = ""; }; };
+		7C5948B7BBDA4FA7B98E720D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E7B0FA6F082A40F7A3FF1869 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		7DF704BA50D142C894904723 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/types.h */ = {isa = PBXBuildFile; fileRef = E6371A3026C14D6E94C0C308 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/types.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8165BB0013974AC8BEF54D39 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc.c */ = {isa = PBXBuildFile; fileRef = 6A0182A9DF884D22AF5003D5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc.c */; settings = {COMPILER_FLAGS = ""; }; };
+		83FF6B31A4C34A69BF8595A5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/quant.c */ = {isa = PBXBuildFile; fileRef = A3036FA5104E4B4F912C1C40 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/quant.c */; settings = {COMPILER_FLAGS = ""; }; };
+		85498A7615A54413A33E60EF /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/rescaler.h */ = {isa = PBXBuildFile; fileRef = 58FEB965583F42E2A1789D2D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/rescaler.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8626CD84B44D416B806F9A87 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/alpha.c */ = {isa = PBXBuildFile; fileRef = 83F6211D1F854E1DB40510DF /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/alpha.c */; settings = {COMPILER_FLAGS = ""; }; };
+		91512FDF1A9B4A73AD147DCC /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/buffer.c */ = {isa = PBXBuildFile; fileRef = E4D0A0F1C983407BA31B697D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/buffer.c */; settings = {COMPILER_FLAGS = ""; }; };
+		92FEF161E8374D3C9A643976 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8l.c */ = {isa = PBXBuildFile; fileRef = F2CC4290F9A8421589C96B18 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8l.c */; settings = {COMPILER_FLAGS = ""; }; };
+		977A78383F5344DF9EDC9502 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_writer.h */ = {isa = PBXBuildFile; fileRef = 3D632C01903D40BAB8E43B1B /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_writer.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9CECCFD871784A0EBF1D3C7D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/thread.h */ = {isa = PBXBuildFile; fileRef = D4E657DFFE76427993973E42 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/thread.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9DF1137E58E4464EABD84541 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8i.h */ = {isa = PBXBuildFile; fileRef = 4D845CDA2AC04444BFA2C049 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8i.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A209A72A7E5748E1B776D515 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/cpu.c */ = {isa = PBXBuildFile; fileRef = D59C229F7C654E599065E371 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/cpu.c */; settings = {COMPILER_FLAGS = ""; }; };
+		A3A00F7D5BAA45B88EC58183 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_writer.c */ = {isa = PBXBuildFile; fileRef = A12455EF91F54257AC8AFAE5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_writer.c */; settings = {COMPILER_FLAGS = ""; }; };
+		A5AA525259334BD4B58677BD /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/webpi.h */ = {isa = PBXBuildFile; fileRef = C64AC0D6C6A04700B777F8E5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/webpi.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A9E967D58F3147CFA922225F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman_encode.c */ = {isa = PBXBuildFile; fileRef = 9DD6A237CA974686923ED535 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman_encode.c */; settings = {COMPILER_FLAGS = ""; }; };
+		AA9DDE2C5FB54FCA97B8A2B8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/backward_references.c */ = {isa = PBXBuildFile; fileRef = 129C1178A5434D24B0DB0479 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/backward_references.c */; settings = {COMPILER_FLAGS = ""; }; };
+		AD9F595871C84287A196B983 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_reader.c */ = {isa = PBXBuildFile; fileRef = 23D12C791DB7415C9EA01BD7 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_reader.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B0F004CCC7FE41918D6B8AA7 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/utils.h */ = {isa = PBXBuildFile; fileRef = 3FB42086227A464196672052 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/utils.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B1FD847104D34A1F9625DB8C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxedit.c */ = {isa = PBXBuildFile; fileRef = CA8B0CAE103947DAB1D25ED6 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxedit.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B2627C3959594F068C8D8FC6 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8l.c */ = {isa = PBXBuildFile; fileRef = 69083839AFC346CAB5B2E457 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8l.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B774503DDED6437BA832B259 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc_sse2.c */ = {isa = PBXBuildFile; fileRef = AEBAB0C4974F47DDBFB98526 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc_sse2.c */; settings = {COMPILER_FLAGS = ""; }; };
+		BA01DF5A31DF4682A519112A /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxinternal.c */ = {isa = PBXBuildFile; fileRef = 9376DBF97DF04D26A97A5993 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxinternal.c */; settings = {COMPILER_FLAGS = ""; }; };
+		BB23A746ED8E45CA883B5A1C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/cost.c */ = {isa = PBXBuildFile; fileRef = DEAFCECE6A26473F8841B279 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/cost.c */; settings = {COMPILER_FLAGS = ""; }; };
+		BE0FC791174148A6AC67D2B9 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8enci.h */ = {isa = PBXBuildFile; fileRef = 641C06AC51FF4140A364256C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8enci.h */; settings = {COMPILER_FLAGS = ""; }; };
+		BEA19D7B07044376A7E973DD /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/layer.c */ = {isa = PBXBuildFile; fileRef = C8D19A00121D4DA4A011097A /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/layer.c */; settings = {COMPILER_FLAGS = ""; }; };
+		BFBE607955EC4062AE82E15E /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/frame.c */ = {isa = PBXBuildFile; fileRef = 5E805FB4CDDD43D2BE8A5C84 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/frame.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C29813030AD346438F5BE656 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/config.c */ = {isa = PBXBuildFile; fileRef = 5E2A0CF3E15B47F0B18A1182 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/config.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C3C8455339F84792A6E4D8A8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/lossless.h */ = {isa = PBXBuildFile; fileRef = 4F251F9C0B9C4B4EB8954D66 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/lossless.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C41B5BD670D4466C9B86243B /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/demux.h */ = {isa = PBXBuildFile; fileRef = F5C423266ED04F5D9FE2E8D1 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/demux.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C60F14FA3B21423EAA4F440D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/utils.c */ = {isa = PBXBuildFile; fileRef = B62A0F441CAA45CCB6C40C2D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/utils.c */; settings = {COMPILER_FLAGS = ""; }; };
+		DAAEB443CBE245EC8E895091 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/lossless.c */ = {isa = PBXBuildFile; fileRef = 3EECB2DFE9C244BCB528E8BC /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/lossless.c */; settings = {COMPILER_FLAGS = ""; }; };
+		DD54DA885E8A489DB3797191 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/webp.c */ = {isa = PBXBuildFile; fileRef = 3D13345B2D85448692F24007 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/webp.c */; settings = {COMPILER_FLAGS = ""; }; };
+		DDC050A86C1449C09DA4F4D6 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling_neon.c */ = {isa = PBXBuildFile; fileRef = 4DF92DE2378B489A90615E1B /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling_neon.c */; settings = {COMPILER_FLAGS = ""; }; };
+		DE52071F3AC94BD7B00E8446 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels_dec.h */ = {isa = PBXBuildFile; fileRef = 94D26BF209E24F1D9182989A /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels_dec.h */; settings = {COMPILER_FLAGS = ""; }; };
+		DE84136C8AB349BEAE390680 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/cost.h */ = {isa = PBXBuildFile; fileRef = CA723A7F797A446898249DF8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/cost.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E01A27DAE2594E96B4270E6F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/layer.c */ = {isa = PBXBuildFile; fileRef = E3A55EAC849A4229A1C5FF42 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/layer.c */; settings = {COMPILER_FLAGS = ""; }; };
+		EB7DE24AE64A4E59BAA52200 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/analysis.c */ = {isa = PBXBuildFile; fileRef = 513300A0812E49FCBD48CE82 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/analysis.c */; settings = {COMPILER_FLAGS = ""; }; };
+		EC8AF978FDD24F799A96B31B /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/filter.c */ = {isa = PBXBuildFile; fileRef = 59995BBF480A43CE9393A33B /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/filter.c */; settings = {COMPILER_FLAGS = ""; }; };
+		ECE9A08648F04BC89BE1AC7F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels_dec.c */ = {isa = PBXBuildFile; fileRef = FD291E1B7DE845ACA78A5119 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels_dec.c */; settings = {COMPILER_FLAGS = ""; }; };
+		EDD729906ED542C394FD5B28 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/decode.h */ = {isa = PBXBuildFile; fileRef = E8B7FE5B4D304CDD8E18AE03 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/decode.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EEE876D269A1446B869AFEC0 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/webpenc.c */ = {isa = PBXBuildFile; fileRef = 6D0697956AAE4906A02AA96D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/webpenc.c */; settings = {COMPILER_FLAGS = ""; }; };
+		F264671C47354664B047E043 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/histogram.h */ = {isa = PBXBuildFile; fileRef = 5D07CF3D48D94CE4905A782E /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/histogram.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F8AC5706B7DE4D6393C4014D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman.h */ = {isa = PBXBuildFile; fileRef = D008EBB5997A4262919ACBB3 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FA7AF43E61E44FC19424626C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/tree.c */ = {isa = PBXBuildFile; fileRef = 3F95BC69E364456185B1A1AF /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/tree.c */; settings = {COMPILER_FLAGS = ""; }; };
+		FE00F34457D5438CBE259519 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/filters.h */ = {isa = PBXBuildFile; fileRef = 2FAFB23F898F4E0A929E046F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/filters.h */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		6323F0A90EB94F5EB4F3B5E4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C78DD391955542A581515A9F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CEF31F47ADC14F1A9195B5E6 = {
+			isa = PBXBuildStyle;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		29941633F16A450C93A11802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9109D61CF37C4BBBB7E880EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		31A04EF70E1B4440BFCAEC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9109D61CF37C4BBBB7E880EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		992B0C63D06A4C9686AA63C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9109D61CF37C4BBBB7E880EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		EF65FB1F2C214B65A3F76B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9109D61CF37C4BBBB7E880EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		FE71BCFCCE2E46A3BD3D47ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9109D61CF37C4BBBB7E880EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2011FEEC2654D9C828ADBE9;
+			remoteInfo = libwebp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FCC684D294448EA6B111FB /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/rescaler.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = rescaler.c; path = utils/rescaler.c; sourceTree = SOURCE_ROOT; };
+		0E0E753BE25849C3BFF50C2D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/picture.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = picture.c; path = enc/picture.c; sourceTree = SOURCE_ROOT; };
+		11CDC2102A52455485C9F963 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/color_cache.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = color_cache.c; path = utils/color_cache.c; sourceTree = SOURCE_ROOT; };
+		129C1178A5434D24B0DB0479 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/backward_references.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = backward_references.c; path = enc/backward_references.c; sourceTree = SOURCE_ROOT; };
+		1639DD22B4744CA7BF30A688 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1C4C6FE7CBFC49498516E080 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_neon.c; path = dsp/enc_neon.c; sourceTree = SOURCE_ROOT; };
+		23D12C791DB7415C9EA01BD7 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_reader.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bit_reader.c; path = utils/bit_reader.c; sourceTree = SOURCE_ROOT; };
+		2582513C1F134E45A69ACB06 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/alpha.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha.c; path = dec/alpha.c; sourceTree = SOURCE_ROOT; };
+		2F04814410ED4633B4B31E6C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_neon.c; path = dsp/dec_neon.c; sourceTree = SOURCE_ROOT; };
+		2FAFB23F898F4E0A929E046F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/filters.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = filters.h; path = utils/filters.h; sourceTree = SOURCE_ROOT; };
+		340B0B466A8A4AF4AEB243B2 /* libwebp */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibwebp.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D13345B2D85448692F24007 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/webp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = webp.c; path = dec/webp.c; sourceTree = SOURCE_ROOT; };
+		3D632C01903D40BAB8E43B1B /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_writer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bit_writer.h; path = utils/bit_writer.h; sourceTree = SOURCE_ROOT; };
+		3EECB2DFE9C244BCB528E8BC /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/lossless.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = lossless.c; path = dsp/lossless.c; sourceTree = SOURCE_ROOT; };
+		3F95BC69E364456185B1A1AF /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/tree.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tree.c; path = dec/tree.c; sourceTree = SOURCE_ROOT; };
+		3FB42086227A464196672052 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utils.h; path = utils/utils.h; sourceTree = SOURCE_ROOT; };
+		4343F0B16C62474F90FBBF76 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/decode_vp8.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = decode_vp8.h; path = dec/decode_vp8.h; sourceTree = SOURCE_ROOT; };
+		4C381E78FE654043AF6B1AA1 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/color_cache.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = color_cache.h; path = utils/color_cache.h; sourceTree = SOURCE_ROOT; };
+		4D845CDA2AC04444BFA2C049 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8i.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8i.h; path = dec/vp8i.h; sourceTree = SOURCE_ROOT; };
+		4DF92DE2378B489A90615E1B /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_neon.c; path = dsp/upsampling_neon.c; sourceTree = SOURCE_ROOT; };
+		4F251F9C0B9C4B4EB8954D66 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/lossless.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lossless.h; path = dsp/lossless.h; sourceTree = SOURCE_ROOT; };
+		4FFEB1D4111A46819068DB57 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/io.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = io.c; path = dec/io.c; sourceTree = SOURCE_ROOT; };
+		513300A0812E49FCBD48CE82 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/analysis.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = analysis.c; path = enc/analysis.c; sourceTree = SOURCE_ROOT; };
+		521D4DFD3A0D46B58497D786 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec.c; path = dsp/dec.c; sourceTree = SOURCE_ROOT; };
+		534FC27D79204B85B1B56AB7 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/iterator.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iterator.c; path = enc/iterator.c; sourceTree = SOURCE_ROOT; };
+		58FEB965583F42E2A1789D2D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/rescaler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rescaler.h; path = utils/rescaler.h; sourceTree = SOURCE_ROOT; };
+		59995BBF480A43CE9393A33B /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/filter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filter.c; path = enc/filter.c; sourceTree = SOURCE_ROOT; };
+		5D07CF3D48D94CE4905A782E /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/histogram.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = histogram.h; path = enc/histogram.h; sourceTree = SOURCE_ROOT; };
+		5D4E1CC5011F4C23A572B994 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman_encode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = huffman_encode.h; path = utils/huffman_encode.h; sourceTree = SOURCE_ROOT; };
+		5E2A0CF3E15B47F0B18A1182 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/config.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = config.c; path = enc/config.c; sourceTree = SOURCE_ROOT; };
+		5E805FB4CDDD43D2BE8A5C84 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/frame.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = frame.c; path = enc/frame.c; sourceTree = SOURCE_ROOT; };
+		61D15D62C596479693541F1A /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/filters.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = filters.c; path = utils/filters.c; sourceTree = SOURCE_ROOT; };
+		641C06AC51FF4140A364256C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8enci.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8enci.h; path = enc/vp8enci.h; sourceTree = SOURCE_ROOT; };
+		6571DF794CF04E5E8D108517 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6903C2116AF74ACEA3A683FB /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/syntax.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = syntax.c; path = enc/syntax.c; sourceTree = SOURCE_ROOT; };
+		69083839AFC346CAB5B2E457 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8l.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vp8l.c; path = enc/vp8l.c; sourceTree = SOURCE_ROOT; };
+		69138082724D401DBF11CB0C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_reader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bit_reader.h; path = utils/bit_reader.h; sourceTree = SOURCE_ROOT; };
+		6A0182A9DF884D22AF5003D5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc.c; path = dsp/enc.c; sourceTree = SOURCE_ROOT; };
+		6D0697956AAE4906A02AA96D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/webpenc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = webpenc.c; path = enc/webpenc.c; sourceTree = SOURCE_ROOT; };
+		70470B6D625041CFBD7ABA9F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = muxread.c; path = mux/muxread.c; sourceTree = SOURCE_ROOT; };
+		792DAF851F6149F18FD249A8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8li.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8li.h; path = enc/vp8li.h; sourceTree = SOURCE_ROOT; };
+		8010E4EDC653425AA68F5FF6 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/idec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = idec.c; path = dec/idec.c; sourceTree = SOURCE_ROOT; };
+		83F6211D1F854E1DB40510DF /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/alpha.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = alpha.c; path = enc/alpha.c; sourceTree = SOURCE_ROOT; };
+		8450523739B0406B8DE5C137 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vp8.c; path = dec/vp8.c; sourceTree = SOURCE_ROOT; };
+		8B172840349542CAB88A85D4 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/backward_references.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = backward_references.h; path = enc/backward_references.h; sourceTree = SOURCE_ROOT; };
+		8CE1D222321D4FE2804F0F84 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = thread.c; path = utils/thread.c; sourceTree = SOURCE_ROOT; };
+		8D689FC6F13F4D11B45343CF /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/frame.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = frame.c; path = dec/frame.c; sourceTree = SOURCE_ROOT; };
+		8F6C7D58493047358DB7AAE2 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/tree.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tree.c; path = enc/tree.c; sourceTree = SOURCE_ROOT; };
+		91037F3D22B248089647BD63 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_levels.c; path = utils/quant_levels.c; sourceTree = SOURCE_ROOT; };
+		9376DBF97DF04D26A97A5993 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxinternal.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = muxinternal.c; path = mux/muxinternal.c; sourceTree = SOURCE_ROOT; };
+		94D26BF209E24F1D9182989A /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quant_levels_dec.h; path = utils/quant_levels_dec.h; sourceTree = SOURCE_ROOT; };
+		9DD6A237CA974686923ED535 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman_encode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = huffman_encode.c; path = utils/huffman_encode.c; sourceTree = SOURCE_ROOT; };
+		A12455EF91F54257AC8AFAE5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_writer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bit_writer.c; path = utils/bit_writer.c; sourceTree = SOURCE_ROOT; };
+		A3036FA5104E4B4F912C1C40 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/quant.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant.c; path = enc/quant.c; sourceTree = SOURCE_ROOT; };
+		A4B23389E9F74283A92C22A3 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/mux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mux.h; path = webp/mux.h; sourceTree = SOURCE_ROOT; };
+		A54E68664E874F018372425D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/encode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = encode.h; path = webp/encode.h; sourceTree = SOURCE_ROOT; };
+		A5972AC3E2C641DDA867FE46 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = huffman.c; path = utils/huffman.c; sourceTree = SOURCE_ROOT; };
+		A68159B62BD74AF3BD44F618 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/format_constants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = format_constants.h; path = webp/format_constants.h; sourceTree = SOURCE_ROOT; };
+		A9B2455AF3C8417D88516BC2 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dec_sse2.c; path = dsp/dec_sse2.c; sourceTree = SOURCE_ROOT; };
+		AC588FE9DB08414294F5479F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dsp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dsp.h; path = dsp/dsp.h; sourceTree = SOURCE_ROOT; };
+		AE8293CE50004BA487C25764 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/mux_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mux_types.h; path = webp/mux_types.h; sourceTree = SOURCE_ROOT; };
+		AEBAB0C4974F47DDBFB98526 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = enc_sse2.c; path = dsp/enc_sse2.c; sourceTree = SOURCE_ROOT; };
+		B62A0F441CAA45CCB6C40C2D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/utils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = utils.c; path = utils/utils.c; sourceTree = SOURCE_ROOT; };
+		B7C8A1FDA745431D8367B6D5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = muxi.h; path = mux/muxi.h; sourceTree = SOURCE_ROOT; };
+		C144061E3F6F4AA4841357F3 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/histogram.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = histogram.c; path = enc/histogram.c; sourceTree = SOURCE_ROOT; };
+		C19947DA57AC48AFA8F2E4C2 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/token.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = token.c; path = enc/token.c; sourceTree = SOURCE_ROOT; };
+		C1CD21AA242B4F148290FB70 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling.c; path = dsp/upsampling.c; sourceTree = SOURCE_ROOT; };
+		C64AC0D6C6A04700B777F8E5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/webpi.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = webpi.h; path = dec/webpi.h; sourceTree = SOURCE_ROOT; };
+		C8D19A00121D4DA4A011097A /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/layer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = layer.c; path = dec/layer.c; sourceTree = SOURCE_ROOT; };
+		CA723A7F797A446898249DF8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/cost.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cost.h; path = enc/cost.h; sourceTree = SOURCE_ROOT; };
+		CA8B0CAE103947DAB1D25ED6 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxedit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = muxedit.c; path = mux/muxedit.c; sourceTree = SOURCE_ROOT; };
+		D008EBB5997A4262919ACBB3 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = huffman.h; path = utils/huffman.h; sourceTree = SOURCE_ROOT; };
+		D29507C13E1E48FD88F21B67 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8li.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vp8li.h; path = dec/vp8li.h; sourceTree = SOURCE_ROOT; };
+		D4E657DFFE76427993973E42 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = thread.h; path = utils/thread.h; sourceTree = SOURCE_ROOT; };
+		D59C229F7C654E599065E371 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/cpu.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cpu.c; path = dsp/cpu.c; sourceTree = SOURCE_ROOT; };
+		DEAFCECE6A26473F8841B279 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/cost.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cost.c; path = enc/cost.c; sourceTree = SOURCE_ROOT; };
+		E3A55EAC849A4229A1C5FF42 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/layer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = layer.c; path = enc/layer.c; sourceTree = SOURCE_ROOT; };
+		E4D0A0F1C983407BA31B697D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/buffer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = buffer.c; path = dec/buffer.c; sourceTree = SOURCE_ROOT; };
+		E4FC2CD3A59A4314AFAC04A7 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quant_levels.h; path = utils/quant_levels.h; sourceTree = SOURCE_ROOT; };
+		E6371A3026C14D6E94C0C308 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = webp/types.h; sourceTree = SOURCE_ROOT; };
+		E7B0FA6F082A40F7A3FF1869 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E879D8467A3C4A729F16BCBC /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/quant.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant.c; path = dec/quant.c; sourceTree = SOURCE_ROOT; };
+		E8B7FE5B4D304CDD8E18AE03 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/decode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = decode.h; path = webp/decode.h; sourceTree = SOURCE_ROOT; };
+		EAC26753651745569996EB57 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/yuv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yuv.h; path = dsp/yuv.h; sourceTree = SOURCE_ROOT; };
+		F2CC4290F9A8421589C96B18 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8l.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vp8l.c; path = dec/vp8l.c; sourceTree = SOURCE_ROOT; };
+		F5C423266ED04F5D9FE2E8D1 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/demux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = demux.h; path = webp/demux.h; sourceTree = SOURCE_ROOT; };
+		FA903770F5DF485EAF0A2D30 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling_sse2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = upsampling_sse2.c; path = dsp/upsampling_sse2.c; sourceTree = SOURCE_ROOT; };
+		FD291E1B7DE845ACA78A5119 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quant_levels_dec.c; path = utils/quant_levels_dec.c; sourceTree = SOURCE_ROOT; };
+		FE5320D853494C99A59484D8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/yuv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = yuv.c; path = dsp/yuv.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		04F5CB85EA404F52A63AF5C1 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				896E284CB6A84E17829A2E60 /* CMake Rules */,
+				6571DF794CF04E5E8D108517 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		3601B24CD00747DCB61DC20D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3C38DAE95EA2445492952337 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				70BA7A73AF494AB789D54382 /* 3rdparty */,
+				67C1F0ED24984C47B460C94B /* ALL_BUILD */,
+				04F5CB85EA404F52A63AF5C1 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		3D5CA47F719348F2A8F1C3FC /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				4343F0B16C62474F90FBBF76 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/decode_vp8.h */,
+				4D845CDA2AC04444BFA2C049 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8i.h */,
+				D29507C13E1E48FD88F21B67 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8li.h */,
+				C64AC0D6C6A04700B777F8E5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/webpi.h */,
+				AC588FE9DB08414294F5479F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dsp.h */,
+				4F251F9C0B9C4B4EB8954D66 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/lossless.h */,
+				EAC26753651745569996EB57 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/yuv.h */,
+				8B172840349542CAB88A85D4 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/backward_references.h */,
+				CA723A7F797A446898249DF8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/cost.h */,
+				5D07CF3D48D94CE4905A782E /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/histogram.h */,
+				641C06AC51FF4140A364256C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8enci.h */,
+				792DAF851F6149F18FD249A8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8li.h */,
+				B7C8A1FDA745431D8367B6D5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxi.h */,
+				69138082724D401DBF11CB0C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_reader.h */,
+				3D632C01903D40BAB8E43B1B /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_writer.h */,
+				4C381E78FE654043AF6B1AA1 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/color_cache.h */,
+				2FAFB23F898F4E0A929E046F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/filters.h */,
+				D008EBB5997A4262919ACBB3 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman.h */,
+				5D4E1CC5011F4C23A572B994 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman_encode.h */,
+				E4FC2CD3A59A4314AFAC04A7 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels.h */,
+				94D26BF209E24F1D9182989A /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels_dec.h */,
+				58FEB965583F42E2A1789D2D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/rescaler.h */,
+				D4E657DFFE76427993973E42 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/thread.h */,
+				3FB42086227A464196672052 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/utils.h */,
+				E8B7FE5B4D304CDD8E18AE03 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/decode.h */,
+				F5C423266ED04F5D9FE2E8D1 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/demux.h */,
+				A54E68664E874F018372425D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/encode.h */,
+				A68159B62BD74AF3BD44F618 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/format_constants.h */,
+				A4B23389E9F74283A92C22A3 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/mux.h */,
+				AE8293CE50004BA487C25764 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/mux_types.h */,
+				E6371A3026C14D6E94C0C308 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/webp/types.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3DE7F1247358473FBA1972BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		42417D7576D04FA9B9A78F22 /* libwebp */ = {
+			isa = PBXGroup;
+			children = (
+				430843936D814BD5A162A0E3 /* Source Files */,
+				3D5CA47F719348F2A8F1C3FC /* Header Files */,
+				E7B0FA6F082A40F7A3FF1869 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/CMakeLists.txt */,
+			);
+			name = libwebp;
+			sourceTree = "<group>";
+		};
+		430843936D814BD5A162A0E3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2582513C1F134E45A69ACB06 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/alpha.c */,
+				E4D0A0F1C983407BA31B697D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/buffer.c */,
+				8D689FC6F13F4D11B45343CF /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/frame.c */,
+				8010E4EDC653425AA68F5FF6 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/idec.c */,
+				4FFEB1D4111A46819068DB57 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/io.c */,
+				C8D19A00121D4DA4A011097A /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/layer.c */,
+				E879D8467A3C4A729F16BCBC /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/quant.c */,
+				3F95BC69E364456185B1A1AF /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/tree.c */,
+				8450523739B0406B8DE5C137 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8.c */,
+				F2CC4290F9A8421589C96B18 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8l.c */,
+				3D13345B2D85448692F24007 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/webp.c */,
+				D59C229F7C654E599065E371 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/cpu.c */,
+				521D4DFD3A0D46B58497D786 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec.c */,
+				2F04814410ED4633B4B31E6C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec_neon.c */,
+				A9B2455AF3C8417D88516BC2 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec_sse2.c */,
+				6A0182A9DF884D22AF5003D5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc.c */,
+				1C4C6FE7CBFC49498516E080 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc_neon.c */,
+				AEBAB0C4974F47DDBFB98526 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc_sse2.c */,
+				3EECB2DFE9C244BCB528E8BC /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/lossless.c */,
+				C1CD21AA242B4F148290FB70 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling.c */,
+				4DF92DE2378B489A90615E1B /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling_neon.c */,
+				FA903770F5DF485EAF0A2D30 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling_sse2.c */,
+				FE5320D853494C99A59484D8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/yuv.c */,
+				83F6211D1F854E1DB40510DF /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/alpha.c */,
+				513300A0812E49FCBD48CE82 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/analysis.c */,
+				129C1178A5434D24B0DB0479 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/backward_references.c */,
+				5E2A0CF3E15B47F0B18A1182 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/config.c */,
+				DEAFCECE6A26473F8841B279 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/cost.c */,
+				59995BBF480A43CE9393A33B /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/filter.c */,
+				5E805FB4CDDD43D2BE8A5C84 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/frame.c */,
+				C144061E3F6F4AA4841357F3 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/histogram.c */,
+				534FC27D79204B85B1B56AB7 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/iterator.c */,
+				E3A55EAC849A4229A1C5FF42 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/layer.c */,
+				0E0E753BE25849C3BFF50C2D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/picture.c */,
+				A3036FA5104E4B4F912C1C40 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/quant.c */,
+				6903C2116AF74ACEA3A683FB /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/syntax.c */,
+				C19947DA57AC48AFA8F2E4C2 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/token.c */,
+				8F6C7D58493047358DB7AAE2 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/tree.c */,
+				69083839AFC346CAB5B2E457 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8l.c */,
+				6D0697956AAE4906A02AA96D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/webpenc.c */,
+				CA8B0CAE103947DAB1D25ED6 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxedit.c */,
+				9376DBF97DF04D26A97A5993 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxinternal.c */,
+				70470B6D625041CFBD7ABA9F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxread.c */,
+				23D12C791DB7415C9EA01BD7 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_reader.c */,
+				A12455EF91F54257AC8AFAE5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_writer.c */,
+				11CDC2102A52455485C9F963 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/color_cache.c */,
+				61D15D62C596479693541F1A /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/filters.c */,
+				A5972AC3E2C641DDA867FE46 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman.c */,
+				9DD6A237CA974686923ED535 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman_encode.c */,
+				91037F3D22B248089647BD63 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels.c */,
+				FD291E1B7DE845ACA78A5119 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels_dec.c */,
+				07FCC684D294448EA6B111FB /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/rescaler.c */,
+				8CE1D222321D4FE2804F0F84 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/thread.c */,
+				B62A0F441CAA45CCB6C40C2D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/utils.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		67C1F0ED24984C47B460C94B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3601B24CD00747DCB61DC20D /* CMake Rules */,
+				1639DD22B4744CA7BF30A688 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		70BA7A73AF494AB789D54382 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				42417D7576D04FA9B9A78F22 /* libwebp */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		896E284CB6A84E17829A2E60 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		96EFB8881E2D481397C4C1E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				340B0B466A8A4AF4AEB243B2 /* libwebp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA10185B62D452C8725F3C5 = {
+			isa = PBXGroup;
+			children = (
+				3C38DAE95EA2445492952337 /* Sources */,
+				3DE7F1247358473FBA1972BA /* Resources */,
+				96EFB8881E2D481397C4C1E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2011FEEC2654D9C828ADBE9 /* libwebp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911F9E4EA9C746359F8F5AFE /* Build configuration list for PBXNativeTarget "libwebp" */;
+			buildPhases = (
+				BF7E58D2AE194927A2B6DC55 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE3DED04F8D342C98326BDF1 /* PBXTargetDependency */,
+			);
+			name = libwebp;
+			productName = libwebp;
+			productReference = 340B0B466A8A4AF4AEB243B2 /* libwebp */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9109D61CF37C4BBBB7E880EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 5442CA4B604041A9AFF020BB /* Build configuration list for PBXProject "libwebp" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C78DD391955542A581515A9F /* Debug */,
+				6323F0A90EB94F5EB4F3B5E4 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = FFA10185B62D452C8725F3C5;
+			projectDirPath = ../../../3rdparty/libwebp;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				C2011FEEC2654D9C828ADBE9 /* libwebp */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C659277A5164420ABA82A28 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libwebp -f /Users/elliotstaudt/opencv/build/3rdparty/libwebp/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		34CA70EE5AEC45C880D2070F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		48F7A0E81DE34228B2EE68F6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libwebp -f /Users/elliotstaudt/opencv/build/3rdparty/libwebp/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4E1716D433574ABDB7F98CE3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		674325D975DA47999A7EE589 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libwebp -f /Users/elliotstaudt/opencv/build/3rdparty/libwebp/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		91BAE1688A554B27BC37083D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CC5A132378B04C0DAD069663 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libwebp -f /Users/elliotstaudt/opencv/build/3rdparty/libwebp/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F7B61432FB8146F8949C16CD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF7E58D2AE194927A2B6DC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAA9ADE8C2D4274ACF9FD5D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/alpha.c */,
+				91512FDF1A9B4A73AD147DCC /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/buffer.c */,
+				4CBDD07406564A959AA20D76 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/frame.c */,
+				6A63A492E8E249C993BF50D8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/idec.c */,
+				157F259DC65D429A8CB527B7 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/io.c */,
+				BEA19D7B07044376A7E973DD /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/layer.c */,
+				50C8ECDE0C9544269F60B03C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/quant.c */,
+				FA7AF43E61E44FC19424626C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/tree.c */,
+				10FD84F598D149F7B675C551 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8.c */,
+				92FEF161E8374D3C9A643976 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/vp8l.c */,
+				DD54DA885E8A489DB3797191 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dec/webp.c */,
+				A209A72A7E5748E1B776D515 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/cpu.c */,
+				76D49F87BFC34613BF013A0C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec.c */,
+				5E26738971B748CD8D6EAE85 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec_neon.c */,
+				2F31260D84DB4EBEBDF3E0AD /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/dec_sse2.c */,
+				8165BB0013974AC8BEF54D39 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc.c */,
+				587B52ADC8394349847E8A18 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc_neon.c */,
+				B774503DDED6437BA832B259 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/enc_sse2.c */,
+				DAAEB443CBE245EC8E895091 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/lossless.c */,
+				55E17E564AFA4307889C4547 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling.c */,
+				DDC050A86C1449C09DA4F4D6 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling_neon.c */,
+				764DACFBA3A64F7BB884FC11 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/upsampling_sse2.c */,
+				7AD753237D114AD889DD29B5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/dsp/yuv.c */,
+				8626CD84B44D416B806F9A87 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/alpha.c */,
+				EB7DE24AE64A4E59BAA52200 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/analysis.c */,
+				AA9DDE2C5FB54FCA97B8A2B8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/backward_references.c */,
+				C29813030AD346438F5BE656 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/config.c */,
+				BB23A746ED8E45CA883B5A1C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/cost.c */,
+				EC8AF978FDD24F799A96B31B /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/filter.c */,
+				BFBE607955EC4062AE82E15E /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/frame.c */,
+				525C8DF8D5F644DE9CCEAC6E /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/histogram.c */,
+				05AD37EFA29D472CAFA3DAD4 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/iterator.c */,
+				E01A27DAE2594E96B4270E6F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/layer.c */,
+				5B7256A2F4E441639D1D1DDD /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/picture.c */,
+				83FF6B31A4C34A69BF8595A5 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/quant.c */,
+				4EC9864CE22A4F3DB9B7F34F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/syntax.c */,
+				5CAD7C6C0462440E8F1D37CD /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/token.c */,
+				314B9DEA635A4DF0816531D8 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/tree.c */,
+				B2627C3959594F068C8D8FC6 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/vp8l.c */,
+				EEE876D269A1446B869AFEC0 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/enc/webpenc.c */,
+				B1FD847104D34A1F9625DB8C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxedit.c */,
+				BA01DF5A31DF4682A519112A /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxinternal.c */,
+				464F2E138B9E4911B3873611 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/mux/muxread.c */,
+				AD9F595871C84287A196B983 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_reader.c */,
+				A3A00F7D5BAA45B88EC58183 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/bit_writer.c */,
+				32CC8EC733B847489BD6A553 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/color_cache.c */,
+				4905FEA535314A5ABE49C0E1 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/filters.c */,
+				5E924734941B4436864516B9 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman.c */,
+				A9E967D58F3147CFA922225F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/huffman_encode.c */,
+				55833643DB20488C8DAB7A54 /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels.c */,
+				ECE9A08648F04BC89BE1AC7F /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/quant_levels_dec.c */,
+				20AA15CD15C346F3986C1F8C /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/rescaler.c */,
+				121A7816CCB74473876051EA /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/thread.c */,
+				C60F14FA3B21423EAA4F440D /* /Users/elliotstaudt/opencv/3rdparty/libwebp/utils/utils.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EE69ACA94AA41FFA58F7018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 29941633F16A450C93A11802 /* PBXContainerItemProxy */;
+		};
+		32639F47C4D849DD97CE436E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 992B0C63D06A4C9686AA63C9 /* PBXContainerItemProxy */;
+		};
+		5EBD82C6E77D4FC7A7DC17D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2011FEEC2654D9C828ADBE9 /* libwebp */;
+			targetProxy = FE71BCFCCE2E46A3BD3D47ED /* PBXContainerItemProxy */;
+		};
+		93D62A4B8CF74A6AAC4727A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = EF65FB1F2C214B65A3F76B27 /* PBXContainerItemProxy */;
+		};
+		CE3DED04F8D342C98326BDF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 31A04EF70E1B4440BFCAEC63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00B1093DC29B43A387E8125B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", WEBP_USE_THREAD, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elliotstaudt/opencv/3rdparty/libwebp/cpu-features", /Users/elliotstaudt/opencv/3rdparty/libwebp, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libwebp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		1DB6FF35C3FB4C6A98E6D04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libwebp/build;
+			};
+			name = Debug;
+		};
+		2C5009427E6745EF9159849E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", WEBP_USE_THREAD, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elliotstaudt/opencv/3rdparty/libwebp/cpu-features", /Users/elliotstaudt/opencv/3rdparty/libwebp, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libwebp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		2FC7CF7AF93B4F499E59B0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elliotstaudt/opencv/3rdparty/libwebp/cpu-features", /Users/elliotstaudt/opencv/3rdparty/libwebp, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libwebp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		314639A0A1E242D3B86E6DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elliotstaudt/opencv/3rdparty/libwebp/cpu-features", /Users/elliotstaudt/opencv/3rdparty/libwebp, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libwebp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		6E35762A2A03491CA68A41FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libwebp/build;
+			};
+			name = Release;
+		};
+		70572F6D49A146DEA7093D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elliotstaudt/opencv/3rdparty/libwebp/cpu-features", /Users/elliotstaudt/opencv/3rdparty/libwebp, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libwebp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		77FD129994074EF09B83AA37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/3rdparty/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", WEBP_USE_THREAD, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elliotstaudt/opencv/3rdparty/libwebp/cpu-features", /Users/elliotstaudt/opencv/3rdparty/libwebp, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -Wno-unused-variable -Wno-unused-function -Wno-shadow         -DDEBUG -D_DEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libwebp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libwebp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		8ED8B77C43394AD08EE62B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", WEBP_USE_THREAD, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elliotstaudt/opencv/3rdparty/libwebp/cpu-features", /Users/elliotstaudt/opencv/3rdparty/libwebp, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libwebp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		D56398088F69495DA67623F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elliotstaudt/opencv/3rdparty/libwebp/cpu-features", /Users/elliotstaudt/opencv/3rdparty/libwebp, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libwebp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F32E1F9D67D34F1081367B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/3rdparty/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", WEBP_USE_THREAD, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elliotstaudt/opencv/3rdparty/libwebp/cpu-features", /Users/elliotstaudt/opencv/3rdparty/libwebp, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -Wno-unused-variable -Wno-unused-function -Wno-shadow     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libwebp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libwebp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		FC741E7F77994AB08D6B8BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", WEBP_USE_THREAD, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/elliotstaudt/opencv/3rdparty/libwebp/cpu-features", /Users/elliotstaudt/opencv/3rdparty/libwebp, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libwebp;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5442CA4B604041A9AFF020BB /* Build configuration list for PBXProject "libwebp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB6FF35C3FB4C6A98E6D04D /* Debug */,
+				6E35762A2A03491CA68A41FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A7A753738534249B6F640F9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5009427E6745EF9159849E /* Debug */,
+				FC741E7F77994AB08D6B8BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		911F9E4EA9C746359F8F5AFE /* Build configuration list for PBXNativeTarget "libwebp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FD129994074EF09B83AA37 /* Debug */,
+				F32E1F9D67D34F1081367B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AAFA98D2A8544A1C90761849 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70572F6D49A146DEA7093D9D /* Debug */,
+				2FC7CF7AF93B4F499E59B0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB76C6901C4B4C9E9D97C0D3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED8B77C43394AD08EE62B8D /* Debug */,
+				00B1093DC29B43A387E8125B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B7E58CDC1B79414BABAACE10 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56398088F69495DA67623F4 /* Debug */,
+				314639A0A1E242D3B86E6DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9109D61CF37C4BBBB7E880EA /* Project object */;
+}

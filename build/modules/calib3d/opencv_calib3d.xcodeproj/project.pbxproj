@@ -1,0 +1,1779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EEFABDAC39DB4916BB10B12E /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				FCA19ACB450F4AEB8BE954BF /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				C830D31941B94966BF0EE9A5 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 342944C51F4447E888408A25 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				D690D2362548411193A48BE8 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				691AC0ABBC134CC1AD823B39 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CB81ADC6F9C54E2F96B57C21 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				151E0C7429234FDFB2894A3F /* CMake Rules */,
+			);
+			dependencies = (
+				7DB0FFA3C83F42DD9EBD8416 /* PBXTargetDependency */,
+				57571FE38B4641D68CF0DA46 /* PBXTargetDependency */,
+				FBED8F07CDCE49A0B651BA04 /* PBXTargetDependency */,
+				6F9FB0EB5FBB4CEEBF641E75 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8870CC54533E493194A49341 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6EBF73C4996D436BA1254150 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		011711C710A2413DB1E60B66 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_solvepnp_ransac.cpp */ = {isa = PBXBuildFile; fileRef = 6D7F3F7F6CD14F46BD7D2263 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_solvepnp_ransac.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0151D79FF8B54A1C85A3C6F6 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_posit.cpp */ = {isa = PBXBuildFile; fileRef = CEDC056D4F614BD2B2435DA0 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_posit.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0B091DF3B8454219AC450425 /* /Users/elliotstaudt/opencv/modules/calib3d/src/posit.cpp */ = {isa = PBXBuildFile; fileRef = 4CC6F9111CB946358740A7F2 /* /Users/elliotstaudt/opencv/modules/calib3d/src/posit.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0C73B710640D4F0BBDA9A4DC /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibinit.cpp */ = {isa = PBXBuildFile; fileRef = 58133493C6594350A5143E7E /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibinit.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0E19463D4F004DACBE3DE789 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.h */ = {isa = PBXBuildFile; fileRef = 26BEF4D834A744C7BA28F1C7 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0ECFEE3F9B7547F7AE73B765 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.cpp */ = {isa = PBXBuildFile; fileRef = 4921AB1891D5454BA858D04B /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		10D6DA87F0544DA08F53BC36 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.cpp */ = {isa = PBXBuildFile; fileRef = 03E5FE2DE4434C81854456B5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		14BB7609A2D440D09A95D947 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 842502FE9DA942B083269F06 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		14F69B89920D4BF196297DF3 /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.cpp */ = {isa = PBXBuildFile; fileRef = 4F2367B938DF49658A90AAEE /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		159715A9E00F41B08216C0F8 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_stereosgbm.cpp */ = {isa = PBXBuildFile; fileRef = 0C9163D134B145478784B0D9 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_stereosgbm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		19A56D8CBEBF420893A9F3F8 /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_stereo.cpp */ = {isa = PBXBuildFile; fileRef = E6EE668066D843BD91CA610A /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_stereo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1D55BD8674124DA4BBA2A58E /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.hpp */ = {isa = PBXBuildFile; fileRef = ED7EE392CFF248C68B35C304 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		20DB44A350444781A2D9E525 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_affine3.cpp */ = {isa = PBXBuildFile; fileRef = 76C799AE5A114E6BB0120627 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_affine3.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		238E5630042F4F13AA4ECF59 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 86979DAED2304E9096532F7C /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		23E728CF9DAD418EAAA4C5AE /* /Users/elliotstaudt/opencv/modules/calib3d/src/fundam.cpp */ = {isa = PBXBuildFile; fileRef = 0A9A2481E8C74E82A8A4AADC /* /Users/elliotstaudt/opencv/modules/calib3d/src/fundam.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		273FF86251DF46F5BD4C3161 /* /Users/elliotstaudt/opencv/modules/calib3d/src/checkchessboard.cpp */ = {isa = PBXBuildFile; fileRef = 162BD0C8AA6D4FC982BBA314 /* /Users/elliotstaudt/opencv/modules/calib3d/src/checkchessboard.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2BA0684A2647434A829179CB /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.h */ = {isa = PBXBuildFile; fileRef = B20F0911466C422EAED47C6C /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2EF853DA1E7A4FF29F8E8BB2 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chessboardgenerator.hpp */ = {isa = PBXBuildFile; fileRef = 4D80EBE3E8A2444F91BBD16D /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chessboardgenerator.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3129BC13A8284E4091100DBD /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.cpp */ = {isa = PBXBuildFile; fileRef = 27AB78830CE44483A4A01301 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		31389299A54E425EA1D28CD0 /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.cpp */ = {isa = PBXBuildFile; fileRef = FD9D4E5DC9234760BCE1DB18 /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		31B52C432BCB417BB33017ED /* /Users/elliotstaudt/opencv/modules/calib3d/src/triangulate.cpp */ = {isa = PBXBuildFile; fileRef = BC3FBC86E23940939F30D61D /* /Users/elliotstaudt/opencv/modules/calib3d/src/triangulate.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3209B186DE3E485588FC337B /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FDBC2EBB05D94765AC6A60A9 /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		3250723771474156AD30C08F /* /Users/elliotstaudt/opencv/modules/calib3d/test/opencl/test_stereobm.cpp */ = {isa = PBXBuildFile; fileRef = C3ADCFB2614946C7A8FACF95 /* /Users/elliotstaudt/opencv/modules/calib3d/test/opencl/test_stereobm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		34FF062A2B714BE586FCDDD0 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners_timing.cpp */ = {isa = PBXBuildFile; fileRef = 99CEF5F4DE5A470BB4E38717 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners_timing.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		360A2D05B0CD46BCA0E65586 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.cpp */ = {isa = PBXBuildFile; fileRef = 761D449C112E4637A62D1230 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		363D9B18BF9F4C2287F22EE8 /* /Users/elliotstaudt/opencv/modules/calib3d/src/quadsubpix.cpp */ = {isa = PBXBuildFile; fileRef = F0F9808355CE49FAB01CE308 /* /Users/elliotstaudt/opencv/modules/calib3d/src/quadsubpix.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		36603EDAA1A242E492D8C1F3 /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.hpp */ = {isa = PBXBuildFile; fileRef = E5E4079300FC424EAF003A61 /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3711371B82414093B98A9867 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp */ = {isa = PBXBuildFile; fileRef = 79BB4F078156421297CF2905 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3A89D41FD9634B7F80374783 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp */ = {isa = PBXBuildFile; fileRef = 5C7A45FE33864AAD96F14C88 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3B7CDF6935A74438AB660E7D /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereobm.cpp */ = {isa = PBXBuildFile; fileRef = 2C09AF40C0A848E1AE353E56 /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereobm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3C6E25B4C858463AAF10B100 /* /Users/elliotstaudt/opencv/modules/calib3d/src/five-point.cpp */ = {isa = PBXBuildFile; fileRef = 0A115355EDA94F49AADABE06 /* /Users/elliotstaudt/opencv/modules/calib3d/src/five-point.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3DD3E9A4C2B243939168D025 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 7858343496544B4396ACDDED /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		40F6699848D44B91A14B942D /* /Users/elliotstaudt/opencv/modules/calib3d/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 26536B3E365740BBB1D662D1 /* /Users/elliotstaudt/opencv/modules/calib3d/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		41F427032E424739AE09F431 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort.cpp */ = {isa = PBXBuildFile; fileRef = 848F128409AD478DA30F253D /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		44D3EEBEA8244F47A04C621C /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = A518A20145D94422ACC2712A /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		45D628179B2A43D08F47111F /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_modelest.cpp */ = {isa = PBXBuildFile; fileRef = DD13F1098ED74F14863B91D7 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_modelest.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		46FB18FDCD194CC9B3B718BD /* /Users/elliotstaudt/opencv/modules/calib3d/src/homography_decomp.cpp */ = {isa = PBXBuildFile; fileRef = C0593890E08C4A9DBA64787A /* /Users/elliotstaudt/opencv/modules/calib3d/src/homography_decomp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		490BF2A47BAC4A559A004E1A /* /Users/elliotstaudt/opencv/modules/calib3d/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 3417B975C2EB41D6AE671376 /* /Users/elliotstaudt/opencv/modules/calib3d/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		491C6397FFEE45D4BBBD0BFA /* /Users/elliotstaudt/opencv/modules/calib3d/src/opencl/stereobm.cl */ = {isa = PBXBuildFile; fileRef = 8722223F31B84034B9A37E33 /* /Users/elliotstaudt/opencv/modules/calib3d/src/opencl/stereobm.cl */; settings = {COMPILER_FLAGS = ""; }; };
+		4F137CB2B33D4FFFAF5533DA /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.hpp */ = {isa = PBXBuildFile; fileRef = 1A42AF1DD1624127A08A590F /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		50DA53C52F0C443781EC6CAC /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_stereo.cpp */ = {isa = PBXBuildFile; fileRef = 22022CE4BB66455AA3FBF6DF /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_stereo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		58ABE0803C704110A7118D2C /* /Users/elliotstaudt/opencv/modules/calib3d/src/homography_decomp.cpp */ = {isa = PBXBuildFile; fileRef = F044FE4E99C04F2D9AAB27E6 /* /Users/elliotstaudt/opencv/modules/calib3d/src/homography_decomp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5B8A898FBFB048A28160E994 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.h */ = {isa = PBXBuildFile; fileRef = E48D893BC7944956A87C1F92 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5D31C0991DA44F35BF4C9AE5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.h */ = {isa = PBXBuildFile; fileRef = 36708B854CED402398B56D4A /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5DAA46527C844AF49B2F5F65 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 938F15235C73419EA521FDF4 /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5FFF2C4A809A4B9C95F58E3A /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.cpp */ = {isa = PBXBuildFile; fileRef = FF1F262060AF45C6B8BF3B6A /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6B99E7D3E8CB475C93592077 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cornerssubpix.cpp */ = {isa = PBXBuildFile; fileRef = 62BADA671E9E450FB8FBEA1D /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cornerssubpix.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6EE5EA0A872F4D1794FAF536 /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.hpp */ = {isa = PBXBuildFile; fileRef = 877EE213962B449E864EE9EA /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		70D3E5FB00EA4129891461F0 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_decompose_projection.cpp */ = {isa = PBXBuildFile; fileRef = 4102FCAC9B3A499CBD55E809 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_decompose_projection.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		717EBACF93F2497C89CFFD0B /* /Users/elliotstaudt/opencv/modules/calib3d/src/fundam.cpp */ = {isa = PBXBuildFile; fileRef = DE72C42E3CD04E9AAF310644 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fundam.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		71D23F9AE70746C5BE76833D /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */ = {isa = PBXBuildFile; fileRef = 2290D69379724672BA7B8BF3 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		734E6671269E424A9E3EA027 /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.cpp */ = {isa = PBXBuildFile; fileRef = 7F21F36404BF408E97F27C0F /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		76934769DAD84F7A98AE8900 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_fisheye.cpp */ = {isa = PBXBuildFile; fileRef = D254D64F6FDB4BDE9812FF25 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_fisheye.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		79C3D01036A946F6B9A60A85 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort_badarg.cpp */ = {isa = PBXBuildFile; fileRef = 57BB41A95D854AA2882E336C /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort_badarg.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7B4459C66E6946A6B833B29B /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_compose_rt.cpp */ = {isa = PBXBuildFile; fileRef = EE01D1688C9A48EA8B349532 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_compose_rt.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7B757F7B77DB450F915BACDC /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp */ = {isa = PBXBuildFile; fileRef = 153278A023F9451B9DDAC3AA /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7F255BD1C5024B73A4EFC9F7 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.cpp */ = {isa = PBXBuildFile; fileRef = 839AA4AAE84047EABCA6AF89 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8300EF2A9B244AC2B8A1F9E0 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.h */ = {isa = PBXBuildFile; fileRef = 9556420BF9DF4A169738FB97 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.h */; settings = {COMPILER_FLAGS = ""; }; };
+		84499E5D4741469ABDB45802 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */ = {isa = PBXBuildFile; fileRef = A9C0AD4C22CC4130AA97326C /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */; settings = {COMPILER_FLAGS = ""; }; };
+		85B17532665A475DB0E99D94 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.h */ = {isa = PBXBuildFile; fileRef = 84B73F146DC74F55B2FCCB68 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8718B608BAB14CC898520D25 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.cpp */ = {isa = PBXBuildFile; fileRef = FE1F3B3E5BC04E3697B07F07 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		883193D1041A44D99D8820E7 /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_ptsetreg.cpp */ = {isa = PBXBuildFile; fileRef = 69A6ECD0BAC44D8595732B5B /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_ptsetreg.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8891D83B6303404B88F16A2D /* /Users/elliotstaudt/opencv/modules/calib3d/src/ptsetreg.cpp */ = {isa = PBXBuildFile; fileRef = 53055EAFA1954E928560E375 /* /Users/elliotstaudt/opencv/modules/calib3d/src/ptsetreg.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8983845FED2D4B1FAFD884F3 /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 96C5735DC2294210A732031D /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		8C01D171F4F74C3DBF3134E1 /* /Users/elliotstaudt/opencv/modules/calib3d/src/checkchessboard.cpp */ = {isa = PBXBuildFile; fileRef = FF19233912D4483E85008A43 /* /Users/elliotstaudt/opencv/modules/calib3d/src/checkchessboard.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8C0DD650493248EF87DB04F4 /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.cpp */ = {isa = PBXBuildFile; fileRef = 989C549A28EA43BDB7C5A1A8 /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8C7F471AC60944508E884F4D /* /Users/elliotstaudt/opencv/modules/calib3d/src/five-point.cpp */ = {isa = PBXBuildFile; fileRef = A2B0E9B2E06E47BEA215C20A /* /Users/elliotstaudt/opencv/modules/calib3d/src/five-point.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		91C04E5D93A546D685674310 /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.h */ = {isa = PBXBuildFile; fileRef = 689A4168C1ED4B29AAE865AD /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.h */; settings = {COMPILER_FLAGS = ""; }; };
+		942BAD74D8194EBCB58B20C8 /* /Users/elliotstaudt/opencv/modules/calib3d/src/ptsetreg.cpp */ = {isa = PBXBuildFile; fileRef = 7ED60D739C104FB99F178BC5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/ptsetreg.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		95FB050CACCF455AAEEDE4C7 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.h */ = {isa = PBXBuildFile; fileRef = 6BCB202167F24806AA1A7B70 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9A0223DD1EBD468786473C0E /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereosgbm.cpp */ = {isa = PBXBuildFile; fileRef = 69AAC8D8B7994C5C99F22F79 /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereosgbm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9C90CFF4D5A44D2B8B548F6B /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp */ = {isa = PBXBuildFile; fileRef = DFDAC59A404C49C5AA53F615 /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9F39D212A0D040B284F88EB7 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_homography.cpp */ = {isa = PBXBuildFile; fileRef = 622C59463E174A189AF19CB5 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_homography.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A18ACD01A40F48F983AC5577 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.h */ = {isa = PBXBuildFile; fileRef = EF5899779DB946D89706A5C0 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A1A270DD8885489194D7BD78 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.cpp */ = {isa = PBXBuildFile; fileRef = 35DC1FC1407C460A910FAF8E /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A431AB5E03ED4E6684D38504 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_fundam.cpp */ = {isa = PBXBuildFile; fileRef = 4950BD882134430BAA029C86 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_fundam.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A84DE605ACB141A583BB9B46 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_affine3d_estimator.cpp */ = {isa = PBXBuildFile; fileRef = 89547E90747545F8A9E30D47 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_affine3d_estimator.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A9C31C49A7724A54ABBD5FD2 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.h */ = {isa = PBXBuildFile; fileRef = AEAD3A8F4E394211B611523E /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.h */; settings = {COMPILER_FLAGS = ""; }; };
+		AB4BE4801AA743448C4B166E /* /Users/elliotstaudt/opencv/modules/calib3d/src/quadsubpix.cpp */ = {isa = PBXBuildFile; fileRef = CA15F938F469408C906F1C81 /* /Users/elliotstaudt/opencv/modules/calib3d/src/quadsubpix.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AE55A6D9811C4500867FD0E0 /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp.rule */ = {isa = PBXBuildFile; fileRef = 30BE0529371A46D3BD2A5724 /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp.rule */; settings = {COMPILER_FLAGS = ""; }; };
+		B4574CA06075418DAD87D88E /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereosgbm.cpp */ = {isa = PBXBuildFile; fileRef = 955C978BA7A8493FAF2ABAF5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereosgbm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B536FB2CAC7D4686B37D2F5A /* /Users/elliotstaudt/opencv/modules/calib3d/src/levmarq.cpp */ = {isa = PBXBuildFile; fileRef = F13E6D5086A04D1FB3AD94C2 /* /Users/elliotstaudt/opencv/modules/calib3d/src/levmarq.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BAF6D8BDF0DD44CBB9D5C0EC /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp.rule */ = {isa = PBXBuildFile; fileRef = FE67951FB35B4E6495FB54B5 /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp.rule */; settings = {COMPILER_FLAGS = ""; }; };
+		BB335C2217E14CF69620A579 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_homography_decomp.cpp */ = {isa = PBXBuildFile; fileRef = 641BE408AA564ABEB9EEAB66 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_homography_decomp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BD08479ADEC840BF84555883 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_pnp.cpp */ = {isa = PBXBuildFile; fileRef = FE753C39107A471C98559DE9 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_pnp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BDC16950466F424C84AB2CDB /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.cpp */ = {isa = PBXBuildFile; fileRef = 124806DBAB1642D19AA20848 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BEBC2A4EA50A475DBB365F61 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_stereomatching.cpp */ = {isa = PBXBuildFile; fileRef = 1D176ADB5C3845539D8F09C5 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_stereomatching.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C0BD66C1F1D4419C9E49A094 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp */ = {isa = PBXBuildFile; fileRef = 8251EBECDB184D4DAABCD82C /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C2582F6E7F1A4EB19D75D922 /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.hpp */ = {isa = PBXBuildFile; fileRef = 5D0F1F919B6443998C0B0DCF /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C44360615CC54893AA6AFEB6 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibration.cpp */ = {isa = PBXBuildFile; fileRef = 835ED0ECA7AD4987B76B88B5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibration.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C76796FC05914C4CA716A240 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.cpp */ = {isa = PBXBuildFile; fileRef = CF2F87B17AA24250B58BA704 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C780DA7CD4EB4BC4B7FF8CFB /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.cpp */ = {isa = PBXBuildFile; fileRef = 0002B7AE5C144D3D98EA8CF3 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C83E56754914446DA774FE6B /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2DC81A1A07E94B77A688A791 /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		CB2426070FFF44958DF57E23 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners_badarg.cpp */ = {isa = PBXBuildFile; fileRef = 9462190068A64A9D8E37E296 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners_badarg.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CCB2985C1A5443A7B62E6F49 /* /Users/elliotstaudt/opencv/modules/calib3d/src/posit.cpp */ = {isa = PBXBuildFile; fileRef = F35ABD7423A742E384312BFA /* /Users/elliotstaudt/opencv/modules/calib3d/src/posit.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CCD3052C22374B059B0C9B34 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort_points.cpp */ = {isa = PBXBuildFile; fileRef = 2AEB0F26633240EEB3749AD4 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort_points.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CD3053F4402845C1915C8877 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration.cpp */ = {isa = PBXBuildFile; fileRef = 27C99B4E4BFE4BC486CDC9BC /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CDAB8B9CE3B34C7FAB886168 /* /Users/elliotstaudt/opencv/modules/calib3d/src/solvepnp.cpp */ = {isa = PBXBuildFile; fileRef = 82D3EBBD6E4D49B3B0F9970B /* /Users/elliotstaudt/opencv/modules/calib3d/src/solvepnp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CE19B9ACE4944D3BB7CA8F4D /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_ptsetreg.cpp */ = {isa = PBXBuildFile; fileRef = 4ECC5DC96D674AB39475F508 /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_ptsetreg.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D01200A623E94D0496C22DD6 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 994A9E26F7EB406DB2D2148C /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D0D3492FD223467AA2A5E832 /* /Users/elliotstaudt/opencv/modules/calib3d/src/triangulate.cpp */ = {isa = PBXBuildFile; fileRef = 62C9468E783B4AB6BF24D1AD /* /Users/elliotstaudt/opencv/modules/calib3d/src/triangulate.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D18804DFDBA74EAB8CCC95C6 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_main.cpp */ = {isa = PBXBuildFile; fileRef = 5D043541C919485EAC9ED0CE /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D291D981E78F465EB05546C0 /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C424B2BB70A94AF882BB9E9E /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		D5347842B5804359A8C3B57C /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereobm.cpp */ = {isa = PBXBuildFile; fileRef = 574B24DC34D249D0941C57A7 /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereobm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DB0BF73C183A449C8E2C8E6B /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.cpp */ = {isa = PBXBuildFile; fileRef = 4D96E2761A0E4F309449E134 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DFC278EE46CC4F5FB12919AD /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = 94D1174E7F824CE5AE03202D /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E3B920A281CD47F3928B67A3 /* /Users/elliotstaudt/opencv/modules/calib3d/src/solvepnp.cpp */ = {isa = PBXBuildFile; fileRef = 5B047369BCF04AB489A7281C /* /Users/elliotstaudt/opencv/modules/calib3d/src/solvepnp.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E512D906779E4C9DAA661D31 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/opencl/perf_stereobm.cpp */ = {isa = PBXBuildFile; fileRef = 51A67E8343EA4367B76E5FF1 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/opencl/perf_stereobm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E737B41FFBE04208A6A83350 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d.hpp */ = {isa = PBXBuildFile; fileRef = 3D8D5BFF19D74455B43ADC58 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EF31AF5EFD214C50A0C79121 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibration.cpp */ = {isa = PBXBuildFile; fileRef = D9907165DD8C40C4945A87C0 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibration.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F10D742FDDB144FC80857B3E /* /Users/elliotstaudt/opencv/modules/calib3d/src/levmarq.cpp */ = {isa = PBXBuildFile; fileRef = 4F2414985FF5401A91036E55 /* /Users/elliotstaudt/opencv/modules/calib3d/src/levmarq.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F30552BA0B1D4CB582E06AB7 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.h */ = {isa = PBXBuildFile; fileRef = F007689383A143059F2125B5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F596FD16058140D39A9C8C86 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d.hpp */ = {isa = PBXBuildFile; fileRef = 64BC6315A38F461C9DE6E6F4 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F747F784A7E44799A74B51BB /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners.cpp */ = {isa = PBXBuildFile; fileRef = F2C52BE41ADA45AFBF1F9ECE /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F8F05508BFA5475D8AD86651 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */ = {isa = PBXBuildFile; fileRef = B2D671F89E9D4FEB86357972 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F941008043154A33A13FA591 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chessboardgenerator.cpp */ = {isa = PBXBuildFile; fileRef = C2B8EECED3304058BD63D0E1 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chessboardgenerator.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FBE9938F38184E998D0EB06B /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibinit.cpp */ = {isa = PBXBuildFile; fileRef = 0115526D81204362ABEF6598 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibinit.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FC2D14C58474496FAA4BBEF2 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.hpp */ = {isa = PBXBuildFile; fileRef = C6109C36439745C2B7CB5E02 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FC3F534A19604B13A2F24843 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */ = {isa = PBXBuildFile; fileRef = F6069C5890DD4AFFAD1A86AB /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FD080C278E0C48E3B298DCC6 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp */ = {isa = PBXBuildFile; fileRef = 2F5B1CD42DBB4F369AB7578C /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FE92648F899E4152BBB58AC8 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.h */ = {isa = PBXBuildFile; fileRef = EC27FD24AB004857B1B95DE4 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.h */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1F8F1B2DCD2D46A28B497DBA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6205A93374324B57A76EB059 = {
+			isa = PBXBuildStyle;
+		};
+		F4FD7B48989A407C8BD58462 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		005BDE768D2D4BC28FA37FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E595C4D56E9A4ED8BD486689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		17A82A44BDBC420EB486A420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E595C4D56E9A4ED8BD486689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		2909D6955528448C947328E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E595C4D56E9A4ED8BD486689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		342E388BBA314DF892E1B0E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E595C4D56E9A4ED8BD486689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F422AC2ECF76498CA9C6CE90;
+			remoteInfo = opencv_test_calib3d;
+		};
+		5E396EBA8022449D972D0ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E595C4D56E9A4ED8BD486689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47489F346086493492891DA1;
+			remoteInfo = opencv_perf_calib3d;
+		};
+		920C6ACD5382471A9A7CCAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E595C4D56E9A4ED8BD486689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBA2A18E47B547888EDEA444;
+			remoteInfo = opencv_calib3d;
+		};
+		9BB6F15788D24EFD86E14AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E595C4D56E9A4ED8BD486689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		D00EA62621BD4E03B90A17FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E595C4D56E9A4ED8BD486689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		DA023C408C474DA6AAB80248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E595C4D56E9A4ED8BD486689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBA2A18E47B547888EDEA444;
+			remoteInfo = opencv_calib3d;
+		};
+		DA62D6BD4C8D4106AFE904B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E595C4D56E9A4ED8BD486689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		E08A8F195EAA486A922AC09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E595C4D56E9A4ED8BD486689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBA2A18E47B547888EDEA444;
+			remoteInfo = opencv_calib3d;
+		};
+		EFF587090D2D485D85AD61BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E595C4D56E9A4ED8BD486689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0002B7AE5C144D3D98EA8CF3 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dls.cpp; path = src/dls.cpp; sourceTree = SOURCE_ROOT; };
+		0115526D81204362ABEF6598 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibinit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibinit.cpp; path = src/calibinit.cpp; sourceTree = SOURCE_ROOT; };
+		036B7EF0E6D64303BEBF0987 /* opencv_calib3d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.dylib; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E5FE2DE4434C81854456B5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = polynom_solver.cpp; path = src/polynom_solver.cpp; sourceTree = SOURCE_ROOT; };
+		0A115355EDA94F49AADABE06 /* /Users/elliotstaudt/opencv/modules/calib3d/src/five-point.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "five-point.cpp"; path = "src/five-point.cpp"; sourceTree = SOURCE_ROOT; };
+		0A9A2481E8C74E82A8A4AADC /* /Users/elliotstaudt/opencv/modules/calib3d/src/fundam.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fundam.cpp; path = src/fundam.cpp; sourceTree = SOURCE_ROOT; };
+		0C9163D134B145478784B0D9 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_stereosgbm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_stereosgbm.cpp; path = perf/perf_stereosgbm.cpp; sourceTree = SOURCE_ROOT; };
+		124806DBAB1642D19AA20848 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = upnp.cpp; path = src/upnp.cpp; sourceTree = SOURCE_ROOT; };
+		153278A023F9451B9DDAC3AA /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_calib3d.cpp; path = ../../build/modules/calib3d/opencl_kernels_calib3d.cpp; sourceTree = SOURCE_ROOT; };
+		162BD0C8AA6D4FC982BBA314 /* /Users/elliotstaudt/opencv/modules/calib3d/src/checkchessboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = checkchessboard.cpp; path = src/checkchessboard.cpp; sourceTree = SOURCE_ROOT; };
+		1A42AF1DD1624127A08A590F /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_calib3d.hpp; path = ../../build/modules/calib3d/opencl_kernels_calib3d.hpp; sourceTree = SOURCE_ROOT; };
+		1D176ADB5C3845539D8F09C5 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_stereomatching.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_stereomatching.cpp; path = test/test_stereomatching.cpp; sourceTree = SOURCE_ROOT; };
+		22022CE4BB66455AA3FBF6DF /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_stereo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = compat_stereo.cpp; path = src/compat_stereo.cpp; sourceTree = SOURCE_ROOT; };
+		2290D69379724672BA7B8BF3 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calib3d.hpp; path = include/opencv2/calib3d/calib3d.hpp; sourceTree = SOURCE_ROOT; };
+		23B145D26069417BA68FBD05 /* opencv_test_calib3d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_calib3d; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		26536B3E365740BBB1D662D1 /* /Users/elliotstaudt/opencv/modules/calib3d/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		26BEF4D834A744C7BA28F1C7 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = epnp.h; path = src/epnp.h; sourceTree = SOURCE_ROOT; };
+		27AB78830CE44483A4A01301 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = polynom_solver.cpp; path = src/polynom_solver.cpp; sourceTree = SOURCE_ROOT; };
+		27C99B4E4BFE4BC486CDC9BC /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_cameracalibration.cpp; path = test/test_cameracalibration.cpp; sourceTree = SOURCE_ROOT; };
+		2AEB0F26633240EEB3749AD4 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort_points.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_undistort_points.cpp; path = test/test_undistort_points.cpp; sourceTree = SOURCE_ROOT; };
+		2C09AF40C0A848E1AE353E56 /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereobm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereobm.cpp; path = src/stereobm.cpp; sourceTree = SOURCE_ROOT; };
+		2CC968EE9A1C4A039BFCB4EF /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2DC81A1A07E94B77A688A791 /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2F5B1CD42DBB4F369AB7578C /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_cameracalibration_artificial.cpp; path = test/test_cameracalibration_artificial.cpp; sourceTree = SOURCE_ROOT; };
+		30BE0529371A46D3BD2A5724 /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_calib3d.cpp.rule; path = ../../build/modules/calib3d/opencl_kernels_calib3d.cpp.rule; sourceTree = SOURCE_ROOT; };
+		32C8BD1A073546A4ABE86538 /* opencv_calib3d_object */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_calib3d_object.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		3417B975C2EB41D6AE671376 /* /Users/elliotstaudt/opencv/modules/calib3d/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		35DC1FC1407C460A910FAF8E /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dls.cpp; path = src/dls.cpp; sourceTree = SOURCE_ROOT; };
+		36708B854CED402398B56D4A /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = polynom_solver.h; path = src/polynom_solver.h; sourceTree = SOURCE_ROOT; };
+		3D8D5BFF19D74455B43ADC58 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calib3d.hpp; path = include/opencv2/calib3d.hpp; sourceTree = SOURCE_ROOT; };
+		4102FCAC9B3A499CBD55E809 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_decompose_projection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_decompose_projection.cpp; path = test/test_decompose_projection.cpp; sourceTree = SOURCE_ROOT; };
+		4921AB1891D5454BA858D04B /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = p3p.cpp; path = src/p3p.cpp; sourceTree = SOURCE_ROOT; };
+		4950BD882134430BAA029C86 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_fundam.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_fundam.cpp; path = test/test_fundam.cpp; sourceTree = SOURCE_ROOT; };
+		4CC6F9111CB946358740A7F2 /* /Users/elliotstaudt/opencv/modules/calib3d/src/posit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = posit.cpp; path = src/posit.cpp; sourceTree = SOURCE_ROOT; };
+		4D80EBE3E8A2444F91BBD16D /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chessboardgenerator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_chessboardgenerator.hpp; path = test/test_chessboardgenerator.hpp; sourceTree = SOURCE_ROOT; };
+		4D96E2761A0E4F309449E134 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fisheye.cpp; path = src/fisheye.cpp; sourceTree = SOURCE_ROOT; };
+		4ECC5DC96D674AB39475F508 /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_ptsetreg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = compat_ptsetreg.cpp; path = src/compat_ptsetreg.cpp; sourceTree = SOURCE_ROOT; };
+		4F2367B938DF49658A90AAEE /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = circlesgrid.cpp; path = src/circlesgrid.cpp; sourceTree = SOURCE_ROOT; };
+		4F2414985FF5401A91036E55 /* /Users/elliotstaudt/opencv/modules/calib3d/src/levmarq.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = levmarq.cpp; path = src/levmarq.cpp; sourceTree = SOURCE_ROOT; };
+		51A67E8343EA4367B76E5FF1 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/opencl/perf_stereobm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_stereobm.cpp; path = perf/opencl/perf_stereobm.cpp; sourceTree = SOURCE_ROOT; };
+		53055EAFA1954E928560E375 /* /Users/elliotstaudt/opencv/modules/calib3d/src/ptsetreg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ptsetreg.cpp; path = src/ptsetreg.cpp; sourceTree = SOURCE_ROOT; };
+		574B24DC34D249D0941C57A7 /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereobm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereobm.cpp; path = src/stereobm.cpp; sourceTree = SOURCE_ROOT; };
+		57BB41A95D854AA2882E336C /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort_badarg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_undistort_badarg.cpp; path = test/test_undistort_badarg.cpp; sourceTree = SOURCE_ROOT; };
+		58133493C6594350A5143E7E /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibinit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibinit.cpp; path = src/calibinit.cpp; sourceTree = SOURCE_ROOT; };
+		5B047369BCF04AB489A7281C /* /Users/elliotstaudt/opencv/modules/calib3d/src/solvepnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = solvepnp.cpp; path = src/solvepnp.cpp; sourceTree = SOURCE_ROOT; };
+		5C7A45FE33864AAD96F14C88 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_cameracalibration_badarg.cpp; path = test/test_cameracalibration_badarg.cpp; sourceTree = SOURCE_ROOT; };
+		5D043541C919485EAC9ED0CE /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_main.cpp; path = perf/perf_main.cpp; sourceTree = SOURCE_ROOT; };
+		5D0F1F919B6443998C0B0DCF /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_calib3d.hpp; path = ../../build/modules/calib3d/opencl_kernels_calib3d.hpp; sourceTree = SOURCE_ROOT; };
+		622C59463E174A189AF19CB5 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_homography.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_homography.cpp; path = test/test_homography.cpp; sourceTree = SOURCE_ROOT; };
+		62BADA671E9E450FB8FBEA1D /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cornerssubpix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_cornerssubpix.cpp; path = test/test_cornerssubpix.cpp; sourceTree = SOURCE_ROOT; };
+		62C9468E783B4AB6BF24D1AD /* /Users/elliotstaudt/opencv/modules/calib3d/src/triangulate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = triangulate.cpp; path = src/triangulate.cpp; sourceTree = SOURCE_ROOT; };
+		641BE408AA564ABEB9EEAB66 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_homography_decomp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_homography_decomp.cpp; path = test/test_homography_decomp.cpp; sourceTree = SOURCE_ROOT; };
+		64BC6315A38F461C9DE6E6F4 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calib3d.hpp; path = include/opencv2/calib3d.hpp; sourceTree = SOURCE_ROOT; };
+		689A4168C1ED4B29AAE865AD /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rho.h; path = src/rho.h; sourceTree = SOURCE_ROOT; };
+		69A6ECD0BAC44D8595732B5B /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_ptsetreg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = compat_ptsetreg.cpp; path = src/compat_ptsetreg.cpp; sourceTree = SOURCE_ROOT; };
+		69AAC8D8B7994C5C99F22F79 /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereosgbm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereosgbm.cpp; path = src/stereosgbm.cpp; sourceTree = SOURCE_ROOT; };
+		6BCB202167F24806AA1A7B70 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = epnp.h; path = src/epnp.h; sourceTree = SOURCE_ROOT; };
+		6D7F3F7F6CD14F46BD7D2263 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_solvepnp_ransac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_solvepnp_ransac.cpp; path = test/test_solvepnp_ransac.cpp; sourceTree = SOURCE_ROOT; };
+		761D449C112E4637A62D1230 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = epnp.cpp; path = src/epnp.cpp; sourceTree = SOURCE_ROOT; };
+		76C799AE5A114E6BB0120627 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_affine3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_affine3.cpp; path = test/test_affine3.cpp; sourceTree = SOURCE_ROOT; };
+		7858343496544B4396ACDDED /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		79BB4F078156421297CF2905 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_reproject_image_to_3d.cpp; path = test/test_reproject_image_to_3d.cpp; sourceTree = SOURCE_ROOT; };
+		7ED60D739C104FB99F178BC5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/ptsetreg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ptsetreg.cpp; path = src/ptsetreg.cpp; sourceTree = SOURCE_ROOT; };
+		7F21F36404BF408E97F27C0F /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rho.cpp; path = src/rho.cpp; sourceTree = SOURCE_ROOT; };
+		8251EBECDB184D4DAABCD82C /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_cicrlesGrid.cpp; path = perf/perf_cicrlesGrid.cpp; sourceTree = SOURCE_ROOT; };
+		82D3EBBD6E4D49B3B0F9970B /* /Users/elliotstaudt/opencv/modules/calib3d/src/solvepnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = solvepnp.cpp; path = src/solvepnp.cpp; sourceTree = SOURCE_ROOT; };
+		835ED0ECA7AD4987B76B88B5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibration.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibration.cpp; path = src/calibration.cpp; sourceTree = SOURCE_ROOT; };
+		839AA4AAE84047EABCA6AF89 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = p3p.cpp; path = src/p3p.cpp; sourceTree = SOURCE_ROOT; };
+		842502FE9DA942B083269F06 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		848F128409AD478DA30F253D /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_undistort.cpp; path = test/test_undistort.cpp; sourceTree = SOURCE_ROOT; };
+		84B73F146DC74F55B2FCCB68 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = upnp.h; path = src/upnp.h; sourceTree = SOURCE_ROOT; };
+		86979DAED2304E9096532F7C /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_precomp.hpp; path = perf/perf_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		8722223F31B84034B9A37E33 /* /Users/elliotstaudt/opencv/modules/calib3d/src/opencl/stereobm.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = stereobm.cl; path = src/opencl/stereobm.cl; sourceTree = SOURCE_ROOT; };
+		877EE213962B449E864EE9EA /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = circlesgrid.hpp; path = src/circlesgrid.hpp; sourceTree = SOURCE_ROOT; };
+		89547E90747545F8A9E30D47 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_affine3d_estimator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_affine3d_estimator.cpp; path = test/test_affine3d_estimator.cpp; sourceTree = SOURCE_ROOT; };
+		909FE875306642BB96B7A655 /* opencv_perf_calib3d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_perf_calib3d; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		938F15235C73419EA521FDF4 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		9462190068A64A9D8E37E296 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners_badarg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_chesscorners_badarg.cpp; path = test/test_chesscorners_badarg.cpp; sourceTree = SOURCE_ROOT; };
+		94D1174E7F824CE5AE03202D /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		9556420BF9DF4A169738FB97 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dls.h; path = src/dls.h; sourceTree = SOURCE_ROOT; };
+		955C978BA7A8493FAF2ABAF5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereosgbm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stereosgbm.cpp; path = src/stereosgbm.cpp; sourceTree = SOURCE_ROOT; };
+		96C5735DC2294210A732031D /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		989C549A28EA43BDB7C5A1A8 /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rho.cpp; path = src/rho.cpp; sourceTree = SOURCE_ROOT; };
+		994A9E26F7EB406DB2D2148C /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		99CEF5F4DE5A470BB4E38717 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners_timing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_chesscorners_timing.cpp; path = test/test_chesscorners_timing.cpp; sourceTree = SOURCE_ROOT; };
+		A2B0E9B2E06E47BEA215C20A /* /Users/elliotstaudt/opencv/modules/calib3d/src/five-point.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "five-point.cpp"; path = "src/five-point.cpp"; sourceTree = SOURCE_ROOT; };
+		A518A20145D94422ACC2712A /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		A9C0AD4C22CC4130AA97326C /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = calib3d_c.h; path = include/opencv2/calib3d/calib3d_c.h; sourceTree = SOURCE_ROOT; };
+		AEAD3A8F4E394211B611523E /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = upnp.h; path = src/upnp.h; sourceTree = SOURCE_ROOT; };
+		B20F0911466C422EAED47C6C /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rho.h; path = src/rho.h; sourceTree = SOURCE_ROOT; };
+		B2D671F89E9D4FEB86357972 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calib3d.hpp; path = include/opencv2/calib3d/calib3d.hpp; sourceTree = SOURCE_ROOT; };
+		BC3FBC86E23940939F30D61D /* /Users/elliotstaudt/opencv/modules/calib3d/src/triangulate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = triangulate.cpp; path = src/triangulate.cpp; sourceTree = SOURCE_ROOT; };
+		C0593890E08C4A9DBA64787A /* /Users/elliotstaudt/opencv/modules/calib3d/src/homography_decomp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = homography_decomp.cpp; path = src/homography_decomp.cpp; sourceTree = SOURCE_ROOT; };
+		C2B8EECED3304058BD63D0E1 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chessboardgenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_chessboardgenerator.cpp; path = test/test_chessboardgenerator.cpp; sourceTree = SOURCE_ROOT; };
+		C3ADCFB2614946C7A8FACF95 /* /Users/elliotstaudt/opencv/modules/calib3d/test/opencl/test_stereobm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_stereobm.cpp; path = test/opencl/test_stereobm.cpp; sourceTree = SOURCE_ROOT; };
+		C424B2BB70A94AF882BB9E9E /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C6109C36439745C2B7CB5E02 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fisheye.hpp; path = src/fisheye.hpp; sourceTree = SOURCE_ROOT; };
+		CA15F938F469408C906F1C81 /* /Users/elliotstaudt/opencv/modules/calib3d/src/quadsubpix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quadsubpix.cpp; path = src/quadsubpix.cpp; sourceTree = SOURCE_ROOT; };
+		CB2119385CC742008A8BB8EA /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CEDC056D4F614BD2B2435DA0 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_posit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_posit.cpp; path = test/test_posit.cpp; sourceTree = SOURCE_ROOT; };
+		CF2F87B17AA24250B58BA704 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fisheye.cpp; path = src/fisheye.cpp; sourceTree = SOURCE_ROOT; };
+		D254D64F6FDB4BDE9812FF25 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_fisheye.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_fisheye.cpp; path = test/test_fisheye.cpp; sourceTree = SOURCE_ROOT; };
+		D9907165DD8C40C4945A87C0 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibration.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = calibration.cpp; path = src/calibration.cpp; sourceTree = SOURCE_ROOT; };
+		DD13F1098ED74F14863B91D7 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_modelest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_modelest.cpp; path = test/test_modelest.cpp; sourceTree = SOURCE_ROOT; };
+		DE72C42E3CD04E9AAF310644 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fundam.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fundam.cpp; path = src/fundam.cpp; sourceTree = SOURCE_ROOT; };
+		DFDAC59A404C49C5AA53F615 /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_calib3d.cpp; path = ../../build/modules/calib3d/opencl_kernels_calib3d.cpp; sourceTree = SOURCE_ROOT; };
+		E48D893BC7944956A87C1F92 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = polynom_solver.h; path = src/polynom_solver.h; sourceTree = SOURCE_ROOT; };
+		E5E4079300FC424EAF003A61 /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = circlesgrid.hpp; path = src/circlesgrid.hpp; sourceTree = SOURCE_ROOT; };
+		E6EE668066D843BD91CA610A /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_stereo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = compat_stereo.cpp; path = src/compat_stereo.cpp; sourceTree = SOURCE_ROOT; };
+		EC27FD24AB004857B1B95DE4 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = p3p.h; path = src/p3p.h; sourceTree = SOURCE_ROOT; };
+		ED7EE392CFF248C68B35C304 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fisheye.hpp; path = src/fisheye.hpp; sourceTree = SOURCE_ROOT; };
+		EE01D1688C9A48EA8B349532 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_compose_rt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_compose_rt.cpp; path = test/test_compose_rt.cpp; sourceTree = SOURCE_ROOT; };
+		EF5899779DB946D89706A5C0 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = p3p.h; path = src/p3p.h; sourceTree = SOURCE_ROOT; };
+		F007689383A143059F2125B5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dls.h; path = src/dls.h; sourceTree = SOURCE_ROOT; };
+		F044FE4E99C04F2D9AAB27E6 /* /Users/elliotstaudt/opencv/modules/calib3d/src/homography_decomp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = homography_decomp.cpp; path = src/homography_decomp.cpp; sourceTree = SOURCE_ROOT; };
+		F0F9808355CE49FAB01CE308 /* /Users/elliotstaudt/opencv/modules/calib3d/src/quadsubpix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quadsubpix.cpp; path = src/quadsubpix.cpp; sourceTree = SOURCE_ROOT; };
+		F13E6D5086A04D1FB3AD94C2 /* /Users/elliotstaudt/opencv/modules/calib3d/src/levmarq.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = levmarq.cpp; path = src/levmarq.cpp; sourceTree = SOURCE_ROOT; };
+		F2C52BE41ADA45AFBF1F9ECE /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_chesscorners.cpp; path = test/test_chesscorners.cpp; sourceTree = SOURCE_ROOT; };
+		F35ABD7423A742E384312BFA /* /Users/elliotstaudt/opencv/modules/calib3d/src/posit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = posit.cpp; path = src/posit.cpp; sourceTree = SOURCE_ROOT; };
+		F6069C5890DD4AFFAD1A86AB /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = calib3d_c.h; path = include/opencv2/calib3d/calib3d_c.h; sourceTree = SOURCE_ROOT; };
+		FD9D4E5DC9234760BCE1DB18 /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = circlesgrid.cpp; path = src/circlesgrid.cpp; sourceTree = SOURCE_ROOT; };
+		FDBC2EBB05D94765AC6A60A9 /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FE1F3B3E5BC04E3697B07F07 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = upnp.cpp; path = src/upnp.cpp; sourceTree = SOURCE_ROOT; };
+		FE67951FB35B4E6495FB54B5 /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_calib3d.cpp.rule; path = ../../build/modules/calib3d/opencl_kernels_calib3d.cpp.rule; sourceTree = SOURCE_ROOT; };
+		FE753C39107A471C98559DE9 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_pnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_pnp.cpp; path = perf/perf_pnp.cpp; sourceTree = SOURCE_ROOT; };
+		FF19233912D4483E85008A43 /* /Users/elliotstaudt/opencv/modules/calib3d/src/checkchessboard.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = checkchessboard.cpp; path = src/checkchessboard.cpp; sourceTree = SOURCE_ROOT; };
+		FF1F262060AF45C6B8BF3B6A /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = epnp.cpp; path = src/epnp.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		048D0588528C41A6A7BD34B0 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				FD869C93F22D499A9EA9565D /* opencl */,
+				0115526D81204362ABEF6598 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibinit.cpp */,
+				835ED0ECA7AD4987B76B88B5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibration.cpp */,
+				162BD0C8AA6D4FC982BBA314 /* /Users/elliotstaudt/opencv/modules/calib3d/src/checkchessboard.cpp */,
+				FD9D4E5DC9234760BCE1DB18 /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.cpp */,
+				E5E4079300FC424EAF003A61 /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.hpp */,
+				69A6ECD0BAC44D8595732B5B /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_ptsetreg.cpp */,
+				E6EE668066D843BD91CA610A /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_stereo.cpp */,
+				35DC1FC1407C460A910FAF8E /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.cpp */,
+				F007689383A143059F2125B5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.h */,
+				761D449C112E4637A62D1230 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.cpp */,
+				26BEF4D834A744C7BA28F1C7 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.h */,
+				CF2F87B17AA24250B58BA704 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.cpp */,
+				ED7EE392CFF248C68B35C304 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.hpp */,
+				A2B0E9B2E06E47BEA215C20A /* /Users/elliotstaudt/opencv/modules/calib3d/src/five-point.cpp */,
+				DE72C42E3CD04E9AAF310644 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fundam.cpp */,
+				F044FE4E99C04F2D9AAB27E6 /* /Users/elliotstaudt/opencv/modules/calib3d/src/homography_decomp.cpp */,
+				F13E6D5086A04D1FB3AD94C2 /* /Users/elliotstaudt/opencv/modules/calib3d/src/levmarq.cpp */,
+				4921AB1891D5454BA858D04B /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.cpp */,
+				EC27FD24AB004857B1B95DE4 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.h */,
+				27AB78830CE44483A4A01301 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.cpp */,
+				E48D893BC7944956A87C1F92 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.h */,
+				4CC6F9111CB946358740A7F2 /* /Users/elliotstaudt/opencv/modules/calib3d/src/posit.cpp */,
+				3417B975C2EB41D6AE671376 /* /Users/elliotstaudt/opencv/modules/calib3d/src/precomp.hpp */,
+				7ED60D739C104FB99F178BC5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/ptsetreg.cpp */,
+				F0F9808355CE49FAB01CE308 /* /Users/elliotstaudt/opencv/modules/calib3d/src/quadsubpix.cpp */,
+				989C549A28EA43BDB7C5A1A8 /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.cpp */,
+				B20F0911466C422EAED47C6C /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.h */,
+				82D3EBBD6E4D49B3B0F9970B /* /Users/elliotstaudt/opencv/modules/calib3d/src/solvepnp.cpp */,
+				2C09AF40C0A848E1AE353E56 /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereobm.cpp */,
+				955C978BA7A8493FAF2ABAF5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereosgbm.cpp */,
+				BC3FBC86E23940939F30D61D /* /Users/elliotstaudt/opencv/modules/calib3d/src/triangulate.cpp */,
+				FE1F3B3E5BC04E3697B07F07 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.cpp */,
+				AEAD3A8F4E394211B611523E /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.h */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		0DFCBC88FBF2477EB562B4BA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				994A9E26F7EB406DB2D2148C /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				A518A20145D94422ACC2712A /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		116DA4597C4C4ED1A73951B3 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				C3ADCFB2614946C7A8FACF95 /* /Users/elliotstaudt/opencv/modules/calib3d/test/opencl/test_stereobm.cpp */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		184936568FAD409386DAB302 /* calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				B2D671F89E9D4FEB86357972 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */,
+				A9C0AD4C22CC4130AA97326C /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */,
+			);
+			name = calib3d;
+			sourceTree = "<group>";
+		};
+		1A2CC6BC9587439D965C2FF0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1BEDE369A81F4988B2FEE76C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1C7EA0A8968D48A899D19AE4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1A2CC6BC9587439D965C2FF0 /* CMake Rules */,
+				2CC968EE9A1C4A039BFCB4EF /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		21828FA953EB423F8DDD195D /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				1BEDE369A81F4988B2FEE76C /* CMake Rules */,
+				CB2119385CC742008A8BB8EA /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		3B6E8818190A4F7C989A76CF /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				153278A023F9451B9DDAC3AA /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp */,
+				1A42AF1DD1624127A08A590F /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		4698941C5907455DB7070833 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				30BE0529371A46D3BD2A5724 /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4DCC1D2A676F4ED1940798FB /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				4D80EBE3E8A2444F91BBD16D /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chessboardgenerator.hpp */,
+				842502FE9DA942B083269F06 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		52A367332F9D4EADA25FD937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036B7EF0E6D64303BEBF0987 /* opencv_calib3d */,
+				32C8BD1A073546A4ABE86538 /* opencv_calib3d_object */,
+				909FE875306642BB96B7A655 /* opencv_perf_calib3d */,
+				23B145D26069417BA68FBD05 /* opencv_test_calib3d */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B6D70FC6774EF59187ADD8 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				D2281D60C731425F80D402F6 /* calib3d */,
+				64BC6315A38F461C9DE6E6F4 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		69228E01053F4574856BA226 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				116DA4597C4C4ED1A73951B3 /* opencl */,
+				76C799AE5A114E6BB0120627 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_affine3.cpp */,
+				89547E90747545F8A9E30D47 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_affine3d_estimator.cpp */,
+				27C99B4E4BFE4BC486CDC9BC /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration.cpp */,
+				2F5B1CD42DBB4F369AB7578C /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp */,
+				5C7A45FE33864AAD96F14C88 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp */,
+				C2B8EECED3304058BD63D0E1 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chessboardgenerator.cpp */,
+				F2C52BE41ADA45AFBF1F9ECE /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners.cpp */,
+				9462190068A64A9D8E37E296 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners_badarg.cpp */,
+				99CEF5F4DE5A470BB4E38717 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners_timing.cpp */,
+				EE01D1688C9A48EA8B349532 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_compose_rt.cpp */,
+				62BADA671E9E450FB8FBEA1D /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cornerssubpix.cpp */,
+				4102FCAC9B3A499CBD55E809 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_decompose_projection.cpp */,
+				D254D64F6FDB4BDE9812FF25 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_fisheye.cpp */,
+				4950BD882134430BAA029C86 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_fundam.cpp */,
+				622C59463E174A189AF19CB5 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_homography.cpp */,
+				641BE408AA564ABEB9EEAB66 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_homography_decomp.cpp */,
+				94D1174E7F824CE5AE03202D /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_main.cpp */,
+				DD13F1098ED74F14863B91D7 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_modelest.cpp */,
+				CEDC056D4F614BD2B2435DA0 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_posit.cpp */,
+				79BB4F078156421297CF2905 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp */,
+				6D7F3F7F6CD14F46BD7D2263 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_solvepnp_ransac.cpp */,
+				1D176ADB5C3845539D8F09C5 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_stereomatching.cpp */,
+				848F128409AD478DA30F253D /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort.cpp */,
+				57BB41A95D854AA2882E336C /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort_badarg.cpp */,
+				2AEB0F26633240EEB3749AD4 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort_points.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		7141600363074D97920BEC09 /* opencv_perf_calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				72029BE7BB534A559F0DA33E /* Src */,
+				7430F73CCD4F4BDA812BCC82 /* Include */,
+				C424B2BB70A94AF882BB9E9E /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */,
+			);
+			name = opencv_perf_calib3d;
+			sourceTree = "<group>";
+		};
+		72029BE7BB534A559F0DA33E /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				BD2C039A188B45359D371EA3 /* opencl */,
+				8251EBECDB184D4DAABCD82C /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp */,
+				5D043541C919485EAC9ED0CE /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_main.cpp */,
+				FE753C39107A471C98559DE9 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_pnp.cpp */,
+				0C9163D134B145478784B0D9 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_stereosgbm.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		7430F73CCD4F4BDA812BCC82 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				86979DAED2304E9096532F7C /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		74C30E3847A04EE7A38514E6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				FE67951FB35B4E6495FB54B5 /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		758BC10E83154805AC837704 /* opencv_calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				DAA7B083FE4446F89A592B03 /* Include */,
+				048D0588528C41A6A7BD34B0 /* Src */,
+				0DFCBC88FBF2477EB562B4BA /* Header Files */,
+				74C30E3847A04EE7A38514E6 /* CMake Rules */,
+				96C5735DC2294210A732031D /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */,
+			);
+			name = opencv_calib3d;
+			sourceTree = "<group>";
+		};
+		7D4336F6D6D04F12827358E1 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				BE80C20DE2B9420294A9A5D6 /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		7E3E2577E0E644A2A553C5AD /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				EA8107E62A30455997F3EB42 /* opencv_test_calib3d */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		85375DF665A2403DB9833761 /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				DFDAC59A404C49C5AA53F615 /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp */,
+				5D0F1F919B6443998C0B0DCF /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		8D2AB603D42E4C95A0A737BD = {
+			isa = PBXGroup;
+			children = (
+				9A717039996B4053A1C2A25E /* Sources */,
+				E74B1FF42B5A4872AE16BC92 /* Resources */,
+				52A367332F9D4EADA25FD937 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E4336D20DA94214AC301469 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				938F15235C73419EA521FDF4 /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				7858343496544B4396ACDDED /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		9A717039996B4053A1C2A25E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E68E760FC4CE49FDB390DE39 /* object_libraries */,
+				FD1797CE6B334CC193498C52 /* tests performance */,
+				7E3E2577E0E644A2A553C5AD /* tests accuracy */,
+				CC34E0B18D3A443D89E0A4E4 /* modules */,
+				1C7EA0A8968D48A899D19AE4 /* ALL_BUILD */,
+				21828FA953EB423F8DDD195D /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		9D1C702AFB39435DA0A7DF89 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				7D4336F6D6D04F12827358E1 /* opencl */,
+				58133493C6594350A5143E7E /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibinit.cpp */,
+				D9907165DD8C40C4945A87C0 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibration.cpp */,
+				FF19233912D4483E85008A43 /* /Users/elliotstaudt/opencv/modules/calib3d/src/checkchessboard.cpp */,
+				4F2367B938DF49658A90AAEE /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.cpp */,
+				877EE213962B449E864EE9EA /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.hpp */,
+				4ECC5DC96D674AB39475F508 /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_ptsetreg.cpp */,
+				22022CE4BB66455AA3FBF6DF /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_stereo.cpp */,
+				0002B7AE5C144D3D98EA8CF3 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.cpp */,
+				9556420BF9DF4A169738FB97 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.h */,
+				FF1F262060AF45C6B8BF3B6A /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.cpp */,
+				6BCB202167F24806AA1A7B70 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.h */,
+				4D96E2761A0E4F309449E134 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.cpp */,
+				C6109C36439745C2B7CB5E02 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.hpp */,
+				0A115355EDA94F49AADABE06 /* /Users/elliotstaudt/opencv/modules/calib3d/src/five-point.cpp */,
+				0A9A2481E8C74E82A8A4AADC /* /Users/elliotstaudt/opencv/modules/calib3d/src/fundam.cpp */,
+				C0593890E08C4A9DBA64787A /* /Users/elliotstaudt/opencv/modules/calib3d/src/homography_decomp.cpp */,
+				4F2414985FF5401A91036E55 /* /Users/elliotstaudt/opencv/modules/calib3d/src/levmarq.cpp */,
+				839AA4AAE84047EABCA6AF89 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.cpp */,
+				EF5899779DB946D89706A5C0 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.h */,
+				03E5FE2DE4434C81854456B5 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.cpp */,
+				36708B854CED402398B56D4A /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.h */,
+				F35ABD7423A742E384312BFA /* /Users/elliotstaudt/opencv/modules/calib3d/src/posit.cpp */,
+				26536B3E365740BBB1D662D1 /* /Users/elliotstaudt/opencv/modules/calib3d/src/precomp.hpp */,
+				53055EAFA1954E928560E375 /* /Users/elliotstaudt/opencv/modules/calib3d/src/ptsetreg.cpp */,
+				CA15F938F469408C906F1C81 /* /Users/elliotstaudt/opencv/modules/calib3d/src/quadsubpix.cpp */,
+				7F21F36404BF408E97F27C0F /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.cpp */,
+				689A4168C1ED4B29AAE865AD /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.h */,
+				5B047369BCF04AB489A7281C /* /Users/elliotstaudt/opencv/modules/calib3d/src/solvepnp.cpp */,
+				574B24DC34D249D0941C57A7 /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereobm.cpp */,
+				69AAC8D8B7994C5C99F22F79 /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereosgbm.cpp */,
+				62C9468E783B4AB6BF24D1AD /* /Users/elliotstaudt/opencv/modules/calib3d/src/triangulate.cpp */,
+				124806DBAB1642D19AA20848 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.cpp */,
+				84B73F146DC74F55B2FCCB68 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.h */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		BD2C039A188B45359D371EA3 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				51A67E8343EA4367B76E5FF1 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/opencl/perf_stereobm.cpp */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		BE80C20DE2B9420294A9A5D6 /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				3B6E8818190A4F7C989A76CF /* autogenerated */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		C42B2342C986486D8BAC36C8 /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				85375DF665A2403DB9833761 /* autogenerated */,
+				8722223F31B84034B9A37E33 /* /Users/elliotstaudt/opencv/modules/calib3d/src/opencl/stereobm.cl */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		CA8B2748F3FF43AB978BC02C /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				65B6D70FC6774EF59187ADD8 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		CC34E0B18D3A443D89E0A4E4 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				758BC10E83154805AC837704 /* opencv_calib3d */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		D2281D60C731425F80D402F6 /* calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				2290D69379724672BA7B8BF3 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp */,
+				F6069C5890DD4AFFAD1A86AB /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d/calib3d_c.h */,
+			);
+			name = calib3d;
+			sourceTree = "<group>";
+		};
+		D7FE0572249B463A8454CB22 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				184936568FAD409386DAB302 /* calib3d */,
+				3D8D5BFF19D74455B43ADC58 /* /Users/elliotstaudt/opencv/modules/calib3d/include/opencv2/calib3d.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		DAA7B083FE4446F89A592B03 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				D7FE0572249B463A8454CB22 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		E68E760FC4CE49FDB390DE39 /* object_libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F82E91A2E46B4392ABA9C2FB /* opencv_calib3d_object */,
+			);
+			name = object_libraries;
+			sourceTree = "<group>";
+		};
+		E74B1FF42B5A4872AE16BC92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EA8107E62A30455997F3EB42 /* opencv_test_calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				69228E01053F4574856BA226 /* Src */,
+				4DCC1D2A676F4ED1940798FB /* Include */,
+				FDBC2EBB05D94765AC6A60A9 /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */,
+			);
+			name = opencv_test_calib3d;
+			sourceTree = "<group>";
+		};
+		F82E91A2E46B4392ABA9C2FB /* opencv_calib3d_object */ = {
+			isa = PBXGroup;
+			children = (
+				CA8B2748F3FF43AB978BC02C /* Include */,
+				9D1C702AFB39435DA0A7DF89 /* Src */,
+				8E4336D20DA94214AC301469 /* Header Files */,
+				4698941C5907455DB7070833 /* CMake Rules */,
+				2DC81A1A07E94B77A688A791 /* /Users/elliotstaudt/opencv/modules/calib3d/CMakeLists.txt */,
+			);
+			name = opencv_calib3d_object;
+			sourceTree = "<group>";
+		};
+		FD1797CE6B334CC193498C52 /* tests performance */ = {
+			isa = PBXGroup;
+			children = (
+				7141600363074D97920BEC09 /* opencv_perf_calib3d */,
+			);
+			name = "tests performance";
+			sourceTree = "<group>";
+		};
+		FD869C93F22D499A9EA9565D /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2342C986486D8BAC36C8 /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47489F346086493492891DA1 /* opencv_perf_calib3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9EED72871C43A09A4FE1FA /* Build configuration list for PBXNativeTarget "opencv_perf_calib3d" */;
+			buildPhases = (
+				0A5585D4B2A54BB581E81F75 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C9049905F8C4833B02121FF /* PBXTargetDependency */,
+				F87999D26B5A4D25A2261057 /* PBXTargetDependency */,
+			);
+			name = opencv_perf_calib3d;
+			productName = opencv_perf_calib3d;
+			productReference = 909FE875306642BB96B7A655 /* opencv_perf_calib3d */;
+			productType = "com.apple.product-type.tool";
+		};
+		ACF6969E852F41AC8E67EEC3 /* opencv_calib3d_object */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8D808A53B74D50BBF4C20C /* Build configuration list for PBXNativeTarget "opencv_calib3d_object" */;
+			buildPhases = (
+				3B45C97CBF6E4FAFABAE88FF /* CMake Rules */,
+				25B647D7DA6B4B49A5C0025B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6175BEDD2E3247D3AB2822DF /* PBXTargetDependency */,
+			);
+			name = opencv_calib3d_object;
+			productName = opencv_calib3d_object;
+			productReference = 32C8BD1A073546A4ABE86538 /* opencv_calib3d_object */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EBA2A18E47B547888EDEA444 /* opencv_calib3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B0CB329C984AAFB84E82E0 /* Build configuration list for PBXNativeTarget "opencv_calib3d" */;
+			buildPhases = (
+				97170CF4AE0849518B880F0C /* CMake Rules */,
+				701A103B2B35428CAA76C84F /* Sources */,
+				59102A1601494E849DD1BB45 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B86A1916823A4B79B56BDD9B /* PBXTargetDependency */,
+			);
+			name = opencv_calib3d;
+			productName = opencv_calib3d;
+			productReference = 036B7EF0E6D64303BEBF0987 /* opencv_calib3d */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		F422AC2ECF76498CA9C6CE90 /* opencv_test_calib3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC4723669B149BF9D15586F /* Build configuration list for PBXNativeTarget "opencv_test_calib3d" */;
+			buildPhases = (
+				719A26AE2F314CBDB498C0D1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7680131A6FB344289A0F4A1E /* PBXTargetDependency */,
+				6540F0816AF94A2892065EDD /* PBXTargetDependency */,
+			);
+			name = opencv_test_calib3d;
+			productName = opencv_test_calib3d;
+			productReference = 23B145D26069417BA68FBD05 /* opencv_test_calib3d */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E595C4D56E9A4ED8BD486689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 2E0583DADFE4427E8E8A15EB /* Build configuration list for PBXProject "opencv_calib3d" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				1F8F1B2DCD2D46A28B497DBA /* Debug */,
+				F4FD7B48989A407C8BD58462 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8D2AB603D42E4C95A0A737BD;
+			projectDirPath = ../../../modules/calib3d;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				EBA2A18E47B547888EDEA444 /* opencv_calib3d */,
+				ACF6969E852F41AC8E67EEC3 /* opencv_calib3d_object */,
+				47489F346086493492891DA1 /* opencv_perf_calib3d */,
+				F422AC2ECF76498CA9C6CE90 /* opencv_test_calib3d */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0420C9D74F2C40659AD17A15 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		151E0C7429234FDFB2894A3F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/calib3d -f /Users/elliotstaudt/opencv/build/modules/calib3d/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3815D0CCE543431C852F312C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3B45C97CBF6E4FAFABAE88FF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/calib3d -f /Users/elliotstaudt/opencv/build/modules/calib3d/CMakeScripts/opencv_calib3d_object_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		59102A1601494E849DD1BB45 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/calib3d -f /Users/elliotstaudt/opencv/build/modules/calib3d/CMakeScripts/opencv_calib3d_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6EBF73C4996D436BA1254150 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/calib3d -f /Users/elliotstaudt/opencv/build/modules/calib3d/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		97170CF4AE0849518B880F0C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/calib3d -f /Users/elliotstaudt/opencv/build/modules/calib3d/CMakeScripts/opencv_calib3d_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B1A9C6ADCDC8438EA7B86D36 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D690D2362548411193A48BE8 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/calib3d -f /Users/elliotstaudt/opencv/build/modules/calib3d/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E425B89B61054AF69423962A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FCA19ACB450F4AEB8BE954BF /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/calib3d -f /Users/elliotstaudt/opencv/build/modules/calib3d/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A5585D4B2A54BB581E81F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E512D906779E4C9DAA661D31 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/opencl/perf_stereobm.cpp */,
+				C0BD66C1F1D4419C9E49A094 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp */,
+				D18804DFDBA74EAB8CCC95C6 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_main.cpp */,
+				BD08479ADEC840BF84555883 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_pnp.cpp */,
+				159715A9E00F41B08216C0F8 /* /Users/elliotstaudt/opencv/modules/calib3d/perf/perf_stereosgbm.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B647D7DA6B4B49A5C0025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B757F7B77DB450F915BACDC /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp */,
+				0C73B710640D4F0BBDA9A4DC /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibinit.cpp */,
+				EF31AF5EFD214C50A0C79121 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibration.cpp */,
+				8C01D171F4F74C3DBF3134E1 /* /Users/elliotstaudt/opencv/modules/calib3d/src/checkchessboard.cpp */,
+				14F69B89920D4BF196297DF3 /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.cpp */,
+				CE19B9ACE4944D3BB7CA8F4D /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_ptsetreg.cpp */,
+				50DA53C52F0C443781EC6CAC /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_stereo.cpp */,
+				C780DA7CD4EB4BC4B7FF8CFB /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.cpp */,
+				5FFF2C4A809A4B9C95F58E3A /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.cpp */,
+				DB0BF73C183A449C8E2C8E6B /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.cpp */,
+				3C6E25B4C858463AAF10B100 /* /Users/elliotstaudt/opencv/modules/calib3d/src/five-point.cpp */,
+				23E728CF9DAD418EAAA4C5AE /* /Users/elliotstaudt/opencv/modules/calib3d/src/fundam.cpp */,
+				46FB18FDCD194CC9B3B718BD /* /Users/elliotstaudt/opencv/modules/calib3d/src/homography_decomp.cpp */,
+				F10D742FDDB144FC80857B3E /* /Users/elliotstaudt/opencv/modules/calib3d/src/levmarq.cpp */,
+				7F255BD1C5024B73A4EFC9F7 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.cpp */,
+				10D6DA87F0544DA08F53BC36 /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.cpp */,
+				CCB2985C1A5443A7B62E6F49 /* /Users/elliotstaudt/opencv/modules/calib3d/src/posit.cpp */,
+				8891D83B6303404B88F16A2D /* /Users/elliotstaudt/opencv/modules/calib3d/src/ptsetreg.cpp */,
+				AB4BE4801AA743448C4B166E /* /Users/elliotstaudt/opencv/modules/calib3d/src/quadsubpix.cpp */,
+				734E6671269E424A9E3EA027 /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.cpp */,
+				E3B920A281CD47F3928B67A3 /* /Users/elliotstaudt/opencv/modules/calib3d/src/solvepnp.cpp */,
+				D5347842B5804359A8C3B57C /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereobm.cpp */,
+				9A0223DD1EBD468786473C0E /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereosgbm.cpp */,
+				D0D3492FD223467AA2A5E832 /* /Users/elliotstaudt/opencv/modules/calib3d/src/triangulate.cpp */,
+				BDC16950466F424C84AB2CDB /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701A103B2B35428CAA76C84F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C90CFF4D5A44D2B8B548F6B /* /Users/elliotstaudt/opencv/build/modules/calib3d/opencl_kernels_calib3d.cpp */,
+				FBE9938F38184E998D0EB06B /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibinit.cpp */,
+				C44360615CC54893AA6AFEB6 /* /Users/elliotstaudt/opencv/modules/calib3d/src/calibration.cpp */,
+				273FF86251DF46F5BD4C3161 /* /Users/elliotstaudt/opencv/modules/calib3d/src/checkchessboard.cpp */,
+				31389299A54E425EA1D28CD0 /* /Users/elliotstaudt/opencv/modules/calib3d/src/circlesgrid.cpp */,
+				883193D1041A44D99D8820E7 /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_ptsetreg.cpp */,
+				19A56D8CBEBF420893A9F3F8 /* /Users/elliotstaudt/opencv/modules/calib3d/src/compat_stereo.cpp */,
+				A1A270DD8885489194D7BD78 /* /Users/elliotstaudt/opencv/modules/calib3d/src/dls.cpp */,
+				360A2D05B0CD46BCA0E65586 /* /Users/elliotstaudt/opencv/modules/calib3d/src/epnp.cpp */,
+				C76796FC05914C4CA716A240 /* /Users/elliotstaudt/opencv/modules/calib3d/src/fisheye.cpp */,
+				8C7F471AC60944508E884F4D /* /Users/elliotstaudt/opencv/modules/calib3d/src/five-point.cpp */,
+				717EBACF93F2497C89CFFD0B /* /Users/elliotstaudt/opencv/modules/calib3d/src/fundam.cpp */,
+				58ABE0803C704110A7118D2C /* /Users/elliotstaudt/opencv/modules/calib3d/src/homography_decomp.cpp */,
+				B536FB2CAC7D4686B37D2F5A /* /Users/elliotstaudt/opencv/modules/calib3d/src/levmarq.cpp */,
+				0ECFEE3F9B7547F7AE73B765 /* /Users/elliotstaudt/opencv/modules/calib3d/src/p3p.cpp */,
+				3129BC13A8284E4091100DBD /* /Users/elliotstaudt/opencv/modules/calib3d/src/polynom_solver.cpp */,
+				0B091DF3B8454219AC450425 /* /Users/elliotstaudt/opencv/modules/calib3d/src/posit.cpp */,
+				942BAD74D8194EBCB58B20C8 /* /Users/elliotstaudt/opencv/modules/calib3d/src/ptsetreg.cpp */,
+				363D9B18BF9F4C2287F22EE8 /* /Users/elliotstaudt/opencv/modules/calib3d/src/quadsubpix.cpp */,
+				8C0DD650493248EF87DB04F4 /* /Users/elliotstaudt/opencv/modules/calib3d/src/rho.cpp */,
+				CDAB8B9CE3B34C7FAB886168 /* /Users/elliotstaudt/opencv/modules/calib3d/src/solvepnp.cpp */,
+				3B7CDF6935A74438AB660E7D /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereobm.cpp */,
+				B4574CA06075418DAD87D88E /* /Users/elliotstaudt/opencv/modules/calib3d/src/stereosgbm.cpp */,
+				31B52C432BCB417BB33017ED /* /Users/elliotstaudt/opencv/modules/calib3d/src/triangulate.cpp */,
+				8718B608BAB14CC898520D25 /* /Users/elliotstaudt/opencv/modules/calib3d/src/upnp.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719A26AE2F314CBDB498C0D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3250723771474156AD30C08F /* /Users/elliotstaudt/opencv/modules/calib3d/test/opencl/test_stereobm.cpp */,
+				20DB44A350444781A2D9E525 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_affine3.cpp */,
+				A84DE605ACB141A583BB9B46 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_affine3d_estimator.cpp */,
+				CD3053F4402845C1915C8877 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration.cpp */,
+				FD080C278E0C48E3B298DCC6 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp */,
+				3A89D41FD9634B7F80374783 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp */,
+				F941008043154A33A13FA591 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chessboardgenerator.cpp */,
+				F747F784A7E44799A74B51BB /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners.cpp */,
+				CB2426070FFF44958DF57E23 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners_badarg.cpp */,
+				34FF062A2B714BE586FCDDD0 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_chesscorners_timing.cpp */,
+				7B4459C66E6946A6B833B29B /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_compose_rt.cpp */,
+				6B99E7D3E8CB475C93592077 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_cornerssubpix.cpp */,
+				70D3E5FB00EA4129891461F0 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_decompose_projection.cpp */,
+				76934769DAD84F7A98AE8900 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_fisheye.cpp */,
+				A431AB5E03ED4E6684D38504 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_fundam.cpp */,
+				9F39D212A0D040B284F88EB7 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_homography.cpp */,
+				BB335C2217E14CF69620A579 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_homography_decomp.cpp */,
+				DFC278EE46CC4F5FB12919AD /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_main.cpp */,
+				45D628179B2A43D08F47111F /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_modelest.cpp */,
+				0151D79FF8B54A1C85A3C6F6 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_posit.cpp */,
+				3711371B82414093B98A9867 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp */,
+				011711C710A2413DB1E60B66 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_solvepnp_ransac.cpp */,
+				BEBC2A4EA50A475DBB365F61 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_stereomatching.cpp */,
+				41F427032E424739AE09F431 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort.cpp */,
+				79C3D01036A946F6B9A60A85 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort_badarg.cpp */,
+				CCD3052C22374B059B0C9B34 /* /Users/elliotstaudt/opencv/modules/calib3d/test/test_undistort_points.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57571FE38B4641D68CF0DA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F422AC2ECF76498CA9C6CE90 /* opencv_test_calib3d */;
+			targetProxy = 342E388BBA314DF892E1B0E7 /* PBXContainerItemProxy */;
+		};
+		6175BEDD2E3247D3AB2822DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 005BDE768D2D4BC28FA37FFE /* PBXContainerItemProxy */;
+		};
+		6540F0816AF94A2892065EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = DA62D6BD4C8D4106AFE904B4 /* PBXContainerItemProxy */;
+		};
+		691AC0ABBC134CC1AD823B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = D00EA62621BD4E03B90A17FF /* PBXContainerItemProxy */;
+		};
+		6F9FB0EB5FBB4CEEBF641E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 9BB6F15788D24EFD86E14AD4 /* PBXContainerItemProxy */;
+		};
+		7680131A6FB344289A0F4A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBA2A18E47B547888EDEA444 /* opencv_calib3d */;
+			targetProxy = 920C6ACD5382471A9A7CCAAF /* PBXContainerItemProxy */;
+		};
+		7DB0FFA3C83F42DD9EBD8416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47489F346086493492891DA1 /* opencv_perf_calib3d */;
+			targetProxy = 5E396EBA8022449D972D0ABC /* PBXContainerItemProxy */;
+		};
+		8C9049905F8C4833B02121FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBA2A18E47B547888EDEA444 /* opencv_calib3d */;
+			targetProxy = DA023C408C474DA6AAB80248 /* PBXContainerItemProxy */;
+		};
+		B86A1916823A4B79B56BDD9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 2909D6955528448C947328E9 /* PBXContainerItemProxy */;
+		};
+		C830D31941B94966BF0EE9A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 17A82A44BDBC420EB486A420 /* PBXContainerItemProxy */;
+		};
+		F87999D26B5A4D25A2261057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = EFF587090D2D485D85AD61BF /* PBXContainerItemProxy */;
+		};
+		FBED8F07CDCE49A0B651BA04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBA2A18E47B547888EDEA444 /* opencv_calib3d */;
+			targetProxy = E08A8F195EAA486A922AC09D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07A0D947BD114A839B0284B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		0D86F9253DEA4519A999428E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		34BA110705BD454D8805DB1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		3B27DE07956E4E3394F7389E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		412A2C0A7F39422AA4619911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_calib3d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		515C0E16F9EE4621A8F7D160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_calib3d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		51BF3CD7534D4B97B9F8872B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d/build;
+			};
+			name = Release;
+		};
+		55FB34C6CCFC481CBF2AFBA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_calib3d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		5878E05C129A41A78C4052F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		7891C30C055346C58676AFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_calib3d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		7D7D0355F6A849B8AC77502D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/calib3d/opencv_calib3d.build/Release/opencv_calib3d_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_calib3d_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		85E5BFA9A6404E99A9218377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		9E47FB1FD7BB4B23ADDFD849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_calib3d.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_calib3d.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B9FAB946948940769032BC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		D2B4EACE892143E89239AA42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		E974449950574A5687B52BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d/build;
+			};
+			name = Debug;
+		};
+		ED0EFF5DA1F5439CB7996DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/calib3d/opencv_calib3d.build/Debug/opencv_calib3d_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_calib3d_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		FE69093C519A4D8AA647D726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/calib3d/src, /Users/elliotstaudt/opencv/build/modules/calib3d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/calib3d/test, /Users/elliotstaudt/opencv/modules/calib3d/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Release/libopencv_calib3d.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_calib3d.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/calib3d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D9EED72871C43A09A4FE1FA /* Build configuration list for PBXNativeTarget "opencv_perf_calib3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FB34C6CCFC481CBF2AFBA8 /* Debug */,
+				412A2C0A7F39422AA4619911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2E0583DADFE4427E8E8A15EB /* Build configuration list for PBXProject "opencv_calib3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E974449950574A5687B52BFE /* Debug */,
+				51BF3CD7534D4B97B9F8872B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		342944C51F4447E888408A25 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5878E05C129A41A78C4052F1 /* Debug */,
+				3B27DE07956E4E3394F7389E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8870CC54533E493194A49341 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A0D947BD114A839B0284B1 /* Debug */,
+				0D86F9253DEA4519A999428E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8D8D808A53B74D50BBF4C20C /* Build configuration list for PBXNativeTarget "opencv_calib3d_object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0EFF5DA1F5439CB7996DAC /* Debug */,
+				7D7D0355F6A849B8AC77502D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		92B0CB329C984AAFB84E82E0 /* Build configuration list for PBXNativeTarget "opencv_calib3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E47FB1FD7BB4B23ADDFD849 /* Debug */,
+				FE69093C519A4D8AA647D726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB81ADC6F9C54E2F96B57C21 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B4EACE892143E89239AA42 /* Debug */,
+				85E5BFA9A6404E99A9218377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBC4723669B149BF9D15586F /* Build configuration list for PBXNativeTarget "opencv_test_calib3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7891C30C055346C58676AFCA /* Debug */,
+				515C0E16F9EE4621A8F7D160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EEFABDAC39DB4916BB10B12E /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BA110705BD454D8805DB1B /* Debug */,
+				B9FAB946948940769032BC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E595C4D56E9A4ED8BD486689 /* Project object */;
+}

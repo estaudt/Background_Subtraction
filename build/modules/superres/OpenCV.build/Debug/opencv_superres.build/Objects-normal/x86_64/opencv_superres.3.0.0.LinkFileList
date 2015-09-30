@@ -1,0 +1,7 @@
+/Users/elliotstaudt/opencv/build/modules/superres/OpenCV.build/Debug/opencv_superres.build/Objects-normal/x86_64/opencl_kernels_superres.o
+/Users/elliotstaudt/opencv/build/modules/superres/OpenCV.build/Debug/opencv_superres.build/Objects-normal/x86_64/btv_l1.o
+/Users/elliotstaudt/opencv/build/modules/superres/OpenCV.build/Debug/opencv_superres.build/Objects-normal/x86_64/btv_l1_cuda.o
+/Users/elliotstaudt/opencv/build/modules/superres/OpenCV.build/Debug/opencv_superres.build/Objects-normal/x86_64/frame_source.o
+/Users/elliotstaudt/opencv/build/modules/superres/OpenCV.build/Debug/opencv_superres.build/Objects-normal/x86_64/input_array_utility.o
+/Users/elliotstaudt/opencv/build/modules/superres/OpenCV.build/Debug/opencv_superres.build/Objects-normal/x86_64/optical_flow.o
+/Users/elliotstaudt/opencv/build/modules/superres/OpenCV.build/Debug/opencv_superres.build/Objects-normal/x86_64/super_resolution.o

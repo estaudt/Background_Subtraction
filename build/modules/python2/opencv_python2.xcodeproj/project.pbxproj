@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3E90FC1D32CC48278C62BF7C /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				BD8D0AFE3E084F71ABD7ECD6 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				D4CFC50C428C4DEA91CF45EA /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A391054F7C4E4623B1804DCD /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				86D02EB49BFE45ADA045FDA0 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4B1C417342ED458EA44E2BCD /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8CF86D48E26D433A91AC367F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C6299BA45EF048DFA345FD68 /* CMake Rules */,
+			);
+			dependencies = (
+				54DF07A96A1C4EE3B600B0D8 /* PBXTargetDependency */,
+				9BEB80B2652E4F38842A54F8 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C2F16261AD224B80B39421CF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				415E88D384E241E18F8A97B7 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		067C4D51AEC64ABEA8C19DB1 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_types.h */ = {isa = PBXBuildFile; fileRef = 3A3D6D560F1046079733DCC7 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_types.h */; settings = {COMPILER_FLAGS = ""; }; };
+		56D465B5389B4162B97F94D0 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_type_reg.h */ = {isa = PBXBuildFile; fileRef = 1A98B33BB1324024B831FC19 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_type_reg.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5E867101763A40AC99ADE7E0 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_include.h */ = {isa = PBXBuildFile; fileRef = 7139B9CF7E094ACEB9C851C9 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_include.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6C6C6027F7E643BEA644EF58 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_ns_reg.h */ = {isa = PBXBuildFile; fileRef = C9B0D7A7B48E43AF979C1D1E /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_ns_reg.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6CAFA0E22F4A4E17861FF599 /* /Users/elliotstaudt/opencv/modules/python/src2/cv2.cpp */ = {isa = PBXBuildFile; fileRef = 83770592252E45FCABEAE981 /* /Users/elliotstaudt/opencv/modules/python/src2/cv2.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6FD935915AC7432683AF1D45 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_include.h.rule */ = {isa = PBXBuildFile; fileRef = 401D6B82CED94BB096852F51 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_include.h.rule */; settings = {COMPILER_FLAGS = ""; }; };
+		8E45DFDA89534515BE3CF886 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_funcs.h */ = {isa = PBXBuildFile; fileRef = B683AEF47E0C4652B5552AEA /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_funcs.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8F5E146920714644ACB15A32 /* /Users/elliotstaudt/opencv/modules/python/python2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EF97D1344B1B4DFFA502BA89 /* /Users/elliotstaudt/opencv/modules/python/python2/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		52902413BB62496CB7700483 = {
+			isa = PBXBuildStyle;
+		};
+		7118E06FAB064536A8F03559 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D92576AFAD2A403D9B36DADC /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		27E742AF983A427C83611394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13608406220A42D0A5B09CE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		385BFCE62BB6482C8067E52A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13608406220A42D0A5B09CE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		805FB8244B8343C785993F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13608406220A42D0A5B09CE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		A88BE264B6EF4D208E4142CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13608406220A42D0A5B09CE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4ED0030872D4C3A9626CAB2;
+			remoteInfo = opencv_python2;
+		};
+		F344D7FB80AE4810A59DB081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13608406220A42D0A5B09CE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A98B33BB1324024B831FC19 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_type_reg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pyopencv_generated_type_reg.h; path = ../../../build/modules/python2/pyopencv_generated_type_reg.h; sourceTree = SOURCE_ROOT; };
+		3A3D6D560F1046079733DCC7 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pyopencv_generated_types.h; path = ../../../build/modules/python2/pyopencv_generated_types.h; sourceTree = SOURCE_ROOT; };
+		401D6B82CED94BB096852F51 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_include.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = pyopencv_generated_include.h.rule; path = ../../../build/modules/python2/pyopencv_generated_include.h.rule; sourceTree = SOURCE_ROOT; };
+		7139B9CF7E094ACEB9C851C9 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_include.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pyopencv_generated_include.h; path = ../../../build/modules/python2/pyopencv_generated_include.h; sourceTree = SOURCE_ROOT; };
+		7BB1628D237F4E4AA25EC588 /* /Users/elliotstaudt/opencv/modules/python/python2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		83770592252E45FCABEAE981 /* /Users/elliotstaudt/opencv/modules/python/src2/cv2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cv2.cpp; path = ../src2/cv2.cpp; sourceTree = SOURCE_ROOT; };
+		B683AEF47E0C4652B5552AEA /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_funcs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pyopencv_generated_funcs.h; path = ../../../build/modules/python2/pyopencv_generated_funcs.h; sourceTree = SOURCE_ROOT; };
+		B71762FC646A41058004A7C3 /* opencv_python2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = cv2.so; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B0D7A7B48E43AF979C1D1E /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_ns_reg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pyopencv_generated_ns_reg.h; path = ../../../build/modules/python2/pyopencv_generated_ns_reg.h; sourceTree = SOURCE_ROOT; };
+		E8D29ECBA4104C6594FB7A92 /* /Users/elliotstaudt/opencv/modules/python/python2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EF97D1344B1B4DFFA502BA89 /* /Users/elliotstaudt/opencv/modules/python/python2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		056FBF892CAA433F9163AB89 = {
+			isa = PBXGroup;
+			children = (
+				67A9616376514FAA945462FB /* Sources */,
+				2C645473E41A4B35B4413735 /* Resources */,
+				713A8F70A813488A9A4C9D41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2816F9597D504BEC95980E94 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2C645473E41A4B35B4413735 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4DDEF208CD084FF099C722B4 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		573DF4D8A737499ABFF95F90 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				83770592252E45FCABEAE981 /* /Users/elliotstaudt/opencv/modules/python/src2/cv2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		67A9616376514FAA945462FB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A54324873544487AAF14D00D /* ALL_BUILD */,
+				6E86AEB07911417CBD006B6F /* bindings */,
+				7989B48B3DE84B988436EEC2 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		6E86AEB07911417CBD006B6F /* bindings */ = {
+			isa = PBXGroup;
+			children = (
+				991F1AE45CD94921B34A0A5D /* opencv_python2 */,
+			);
+			name = bindings;
+			sourceTree = "<group>";
+		};
+		713A8F70A813488A9A4C9D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B71762FC646A41058004A7C3 /* opencv_python2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7989B48B3DE84B988436EEC2 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				2816F9597D504BEC95980E94 /* CMake Rules */,
+				7BB1628D237F4E4AA25EC588 /* /Users/elliotstaudt/opencv/modules/python/python2/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		91A64B60255D4B7A893287CB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				401D6B82CED94BB096852F51 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_include.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		991F1AE45CD94921B34A0A5D /* opencv_python2 */ = {
+			isa = PBXGroup;
+			children = (
+				573DF4D8A737499ABFF95F90 /* Source Files */,
+				C086A23A266C418ABFAA1499 /* Header Files */,
+				91A64B60255D4B7A893287CB /* CMake Rules */,
+				EF97D1344B1B4DFFA502BA89 /* /Users/elliotstaudt/opencv/modules/python/python2/CMakeLists.txt */,
+			);
+			name = opencv_python2;
+			sourceTree = "<group>";
+		};
+		A54324873544487AAF14D00D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4DDEF208CD084FF099C722B4 /* CMake Rules */,
+				E8D29ECBA4104C6594FB7A92 /* /Users/elliotstaudt/opencv/modules/python/python2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C086A23A266C418ABFAA1499 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B683AEF47E0C4652B5552AEA /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_funcs.h */,
+				7139B9CF7E094ACEB9C851C9 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_include.h */,
+				C9B0D7A7B48E43AF979C1D1E /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_ns_reg.h */,
+				1A98B33BB1324024B831FC19 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_type_reg.h */,
+				3A3D6D560F1046079733DCC7 /* /Users/elliotstaudt/opencv/build/modules/python2/pyopencv_generated_types.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4ED0030872D4C3A9626CAB2 /* opencv_python2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A8D1552C6F4213BF24EBF4 /* Build configuration list for PBXNativeTarget "opencv_python2" */;
+			buildPhases = (
+				A6587DB26FC44591BAA0A86C /* CMake Rules */,
+				FF176AACC4F8406594B416C4 /* Sources */,
+				90E20FC99EF44CDBBF7CD67B /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3856592CD4043B48036B451 /* PBXTargetDependency */,
+			);
+			name = opencv_python2;
+			productName = opencv_python2;
+			productReference = B71762FC646A41058004A7C3 /* opencv_python2 */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13608406220A42D0A5B09CE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = AEAA418CDBD04B38A32A8664 /* Build configuration list for PBXProject "opencv_python2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D92576AFAD2A403D9B36DADC /* Debug */,
+				7118E06FAB064536A8F03559 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 056FBF892CAA433F9163AB89;
+			projectDirPath = ../../../modules/python/python2;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				F4ED0030872D4C3A9626CAB2 /* opencv_python2 */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		415E88D384E241E18F8A97B7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/python2 -f /Users/elliotstaudt/opencv/build/modules/python2/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		86D02EB49BFE45ADA045FDA0 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/python2 -f /Users/elliotstaudt/opencv/build/modules/python2/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		90E20FC99EF44CDBBF7CD67B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/python2 -f /Users/elliotstaudt/opencv/build/modules/python2/CMakeScripts/opencv_python2_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A6587DB26FC44591BAA0A86C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/python2 -f /Users/elliotstaudt/opencv/build/modules/python2/CMakeScripts/opencv_python2_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AFD3E8FEB85F49D19E9615F1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BD8D0AFE3E084F71ABD7ECD6 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/python2 -f /Users/elliotstaudt/opencv/build/modules/python2/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C6299BA45EF048DFA345FD68 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/python2 -f /Users/elliotstaudt/opencv/build/modules/python2/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DA83885EEAF54A4DABA31647 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E087FD04E9654E75BA7791E5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F59C7846B7084415858B2C83 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF176AACC4F8406594B416C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAFA0E22F4A4E17861FF599 /* /Users/elliotstaudt/opencv/modules/python/src2/cv2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B1C417342ED458EA44E2BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = F344D7FB80AE4810A59DB081 /* PBXContainerItemProxy */;
+		};
+		54DF07A96A1C4EE3B600B0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4ED0030872D4C3A9626CAB2 /* opencv_python2 */;
+			targetProxy = A88BE264B6EF4D208E4142CD /* PBXContainerItemProxy */;
+		};
+		9BEB80B2652E4F38842A54F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 385BFCE62BB6482C8067E52A /* PBXContainerItemProxy */;
+		};
+		D4CFC50C428C4DEA91CF45EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 27E742AF983A427C83611394 /* PBXContainerItemProxy */;
+		};
+		E3856592CD4043B48036B451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 805FB8244B8343C785993F55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05900E15F0B4418AAB889C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/python2/build;
+			};
+			name = Release;
+		};
+		09B233691726454D82D78206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .so;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", opencv_python2_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/python/python2/include, /Users/elliotstaudt/opencv/modules/python/python2/src, /Users/elliotstaudt/opencv/build/modules/python2, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/shape/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/superres/include, /Users/elliotstaudt/opencv/modules/videostab/include, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Python.framework/Headers, /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include, /Users/elliotstaudt/opencv/modules/python/src2, );
+				INSTALL_PATH = /Users/elliotstaudt/opencv/build/lib/Release;
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_shape.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_stitching.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_superres.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videostab.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudafeatures2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_photo.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaoptflow.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudalegacy.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_video.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaimgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudafilters.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_objdetect.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/python2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		127F2B26B2E74719AD5DDEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/python/python2/include, /Users/elliotstaudt/opencv/modules/python/python2/src, /Users/elliotstaudt/opencv/build/modules/python2, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/shape/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/superres/include, /Users/elliotstaudt/opencv/modules/videostab/include, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Python.framework/Headers, /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include, /Users/elliotstaudt/opencv/modules/python/src2, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/python2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		49D0B1C9F14547C99E785579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/python/python2/include, /Users/elliotstaudt/opencv/modules/python/python2/src, /Users/elliotstaudt/opencv/build/modules/python2, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/shape/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/superres/include, /Users/elliotstaudt/opencv/modules/videostab/include, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Python.framework/Headers, /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include, /Users/elliotstaudt/opencv/modules/python/src2, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/python2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		5D395D3894A4424DADDA43BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/python/python2/include, /Users/elliotstaudt/opencv/modules/python/python2/src, /Users/elliotstaudt/opencv/build/modules/python2, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/shape/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/superres/include, /Users/elliotstaudt/opencv/modules/videostab/include, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Python.framework/Headers, /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include, /Users/elliotstaudt/opencv/modules/python/src2, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/python2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		7DB2276C35AE4BD2AD27DAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/python/python2/include, /Users/elliotstaudt/opencv/modules/python/python2/src, /Users/elliotstaudt/opencv/build/modules/python2, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/shape/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/superres/include, /Users/elliotstaudt/opencv/modules/videostab/include, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Python.framework/Headers, /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include, /Users/elliotstaudt/opencv/modules/python/src2, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/python2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		80B1F2C069BE471ABD44E5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/python/python2/include, /Users/elliotstaudt/opencv/modules/python/python2/src, /Users/elliotstaudt/opencv/build/modules/python2, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/shape/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/superres/include, /Users/elliotstaudt/opencv/modules/videostab/include, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Python.framework/Headers, /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include, /Users/elliotstaudt/opencv/modules/python/src2, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/python2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		A2914D22CC62419B84CBDF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/python/python2/include, /Users/elliotstaudt/opencv/modules/python/python2/src, /Users/elliotstaudt/opencv/build/modules/python2, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/shape/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/superres/include, /Users/elliotstaudt/opencv/modules/videostab/include, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Python.framework/Headers, /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include, /Users/elliotstaudt/opencv/modules/python/src2, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/python2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		A814D625FAF843E388971810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = .so;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", opencv_python2_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/python/python2/include, /Users/elliotstaudt/opencv/modules/python/python2/src, /Users/elliotstaudt/opencv/build/modules/python2, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/shape/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/superres/include, /Users/elliotstaudt/opencv/modules/videostab/include, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Python.framework/Headers, /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include, /Users/elliotstaudt/opencv/modules/python/src2, );
+				INSTALL_PATH = /Users/elliotstaudt/opencv/build/lib/Debug;
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_shape.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_stitching.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_superres.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videostab.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudafeatures2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_photo.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaoptflow.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudalegacy.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_video.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaimgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudafilters.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_objdetect.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cv2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/python2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		BA1618B454364D6086AA4DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/python/python2/include, /Users/elliotstaudt/opencv/modules/python/python2/src, /Users/elliotstaudt/opencv/build/modules/python2, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/shape/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/superres/include, /Users/elliotstaudt/opencv/modules/videostab/include, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Python.framework/Headers, /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include, /Users/elliotstaudt/opencv/modules/python/src2, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/python2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F3287C1AEFAC419AB0623B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/python2/build;
+			};
+			name = Debug;
+		};
+		FF2FD38F2A4F46EF998108FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/python/python2/include, /Users/elliotstaudt/opencv/modules/python/python2/src, /Users/elliotstaudt/opencv/build/modules/python2, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/photo/include, /Users/elliotstaudt/opencv/modules/shape/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /Users/elliotstaudt/opencv/modules/cudaoptflow/include, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/superres/include, /Users/elliotstaudt/opencv/modules/videostab/include, /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Python.framework/Headers, /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include, /Users/elliotstaudt/opencv/modules/python/src2, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/python2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E90FC1D32CC48278C62BF7C /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2FD38F2A4F46EF998108FF /* Debug */,
+				80B1F2C069BE471ABD44E5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8CF86D48E26D433A91AC367F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1618B454364D6086AA4DC6 /* Debug */,
+				127F2B26B2E74719AD5DDEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A2A8D1552C6F4213BF24EBF4 /* Build configuration list for PBXNativeTarget "opencv_python2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A814D625FAF843E388971810 /* Debug */,
+				09B233691726454D82D78206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A391054F7C4E4623B1804DCD /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D395D3894A4424DADDA43BB /* Debug */,
+				7DB2276C35AE4BD2AD27DAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AEAA418CDBD04B38A32A8664 /* Build configuration list for PBXProject "opencv_python2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3287C1AEFAC419AB0623B91 /* Debug */,
+				05900E15F0B4418AAB889C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C2F16261AD224B80B39421CF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2914D22CC62419B84CBDF81 /* Debug */,
+				49D0B1C9F14547C99E785579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13608406220A42D0A5B09CE3 /* Project object */;
+}

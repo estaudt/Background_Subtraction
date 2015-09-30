@@ -1,0 +1,1670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 42EE9F2658344D3EBE80347D /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				861450C143F745C5A0B5FC52 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				C83FF45D858349C7AF6CF358 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9410C0945EE146D19D2F5D61 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				2B6485A482A34A34AC67191F /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				6D7D99A3ABC140B987F16D34 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A3340D31477B4F7392EC243E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8476937E78904723BD822D4E /* CMake Rules */,
+			);
+			dependencies = (
+				2EB5E0207AF54A6EBC1CAE88 /* PBXTargetDependency */,
+				019626774DF041DEB70F3BAE /* PBXTargetDependency */,
+				39BEC485950F4A009D118937 /* PBXTargetDependency */,
+				5CD60B9AAC224671814CEC85 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B738A523EC224C09845F4918 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B61DCCBCB03D431888E345B4 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		012B70F62659467F8CFE3309 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp.rule */ = {isa = PBXBuildFile; fileRef = 74EFBCB8491647249EBEE760 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp.rule */; settings = {COMPILER_FLAGS = ""; }; };
+		021500ED74704621914D8F5E /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp */ = {isa = PBXBuildFile; fileRef = D8F29E0E359242CDAA5BB1A0 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		02D327E1CCCD46428A9784C4 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */ = {isa = PBXBuildFile; fileRef = F888F5B283DA4380B717676E /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0F420DEE20BD4055AD82527D /* /Users/elliotstaudt/opencv/modules/stitching/src/stitcher.cpp */ = {isa = PBXBuildFile; fileRef = 0C57E915A48546B5AE260722 /* /Users/elliotstaudt/opencv/modules/stitching/src/stitcher.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		141122C314C54BE3AB8E7506 /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers.cpp */ = {isa = PBXBuildFile; fileRef = 028060CFBB9C4A229B277EDF /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		145EFB28786649369099EC7F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching.hpp */ = {isa = PBXBuildFile; fileRef = 2E11ED9BBFE141FABAB785A0 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		15A0E809129B42A3BF111DD2 /* /Users/elliotstaudt/opencv/modules/stitching/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = 76CBF6F307DE4CF299F505CF /* /Users/elliotstaudt/opencv/modules/stitching/test/test_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		15CBC374C87642F7B5BD3D79 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DD2F2D0C942543588C17CEB7 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		17BE672807DC4A2989664ACB /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching.hpp */ = {isa = PBXBuildFile; fileRef = 1A023E6F6004486E93123201 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1B8E6EC3FC174EB794121ED8 /* /Users/elliotstaudt/opencv/modules/stitching/src/exposure_compensate.cpp */ = {isa = PBXBuildFile; fileRef = 780369D4A7D8429B9B68A366 /* /Users/elliotstaudt/opencv/modules/stitching/src/exposure_compensate.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		23F61F3303D14699A7AE6700 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */ = {isa = PBXBuildFile; fileRef = 49730BBFB9154819A9F78CE0 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		259B91E3B2914A0CB4207106 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */ = {isa = PBXBuildFile; fileRef = 464B168ACACD47E581C15F1A /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		26B38A75E74D46BF9017A852 /* /Users/elliotstaudt/opencv/modules/stitching/src/util.cpp */ = {isa = PBXBuildFile; fileRef = F60FABD0709A4F818028FF66 /* /Users/elliotstaudt/opencv/modules/stitching/src/util.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		26D494711C4C440CA0C8CABD /* /Users/elliotstaudt/opencv/modules/stitching/src/exposure_compensate.cpp */ = {isa = PBXBuildFile; fileRef = D7B2F6C9AABC4C9092845964 /* /Users/elliotstaudt/opencv/modules/stitching/src/exposure_compensate.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		26E26B34446D433898A2C4C9 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */ = {isa = PBXBuildFile; fileRef = 38074025E8B3441F83C86EAE /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2D656544E5314D22AEE9D443 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */ = {isa = PBXBuildFile; fileRef = C2EFE205FBF34255BCDDC16B /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		30C46980BEBC41F5BE5EF6CC /* /Users/elliotstaudt/opencv/modules/stitching/test/test_blenders.cpp */ = {isa = PBXBuildFile; fileRef = 356D488CA0C245FB86474E5E /* /Users/elliotstaudt/opencv/modules/stitching/test/test_blenders.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		32A8CA93BFEF495097DA31C9 /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers_cuda.cpp */ = {isa = PBXBuildFile; fileRef = 23BDC60F5E654B10B62CAC4D /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers_cuda.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3531ED2C908A4807B597BC3E /* /Users/elliotstaudt/opencv/modules/stitching/perf/opencl/perf_stitch.cpp */ = {isa = PBXBuildFile; fileRef = 3566FBFCB9D74BB6A6077FBD /* /Users/elliotstaudt/opencv/modules/stitching/perf/opencl/perf_stitch.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		35420A0C4D974558BA6C689F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp */ = {isa = PBXBuildFile; fileRef = D568181336FA40AF8257FB73 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		359A92F37DD24DFEA965D5BE /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A6B2BF2410AC485697B0C2E6 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		38A3CAF1B2BF46C288229E5B /* /Users/elliotstaudt/opencv/modules/stitching/src/stitcher.cpp */ = {isa = PBXBuildFile; fileRef = A08FAE02378C47999C83408D /* /Users/elliotstaudt/opencv/modules/stitching/src/stitcher.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		398D65226F7A4B3293BC263B /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 1E27E7D111F845A388269732 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3D372A7C74F146B9BB424F15 /* /Users/elliotstaudt/opencv/modules/stitching/test/test_matchers.cpp */ = {isa = PBXBuildFile; fileRef = BAE9508850204A949139A8DF /* /Users/elliotstaudt/opencv/modules/stitching/test/test_matchers.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		46A384157CB24FC39D911753 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */ = {isa = PBXBuildFile; fileRef = 7F0CF6C71D904447998B4D0B /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4DAEE4510EFF4002AF7B48CB /* /Users/elliotstaudt/opencv/modules/stitching/src/motion_estimators.cpp */ = {isa = PBXBuildFile; fileRef = F7530044C0AD475993EC24D1 /* /Users/elliotstaudt/opencv/modules/stitching/src/motion_estimators.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5A61DF6745484D3FB3366F6A /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */ = {isa = PBXBuildFile; fileRef = D53E0080F8BE4A5A830E054C /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5EED98DA7F8841D485863D52 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */ = {isa = PBXBuildFile; fileRef = 2F38B8DAA30A49D19D5EB0E7 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		600F1F60E46E4E309ED3F054 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 395FAFDA364D466A95ECE5F5 /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		601B604BD21546E7A0FAA774 /* /Users/elliotstaudt/opencv/modules/stitching/src/matchers.cpp */ = {isa = PBXBuildFile; fileRef = 5BCAEC2CE51F4E65B47D429B /* /Users/elliotstaudt/opencv/modules/stitching/src/matchers.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		63CE669F9FB04C358D6461C4 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp */ = {isa = PBXBuildFile; fileRef = 4B3650B5ED5A42F89A41252F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6481D31CE3634464BFFC29FD /* /Users/elliotstaudt/opencv/modules/stitching/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = E99B496CCBB24E028460F5A6 /* /Users/elliotstaudt/opencv/modules/stitching/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		66A1CACDEC1947F4AB01CBCE /* /Users/elliotstaudt/opencv/modules/stitching/src/util.cpp */ = {isa = PBXBuildFile; fileRef = 1C268D28FC154B708F7C1695 /* /Users/elliotstaudt/opencv/modules/stitching/src/util.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		66C5B35A5140428A9E2E72CA /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers.cpp */ = {isa = PBXBuildFile; fileRef = 72498F2A45A3434CB820FEE4 /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6B7F383A7C8847AB97440F79 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */ = {isa = PBXBuildFile; fileRef = E67453FAD8944434A4BCE7AA /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		729C7F8780D341A6968802B0 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */ = {isa = PBXBuildFile; fileRef = E828AE817ED24CF1ADC710DA /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		730A08582FC24F31A13D67D7 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp */ = {isa = PBXBuildFile; fileRef = A9ADF7FFB80A443BB5A97FC6 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		73E01A303221440B88FA43EC /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */ = {isa = PBXBuildFile; fileRef = 04E1C0BB41164D36A242172D /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		79C24F71013D4F69876A363B /* /Users/elliotstaudt/opencv/modules/stitching/src/timelapsers.cpp */ = {isa = PBXBuildFile; fileRef = 07735C7A54994B02974E2F5D /* /Users/elliotstaudt/opencv/modules/stitching/src/timelapsers.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7BA45B33AEDA464FB27D865B /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */ = {isa = PBXBuildFile; fileRef = C903A20477E043199B442A0B /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7C2484A313FB42C1A420F41D /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = C1EFE2FC67DF4534970D5880 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8641D2ADECE5491F8045A497 /* /Users/elliotstaudt/opencv/modules/stitching/src/cuda/build_warp_maps.cu */ = {isa = PBXBuildFile; fileRef = 08530B39C1CC4A9DA7C2A5E8 /* /Users/elliotstaudt/opencv/modules/stitching/src/cuda/build_warp_maps.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		8702EC21FCC8413E99D2F3A6 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */ = {isa = PBXBuildFile; fileRef = 0CFBF35270B342DAA318832F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		87EE5272476941DA8D18ED7B /* /Users/elliotstaudt/opencv/build/modules/stitching/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_build_warp_maps.cu.o */ = {isa = PBXBuildFile; fileRef = 3AC90B6F3482469C9CF3C56D /* /Users/elliotstaudt/opencv/build/modules/stitching/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_build_warp_maps.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		88277B5D9875440997A1CCA5 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp */ = {isa = PBXBuildFile; fileRef = F3D77E5F4F584A02BCF91F0F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8EC09BDBD1A94CAFA2AA9A7E /* /Users/elliotstaudt/opencv/modules/stitching/src/blenders.cpp */ = {isa = PBXBuildFile; fileRef = 69CACB0D20DD437782594AC3 /* /Users/elliotstaudt/opencv/modules/stitching/src/blenders.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8EF0ADB62AF74B9293236DB3 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.hpp */ = {isa = PBXBuildFile; fileRef = 6078F9848D6E4E36B6324F0E /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		92BA902C3A8C490EB0EAD914 /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_stich.cpp */ = {isa = PBXBuildFile; fileRef = 88D062351D6546EF887D44D0 /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_stich.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9311A3C8EA6D4AD885ED298E /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_main.cpp */ = {isa = PBXBuildFile; fileRef = E4D9B2B16B4346119BBC2600 /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		984FB548064E444382958EA0 /* /Users/elliotstaudt/opencv/modules/stitching/src/autocalib.cpp */ = {isa = PBXBuildFile; fileRef = 815DE0067807453E9BE2B940 /* /Users/elliotstaudt/opencv/modules/stitching/src/autocalib.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9A1A6C20BED44D29917B9675 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */ = {isa = PBXBuildFile; fileRef = FD91438263FE4984B6A0242F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9C4851D419AA426C8385DAC8 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.hpp */ = {isa = PBXBuildFile; fileRef = 805837208D1C47D1AD8893E9 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9EDC6C6E93324193A3C90C1F /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 5D3DECCD098C401B8A761DFD /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9F14B902B9E9409EB750C922 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */ = {isa = PBXBuildFile; fileRef = 722CB9CE93A94378A208368E /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A340EAFA017346078DA1F4ED /* /Users/elliotstaudt/opencv/modules/stitching/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 9DB4D479ADC54C4B83CB3187 /* /Users/elliotstaudt/opencv/modules/stitching/test/test_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A5516285BB7E4FDE8764AD08 /* /Users/elliotstaudt/opencv/modules/stitching/src/opencl/warpers.cl */ = {isa = PBXBuildFile; fileRef = 4AB905440C3641469F8002E9 /* /Users/elliotstaudt/opencv/modules/stitching/src/opencl/warpers.cl */; settings = {COMPILER_FLAGS = ""; }; };
+		A686AC6925F94A178B8CA362 /* /Users/elliotstaudt/opencv/modules/stitching/src/camera.cpp */ = {isa = PBXBuildFile; fileRef = FCB75C7DCCB74D1E804B2B20 /* /Users/elliotstaudt/opencv/modules/stitching/src/camera.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A908E3C459FD4CC993516858 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */ = {isa = PBXBuildFile; fileRef = 919350CF5F1A4A3CB584DBCD /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AA58921EB22046739FB03DEC /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C593BBDF77174924B4A67E97 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		AD52B7B76D844B2F864AA7F2 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp */ = {isa = PBXBuildFile; fileRef = 3869076E7B204347B905BB3A /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AE399BD6E55B486D8AEA5C99 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp */ = {isa = PBXBuildFile; fileRef = AF3C5EA25FB9461E9CD88327 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B0611EF90F874F8996AB00B1 /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_precomp.hpp */ = {isa = PBXBuildFile; fileRef = B3377A4C1D374C96A84F5E3E /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B34A21C291E54E47AFAA70FA /* /Users/elliotstaudt/opencv/modules/stitching/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = C62409D95C694E5D8C033D6B /* /Users/elliotstaudt/opencv/modules/stitching/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B4B09019585B47AB884C0976 /* /Users/elliotstaudt/opencv/modules/stitching/src/cuda/build_warp_maps.cu */ = {isa = PBXBuildFile; fileRef = 2873F639E31E4151B8258859 /* /Users/elliotstaudt/opencv/modules/stitching/src/cuda/build_warp_maps.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		B7308E85E63A4946B596E388 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp */ = {isa = PBXBuildFile; fileRef = D005E0C2A38E43CC9FC2BE78 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B78865EF6AB44B00BF60242C /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers_cuda.cpp */ = {isa = PBXBuildFile; fileRef = A77C4E7F7C10433BBB65BB33 /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers_cuda.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C470D6DB07084A8D9834900A /* /Users/elliotstaudt/opencv/modules/stitching/src/blenders.cpp */ = {isa = PBXBuildFile; fileRef = 218FE5D0C6004FAB8AC08BD8 /* /Users/elliotstaudt/opencv/modules/stitching/src/blenders.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C6BC151EDA0846CB85A7E1DD /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp.rule */ = {isa = PBXBuildFile; fileRef = 771FDCE7B8F447B49026B96D /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp.rule */; settings = {COMPILER_FLAGS = ""; }; };
+		C7706387DFDA4C26BA15DBA2 /* /Users/elliotstaudt/opencv/modules/stitching/test/ocl/test_warpers.cpp */ = {isa = PBXBuildFile; fileRef = 372E7CE0F51446FC92D2AFF9 /* /Users/elliotstaudt/opencv/modules/stitching/test/ocl/test_warpers.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C79980EB9CEC4DAFA8A8DFD8 /* /Users/elliotstaudt/opencv/modules/stitching/src/camera.cpp */ = {isa = PBXBuildFile; fileRef = 0D81D90036E440F38352DA50 /* /Users/elliotstaudt/opencv/modules/stitching/src/camera.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C7D149FBE56A4DD38E381554 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */ = {isa = PBXBuildFile; fileRef = 5F9096F0006343F0876CA2CE /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C917C8016BF14AA5871A52D4 /* /Users/elliotstaudt/opencv/modules/stitching/src/seam_finders.cpp */ = {isa = PBXBuildFile; fileRef = 6FE46FF2739241DD9C91466D /* /Users/elliotstaudt/opencv/modules/stitching/src/seam_finders.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D0BE8B9575D34A46A2DBA6AF /* /Users/elliotstaudt/opencv/modules/stitching/src/motion_estimators.cpp */ = {isa = PBXBuildFile; fileRef = 1D0E8561C9D54953BAEE397A /* /Users/elliotstaudt/opencv/modules/stitching/src/motion_estimators.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D1BE0E33281A421781263939 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */ = {isa = PBXBuildFile; fileRef = F6C1FA64A36C4DC9AA969987 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D892B0CA53DB43DBA0343705 /* /Users/elliotstaudt/opencv/modules/stitching/src/seam_finders.cpp */ = {isa = PBXBuildFile; fileRef = 8DFEF39B91BF47B48AFE7136 /* /Users/elliotstaudt/opencv/modules/stitching/src/seam_finders.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DFAB1980FC364D41AD70A4FD /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */ = {isa = PBXBuildFile; fileRef = 0CE8254B60254FB68C271682 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DFD422FF80D94F2FBA0004D5 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */ = {isa = PBXBuildFile; fileRef = 7A025AE0A5B440AFAD664310 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E380AD67CE2F4790869BE8C8 /* /Users/elliotstaudt/opencv/modules/stitching/src/autocalib.cpp */ = {isa = PBXBuildFile; fileRef = 93C93022B4DF4EE1A7FE2F8C /* /Users/elliotstaudt/opencv/modules/stitching/src/autocalib.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E68167E4F7504BD5A6434D26 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 072F3C06B58D4D4395C9E2CA /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		EEAF01E65734493BAAF7C14D /* /Users/elliotstaudt/opencv/modules/stitching/perf/opencl/perf_warpers.cpp */ = {isa = PBXBuildFile; fileRef = 6CF2C2B481B4447D8A796FCB /* /Users/elliotstaudt/opencv/modules/stitching/perf/opencl/perf_warpers.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F0A64A3C468E471A93DD146B /* /Users/elliotstaudt/opencv/modules/stitching/src/opencl/multibandblend.cl */ = {isa = PBXBuildFile; fileRef = 8B62628CEA704762A241A7F6 /* /Users/elliotstaudt/opencv/modules/stitching/src/opencl/multibandblend.cl */; settings = {COMPILER_FLAGS = ""; }; };
+		F35B660E54A84AF794AF813D /* /Users/elliotstaudt/opencv/modules/stitching/src/matchers.cpp */ = {isa = PBXBuildFile; fileRef = 10E9A3FA6C904DCD9EA9A0D5 /* /Users/elliotstaudt/opencv/modules/stitching/src/matchers.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F8D614ACC70B4621B2432EBE /* /Users/elliotstaudt/opencv/modules/stitching/src/timelapsers.cpp */ = {isa = PBXBuildFile; fileRef = EC9760D118144AE9B52B2F81 /* /Users/elliotstaudt/opencv/modules/stitching/src/timelapsers.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		36B23C732D264EB693B5A5FD /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		93E6D2B31AAF4A3E90D120CC = {
+			isa = PBXBuildStyle;
+		};
+		F579172317814A35BAAA0E10 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		00AD49AE8F2C43A48DB8A214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127EF1C28D6E482BB12F875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A130D3C718842A691D8F829;
+			remoteInfo = opencv_stitching;
+		};
+		104591760B8F4A82AD964F19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127EF1C28D6E482BB12F875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		16EBE73671724DF89562F23F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127EF1C28D6E482BB12F875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		7B10C63B7E324D8684BE14F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127EF1C28D6E482BB12F875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA32AD3D69A4AE0B6AF456A;
+			remoteInfo = opencv_perf_stitching;
+		};
+		9B6D031310E34CC6B157AC46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127EF1C28D6E482BB12F875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A130D3C718842A691D8F829;
+			remoteInfo = opencv_stitching;
+		};
+		B73F42C8F08C4E33A70DDBB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127EF1C28D6E482BB12F875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		BD0832481E8A4BF5B1365A29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127EF1C28D6E482BB12F875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		C99A2264BA2449DB9A714D9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127EF1C28D6E482BB12F875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A130D3C718842A691D8F829;
+			remoteInfo = opencv_stitching;
+		};
+		DB2D496FACCD4CFEB4D6DF6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127EF1C28D6E482BB12F875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EE86512080A4C619338BAC1;
+			remoteInfo = opencv_test_stitching;
+		};
+		E04ECD5EA44F4B88BE3194F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127EF1C28D6E482BB12F875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		E606B46270544F1DA62250D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127EF1C28D6E482BB12F875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		EA07E9B93F0648CA9F788B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 127EF1C28D6E482BB12F875A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028060CFBB9C4A229B277EDF /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = warpers.cpp; path = src/warpers.cpp; sourceTree = SOURCE_ROOT; };
+		04E1C0BB41164D36A242172D /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = autocalib.hpp; path = include/opencv2/stitching/detail/autocalib.hpp; sourceTree = SOURCE_ROOT; };
+		072F3C06B58D4D4395C9E2CA /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		07735C7A54994B02974E2F5D /* /Users/elliotstaudt/opencv/modules/stitching/src/timelapsers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timelapsers.cpp; path = src/timelapsers.cpp; sourceTree = SOURCE_ROOT; };
+		08530B39C1CC4A9DA7C2A5E8 /* /Users/elliotstaudt/opencv/modules/stitching/src/cuda/build_warp_maps.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = build_warp_maps.cu; path = src/cuda/build_warp_maps.cu; sourceTree = SOURCE_ROOT; };
+		0C57E915A48546B5AE260722 /* /Users/elliotstaudt/opencv/modules/stitching/src/stitcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stitcher.cpp; path = src/stitcher.cpp; sourceTree = SOURCE_ROOT; };
+		0CE8254B60254FB68C271682 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers_inl.hpp; path = include/opencv2/stitching/detail/warpers_inl.hpp; sourceTree = SOURCE_ROOT; };
+		0CFBF35270B342DAA318832F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers.hpp; path = include/opencv2/stitching/detail/warpers.hpp; sourceTree = SOURCE_ROOT; };
+		0D81D90036E440F38352DA50 /* /Users/elliotstaudt/opencv/modules/stitching/src/camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = src/camera.cpp; sourceTree = SOURCE_ROOT; };
+		0F57206BF3F84BFF88FA8339 /* opencv_stitching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_stitching.dylib; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E9A3FA6C904DCD9EA9A0D5 /* /Users/elliotstaudt/opencv/modules/stitching/src/matchers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matchers.cpp; path = src/matchers.cpp; sourceTree = SOURCE_ROOT; };
+		15438B92DA03415394CA7579 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1A023E6F6004486E93123201 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stitching.hpp; path = include/opencv2/stitching.hpp; sourceTree = SOURCE_ROOT; };
+		1C268D28FC154B708F7C1695 /* /Users/elliotstaudt/opencv/modules/stitching/src/util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = src/util.cpp; sourceTree = SOURCE_ROOT; };
+		1D0E8561C9D54953BAEE397A /* /Users/elliotstaudt/opencv/modules/stitching/src/motion_estimators.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = motion_estimators.cpp; path = src/motion_estimators.cpp; sourceTree = SOURCE_ROOT; };
+		1E27E7D111F845A388269732 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		218FE5D0C6004FAB8AC08BD8 /* /Users/elliotstaudt/opencv/modules/stitching/src/blenders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blenders.cpp; path = src/blenders.cpp; sourceTree = SOURCE_ROOT; };
+		23BDC60F5E654B10B62CAC4D /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers_cuda.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = warpers_cuda.cpp; path = src/warpers_cuda.cpp; sourceTree = SOURCE_ROOT; };
+		2873F639E31E4151B8258859 /* /Users/elliotstaudt/opencv/modules/stitching/src/cuda/build_warp_maps.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = build_warp_maps.cu; path = src/cuda/build_warp_maps.cu; sourceTree = SOURCE_ROOT; };
+		2E11ED9BBFE141FABAB785A0 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stitching.hpp; path = include/opencv2/stitching.hpp; sourceTree = SOURCE_ROOT; };
+		2F38B8DAA30A49D19D5EB0E7 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = blenders.hpp; path = include/opencv2/stitching/detail/blenders.hpp; sourceTree = SOURCE_ROOT; };
+		3566FBFCB9D74BB6A6077FBD /* /Users/elliotstaudt/opencv/modules/stitching/perf/opencl/perf_stitch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_stitch.cpp; path = perf/opencl/perf_stitch.cpp; sourceTree = SOURCE_ROOT; };
+		356D488CA0C245FB86474E5E /* /Users/elliotstaudt/opencv/modules/stitching/test/test_blenders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_blenders.cpp; path = test/test_blenders.cpp; sourceTree = SOURCE_ROOT; };
+		372E7CE0F51446FC92D2AFF9 /* /Users/elliotstaudt/opencv/modules/stitching/test/ocl/test_warpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_warpers.cpp; path = test/ocl/test_warpers.cpp; sourceTree = SOURCE_ROOT; };
+		38074025E8B3441F83C86EAE /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exposure_compensate.hpp; path = include/opencv2/stitching/detail/exposure_compensate.hpp; sourceTree = SOURCE_ROOT; };
+		3869076E7B204347B905BB3A /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_stitching.cpp; path = ../../build/modules/stitching/opencl_kernels_stitching.cpp; sourceTree = SOURCE_ROOT; };
+		395FAFDA364D466A95ECE5F5 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		3AC90B6F3482469C9CF3C56D /* /Users/elliotstaudt/opencv/build/modules/stitching/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_build_warp_maps.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_build_warp_maps.cu.o; path = "../../build/modules/stitching/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_build_warp_maps.cu.o"; sourceTree = SOURCE_ROOT; };
+		464B168ACACD47E581C15F1A /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = timelapsers.hpp; path = include/opencv2/stitching/detail/timelapsers.hpp; sourceTree = SOURCE_ROOT; };
+		49730BBFB9154819A9F78CE0 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = autocalib.hpp; path = include/opencv2/stitching/detail/autocalib.hpp; sourceTree = SOURCE_ROOT; };
+		4AB905440C3641469F8002E9 /* /Users/elliotstaudt/opencv/modules/stitching/src/opencl/warpers.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = warpers.cl; path = src/opencl/warpers.cl; sourceTree = SOURCE_ROOT; };
+		4B3650B5ED5A42F89A41252F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util.hpp; path = include/opencv2/stitching/detail/util.hpp; sourceTree = SOURCE_ROOT; };
+		5BCAEC2CE51F4E65B47D429B /* /Users/elliotstaudt/opencv/modules/stitching/src/matchers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matchers.cpp; path = src/matchers.cpp; sourceTree = SOURCE_ROOT; };
+		5D3DECCD098C401B8A761DFD /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		5F9096F0006343F0876CA2CE /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exposure_compensate.hpp; path = include/opencv2/stitching/detail/exposure_compensate.hpp; sourceTree = SOURCE_ROOT; };
+		6078F9848D6E4E36B6324F0E /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_stitching.hpp; path = ../../build/modules/stitching/opencl_kernels_stitching.hpp; sourceTree = SOURCE_ROOT; };
+		62F297D4013348898566B941 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		69CACB0D20DD437782594AC3 /* /Users/elliotstaudt/opencv/modules/stitching/src/blenders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blenders.cpp; path = src/blenders.cpp; sourceTree = SOURCE_ROOT; };
+		6CF2C2B481B4447D8A796FCB /* /Users/elliotstaudt/opencv/modules/stitching/perf/opencl/perf_warpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_warpers.cpp; path = perf/opencl/perf_warpers.cpp; sourceTree = SOURCE_ROOT; };
+		6FE46FF2739241DD9C91466D /* /Users/elliotstaudt/opencv/modules/stitching/src/seam_finders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = seam_finders.cpp; path = src/seam_finders.cpp; sourceTree = SOURCE_ROOT; };
+		722CB9CE93A94378A208368E /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = seam_finders.hpp; path = include/opencv2/stitching/detail/seam_finders.hpp; sourceTree = SOURCE_ROOT; };
+		72498F2A45A3434CB820FEE4 /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = warpers.cpp; path = src/warpers.cpp; sourceTree = SOURCE_ROOT; };
+		74EFBCB8491647249EBEE760 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_stitching.cpp.rule; path = ../../build/modules/stitching/opencl_kernels_stitching.cpp.rule; sourceTree = SOURCE_ROOT; };
+		76CBF6F307DE4CF299F505CF /* /Users/elliotstaudt/opencv/modules/stitching/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		771FDCE7B8F447B49026B96D /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_stitching.cpp.rule; path = ../../build/modules/stitching/opencl_kernels_stitching.cpp.rule; sourceTree = SOURCE_ROOT; };
+		773D57027FBB46ABB2B8ED93 /* opencv_test_stitching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_stitching; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		780369D4A7D8429B9B68A366 /* /Users/elliotstaudt/opencv/modules/stitching/src/exposure_compensate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exposure_compensate.cpp; path = src/exposure_compensate.cpp; sourceTree = SOURCE_ROOT; };
+		7A025AE0A5B440AFAD664310 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = timelapsers.hpp; path = include/opencv2/stitching/detail/timelapsers.hpp; sourceTree = SOURCE_ROOT; };
+		7E4977BD231D47429B6F531C /* opencv_perf_stitching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_perf_stitching; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0CF6C71D904447998B4D0B /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = motion_estimators.hpp; path = include/opencv2/stitching/detail/motion_estimators.hpp; sourceTree = SOURCE_ROOT; };
+		805837208D1C47D1AD8893E9 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_stitching.hpp; path = ../../build/modules/stitching/opencl_kernels_stitching.hpp; sourceTree = SOURCE_ROOT; };
+		815DE0067807453E9BE2B940 /* /Users/elliotstaudt/opencv/modules/stitching/src/autocalib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = autocalib.cpp; path = src/autocalib.cpp; sourceTree = SOURCE_ROOT; };
+		88D062351D6546EF887D44D0 /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_stich.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_stich.cpp; path = perf/perf_stich.cpp; sourceTree = SOURCE_ROOT; };
+		8B62628CEA704762A241A7F6 /* /Users/elliotstaudt/opencv/modules/stitching/src/opencl/multibandblend.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = multibandblend.cl; path = src/opencl/multibandblend.cl; sourceTree = SOURCE_ROOT; };
+		8DFEF39B91BF47B48AFE7136 /* /Users/elliotstaudt/opencv/modules/stitching/src/seam_finders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = seam_finders.cpp; path = src/seam_finders.cpp; sourceTree = SOURCE_ROOT; };
+		919350CF5F1A4A3CB584DBCD /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = blenders.hpp; path = include/opencv2/stitching/detail/blenders.hpp; sourceTree = SOURCE_ROOT; };
+		93C93022B4DF4EE1A7FE2F8C /* /Users/elliotstaudt/opencv/modules/stitching/src/autocalib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = autocalib.cpp; path = src/autocalib.cpp; sourceTree = SOURCE_ROOT; };
+		9DB4D479ADC54C4B83CB3187 /* /Users/elliotstaudt/opencv/modules/stitching/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		A08FAE02378C47999C83408D /* /Users/elliotstaudt/opencv/modules/stitching/src/stitcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stitcher.cpp; path = src/stitcher.cpp; sourceTree = SOURCE_ROOT; };
+		A6B2BF2410AC485697B0C2E6 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A77C4E7F7C10433BBB65BB33 /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers_cuda.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = warpers_cuda.cpp; path = src/warpers_cuda.cpp; sourceTree = SOURCE_ROOT; };
+		A9ADF7FFB80A443BB5A97FC6 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util.hpp; path = include/opencv2/stitching/detail/util.hpp; sourceTree = SOURCE_ROOT; };
+		AF3C5EA25FB9461E9CD88327 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_stitching.cpp; path = ../../build/modules/stitching/opencl_kernels_stitching.cpp; sourceTree = SOURCE_ROOT; };
+		B3377A4C1D374C96A84F5E3E /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_precomp.hpp; path = perf/perf_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		BAE9508850204A949139A8DF /* /Users/elliotstaudt/opencv/modules/stitching/test/test_matchers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_matchers.cpp; path = test/test_matchers.cpp; sourceTree = SOURCE_ROOT; };
+		C1EFE2FC67DF4534970D5880 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		C2EFE205FBF34255BCDDC16B /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers.hpp; path = include/opencv2/stitching/detail/warpers.hpp; sourceTree = SOURCE_ROOT; };
+		C593BBDF77174924B4A67E97 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C62409D95C694E5D8C033D6B /* /Users/elliotstaudt/opencv/modules/stitching/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		C903A20477E043199B442A0B /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers_inl.hpp; path = include/opencv2/stitching/detail/warpers_inl.hpp; sourceTree = SOURCE_ROOT; };
+		D005E0C2A38E43CC9FC2BE78 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers.hpp; path = include/opencv2/stitching/warpers.hpp; sourceTree = SOURCE_ROOT; };
+		D32AB512A9B74606884BCCC4 /* opencv_stitching_object */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_stitching_object.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53E0080F8BE4A5A830E054C /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = seam_finders.hpp; path = include/opencv2/stitching/detail/seam_finders.hpp; sourceTree = SOURCE_ROOT; };
+		D568181336FA40AF8257FB73 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = warpers.hpp; path = include/opencv2/stitching/warpers.hpp; sourceTree = SOURCE_ROOT; };
+		D7B2F6C9AABC4C9092845964 /* /Users/elliotstaudt/opencv/modules/stitching/src/exposure_compensate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exposure_compensate.cpp; path = src/exposure_compensate.cpp; sourceTree = SOURCE_ROOT; };
+		D8F29E0E359242CDAA5BB1A0 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = camera.hpp; path = include/opencv2/stitching/detail/camera.hpp; sourceTree = SOURCE_ROOT; };
+		DD2F2D0C942543588C17CEB7 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E4D9B2B16B4346119BBC2600 /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_main.cpp; path = perf/perf_main.cpp; sourceTree = SOURCE_ROOT; };
+		E67453FAD8944434A4BCE7AA /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matchers.hpp; path = include/opencv2/stitching/detail/matchers.hpp; sourceTree = SOURCE_ROOT; };
+		E828AE817ED24CF1ADC710DA /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = motion_estimators.hpp; path = include/opencv2/stitching/detail/motion_estimators.hpp; sourceTree = SOURCE_ROOT; };
+		E99B496CCBB24E028460F5A6 /* /Users/elliotstaudt/opencv/modules/stitching/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		EC9760D118144AE9B52B2F81 /* /Users/elliotstaudt/opencv/modules/stitching/src/timelapsers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timelapsers.cpp; path = src/timelapsers.cpp; sourceTree = SOURCE_ROOT; };
+		F3D77E5F4F584A02BCF91F0F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = camera.hpp; path = include/opencv2/stitching/detail/camera.hpp; sourceTree = SOURCE_ROOT; };
+		F60FABD0709A4F818028FF66 /* /Users/elliotstaudt/opencv/modules/stitching/src/util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = src/util.cpp; sourceTree = SOURCE_ROOT; };
+		F6C1FA64A36C4DC9AA969987 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matchers.hpp; path = include/opencv2/stitching/detail/matchers.hpp; sourceTree = SOURCE_ROOT; };
+		F7530044C0AD475993EC24D1 /* /Users/elliotstaudt/opencv/modules/stitching/src/motion_estimators.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = motion_estimators.cpp; path = src/motion_estimators.cpp; sourceTree = SOURCE_ROOT; };
+		F888F5B283DA4380B717676E /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util_inl.hpp; path = include/opencv2/stitching/detail/util_inl.hpp; sourceTree = SOURCE_ROOT; };
+		FCB75C7DCCB74D1E804B2B20 /* /Users/elliotstaudt/opencv/modules/stitching/src/camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = src/camera.cpp; sourceTree = SOURCE_ROOT; };
+		FD91438263FE4984B6A0242F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = util_inl.hpp; path = include/opencv2/stitching/detail/util_inl.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E710B5D593B480798B356A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EE5272476941DA8D18ED7B /* /Users/elliotstaudt/opencv/build/modules/stitching/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_build_warp_maps.cu.o */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0330471C1F914C2D9F130261 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				47FE1A7AB39649CC935CB878 /* ocl */,
+				356D488CA0C245FB86474E5E /* /Users/elliotstaudt/opencv/modules/stitching/test/test_blenders.cpp */,
+				76CBF6F307DE4CF299F505CF /* /Users/elliotstaudt/opencv/modules/stitching/test/test_main.cpp */,
+				BAE9508850204A949139A8DF /* /Users/elliotstaudt/opencv/modules/stitching/test/test_matchers.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		0CC00C0C926240B5BDD60A56 /* opencv_perf_stitching */ = {
+			isa = PBXGroup;
+			children = (
+				54492D86701048C38CBCE443 /* Src */,
+				DCC9322EA1E7478BABCFB923 /* Include */,
+				A6B2BF2410AC485697B0C2E6 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */,
+			);
+			name = opencv_perf_stitching;
+			sourceTree = "<group>";
+		};
+		12229E52E2D142788E22F2BF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				74EFBCB8491647249EBEE760 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		1590413E3E0E401CAD18E370 /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				3869076E7B204347B905BB3A /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp */,
+				805837208D1C47D1AD8893E9 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		1898B86E4DE145308E60D349 /* opencv_stitching */ = {
+			isa = PBXGroup;
+			children = (
+				48358296CEBD413BAD8A4FFA /* Include */,
+				6E4659FBA80B4479BAD7AE15 /* Src */,
+				333A6EE29267484AA055F1B5 /* Header Files */,
+				E7172BAFD066425E8884B3A8 /* Object Files */,
+				FA14F5AE089F490BA288DDFF /* CMake Rules */,
+				072F3C06B58D4D4395C9E2CA /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */,
+			);
+			name = opencv_stitching;
+			sourceTree = "<group>";
+		};
+		211CC8419DC545D3B27DE40E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E4977BD231D47429B6F531C /* opencv_perf_stitching */,
+				0F57206BF3F84BFF88FA8339 /* opencv_stitching */,
+				D32AB512A9B74606884BCCC4 /* opencv_stitching_object */,
+				773D57027FBB46ABB2B8ED93 /* opencv_test_stitching */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27272682CBEF46DDA765BA6B /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				9DB4D479ADC54C4B83CB3187 /* /Users/elliotstaudt/opencv/modules/stitching/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		2FB30D4E4A5F4396A665C166 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		333A6EE29267484AA055F1B5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D3DECCD098C401B8A761DFD /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				C1EFE2FC67DF4534970D5880 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		3940ABE27AC944248FBCC2C0 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				71C8687620F74EC18F6F91BF /* stitching */,
+				2E11ED9BBFE141FABAB785A0 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		3EA8360BCA5842F0A1BBBF6E /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				04E1C0BB41164D36A242172D /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */,
+				2F38B8DAA30A49D19D5EB0E7 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */,
+				D8F29E0E359242CDAA5BB1A0 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp */,
+				5F9096F0006343F0876CA2CE /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */,
+				F6C1FA64A36C4DC9AA969987 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */,
+				7F0CF6C71D904447998B4D0B /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */,
+				722CB9CE93A94378A208368E /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */,
+				464B168ACACD47E581C15F1A /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */,
+				A9ADF7FFB80A443BB5A97FC6 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp */,
+				FD91438263FE4984B6A0242F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */,
+				C2EFE205FBF34255BCDDC16B /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */,
+				C903A20477E043199B442A0B /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */,
+			);
+			name = detail;
+			sourceTree = "<group>";
+		};
+		446F301F3A5D4297B599A791 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				1898B86E4DE145308E60D349 /* opencv_stitching */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		47FE1A7AB39649CC935CB878 /* ocl */ = {
+			isa = PBXGroup;
+			children = (
+				372E7CE0F51446FC92D2AFF9 /* /Users/elliotstaudt/opencv/modules/stitching/test/ocl/test_warpers.cpp */,
+			);
+			name = ocl;
+			sourceTree = "<group>";
+		};
+		48358296CEBD413BAD8A4FFA /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				4E81D913026645C0A50298F9 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		4C7D070FFB094E29B63364FF /* Cuda */ = {
+			isa = PBXGroup;
+			children = (
+				08530B39C1CC4A9DA7C2A5E8 /* /Users/elliotstaudt/opencv/modules/stitching/src/cuda/build_warp_maps.cu */,
+			);
+			name = Cuda;
+			sourceTree = "<group>";
+		};
+		4E81D913026645C0A50298F9 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				8C2424BF700A4E6D82B72B26 /* stitching */,
+				1A023E6F6004486E93123201 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		527BE45074BB4FD39BD73F99 /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C5EA25FB9461E9CD88327 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp */,
+				6078F9848D6E4E36B6324F0E /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		54492D86701048C38CBCE443 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				DA9D58B57AB5429DB9BEEF96 /* opencl */,
+				E4D9B2B16B4346119BBC2600 /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_main.cpp */,
+				88D062351D6546EF887D44D0 /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_stich.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		5DD306C14FCA4E89AF986BED /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				527BE45074BB4FD39BD73F99 /* autogenerated */,
+				8B62628CEA704762A241A7F6 /* /Users/elliotstaudt/opencv/modules/stitching/src/opencl/multibandblend.cl */,
+				4AB905440C3641469F8002E9 /* /Users/elliotstaudt/opencv/modules/stitching/src/opencl/warpers.cl */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		5E859B12A090408985DDF164 /* object_libraries */ = {
+			isa = PBXGroup;
+			children = (
+				7A8C146D6F3B441C8607D5BA /* opencv_stitching_object */,
+			);
+			name = object_libraries;
+			sourceTree = "<group>";
+		};
+		665C63DDE06840F69D2173F2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				446F301F3A5D4297B599A791 /* modules */,
+				BE6E4E15CC164146B6C2B561 /* ALL_BUILD */,
+				5E859B12A090408985DDF164 /* object_libraries */,
+				76CFC1D24EB34C9FAF8F2AAB /* tests performance */,
+				FFEEFA46A9C84266B1902FCE /* ZERO_CHECK */,
+				A7EA449A268441E594455766 /* tests accuracy */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		6CDDDAE5474F46649FD718B6 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				BA460DF94954419DA4BBE44B /* opencl */,
+				E4950C9A7B6A4FF6B21A43C8 /* Cuda */,
+				93C93022B4DF4EE1A7FE2F8C /* /Users/elliotstaudt/opencv/modules/stitching/src/autocalib.cpp */,
+				218FE5D0C6004FAB8AC08BD8 /* /Users/elliotstaudt/opencv/modules/stitching/src/blenders.cpp */,
+				FCB75C7DCCB74D1E804B2B20 /* /Users/elliotstaudt/opencv/modules/stitching/src/camera.cpp */,
+				780369D4A7D8429B9B68A366 /* /Users/elliotstaudt/opencv/modules/stitching/src/exposure_compensate.cpp */,
+				5BCAEC2CE51F4E65B47D429B /* /Users/elliotstaudt/opencv/modules/stitching/src/matchers.cpp */,
+				1D0E8561C9D54953BAEE397A /* /Users/elliotstaudt/opencv/modules/stitching/src/motion_estimators.cpp */,
+				E99B496CCBB24E028460F5A6 /* /Users/elliotstaudt/opencv/modules/stitching/src/precomp.hpp */,
+				8DFEF39B91BF47B48AFE7136 /* /Users/elliotstaudt/opencv/modules/stitching/src/seam_finders.cpp */,
+				0C57E915A48546B5AE260722 /* /Users/elliotstaudt/opencv/modules/stitching/src/stitcher.cpp */,
+				EC9760D118144AE9B52B2F81 /* /Users/elliotstaudt/opencv/modules/stitching/src/timelapsers.cpp */,
+				F60FABD0709A4F818028FF66 /* /Users/elliotstaudt/opencv/modules/stitching/src/util.cpp */,
+				028060CFBB9C4A229B277EDF /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers.cpp */,
+				A77C4E7F7C10433BBB65BB33 /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers_cuda.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		6E4659FBA80B4479BAD7AE15 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				93C65E0C7B5840EAA0EB9DF6 /* opencl */,
+				4C7D070FFB094E29B63364FF /* Cuda */,
+				815DE0067807453E9BE2B940 /* /Users/elliotstaudt/opencv/modules/stitching/src/autocalib.cpp */,
+				69CACB0D20DD437782594AC3 /* /Users/elliotstaudt/opencv/modules/stitching/src/blenders.cpp */,
+				0D81D90036E440F38352DA50 /* /Users/elliotstaudt/opencv/modules/stitching/src/camera.cpp */,
+				D7B2F6C9AABC4C9092845964 /* /Users/elliotstaudt/opencv/modules/stitching/src/exposure_compensate.cpp */,
+				10E9A3FA6C904DCD9EA9A0D5 /* /Users/elliotstaudt/opencv/modules/stitching/src/matchers.cpp */,
+				F7530044C0AD475993EC24D1 /* /Users/elliotstaudt/opencv/modules/stitching/src/motion_estimators.cpp */,
+				C62409D95C694E5D8C033D6B /* /Users/elliotstaudt/opencv/modules/stitching/src/precomp.hpp */,
+				6FE46FF2739241DD9C91466D /* /Users/elliotstaudt/opencv/modules/stitching/src/seam_finders.cpp */,
+				A08FAE02378C47999C83408D /* /Users/elliotstaudt/opencv/modules/stitching/src/stitcher.cpp */,
+				07735C7A54994B02974E2F5D /* /Users/elliotstaudt/opencv/modules/stitching/src/timelapsers.cpp */,
+				1C268D28FC154B708F7C1695 /* /Users/elliotstaudt/opencv/modules/stitching/src/util.cpp */,
+				72498F2A45A3434CB820FEE4 /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers.cpp */,
+				23BDC60F5E654B10B62CAC4D /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers_cuda.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		71C8687620F74EC18F6F91BF /* stitching */ = {
+			isa = PBXGroup;
+			children = (
+				FD67723DEDD4428CB2C1476A /* detail */,
+				D568181336FA40AF8257FB73 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp */,
+			);
+			name = stitching;
+			sourceTree = "<group>";
+		};
+		76CFC1D24EB34C9FAF8F2AAB /* tests performance */ = {
+			isa = PBXGroup;
+			children = (
+				0CC00C0C926240B5BDD60A56 /* opencv_perf_stitching */,
+			);
+			name = "tests performance";
+			sourceTree = "<group>";
+		};
+		7A8C146D6F3B441C8607D5BA /* opencv_stitching_object */ = {
+			isa = PBXGroup;
+			children = (
+				E0E664BFCE104311ADF7A92D /* Include */,
+				6CDDDAE5474F46649FD718B6 /* Src */,
+				7E77DE39C3194166BCF40D13 /* Header Files */,
+				12229E52E2D142788E22F2BF /* CMake Rules */,
+				DD2F2D0C942543588C17CEB7 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */,
+			);
+			name = opencv_stitching_object;
+			sourceTree = "<group>";
+		};
+		7E77DE39C3194166BCF40D13 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				395FAFDA364D466A95ECE5F5 /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				1E27E7D111F845A388269732 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		82EDE065142848AC8523C37D = {
+			isa = PBXGroup;
+			children = (
+				665C63DDE06840F69D2173F2 /* Sources */,
+				F8492315C8C14E16B75E3357 /* Resources */,
+				211CC8419DC545D3B27DE40E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C2424BF700A4E6D82B72B26 /* stitching */ = {
+			isa = PBXGroup;
+			children = (
+				3EA8360BCA5842F0A1BBBF6E /* detail */,
+				D005E0C2A38E43CC9FC2BE78 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp */,
+			);
+			name = stitching;
+			sourceTree = "<group>";
+		};
+		93C65E0C7B5840EAA0EB9DF6 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				5DD306C14FCA4E89AF986BED /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		A7EA449A268441E594455766 /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				FD901448437240509EE9B52C /* opencv_test_stitching */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		B279CDFB78AA4075B3212136 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B918A96877F24F9E8067EC37 /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				1590413E3E0E401CAD18E370 /* autogenerated */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		BA460DF94954419DA4BBE44B /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				B918A96877F24F9E8067EC37 /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		BE6E4E15CC164146B6C2B561 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2FB30D4E4A5F4396A665C166 /* CMake Rules */,
+				15438B92DA03415394CA7579 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DA9D58B57AB5429DB9BEEF96 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				3566FBFCB9D74BB6A6077FBD /* /Users/elliotstaudt/opencv/modules/stitching/perf/opencl/perf_stitch.cpp */,
+				6CF2C2B481B4447D8A796FCB /* /Users/elliotstaudt/opencv/modules/stitching/perf/opencl/perf_warpers.cpp */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		DCC9322EA1E7478BABCFB923 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				B3377A4C1D374C96A84F5E3E /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		E0E664BFCE104311ADF7A92D /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				3940ABE27AC944248FBCC2C0 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		E4950C9A7B6A4FF6B21A43C8 /* Cuda */ = {
+			isa = PBXGroup;
+			children = (
+				2873F639E31E4151B8258859 /* /Users/elliotstaudt/opencv/modules/stitching/src/cuda/build_warp_maps.cu */,
+			);
+			name = Cuda;
+			sourceTree = "<group>";
+		};
+		E7172BAFD066425E8884B3A8 /* Object Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AC90B6F3482469C9CF3C56D /* /Users/elliotstaudt/opencv/build/modules/stitching/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_build_warp_maps.cu.o */,
+			);
+			name = "Object Files";
+			sourceTree = "<group>";
+		};
+		F8492315C8C14E16B75E3357 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FA14F5AE089F490BA288DDFF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				771FDCE7B8F447B49026B96D /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FD67723DEDD4428CB2C1476A /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				49730BBFB9154819A9F78CE0 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */,
+				919350CF5F1A4A3CB584DBCD /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */,
+				F3D77E5F4F584A02BCF91F0F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp */,
+				38074025E8B3441F83C86EAE /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */,
+				E67453FAD8944434A4BCE7AA /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */,
+				E828AE817ED24CF1ADC710DA /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */,
+				D53E0080F8BE4A5A830E054C /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */,
+				7A025AE0A5B440AFAD664310 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp */,
+				4B3650B5ED5A42F89A41252F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp */,
+				F888F5B283DA4380B717676E /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */,
+				0CFBF35270B342DAA318832F /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */,
+				0CE8254B60254FB68C271682 /* /Users/elliotstaudt/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */,
+			);
+			name = detail;
+			sourceTree = "<group>";
+		};
+		FD901448437240509EE9B52C /* opencv_test_stitching */ = {
+			isa = PBXGroup;
+			children = (
+				0330471C1F914C2D9F130261 /* Src */,
+				27272682CBEF46DDA765BA6B /* Include */,
+				C593BBDF77174924B4A67E97 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */,
+			);
+			name = opencv_test_stitching;
+			sourceTree = "<group>";
+		};
+		FFEEFA46A9C84266B1902FCE /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				B279CDFB78AA4075B3212136 /* CMake Rules */,
+				62F297D4013348898566B941 /* /Users/elliotstaudt/opencv/modules/stitching/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FA32AD3D69A4AE0B6AF456A /* opencv_perf_stitching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467FE8BFC6674205BBAD69D0 /* Build configuration list for PBXNativeTarget "opencv_perf_stitching" */;
+			buildPhases = (
+				96AB9E83368D456FB49070A3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B013445DAEA5438EAA05749D /* PBXTargetDependency */,
+				F2610DF2B8CC44E9ACBC69E9 /* PBXTargetDependency */,
+			);
+			name = opencv_perf_stitching;
+			productName = opencv_perf_stitching;
+			productReference = 7E4977BD231D47429B6F531C /* opencv_perf_stitching */;
+			productType = "com.apple.product-type.tool";
+		};
+		47CAACD4B6FF41E4890F6393 /* opencv_stitching_object */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76118B7CFDBF48228EFE27AE /* Build configuration list for PBXNativeTarget "opencv_stitching_object" */;
+			buildPhases = (
+				A0D5738E58AA4DAB8C26B529 /* CMake Rules */,
+				A5D983AFEDC0422B90F427B1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				535F06863C2847DDBFD28CC6 /* PBXTargetDependency */,
+			);
+			name = opencv_stitching_object;
+			productName = opencv_stitching_object;
+			productReference = D32AB512A9B74606884BCCC4 /* opencv_stitching_object */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5EE86512080A4C619338BAC1 /* opencv_test_stitching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA4DE4A4C884352B94E01EA /* Build configuration list for PBXNativeTarget "opencv_test_stitching" */;
+			buildPhases = (
+				7493879103BA4A0B9BA0708E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F2304704BC4AB1883B5373 /* PBXTargetDependency */,
+				109830597656476DA792A326 /* PBXTargetDependency */,
+			);
+			name = opencv_test_stitching;
+			productName = opencv_test_stitching;
+			productReference = 773D57027FBB46ABB2B8ED93 /* opencv_test_stitching */;
+			productType = "com.apple.product-type.tool";
+		};
+		6A130D3C718842A691D8F829 /* opencv_stitching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357A5771712145D3A03D9D08 /* Build configuration list for PBXNativeTarget "opencv_stitching" */;
+			buildPhases = (
+				B14F67872FFA439892B25DBD /* CMake Rules */,
+				79198E7CD6ED4117B120C5BE /* Sources */,
+				8E710B5D593B480798B356A1 /* Frameworks */,
+				C3F769EF2EBE4555A85F25BC /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				131311B446284156BC62F97E /* PBXTargetDependency */,
+			);
+			name = opencv_stitching;
+			productName = opencv_stitching;
+			productReference = 0F57206BF3F84BFF88FA8339 /* opencv_stitching */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		127EF1C28D6E482BB12F875A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 2B0CA303BF1D4DD1905AD930 /* Build configuration list for PBXProject "opencv_stitching" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				36B23C732D264EB693B5A5FD /* Debug */,
+				F579172317814A35BAAA0E10 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 82EDE065142848AC8523C37D;
+			projectDirPath = ../../../modules/stitching;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				2FA32AD3D69A4AE0B6AF456A /* opencv_perf_stitching */,
+				6A130D3C718842A691D8F829 /* opencv_stitching */,
+				47CAACD4B6FF41E4890F6393 /* opencv_stitching_object */,
+				5EE86512080A4C619338BAC1 /* opencv_test_stitching */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B6485A482A34A34AC67191F /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/stitching -f /Users/elliotstaudt/opencv/build/modules/stitching/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4AA766FC755E410B8010C972 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6B988196D9334E08BDC189F8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8476937E78904723BD822D4E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/stitching -f /Users/elliotstaudt/opencv/build/modules/stitching/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		861450C143F745C5A0B5FC52 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/stitching -f /Users/elliotstaudt/opencv/build/modules/stitching/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9C4F9A9B235B4746B9709B7A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A0D5738E58AA4DAB8C26B529 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/stitching -f /Users/elliotstaudt/opencv/build/modules/stitching/CMakeScripts/opencv_stitching_object_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B14F67872FFA439892B25DBD /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/stitching -f /Users/elliotstaudt/opencv/build/modules/stitching/CMakeScripts/opencv_stitching_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B61DCCBCB03D431888E345B4 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/stitching -f /Users/elliotstaudt/opencv/build/modules/stitching/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C3F769EF2EBE4555A85F25BC /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/stitching -f /Users/elliotstaudt/opencv/build/modules/stitching/CMakeScripts/opencv_stitching_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E5429465AA2341058A4292A6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7493879103BA4A0B9BA0708E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7706387DFDA4C26BA15DBA2 /* /Users/elliotstaudt/opencv/modules/stitching/test/ocl/test_warpers.cpp */,
+				30C46980BEBC41F5BE5EF6CC /* /Users/elliotstaudt/opencv/modules/stitching/test/test_blenders.cpp */,
+				15A0E809129B42A3BF111DD2 /* /Users/elliotstaudt/opencv/modules/stitching/test/test_main.cpp */,
+				3D372A7C74F146B9BB424F15 /* /Users/elliotstaudt/opencv/modules/stitching/test/test_matchers.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79198E7CD6ED4117B120C5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE399BD6E55B486D8AEA5C99 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp */,
+				984FB548064E444382958EA0 /* /Users/elliotstaudt/opencv/modules/stitching/src/autocalib.cpp */,
+				8EC09BDBD1A94CAFA2AA9A7E /* /Users/elliotstaudt/opencv/modules/stitching/src/blenders.cpp */,
+				C79980EB9CEC4DAFA8A8DFD8 /* /Users/elliotstaudt/opencv/modules/stitching/src/camera.cpp */,
+				26D494711C4C440CA0C8CABD /* /Users/elliotstaudt/opencv/modules/stitching/src/exposure_compensate.cpp */,
+				F35B660E54A84AF794AF813D /* /Users/elliotstaudt/opencv/modules/stitching/src/matchers.cpp */,
+				4DAEE4510EFF4002AF7B48CB /* /Users/elliotstaudt/opencv/modules/stitching/src/motion_estimators.cpp */,
+				C917C8016BF14AA5871A52D4 /* /Users/elliotstaudt/opencv/modules/stitching/src/seam_finders.cpp */,
+				38A3CAF1B2BF46C288229E5B /* /Users/elliotstaudt/opencv/modules/stitching/src/stitcher.cpp */,
+				79C24F71013D4F69876A363B /* /Users/elliotstaudt/opencv/modules/stitching/src/timelapsers.cpp */,
+				66A1CACDEC1947F4AB01CBCE /* /Users/elliotstaudt/opencv/modules/stitching/src/util.cpp */,
+				66C5B35A5140428A9E2E72CA /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers.cpp */,
+				32A8CA93BFEF495097DA31C9 /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers_cuda.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96AB9E83368D456FB49070A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3531ED2C908A4807B597BC3E /* /Users/elliotstaudt/opencv/modules/stitching/perf/opencl/perf_stitch.cpp */,
+				EEAF01E65734493BAAF7C14D /* /Users/elliotstaudt/opencv/modules/stitching/perf/opencl/perf_warpers.cpp */,
+				9311A3C8EA6D4AD885ED298E /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_main.cpp */,
+				92BA902C3A8C490EB0EAD914 /* /Users/elliotstaudt/opencv/modules/stitching/perf/perf_stich.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D983AFEDC0422B90F427B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD52B7B76D844B2F864AA7F2 /* /Users/elliotstaudt/opencv/build/modules/stitching/opencl_kernels_stitching.cpp */,
+				E380AD67CE2F4790869BE8C8 /* /Users/elliotstaudt/opencv/modules/stitching/src/autocalib.cpp */,
+				C470D6DB07084A8D9834900A /* /Users/elliotstaudt/opencv/modules/stitching/src/blenders.cpp */,
+				A686AC6925F94A178B8CA362 /* /Users/elliotstaudt/opencv/modules/stitching/src/camera.cpp */,
+				1B8E6EC3FC174EB794121ED8 /* /Users/elliotstaudt/opencv/modules/stitching/src/exposure_compensate.cpp */,
+				601B604BD21546E7A0FAA774 /* /Users/elliotstaudt/opencv/modules/stitching/src/matchers.cpp */,
+				D0BE8B9575D34A46A2DBA6AF /* /Users/elliotstaudt/opencv/modules/stitching/src/motion_estimators.cpp */,
+				D892B0CA53DB43DBA0343705 /* /Users/elliotstaudt/opencv/modules/stitching/src/seam_finders.cpp */,
+				0F420DEE20BD4055AD82527D /* /Users/elliotstaudt/opencv/modules/stitching/src/stitcher.cpp */,
+				F8D614ACC70B4621B2432EBE /* /Users/elliotstaudt/opencv/modules/stitching/src/timelapsers.cpp */,
+				26B38A75E74D46BF9017A852 /* /Users/elliotstaudt/opencv/modules/stitching/src/util.cpp */,
+				141122C314C54BE3AB8E7506 /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers.cpp */,
+				B78865EF6AB44B00BF60242C /* /Users/elliotstaudt/opencv/modules/stitching/src/warpers_cuda.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		019626774DF041DEB70F3BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EE86512080A4C619338BAC1 /* opencv_test_stitching */;
+			targetProxy = DB2D496FACCD4CFEB4D6DF6C /* PBXContainerItemProxy */;
+		};
+		01F2304704BC4AB1883B5373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A130D3C718842A691D8F829 /* opencv_stitching */;
+			targetProxy = 9B6D031310E34CC6B157AC46 /* PBXContainerItemProxy */;
+		};
+		109830597656476DA792A326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = B73F42C8F08C4E33A70DDBB2 /* PBXContainerItemProxy */;
+		};
+		131311B446284156BC62F97E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = E606B46270544F1DA62250D7 /* PBXContainerItemProxy */;
+		};
+		2EB5E0207AF54A6EBC1CAE88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A130D3C718842A691D8F829 /* opencv_stitching */;
+			targetProxy = C99A2264BA2449DB9A714D9F /* PBXContainerItemProxy */;
+		};
+		39BEC485950F4A009D118937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = BD0832481E8A4BF5B1365A29 /* PBXContainerItemProxy */;
+		};
+		535F06863C2847DDBFD28CC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = E04ECD5EA44F4B88BE3194F8 /* PBXContainerItemProxy */;
+		};
+		5CD60B9AAC224671814CEC85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FA32AD3D69A4AE0B6AF456A /* opencv_perf_stitching */;
+			targetProxy = 7B10C63B7E324D8684BE14F4 /* PBXContainerItemProxy */;
+		};
+		6D7D99A3ABC140B987F16D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 104591760B8F4A82AD964F19 /* PBXContainerItemProxy */;
+		};
+		B013445DAEA5438EAA05749D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A130D3C718842A691D8F829 /* opencv_stitching */;
+			targetProxy = 00AD49AE8F2C43A48DB8A214 /* PBXContainerItemProxy */;
+		};
+		C83FF45D858349C7AF6CF358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = EA07E9B93F0648CA9F788B7F /* PBXContainerItemProxy */;
+		};
+		F2610DF2B8CC44E9ACBC69E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 16EBE73671724DF89562F23F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		104D725555D0468A963E16FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/stitching/opencv_stitching.build/Debug/opencv_stitching_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_stitching_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		257BC805EA79479B9AC5B77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		347625DDB3D843CCBA2F9A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_stitching.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudafeatures2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudalegacy.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_video.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaimgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudafilters.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_objdetect.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_stitching;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		3AF65723C4484439BF2BB7C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Release/libopencv_stitching.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudafeatures2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudalegacy.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_video.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaimgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudafilters.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_objdetect.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_stitching.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		3C494AA3F79B4964BE323714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		579799A495684106ABFFDCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/stitching/opencv_stitching.build/Release/opencv_stitching_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_stitching_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		5D1212DE69D748E8B1A6CB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_stitching.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudafeatures2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudalegacy.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_video.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaimgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudafilters.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_objdetect.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_stitching;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		84D2CF0D10374654B5E7D189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching/build;
+			};
+			name = Debug;
+		};
+		861B5A70D6C1482E9E9D6480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		8E5A0E8B9EB54ABCB1477DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		96C4210F45994E6B83CAF91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		9F673E24BE5048179BD576AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching/build;
+			};
+			name = Release;
+		};
+		A1138A9B5DAD47EAA4D81372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		A31CF26DDB974E46B2C9FF9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_stitching.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudafeatures2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudalegacy.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_video.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaimgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudafilters.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_objdetect.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_stitching;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		A3780DF998FB4A99BF6EABA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		B324DD966C6540B99AAB0D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_stitching.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudafeatures2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudalegacy.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_video.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaimgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudafilters.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_objdetect.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_stitching;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		D03041DB04EC43559D541998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		DA0D44FF4EC14C029DAF99C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/stitching/include, /Users/elliotstaudt/opencv/modules/stitching/src, /Users/elliotstaudt/opencv/build/modules/stitching, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/video/include, /Users/elliotstaudt/opencv/modules/cudafilters/include, /Users/elliotstaudt/opencv/modules/cudaimgproc/include, /Users/elliotstaudt/opencv/modules/cudawarping/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/objdetect/include, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/calib3d/include, /Users/elliotstaudt/opencv/modules/cudafeatures2d/include, /Users/elliotstaudt/opencv/modules/cudalegacy/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/stitching/test, /Users/elliotstaudt/opencv/modules/stitching/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_stitching.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudafeatures2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudalegacy.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudawarping.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_video.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaimgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudafilters.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_objdetect.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_calib3d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_stitching.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/stitching;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B0CA303BF1D4DD1905AD930 /* Build configuration list for PBXProject "opencv_stitching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D2CF0D10374654B5E7D189 /* Debug */,
+				9F673E24BE5048179BD576AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		357A5771712145D3A03D9D08 /* Build configuration list for PBXNativeTarget "opencv_stitching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0D44FF4EC14C029DAF99C7 /* Debug */,
+				3AF65723C4484439BF2BB7C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		42EE9F2658344D3EBE80347D /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C494AA3F79B4964BE323714 /* Debug */,
+				257BC805EA79479B9AC5B77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		467FE8BFC6674205BBAD69D0 /* Build configuration list for PBXNativeTarget "opencv_perf_stitching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347625DDB3D843CCBA2F9A02 /* Debug */,
+				5D1212DE69D748E8B1A6CB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4FA4DE4A4C884352B94E01EA /* Build configuration list for PBXNativeTarget "opencv_test_stitching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A31CF26DDB974E46B2C9FF9D /* Debug */,
+				B324DD966C6540B99AAB0D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		76118B7CFDBF48228EFE27AE /* Build configuration list for PBXNativeTarget "opencv_stitching_object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104D725555D0468A963E16FB /* Debug */,
+				579799A495684106ABFFDCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9410C0945EE146D19D2F5D61 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C4210F45994E6B83CAF91E /* Debug */,
+				D03041DB04EC43559D541998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A3340D31477B4F7392EC243E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861B5A70D6C1482E9E9D6480 /* Debug */,
+				A3780DF998FB4A99BF6EABA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B738A523EC224C09845F4918 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1138A9B5DAD47EAA4D81372 /* Debug */,
+				8E5A0E8B9EB54ABCB1477DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 127EF1C28D6E482BB12F875A /* Project object */;
+}

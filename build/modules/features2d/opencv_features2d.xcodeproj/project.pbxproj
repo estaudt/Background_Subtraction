@@ -1,0 +1,1748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C1D2B1D1BEB9475DA780766C /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				FADCAD20F0444A39AACF6F6A /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3204E733F378459BA11C77E8 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A4BAA556FF77419ABA4A9679 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				55CFA70AE44E48FD8AAE33D6 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3F01B942857A45A7A896F476 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 22FCFE2CD41747128483075B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3DC12BBD69734C1EA69CA00C /* CMake Rules */,
+			);
+			dependencies = (
+				BCF23FCA7F744AEF995F81FE /* PBXTargetDependency */,
+				301C84FF05DF403B9F80670E /* PBXTargetDependency */,
+				3B546DE32396432B88CF9DD4 /* PBXTargetDependency */,
+				6011EAA3218A41A692858AA4 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6C699E5FE4384A74980C8AEF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				67593DB4449E4EC5BD8C87FA /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		022697192D5D443A946369C8 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 459C7C84B7D045AB9F0C8152 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		02827FC3033C4B17AD8987A2 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 46710DEDF3F449B594B8BB85 /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0AC32BB69F6142F794910731 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_nearestneighbors.cpp */ = {isa = PBXBuildFile; fileRef = F722021E423D40E8A27F21DA /* /Users/elliotstaudt/opencv/modules/features2d/test/test_nearestneighbors.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0CA872C8ABA548049354A055 /* /Users/elliotstaudt/opencv/modules/features2d/src/gftt.cpp */ = {isa = PBXBuildFile; fileRef = 59FB163421064B2E99843AB5 /* /Users/elliotstaudt/opencv/modules/features2d/src/gftt.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0CDEA61442E8483395279051 /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_orb.cpp */ = {isa = PBXBuildFile; fileRef = CED2717570884F239974259D /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_orb.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0DA324831639468CAB2DAC4F /* /Users/elliotstaudt/opencv/modules/features2d/test/ocl/test_brute_force_matcher.cpp */ = {isa = PBXBuildFile; fileRef = ABAA45019A7E4E2FB71A9ADE /* /Users/elliotstaudt/opencv/modules/features2d/test/ocl/test_brute_force_matcher.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0E35450B7C5D4FFEAF48CA82 /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */ = {isa = PBXBuildFile; fileRef = 2B6F5C6D0B474D36862497BD /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		16711E8E63DF4A4EB30696F5 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast.cpp */ = {isa = PBXBuildFile; fileRef = 6F6C9293DFE64B80AB40BF6C /* /Users/elliotstaudt/opencv/modules/features2d/src/fast.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		168E84DD52924457BDF20D09 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp */ = {isa = PBXBuildFile; fileRef = 6A40985815B54CA9BD43ABE7 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1752EAA1B24748908782DA28 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp */ = {isa = PBXBuildFile; fileRef = 9FD73D3A64AE4AAE9A9133CA /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		19220DB9B6764F0AA559779A /* /Users/elliotstaudt/opencv/modules/features2d/src/dynamic.cpp */ = {isa = PBXBuildFile; fileRef = 45352E75BDE0438584AB8D07 /* /Users/elliotstaudt/opencv/modules/features2d/src/dynamic.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1A0AC6375FB74DA2B8B4D4FF /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_main.cpp */ = {isa = PBXBuildFile; fileRef = F40F69D4A5A741B0A531F9ED /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1D3FE251B2424A5DAA691D55 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp */ = {isa = PBXBuildFile; fileRef = 0D3EB7C57FDC48959CB42184 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1E667F4023B14B1AA3A90089 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp.rule */ = {isa = PBXBuildFile; fileRef = 1482C146CB1B4FE38E679811 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp.rule */; settings = {COMPILER_FLAGS = ""; }; };
+		1E97E44CDD5F4A6BA4F0778F /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_agast.cpp */ = {isa = PBXBuildFile; fileRef = 5CB269D4BA0E489CB4074470 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_agast.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1EEDADA63A6A427BA2F62F89 /* /Users/elliotstaudt/opencv/modules/features2d/src/keypoint.cpp */ = {isa = PBXBuildFile; fileRef = CC4F88957E4B46138978AAF1 /* /Users/elliotstaudt/opencv/modules/features2d/src/keypoint.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		21D3E2B2AC4A4C2AA70DFF20 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/TEvolution.h */ = {isa = PBXBuildFile; fileRef = 1B7882314A064886B6200FAE /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/TEvolution.h */; settings = {COMPILER_FLAGS = ""; }; };
+		24895976807B4CC0AA54F257 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = 7F5C5868CBCE4B749D23546D /* /Users/elliotstaudt/opencv/modules/features2d/test/test_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		24E7621A67954FA68C759DD4 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_descriptors_regression.cpp */ = {isa = PBXBuildFile; fileRef = EF4C0668A76349A2AA47178B /* /Users/elliotstaudt/opencv/modules/features2d/test/test_descriptors_regression.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		26236B134DB34F398AAC9F40 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.h */ = {isa = PBXBuildFile; fileRef = 86324F903566434AA10850F9 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.h */; settings = {COMPILER_FLAGS = ""; }; };
+		289EF9F5719D469DBB8D740A /* /Users/elliotstaudt/opencv/modules/features2d/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 4A817400EDEB41F0B5FDC2D2 /* /Users/elliotstaudt/opencv/modules/features2d/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2A61EB68168B42B2BCFC0532 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze.cpp */ = {isa = PBXBuildFile; fileRef = CBA28063576941FDAE0DFDB4 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2B751BD596CF4DC595250FD9 /* /Users/elliotstaudt/opencv/modules/features2d/src/opencl/brute_force_match.cl */ = {isa = PBXBuildFile; fileRef = 29544DECFF07492C83E5AC02 /* /Users/elliotstaudt/opencv/modules/features2d/src/opencl/brute_force_match.cl */; settings = {COMPILER_FLAGS = ""; }; };
+		2E558555644346D888451364 /* /Users/elliotstaudt/opencv/modules/features2d/src/brisk.cpp */ = {isa = PBXBuildFile; fileRef = 60BA2F04A43145D7B52D6701 /* /Users/elliotstaudt/opencv/modules/features2d/src/brisk.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2EB8F919AF3543ED8CDD0DD7 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 32B15FC6F784489AB580B987 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		363A5F08536240EFBF28771C /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d.hpp */ = {isa = PBXBuildFile; fileRef = EBD2DD5D39F041F289453167 /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		38C450D808D143368E03F28D /* /Users/elliotstaudt/opencv/modules/features2d/src/blobdetector.cpp */ = {isa = PBXBuildFile; fileRef = DB5D85D3D5EE40AEA5E9235D /* /Users/elliotstaudt/opencv/modules/features2d/src/blobdetector.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		399984AA9F444917B8F2CE47 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.hpp */ = {isa = PBXBuildFile; fileRef = 528BBC07D90E441781961042 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3C41C4CECF9946A9A4E3B803 /* /Users/elliotstaudt/opencv/modules/features2d/src/blobdetector.cpp */ = {isa = PBXBuildFile; fileRef = 1BEE8104F8D842DBB1621DC3 /* /Users/elliotstaudt/opencv/modules/features2d/src/blobdetector.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		426CB5C53ACE4790B23F35FA /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.hpp */ = {isa = PBXBuildFile; fileRef = A47269D1BAB549F1ABCFF0F5 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		445435E247724E83891AA274 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp */ = {isa = PBXBuildFile; fileRef = 5CCF44A03E9549B892138C7F /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		44D00B598A5D4C2B80BFC6EA /* /Users/elliotstaudt/opencv/modules/features2d/test/test_detectors_regression.cpp */ = {isa = PBXBuildFile; fileRef = A56A8A05E1884AF1838B8994 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_detectors_regression.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		456EEFDB60AD4BBC9F889784 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp.rule */ = {isa = PBXBuildFile; fileRef = 237F62C3A6CD4B8480E767C4 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp.rule */; settings = {COMPILER_FLAGS = ""; }; };
+		45B4CB9A8BBA493194B80BB7 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEConfig.h */ = {isa = PBXBuildFile; fileRef = 45B17182D3C44B04A2D9EC78 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEConfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		483E389F2138463894E0D7D7 /* /Users/elliotstaudt/opencv/modules/features2d/src/brisk.cpp */ = {isa = PBXBuildFile; fileRef = 7295F13F519D47AA8394EAF5 /* /Users/elliotstaudt/opencv/modules/features2d/src/brisk.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4C763E12FF3C455B8782616E /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp */ = {isa = PBXBuildFile; fileRef = B5A52889165348A5B53469D5 /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4F5B9A7E3D34484EA8E2A12B /* /Users/elliotstaudt/opencv/modules/features2d/test/test_brisk.cpp */ = {isa = PBXBuildFile; fileRef = 3EE3B096A53A47158DA5F087 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_brisk.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5198039775C74BC28D1E3C99 /* /Users/elliotstaudt/opencv/modules/features2d/src/mser.cpp */ = {isa = PBXBuildFile; fileRef = 45D35214CD48418D9547CE4C /* /Users/elliotstaudt/opencv/modules/features2d/src/mser.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		526205E302BB44FD844EE63E /* /Users/elliotstaudt/opencv/modules/features2d/src/evaluation.cpp */ = {isa = PBXBuildFile; fileRef = 28A9A2AF5B114CF6AF06C243 /* /Users/elliotstaudt/opencv/modules/features2d/src/evaluation.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5AAC8D17ACCE40D1A3A71104 /* /Users/elliotstaudt/opencv/modules/features2d/src/draw.cpp */ = {isa = PBXBuildFile; fileRef = 3A9C197B210E4BD2A5DBE070 /* /Users/elliotstaudt/opencv/modules/features2d/src/draw.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5C1426DD70964DB6BAC217F9 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.cpp */ = {isa = PBXBuildFile; fileRef = 2588DDFA1FC148F9A6232A24 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5C95C62228A846FDBDC9B008 /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_fast.cpp */ = {isa = PBXBuildFile; fileRef = 9AB68789663246BB922F5EE1 /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_fast.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5D20BB60EEEA4B1B90666037 /* /Users/elliotstaudt/opencv/modules/features2d/src/feature2d.cpp */ = {isa = PBXBuildFile; fileRef = 530D146DAFDB4E489FE14D1E /* /Users/elliotstaudt/opencv/modules/features2d/src/feature2d.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5F0633B3684D48C7B24B5C01 /* /Users/elliotstaudt/opencv/modules/features2d/src/akaze.cpp */ = {isa = PBXBuildFile; fileRef = F1C0CAA3B2F14A79AF8ACE47 /* /Users/elliotstaudt/opencv/modules/features2d/src/akaze.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5F56E7930974483185B4F142 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast.cpp */ = {isa = PBXBuildFile; fileRef = 92E3558B2CBD4862BEC3A07D /* /Users/elliotstaudt/opencv/modules/features2d/src/agast.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		662D602F24FA440C8B1575D3 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast.cpp */ = {isa = PBXBuildFile; fileRef = 782B25D1701B4395B5AB4741 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		68BE5B3F1E4D4F2E9742CAAB /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/TEvolution.h */ = {isa = PBXBuildFile; fileRef = 99BBF8E33D824BD3A1E70AFD /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/TEvolution.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6A04175E666D4406A7A79A3D /* /Users/elliotstaudt/opencv/modules/features2d/test/test_fast.cpp */ = {isa = PBXBuildFile; fileRef = 41194CCE9C15462BA7007B50 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_fast.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6B961B9ABEF14C948E6A9B35 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BF0C82C0EC1F4154AC7836E6 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		6BF2D550FCE542D69489DBE0 /* /Users/elliotstaudt/opencv/modules/features2d/src/bagofwords.cpp */ = {isa = PBXBuildFile; fileRef = A3582CFCC22340B095DB8ABA /* /Users/elliotstaudt/opencv/modules/features2d/src/bagofwords.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		73BCA8496847462AA90F1C84 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.h */ = {isa = PBXBuildFile; fileRef = 2030939A1D8D4A8C83616249 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7784B4BEB1E24E95AE60F888 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.hpp */ = {isa = PBXBuildFile; fileRef = 23282298081241A1AA567C63 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		77FFC591BAFA4D4AB4857430 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 538BF38977784AF7A95A2A79 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		79628AC59A7E45E09F04E6CF /* /Users/elliotstaudt/opencv/modules/features2d/src/opencl/orb.cl */ = {isa = PBXBuildFile; fileRef = EE6199A509FF4AE0B468C738 /* /Users/elliotstaudt/opencv/modules/features2d/src/opencl/orb.cl */; settings = {COMPILER_FLAGS = ""; }; };
+		798E50CD05B34380AB3AF2E3 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.cpp */ = {isa = PBXBuildFile; fileRef = 525CDC63E6514BAAA7D02C88 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7BE0A032AF8A46FDABA15382 /* /Users/elliotstaudt/opencv/modules/features2d/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 4FEA2D3ADC5044BFAF8427A8 /* /Users/elliotstaudt/opencv/modules/features2d/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7CF49A6BE05D4920A032F450 /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d.hpp */ = {isa = PBXBuildFile; fileRef = 929BE626553447EA9675D771 /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7DD6580EF8B043ED9A89057D /* /Users/elliotstaudt/opencv/modules/features2d/src/orb.cpp */ = {isa = PBXBuildFile; fileRef = EF4AF2B27018469C9979EFB6 /* /Users/elliotstaudt/opencv/modules/features2d/src/orb.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7EB61383EF394567B48E6729 /* /Users/elliotstaudt/opencv/modules/features2d/src/bagofwords.cpp */ = {isa = PBXBuildFile; fileRef = 66FEF630496641779B8218BD /* /Users/elliotstaudt/opencv/modules/features2d/src/bagofwords.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7F47C7482C53445F9E810844 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.hpp */ = {isa = PBXBuildFile; fileRef = 35F4EBFE724642BCA1BE8200 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		81EACD1A3D464F84B842453A /* /Users/elliotstaudt/opencv/modules/features2d/src/matchers.cpp */ = {isa = PBXBuildFile; fileRef = 6DD7C1BFE3B9430BA69A7BEA /* /Users/elliotstaudt/opencv/modules/features2d/src/matchers.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		844514E052904FAEBD071707 /* /Users/elliotstaudt/opencv/modules/features2d/src/mser.cpp */ = {isa = PBXBuildFile; fileRef = 66C50B3675CD439397ACC6BF /* /Users/elliotstaudt/opencv/modules/features2d/src/mser.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		847B80966AC5456EA1212C04 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.h */ = {isa = PBXBuildFile; fileRef = AD8DD0AD98264DC8A281B052 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.h */; settings = {COMPILER_FLAGS = ""; }; };
+		86B8EE2D23354A698BAC13EC /* /Users/elliotstaudt/opencv/modules/features2d/test/test_agast.cpp */ = {isa = PBXBuildFile; fileRef = C38AFFA9D0E64DDD88251629 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_agast.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8AE24952091F4F1EBC4303CA /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.h */ = {isa = PBXBuildFile; fileRef = B990B0A8D16B46F5985C6267 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8E45C958377C4C7DAE36BE2B /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.cpp */ = {isa = PBXBuildFile; fileRef = 383704F49EB24EF3B8677067 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		90BD1C858D294F1F89FFE882 /* /Users/elliotstaudt/opencv/modules/features2d/src/feature2d.cpp */ = {isa = PBXBuildFile; fileRef = 036F4D825121452483271945 /* /Users/elliotstaudt/opencv/modules/features2d/src/feature2d.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9304296B2D6B4FD6BD97AC7A /* /Users/elliotstaudt/opencv/modules/features2d/src/keypoint.cpp */ = {isa = PBXBuildFile; fileRef = 2AA00223D5FD4441BFD1B1A9 /* /Users/elliotstaudt/opencv/modules/features2d/src/keypoint.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9405334769DC4192A9A032FE /* /Users/elliotstaudt/opencv/modules/features2d/src/matchers.cpp */ = {isa = PBXBuildFile; fileRef = E00CD88EEB5842D88BAB15ED /* /Users/elliotstaudt/opencv/modules/features2d/src/matchers.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		96A404118B974C10821F9920 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/utils.h */ = {isa = PBXBuildFile; fileRef = 56DC5CBD248A49639AE2DBA6 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/utils.h */; settings = {COMPILER_FLAGS = ""; }; };
+		979280A0EDE64F70832C9996 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_matchers_algorithmic.cpp */ = {isa = PBXBuildFile; fileRef = 8F8374628CA24931A8559801 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_matchers_algorithmic.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9B9AAF80945149848BF58451 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/utils.h */ = {isa = PBXBuildFile; fileRef = 9F60495964874212A5D3ED2A /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/utils.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9C59E063DC18425199EEA712 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_keypoints.cpp */ = {isa = PBXBuildFile; fileRef = F078B9D3617E4FE78D698AF3 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_keypoints.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A13F75176CC540C5A8463B57 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.hpp */ = {isa = PBXBuildFile; fileRef = 6A0FDE77E6554C35B7D2EBC3 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A9B7424DAC89446CBECEBAF6 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_fast.cpp */ = {isa = PBXBuildFile; fileRef = DD3A7310FEC8442E9077F283 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_fast.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AFC606A8812D4177BA3A0F90 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEConfig.h */ = {isa = PBXBuildFile; fileRef = 5ACFFF22F781497AA843A177 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEConfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B0014AB292F148F18D599E30 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.cpp */ = {isa = PBXBuildFile; fileRef = DB0A0CBD77914D2690BCDDE9 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B12D0DAE0843438C91B21595 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp */ = {isa = PBXBuildFile; fileRef = F9EB3A5DD8AD40A08D3880FD /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B60EB227F6174846BF3EEA60 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp */ = {isa = PBXBuildFile; fileRef = AF13BA0E49BA4587B8C98B90 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B6527B8B13A04C67B54B8AB0 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_orb.cpp */ = {isa = PBXBuildFile; fileRef = 8D2FC8D4B8B74DB2A8BFD853 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_orb.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B6B70FE00412442587E20A25 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.cpp */ = {isa = PBXBuildFile; fileRef = 082899477C74468CAA796290 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B6B7316D1C9947E4A1ABE607 /* /Users/elliotstaudt/opencv/modules/features2d/src/draw.cpp */ = {isa = PBXBuildFile; fileRef = 5A927E60FEE140CDAF716815 /* /Users/elliotstaudt/opencv/modules/features2d/src/draw.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B97F85D650754BE2A3EF698D /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp */ = {isa = PBXBuildFile; fileRef = 569FCCAE5F334B3DB1F0552E /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		BFED207892AF4DFB9DE7BE99 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.h */ = {isa = PBXBuildFile; fileRef = A5EC2A9EA846459C90E41B17 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C1DA8BEF9BAB4DD89332BB59 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_rotation_and_scale_invariance.cpp */ = {isa = PBXBuildFile; fileRef = CFC9E28A2BAD4C7BB49AB2DF /* /Users/elliotstaudt/opencv/modules/features2d/test/test_rotation_and_scale_invariance.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C402B1797A334BC198D5EC83 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 9A39B592209740D49C618869 /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C53C690248D04969A94D4863 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_mser.cpp */ = {isa = PBXBuildFile; fileRef = 3D5D012F42B346E781837EFA /* /Users/elliotstaudt/opencv/modules/features2d/test/test_mser.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C8317F3BDB424A7AA5077AEC /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.hpp */ = {isa = PBXBuildFile; fileRef = 80D56F0886544CD6B7B287F9 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C9C9F0773E334B1E9332DBD7 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 8239B5DC28D34CC4A7A0984C /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CA7B67D5DF484D61AEB5911C /* /Users/elliotstaudt/opencv/modules/features2d/src/opencl/fast.cl */ = {isa = PBXBuildFile; fileRef = 3521B29AA0484DD6AD7ADFDD /* /Users/elliotstaudt/opencv/modules/features2d/src/opencl/fast.cl */; settings = {COMPILER_FLAGS = ""; }; };
+		D362728099E545C5B5E78587 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp */ = {isa = PBXBuildFile; fileRef = 1B65E835BF44411F8532D91A /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D4429C8DC0794EDDBCDEFF7D /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.h */ = {isa = PBXBuildFile; fileRef = 1983BC83478B4FE3934957F6 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D8765435D58D454A90C9BA79 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = A87EB90B317D4C60904EE9B2 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D8899CE7961A44FEBA383E6E /* /Users/elliotstaudt/opencv/modules/features2d/src/evaluation.cpp */ = {isa = PBXBuildFile; fileRef = 5220A0CE55B949FBB96D4377 /* /Users/elliotstaudt/opencv/modules/features2d/src/evaluation.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E118918375D34E6D9ED46C28 /* /Users/elliotstaudt/opencv/modules/features2d/src/akaze.cpp */ = {isa = PBXBuildFile; fileRef = 8BE28F0051AF430EA55CA747 /* /Users/elliotstaudt/opencv/modules/features2d/src/akaze.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E2FD3F7B528D460B92044D79 /* /Users/elliotstaudt/opencv/modules/features2d/src/dynamic.cpp */ = {isa = PBXBuildFile; fileRef = 87A3391401034EF79095C3A4 /* /Users/elliotstaudt/opencv/modules/features2d/src/dynamic.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E341DFC5382C41098B0A7E90 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEConfig.h */ = {isa = PBXBuildFile; fileRef = 094E9B46BD7B4AEDA0D8055D /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEConfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E7B8F04628B44C6284DA610E /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEConfig.h */ = {isa = PBXBuildFile; fileRef = 4DC10EE6DCBE4784827B58AF /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEConfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E9F4F3EF5504475CA32971AD /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.h */ = {isa = PBXBuildFile; fileRef = 381D68E229C74B15B7E1C78C /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EB07D101233C4843A99F117F /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_batchDistance.cpp */ = {isa = PBXBuildFile; fileRef = 4BE5DD47EB3E44A599DBB775 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_batchDistance.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EB4BBD17C22D427FB155652F /* /Users/elliotstaudt/opencv/modules/features2d/src/gftt.cpp */ = {isa = PBXBuildFile; fileRef = 20FD9D9A158C4CF3B5D72523 /* /Users/elliotstaudt/opencv/modules/features2d/src/gftt.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F0C33EDDC81E493FB4CE1493 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_orb.cpp */ = {isa = PBXBuildFile; fileRef = B7832D1ADC8C45EEB86E22B5 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_orb.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F26578E5353B4E548C179AD9 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.cpp */ = {isa = PBXBuildFile; fileRef = 75B6B4B6707E4343BEDEE967 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F29EE1701473428A8D1FFCF5 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast.cpp */ = {isa = PBXBuildFile; fileRef = 4621671B1D0C42C486F51639 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F3D919DAF85B416291423B96 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 9D56586184624D55A2A68BD4 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F86DE7178B084C60BE21B788 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7A6E15B3CEDC4CF99003FC61 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		FCAA81A4AAE84D65965AD567 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.h */ = {isa = PBXBuildFile; fileRef = 388BC5682C6E47EF9D77FFB4 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FCB3CFF09657490D90857EED /* /Users/elliotstaudt/opencv/modules/features2d/src/orb.cpp */ = {isa = PBXBuildFile; fileRef = 0660C30CB2A14EEE93E95171 /* /Users/elliotstaudt/opencv/modules/features2d/src/orb.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FD6FCB21BDEA45E98B083123 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze.cpp */ = {isa = PBXBuildFile; fileRef = 1D661638F3384B8EB6CB5173 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FE9A6CDAE6104DC18CAF0C74 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp */ = {isa = PBXBuildFile; fileRef = ACCDEB1FB98440A1B87D95FE /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		165F4EA62C9A49B188CC99B4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		3503A8D5E88E4CD3B2383B0D = {
+			isa = PBXBuildStyle;
+		};
+		E6F26EEF7E664D43852AB325 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		06FE0B4750C74F6897722401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF0F06246BD74C60B41F8D2D;
+			remoteInfo = opencv_perf_features2d;
+		};
+		127A31E696A14344AA022136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		72890354A3DC4F6EA3D9A606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A81D7BAEAB492B9CEA053B;
+			remoteInfo = opencv_features2d;
+		};
+		7485E4CE58D04EF385CF33B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		798FE5597527412B8412EBAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		7D268023DF17447AB380F0A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		7E37B91B27A24CB9A477C07C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A81D7BAEAB492B9CEA053B;
+			remoteInfo = opencv_features2d;
+		};
+		89E7E4A6E6EE4291A77AC52A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		BDB25ACEF5884B24A2E6BED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A81D7BAEAB492B9CEA053B;
+			remoteInfo = opencv_features2d;
+		};
+		EB27E55446544208840A1D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ED927F448FE4E138275A453;
+			remoteInfo = opencv_test_features2d;
+		};
+		F37D69CA18734670832BCD1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		FFE3CAE3EA4C412CA5E13784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036F4D825121452483271945 /* /Users/elliotstaudt/opencv/modules/features2d/src/feature2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = feature2d.cpp; path = src/feature2d.cpp; sourceTree = SOURCE_ROOT; };
+		0660C30CB2A14EEE93E95171 /* /Users/elliotstaudt/opencv/modules/features2d/src/orb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = orb.cpp; path = src/orb.cpp; sourceTree = SOURCE_ROOT; };
+		082899477C74468CAA796290 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fast_score.cpp; path = src/fast_score.cpp; sourceTree = SOURCE_ROOT; };
+		094E9B46BD7B4AEDA0D8055D /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AKAZEConfig.h; path = src/kaze/AKAZEConfig.h; sourceTree = SOURCE_ROOT; };
+		0D3EB7C57FDC48959CB42184 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nldiffusion_functions.cpp; path = src/kaze/nldiffusion_functions.cpp; sourceTree = SOURCE_ROOT; };
+		1482C146CB1B4FE38E679811 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_features2d.cpp.rule; path = ../../build/modules/features2d/opencl_kernels_features2d.cpp.rule; sourceTree = SOURCE_ROOT; };
+		19436113B66F4B00A3E8E9E8 /* opencv_features2d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_features2d.dylib; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		1983BC83478B4FE3934957F6 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nldiffusion_functions.h; path = src/kaze/nldiffusion_functions.h; sourceTree = SOURCE_ROOT; };
+		1B65E835BF44411F8532D91A /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_features2d.cpp; path = ../../build/modules/features2d/opencl_kernels_features2d.cpp; sourceTree = SOURCE_ROOT; };
+		1B7882314A064886B6200FAE /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/TEvolution.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TEvolution.h; path = src/kaze/TEvolution.h; sourceTree = SOURCE_ROOT; };
+		1BEE8104F8D842DBB1621DC3 /* /Users/elliotstaudt/opencv/modules/features2d/src/blobdetector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blobdetector.cpp; path = src/blobdetector.cpp; sourceTree = SOURCE_ROOT; };
+		1D661638F3384B8EB6CB5173 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kaze.cpp; path = src/kaze.cpp; sourceTree = SOURCE_ROOT; };
+		2030939A1D8D4A8C83616249 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AKAZEFeatures.h; path = src/kaze/AKAZEFeatures.h; sourceTree = SOURCE_ROOT; };
+		20FD9D9A158C4CF3B5D72523 /* /Users/elliotstaudt/opencv/modules/features2d/src/gftt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gftt.cpp; path = src/gftt.cpp; sourceTree = SOURCE_ROOT; };
+		23282298081241A1AA567C63 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_features2d.hpp; path = ../../build/modules/features2d/opencl_kernels_features2d.hpp; sourceTree = SOURCE_ROOT; };
+		237F62C3A6CD4B8480E767C4 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = opencl_kernels_features2d.cpp.rule; path = ../../build/modules/features2d/opencl_kernels_features2d.cpp.rule; sourceTree = SOURCE_ROOT; };
+		2588DDFA1FC148F9A6232A24 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = agast_score.cpp; path = src/agast_score.cpp; sourceTree = SOURCE_ROOT; };
+		28A9A2AF5B114CF6AF06C243 /* /Users/elliotstaudt/opencv/modules/features2d/src/evaluation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = evaluation.cpp; path = src/evaluation.cpp; sourceTree = SOURCE_ROOT; };
+		29544DECFF07492C83E5AC02 /* /Users/elliotstaudt/opencv/modules/features2d/src/opencl/brute_force_match.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = brute_force_match.cl; path = src/opencl/brute_force_match.cl; sourceTree = SOURCE_ROOT; };
+		2961A738758143F0972FC2A4 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2AA00223D5FD4441BFD1B1A9 /* /Users/elliotstaudt/opencv/modules/features2d/src/keypoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = keypoint.cpp; path = src/keypoint.cpp; sourceTree = SOURCE_ROOT; };
+		2B6F5C6D0B474D36862497BD /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_brute_force_matcher.cpp; path = perf/opencl/perf_brute_force_matcher.cpp; sourceTree = SOURCE_ROOT; };
+		32B15FC6F784489AB580B987 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_precomp.hpp; path = perf/perf_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		3521B29AA0484DD6AD7ADFDD /* /Users/elliotstaudt/opencv/modules/features2d/src/opencl/fast.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fast.cl; path = src/opencl/fast.cl; sourceTree = SOURCE_ROOT; };
+		35F4EBFE724642BCA1BE8200 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fast_score.hpp; path = src/fast_score.hpp; sourceTree = SOURCE_ROOT; };
+		381D68E229C74B15B7E1C78C /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fed.h; path = src/kaze/fed.h; sourceTree = SOURCE_ROOT; };
+		383704F49EB24EF3B8677067 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fast_score.cpp; path = src/fast_score.cpp; sourceTree = SOURCE_ROOT; };
+		388BC5682C6E47EF9D77FFB4 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fed.h; path = src/kaze/fed.h; sourceTree = SOURCE_ROOT; };
+		3A9C197B210E4BD2A5DBE070 /* /Users/elliotstaudt/opencv/modules/features2d/src/draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = draw.cpp; path = src/draw.cpp; sourceTree = SOURCE_ROOT; };
+		3D5D012F42B346E781837EFA /* /Users/elliotstaudt/opencv/modules/features2d/test/test_mser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_mser.cpp; path = test/test_mser.cpp; sourceTree = SOURCE_ROOT; };
+		3EE3B096A53A47158DA5F087 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_brisk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_brisk.cpp; path = test/test_brisk.cpp; sourceTree = SOURCE_ROOT; };
+		41194CCE9C15462BA7007B50 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_fast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_fast.cpp; path = test/test_fast.cpp; sourceTree = SOURCE_ROOT; };
+		45352E75BDE0438584AB8D07 /* /Users/elliotstaudt/opencv/modules/features2d/src/dynamic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dynamic.cpp; path = src/dynamic.cpp; sourceTree = SOURCE_ROOT; };
+		459C7C84B7D045AB9F0C8152 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		45B17182D3C44B04A2D9EC78 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = KAZEConfig.h; path = src/kaze/KAZEConfig.h; sourceTree = SOURCE_ROOT; };
+		45D35214CD48418D9547CE4C /* /Users/elliotstaudt/opencv/modules/features2d/src/mser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mser.cpp; path = src/mser.cpp; sourceTree = SOURCE_ROOT; };
+		4621671B1D0C42C486F51639 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fast.cpp; path = src/fast.cpp; sourceTree = SOURCE_ROOT; };
+		46710DEDF3F449B594B8BB85 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		4A817400EDEB41F0B5FDC2D2 /* /Users/elliotstaudt/opencv/modules/features2d/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		4BE5DD47EB3E44A599DBB775 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_batchDistance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_batchDistance.cpp; path = perf/perf_batchDistance.cpp; sourceTree = SOURCE_ROOT; };
+		4DC10EE6DCBE4784827B58AF /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = KAZEConfig.h; path = src/kaze/KAZEConfig.h; sourceTree = SOURCE_ROOT; };
+		4FEA2D3ADC5044BFAF8427A8 /* /Users/elliotstaudt/opencv/modules/features2d/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		5220A0CE55B949FBB96D4377 /* /Users/elliotstaudt/opencv/modules/features2d/src/evaluation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = evaluation.cpp; path = src/evaluation.cpp; sourceTree = SOURCE_ROOT; };
+		525CDC63E6514BAAA7D02C88 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = agast_score.cpp; path = src/agast_score.cpp; sourceTree = SOURCE_ROOT; };
+		528BBC07D90E441781961042 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fast_score.hpp; path = src/fast_score.hpp; sourceTree = SOURCE_ROOT; };
+		530D146DAFDB4E489FE14D1E /* /Users/elliotstaudt/opencv/modules/features2d/src/feature2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = feature2d.cpp; path = src/feature2d.cpp; sourceTree = SOURCE_ROOT; };
+		538BF38977784AF7A95A2A79 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		569FCCAE5F334B3DB1F0552E /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = features2d.hpp; path = include/opencv2/features2d/features2d.hpp; sourceTree = SOURCE_ROOT; };
+		56DC5CBD248A49639AE2DBA6 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utils.h; path = src/kaze/utils.h; sourceTree = SOURCE_ROOT; };
+		59FB163421064B2E99843AB5 /* /Users/elliotstaudt/opencv/modules/features2d/src/gftt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gftt.cpp; path = src/gftt.cpp; sourceTree = SOURCE_ROOT; };
+		5A927E60FEE140CDAF716815 /* /Users/elliotstaudt/opencv/modules/features2d/src/draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = draw.cpp; path = src/draw.cpp; sourceTree = SOURCE_ROOT; };
+		5ACFFF22F781497AA843A177 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AKAZEConfig.h; path = src/kaze/AKAZEConfig.h; sourceTree = SOURCE_ROOT; };
+		5CB269D4BA0E489CB4074470 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_agast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_agast.cpp; path = perf/perf_agast.cpp; sourceTree = SOURCE_ROOT; };
+		5CCF44A03E9549B892138C7F /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = KAZEFeatures.cpp; path = src/kaze/KAZEFeatures.cpp; sourceTree = SOURCE_ROOT; };
+		60BA2F04A43145D7B52D6701 /* /Users/elliotstaudt/opencv/modules/features2d/src/brisk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = brisk.cpp; path = src/brisk.cpp; sourceTree = SOURCE_ROOT; };
+		66C50B3675CD439397ACC6BF /* /Users/elliotstaudt/opencv/modules/features2d/src/mser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mser.cpp; path = src/mser.cpp; sourceTree = SOURCE_ROOT; };
+		66FEF630496641779B8218BD /* /Users/elliotstaudt/opencv/modules/features2d/src/bagofwords.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bagofwords.cpp; path = src/bagofwords.cpp; sourceTree = SOURCE_ROOT; };
+		6A0FDE77E6554C35B7D2EBC3 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencl_kernels_features2d.hpp; path = ../../build/modules/features2d/opencl_kernels_features2d.hpp; sourceTree = SOURCE_ROOT; };
+		6A40985815B54CA9BD43ABE7 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = KAZEFeatures.cpp; path = src/kaze/KAZEFeatures.cpp; sourceTree = SOURCE_ROOT; };
+		6D653AEA4F3A4B72960589ED /* opencv_perf_features2d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_perf_features2d; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD7C1BFE3B9430BA69A7BEA /* /Users/elliotstaudt/opencv/modules/features2d/src/matchers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matchers.cpp; path = src/matchers.cpp; sourceTree = SOURCE_ROOT; };
+		6F6C9293DFE64B80AB40BF6C /* /Users/elliotstaudt/opencv/modules/features2d/src/fast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fast.cpp; path = src/fast.cpp; sourceTree = SOURCE_ROOT; };
+		7053128E1BBF47F2AAF6F43B /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7295F13F519D47AA8394EAF5 /* /Users/elliotstaudt/opencv/modules/features2d/src/brisk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = brisk.cpp; path = src/brisk.cpp; sourceTree = SOURCE_ROOT; };
+		75B6B4B6707E4343BEDEE967 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fed.cpp; path = src/kaze/fed.cpp; sourceTree = SOURCE_ROOT; };
+		782B25D1701B4395B5AB4741 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = agast.cpp; path = src/agast.cpp; sourceTree = SOURCE_ROOT; };
+		7A6E15B3CEDC4CF99003FC61 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7F5C5868CBCE4B749D23546D /* /Users/elliotstaudt/opencv/modules/features2d/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		80D56F0886544CD6B7B287F9 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = agast_score.hpp; path = src/agast_score.hpp; sourceTree = SOURCE_ROOT; };
+		8239B5DC28D34CC4A7A0984C /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		86324F903566434AA10850F9 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AKAZEFeatures.h; path = src/kaze/AKAZEFeatures.h; sourceTree = SOURCE_ROOT; };
+		87A3391401034EF79095C3A4 /* /Users/elliotstaudt/opencv/modules/features2d/src/dynamic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dynamic.cpp; path = src/dynamic.cpp; sourceTree = SOURCE_ROOT; };
+		8BE28F0051AF430EA55CA747 /* /Users/elliotstaudt/opencv/modules/features2d/src/akaze.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = akaze.cpp; path = src/akaze.cpp; sourceTree = SOURCE_ROOT; };
+		8D2FC8D4B8B74DB2A8BFD853 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_orb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_orb.cpp; path = test/test_orb.cpp; sourceTree = SOURCE_ROOT; };
+		8F8374628CA24931A8559801 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_matchers_algorithmic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_matchers_algorithmic.cpp; path = test/test_matchers_algorithmic.cpp; sourceTree = SOURCE_ROOT; };
+		8FD362F92AD74FFEA39B5F57 /* opencv_test_features2d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_features2d; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		929BE626553447EA9675D771 /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = features2d.hpp; path = include/opencv2/features2d.hpp; sourceTree = SOURCE_ROOT; };
+		92E3558B2CBD4862BEC3A07D /* /Users/elliotstaudt/opencv/modules/features2d/src/agast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = agast.cpp; path = src/agast.cpp; sourceTree = SOURCE_ROOT; };
+		99BBF8E33D824BD3A1E70AFD /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/TEvolution.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TEvolution.h; path = src/kaze/TEvolution.h; sourceTree = SOURCE_ROOT; };
+		9A39B592209740D49C618869 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		9AB68789663246BB922F5EE1 /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_fast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_fast.cpp; path = perf/opencl/perf_fast.cpp; sourceTree = SOURCE_ROOT; };
+		9D56586184624D55A2A68BD4 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		9F60495964874212A5D3ED2A /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utils.h; path = src/kaze/utils.h; sourceTree = SOURCE_ROOT; };
+		9FD73D3A64AE4AAE9A9133CA /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AKAZEFeatures.cpp; path = src/kaze/AKAZEFeatures.cpp; sourceTree = SOURCE_ROOT; };
+		A3582CFCC22340B095DB8ABA /* /Users/elliotstaudt/opencv/modules/features2d/src/bagofwords.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bagofwords.cpp; path = src/bagofwords.cpp; sourceTree = SOURCE_ROOT; };
+		A47269D1BAB549F1ABCFF0F5 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = agast_score.hpp; path = src/agast_score.hpp; sourceTree = SOURCE_ROOT; };
+		A56A8A05E1884AF1838B8994 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_detectors_regression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_detectors_regression.cpp; path = test/test_detectors_regression.cpp; sourceTree = SOURCE_ROOT; };
+		A5EC2A9EA846459C90E41B17 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nldiffusion_functions.h; path = src/kaze/nldiffusion_functions.h; sourceTree = SOURCE_ROOT; };
+		A87EB90B317D4C60904EE9B2 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		ABAA45019A7E4E2FB71A9ADE /* /Users/elliotstaudt/opencv/modules/features2d/test/ocl/test_brute_force_matcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_brute_force_matcher.cpp; path = test/ocl/test_brute_force_matcher.cpp; sourceTree = SOURCE_ROOT; };
+		ACCDEB1FB98440A1B87D95FE /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nldiffusion_functions.cpp; path = src/kaze/nldiffusion_functions.cpp; sourceTree = SOURCE_ROOT; };
+		AD8DD0AD98264DC8A281B052 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = KAZEFeatures.h; path = src/kaze/KAZEFeatures.h; sourceTree = SOURCE_ROOT; };
+		AF13BA0E49BA4587B8C98B90 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AKAZEFeatures.cpp; path = src/kaze/AKAZEFeatures.cpp; sourceTree = SOURCE_ROOT; };
+		B5A52889165348A5B53469D5 /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = features2d.hpp; path = include/opencv2/features2d/features2d.hpp; sourceTree = SOURCE_ROOT; };
+		B7832D1ADC8C45EEB86E22B5 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_orb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_orb.cpp; path = perf/perf_orb.cpp; sourceTree = SOURCE_ROOT; };
+		B990B0A8D16B46F5985C6267 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = KAZEFeatures.h; path = src/kaze/KAZEFeatures.h; sourceTree = SOURCE_ROOT; };
+		BF0C82C0EC1F4154AC7836E6 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C38AFFA9D0E64DDD88251629 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_agast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_agast.cpp; path = test/test_agast.cpp; sourceTree = SOURCE_ROOT; };
+		C4506D5CC98444AAAE0042E2 /* opencv_features2d_object */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_features2d_object.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA28063576941FDAE0DFDB4 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kaze.cpp; path = src/kaze.cpp; sourceTree = SOURCE_ROOT; };
+		CC4F88957E4B46138978AAF1 /* /Users/elliotstaudt/opencv/modules/features2d/src/keypoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = keypoint.cpp; path = src/keypoint.cpp; sourceTree = SOURCE_ROOT; };
+		CED2717570884F239974259D /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_orb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_orb.cpp; path = perf/opencl/perf_orb.cpp; sourceTree = SOURCE_ROOT; };
+		CFC9E28A2BAD4C7BB49AB2DF /* /Users/elliotstaudt/opencv/modules/features2d/test/test_rotation_and_scale_invariance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_rotation_and_scale_invariance.cpp; path = test/test_rotation_and_scale_invariance.cpp; sourceTree = SOURCE_ROOT; };
+		DB0A0CBD77914D2690BCDDE9 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fed.cpp; path = src/kaze/fed.cpp; sourceTree = SOURCE_ROOT; };
+		DB5D85D3D5EE40AEA5E9235D /* /Users/elliotstaudt/opencv/modules/features2d/src/blobdetector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blobdetector.cpp; path = src/blobdetector.cpp; sourceTree = SOURCE_ROOT; };
+		DD3A7310FEC8442E9077F283 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_fast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_fast.cpp; path = perf/perf_fast.cpp; sourceTree = SOURCE_ROOT; };
+		E00CD88EEB5842D88BAB15ED /* /Users/elliotstaudt/opencv/modules/features2d/src/matchers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matchers.cpp; path = src/matchers.cpp; sourceTree = SOURCE_ROOT; };
+		EBD2DD5D39F041F289453167 /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = features2d.hpp; path = include/opencv2/features2d.hpp; sourceTree = SOURCE_ROOT; };
+		EE6199A509FF4AE0B468C738 /* /Users/elliotstaudt/opencv/modules/features2d/src/opencl/orb.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = orb.cl; path = src/opencl/orb.cl; sourceTree = SOURCE_ROOT; };
+		EF4AF2B27018469C9979EFB6 /* /Users/elliotstaudt/opencv/modules/features2d/src/orb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = orb.cpp; path = src/orb.cpp; sourceTree = SOURCE_ROOT; };
+		EF4C0668A76349A2AA47178B /* /Users/elliotstaudt/opencv/modules/features2d/test/test_descriptors_regression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_descriptors_regression.cpp; path = test/test_descriptors_regression.cpp; sourceTree = SOURCE_ROOT; };
+		F078B9D3617E4FE78D698AF3 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_keypoints.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_keypoints.cpp; path = test/test_keypoints.cpp; sourceTree = SOURCE_ROOT; };
+		F1C0CAA3B2F14A79AF8ACE47 /* /Users/elliotstaudt/opencv/modules/features2d/src/akaze.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = akaze.cpp; path = src/akaze.cpp; sourceTree = SOURCE_ROOT; };
+		F40F69D4A5A741B0A531F9ED /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_main.cpp; path = perf/perf_main.cpp; sourceTree = SOURCE_ROOT; };
+		F722021E423D40E8A27F21DA /* /Users/elliotstaudt/opencv/modules/features2d/test/test_nearestneighbors.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_nearestneighbors.cpp; path = test/test_nearestneighbors.cpp; sourceTree = SOURCE_ROOT; };
+		F9EB3A5DD8AD40A08D3880FD /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = opencl_kernels_features2d.cpp; path = ../../build/modules/features2d/opencl_kernels_features2d.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00635AC9549449CEB2B711CC /* object_libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B1E10EBE069C40BC8DE2489F /* opencv_features2d_object */,
+			);
+			name = object_libraries;
+			sourceTree = "<group>";
+		};
+		0AF85377B86B4E388D531D52 /* tests performance */ = {
+			isa = PBXGroup;
+			children = (
+				3497599EB55F4BB7916A9853 /* opencv_perf_features2d */,
+			);
+			name = "tests performance";
+			sourceTree = "<group>";
+		};
+		1CF4F07C9FF349C89EB50DA3 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				46710DEDF3F449B594B8BB85 /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				8239B5DC28D34CC4A7A0984C /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		288744850C18461AB816995E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				1482C146CB1B4FE38E679811 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		334A9AE1DEB94DC1AFC04FC1 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				D01BB6DB1DB34D51B1F933FD /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		339FC42C60154BC2870CF0DA /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				F04C93C178DD4C718A8BC860 /* kaze */,
+				8A467AC0D2FA439D94B90524 /* opencl */,
+				92E3558B2CBD4862BEC3A07D /* /Users/elliotstaudt/opencv/modules/features2d/src/agast.cpp */,
+				2588DDFA1FC148F9A6232A24 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.cpp */,
+				80D56F0886544CD6B7B287F9 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.hpp */,
+				8BE28F0051AF430EA55CA747 /* /Users/elliotstaudt/opencv/modules/features2d/src/akaze.cpp */,
+				A3582CFCC22340B095DB8ABA /* /Users/elliotstaudt/opencv/modules/features2d/src/bagofwords.cpp */,
+				1BEE8104F8D842DBB1621DC3 /* /Users/elliotstaudt/opencv/modules/features2d/src/blobdetector.cpp */,
+				60BA2F04A43145D7B52D6701 /* /Users/elliotstaudt/opencv/modules/features2d/src/brisk.cpp */,
+				3A9C197B210E4BD2A5DBE070 /* /Users/elliotstaudt/opencv/modules/features2d/src/draw.cpp */,
+				45352E75BDE0438584AB8D07 /* /Users/elliotstaudt/opencv/modules/features2d/src/dynamic.cpp */,
+				28A9A2AF5B114CF6AF06C243 /* /Users/elliotstaudt/opencv/modules/features2d/src/evaluation.cpp */,
+				4621671B1D0C42C486F51639 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast.cpp */,
+				082899477C74468CAA796290 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.cpp */,
+				528BBC07D90E441781961042 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.hpp */,
+				036F4D825121452483271945 /* /Users/elliotstaudt/opencv/modules/features2d/src/feature2d.cpp */,
+				20FD9D9A158C4CF3B5D72523 /* /Users/elliotstaudt/opencv/modules/features2d/src/gftt.cpp */,
+				1D661638F3384B8EB6CB5173 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze.cpp */,
+				CC4F88957E4B46138978AAF1 /* /Users/elliotstaudt/opencv/modules/features2d/src/keypoint.cpp */,
+				E00CD88EEB5842D88BAB15ED /* /Users/elliotstaudt/opencv/modules/features2d/src/matchers.cpp */,
+				45D35214CD48418D9547CE4C /* /Users/elliotstaudt/opencv/modules/features2d/src/mser.cpp */,
+				EF4AF2B27018469C9979EFB6 /* /Users/elliotstaudt/opencv/modules/features2d/src/orb.cpp */,
+				4A817400EDEB41F0B5FDC2D2 /* /Users/elliotstaudt/opencv/modules/features2d/src/precomp.hpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		3497599EB55F4BB7916A9853 /* opencv_perf_features2d */ = {
+			isa = PBXGroup;
+			children = (
+				5A7CF54591784FA8ABAEA6FC /* Src */,
+				7C0EED86EC4C48769F58279E /* Include */,
+				7A6E15B3CEDC4CF99003FC61 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */,
+			);
+			name = opencv_perf_features2d;
+			sourceTree = "<group>";
+		};
+		43D192AE7ABC41F6AD892CB2 /* ocl */ = {
+			isa = PBXGroup;
+			children = (
+				ABAA45019A7E4E2FB71A9ADE /* /Users/elliotstaudt/opencv/modules/features2d/test/ocl/test_brute_force_matcher.cpp */,
+			);
+			name = ocl;
+			sourceTree = "<group>";
+		};
+		5A7CF54591784FA8ABAEA6FC /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				B916CDFCBC084E158F5821EB /* opencl */,
+				5CB269D4BA0E489CB4074470 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_agast.cpp */,
+				4BE5DD47EB3E44A599DBB775 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_batchDistance.cpp */,
+				DD3A7310FEC8442E9077F283 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_fast.cpp */,
+				F40F69D4A5A741B0A531F9ED /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_main.cpp */,
+				B7832D1ADC8C45EEB86E22B5 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_orb.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		5AEFFA531D1C4A50B2F2D0C5 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				9ACD4E9E09D84748A3701424 /* features2d */,
+				EBD2DD5D39F041F289453167 /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		5EB5C009676D4E2C869AFF5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6C4A69D3625646EC80F217F9 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				CB5002E599184BBD96C929A3 /* CMake Rules */,
+				7053128E1BBF47F2AAF6F43B /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		71EAFF354CCA4473B3140457 = {
+			isa = PBXGroup;
+			children = (
+				BA3F4DEC8B394B3FA3E6E003 /* Sources */,
+				5EB5C009676D4E2C869AFF5C /* Resources */,
+				E029FC58683944F181A7DBD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75252DC4044547FEB2582C6A /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				EAF6F4D40BA043738B3A38DE /* opencv_test_features2d */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		7C0EED86EC4C48769F58279E /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				32B15FC6F784489AB580B987 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		7CFB7CCD4F4A49B2BC86B7FC /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				9D56586184624D55A2A68BD4 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		7F6D733AAA3A41B48B1C66FB /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				B865EDF2FC504D7F94F9CD21 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		807B4812ED9D4EFBA3FE3E5E /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				1B65E835BF44411F8532D91A /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp */,
+				6A0FDE77E6554C35B7D2EBC3 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		8A467AC0D2FA439D94B90524 /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				E0D72A7F8D384DE3A66F34FF /* kernels */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		8E9B4981EC0F437EA209C3D1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9171DE947DD347D68D2E8DDA /* features2d */ = {
+			isa = PBXGroup;
+			children = (
+				569FCCAE5F334B3DB1F0552E /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp */,
+			);
+			name = features2d;
+			sourceTree = "<group>";
+		};
+		99D989FAEE3641F29664DF4B /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				43D192AE7ABC41F6AD892CB2 /* ocl */,
+				C38AFFA9D0E64DDD88251629 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_agast.cpp */,
+				3EE3B096A53A47158DA5F087 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_brisk.cpp */,
+				EF4C0668A76349A2AA47178B /* /Users/elliotstaudt/opencv/modules/features2d/test/test_descriptors_regression.cpp */,
+				A56A8A05E1884AF1838B8994 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_detectors_regression.cpp */,
+				41194CCE9C15462BA7007B50 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_fast.cpp */,
+				F078B9D3617E4FE78D698AF3 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_keypoints.cpp */,
+				7F5C5868CBCE4B749D23546D /* /Users/elliotstaudt/opencv/modules/features2d/test/test_main.cpp */,
+				8F8374628CA24931A8559801 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_matchers_algorithmic.cpp */,
+				3D5D012F42B346E781837EFA /* /Users/elliotstaudt/opencv/modules/features2d/test/test_mser.cpp */,
+				F722021E423D40E8A27F21DA /* /Users/elliotstaudt/opencv/modules/features2d/test/test_nearestneighbors.cpp */,
+				8D2FC8D4B8B74DB2A8BFD853 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_orb.cpp */,
+				CFC9E28A2BAD4C7BB49AB2DF /* /Users/elliotstaudt/opencv/modules/features2d/test/test_rotation_and_scale_invariance.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		9ACD4E9E09D84748A3701424 /* features2d */ = {
+			isa = PBXGroup;
+			children = (
+				B5A52889165348A5B53469D5 /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp */,
+			);
+			name = features2d;
+			sourceTree = "<group>";
+		};
+		A3500EF054574455804D7257 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				237F62C3A6CD4B8480E767C4 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A8D2DBAA71734FC991A80608 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				D2A55E86E6BF4621B6CD0AEE /* kaze */,
+				334A9AE1DEB94DC1AFC04FC1 /* opencl */,
+				782B25D1701B4395B5AB4741 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast.cpp */,
+				525CDC63E6514BAAA7D02C88 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.cpp */,
+				A47269D1BAB549F1ABCFF0F5 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.hpp */,
+				F1C0CAA3B2F14A79AF8ACE47 /* /Users/elliotstaudt/opencv/modules/features2d/src/akaze.cpp */,
+				66FEF630496641779B8218BD /* /Users/elliotstaudt/opencv/modules/features2d/src/bagofwords.cpp */,
+				DB5D85D3D5EE40AEA5E9235D /* /Users/elliotstaudt/opencv/modules/features2d/src/blobdetector.cpp */,
+				7295F13F519D47AA8394EAF5 /* /Users/elliotstaudt/opencv/modules/features2d/src/brisk.cpp */,
+				5A927E60FEE140CDAF716815 /* /Users/elliotstaudt/opencv/modules/features2d/src/draw.cpp */,
+				87A3391401034EF79095C3A4 /* /Users/elliotstaudt/opencv/modules/features2d/src/dynamic.cpp */,
+				5220A0CE55B949FBB96D4377 /* /Users/elliotstaudt/opencv/modules/features2d/src/evaluation.cpp */,
+				6F6C9293DFE64B80AB40BF6C /* /Users/elliotstaudt/opencv/modules/features2d/src/fast.cpp */,
+				383704F49EB24EF3B8677067 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.cpp */,
+				35F4EBFE724642BCA1BE8200 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.hpp */,
+				530D146DAFDB4E489FE14D1E /* /Users/elliotstaudt/opencv/modules/features2d/src/feature2d.cpp */,
+				59FB163421064B2E99843AB5 /* /Users/elliotstaudt/opencv/modules/features2d/src/gftt.cpp */,
+				CBA28063576941FDAE0DFDB4 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze.cpp */,
+				2AA00223D5FD4441BFD1B1A9 /* /Users/elliotstaudt/opencv/modules/features2d/src/keypoint.cpp */,
+				6DD7C1BFE3B9430BA69A7BEA /* /Users/elliotstaudt/opencv/modules/features2d/src/matchers.cpp */,
+				66C50B3675CD439397ACC6BF /* /Users/elliotstaudt/opencv/modules/features2d/src/mser.cpp */,
+				0660C30CB2A14EEE93E95171 /* /Users/elliotstaudt/opencv/modules/features2d/src/orb.cpp */,
+				4FEA2D3ADC5044BFAF8427A8 /* /Users/elliotstaudt/opencv/modules/features2d/src/precomp.hpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		B1E10EBE069C40BC8DE2489F /* opencv_features2d_object */ = {
+			isa = PBXGroup;
+			children = (
+				F4F9E6B0E14745D298B6D4AD /* Include */,
+				339FC42C60154BC2870CF0DA /* Src */,
+				1CF4F07C9FF349C89EB50DA3 /* Header Files */,
+				288744850C18461AB816995E /* CMake Rules */,
+				459C7C84B7D045AB9F0C8152 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */,
+			);
+			name = opencv_features2d_object;
+			sourceTree = "<group>";
+		};
+		B865EDF2FC504D7F94F9CD21 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				9171DE947DD347D68D2E8DDA /* features2d */,
+				929BE626553447EA9675D771 /* /Users/elliotstaudt/opencv/modules/features2d/include/opencv2/features2d.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		B916CDFCBC084E158F5821EB /* opencl */ = {
+			isa = PBXGroup;
+			children = (
+				2B6F5C6D0B474D36862497BD /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */,
+				9AB68789663246BB922F5EE1 /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_fast.cpp */,
+				CED2717570884F239974259D /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_orb.cpp */,
+			);
+			name = opencl;
+			sourceTree = "<group>";
+		};
+		BA3F4DEC8B394B3FA3E6E003 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D85082A0C8334864AB9AD285 /* ALL_BUILD */,
+				0AF85377B86B4E388D531D52 /* tests performance */,
+				75252DC4044547FEB2582C6A /* tests accuracy */,
+				00635AC9549449CEB2B711CC /* object_libraries */,
+				FB692BDDB10C4AF4AADF2CF9 /* modules */,
+				6C4A69D3625646EC80F217F9 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		CB5002E599184BBD96C929A3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D01BB6DB1DB34D51B1F933FD /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				807B4812ED9D4EFBA3FE3E5E /* autogenerated */,
+				29544DECFF07492C83E5AC02 /* /Users/elliotstaudt/opencv/modules/features2d/src/opencl/brute_force_match.cl */,
+				3521B29AA0484DD6AD7ADFDD /* /Users/elliotstaudt/opencv/modules/features2d/src/opencl/fast.cl */,
+				EE6199A509FF4AE0B468C738 /* /Users/elliotstaudt/opencv/modules/features2d/src/opencl/orb.cl */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		D2A55E86E6BF4621B6CD0AEE /* kaze */ = {
+			isa = PBXGroup;
+			children = (
+				094E9B46BD7B4AEDA0D8055D /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEConfig.h */,
+				AF13BA0E49BA4587B8C98B90 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp */,
+				2030939A1D8D4A8C83616249 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.h */,
+				4DC10EE6DCBE4784827B58AF /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEConfig.h */,
+				6A40985815B54CA9BD43ABE7 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp */,
+				AD8DD0AD98264DC8A281B052 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.h */,
+				99BBF8E33D824BD3A1E70AFD /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/TEvolution.h */,
+				75B6B4B6707E4343BEDEE967 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.cpp */,
+				388BC5682C6E47EF9D77FFB4 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.h */,
+				ACCDEB1FB98440A1B87D95FE /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp */,
+				A5EC2A9EA846459C90E41B17 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.h */,
+				9F60495964874212A5D3ED2A /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/utils.h */,
+			);
+			name = kaze;
+			sourceTree = "<group>";
+		};
+		D85082A0C8334864AB9AD285 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8E9B4981EC0F437EA209C3D1 /* CMake Rules */,
+				2961A738758143F0972FC2A4 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DE12BBA9541A4D2E8F07C95F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A39B592209740D49C618869 /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				A87EB90B317D4C60904EE9B2 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DF5EA0E9D2714E13B54DDF0C /* autogenerated */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB3A5DD8AD40A08D3880FD /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp */,
+				23282298081241A1AA567C63 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.hpp */,
+			);
+			name = autogenerated;
+			sourceTree = "<group>";
+		};
+		E029FC58683944F181A7DBD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19436113B66F4B00A3E8E9E8 /* opencv_features2d */,
+				C4506D5CC98444AAAE0042E2 /* opencv_features2d_object */,
+				6D653AEA4F3A4B72960589ED /* opencv_perf_features2d */,
+				8FD362F92AD74FFEA39B5F57 /* opencv_test_features2d */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0D72A7F8D384DE3A66F34FF /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EA0E9D2714E13B54DDF0C /* autogenerated */,
+			);
+			name = kernels;
+			sourceTree = "<group>";
+		};
+		EAF6F4D40BA043738B3A38DE /* opencv_test_features2d */ = {
+			isa = PBXGroup;
+			children = (
+				99D989FAEE3641F29664DF4B /* Src */,
+				7CFB7CCD4F4A49B2BC86B7FC /* Include */,
+				BF0C82C0EC1F4154AC7836E6 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */,
+			);
+			name = opencv_test_features2d;
+			sourceTree = "<group>";
+		};
+		F04C93C178DD4C718A8BC860 /* kaze */ = {
+			isa = PBXGroup;
+			children = (
+				5ACFFF22F781497AA843A177 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEConfig.h */,
+				9FD73D3A64AE4AAE9A9133CA /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp */,
+				86324F903566434AA10850F9 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.h */,
+				45B17182D3C44B04A2D9EC78 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEConfig.h */,
+				5CCF44A03E9549B892138C7F /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp */,
+				B990B0A8D16B46F5985C6267 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.h */,
+				1B7882314A064886B6200FAE /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/TEvolution.h */,
+				DB0A0CBD77914D2690BCDDE9 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.cpp */,
+				381D68E229C74B15B7E1C78C /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.h */,
+				0D3EB7C57FDC48959CB42184 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp */,
+				1983BC83478B4FE3934957F6 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.h */,
+				56DC5CBD248A49639AE2DBA6 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/utils.h */,
+			);
+			name = kaze;
+			sourceTree = "<group>";
+		};
+		F4F9E6B0E14745D298B6D4AD /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				5AEFFA531D1C4A50B2F2D0C5 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		FA0862BD7B0D4EC99F316DF3 /* opencv_features2d */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D733AAA3A41B48B1C66FB /* Include */,
+				A8D2DBAA71734FC991A80608 /* Src */,
+				DE12BBA9541A4D2E8F07C95F /* Header Files */,
+				A3500EF054574455804D7257 /* CMake Rules */,
+				538BF38977784AF7A95A2A79 /* /Users/elliotstaudt/opencv/modules/features2d/CMakeLists.txt */,
+			);
+			name = opencv_features2d;
+			sourceTree = "<group>";
+		};
+		FB692BDDB10C4AF4AADF2CF9 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				FA0862BD7B0D4EC99F316DF3 /* opencv_features2d */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ED927F448FE4E138275A453 /* opencv_test_features2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2967F9B3D1EC45599B8E29DB /* Build configuration list for PBXNativeTarget "opencv_test_features2d" */;
+			buildPhases = (
+				45A706D9A9F44D1882B2258C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FA6D28DD39147C180B78431 /* PBXTargetDependency */,
+				6DF3E21366E746F2B55C0FEA /* PBXTargetDependency */,
+			);
+			name = opencv_test_features2d;
+			productName = opencv_test_features2d;
+			productReference = 8FD362F92AD74FFEA39B5F57 /* opencv_test_features2d */;
+			productType = "com.apple.product-type.tool";
+		};
+		A4A81D7BAEAB492B9CEA053B /* opencv_features2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB777BEC4533415C8169D56E /* Build configuration list for PBXNativeTarget "opencv_features2d" */;
+			buildPhases = (
+				40CC9D7B64E24AE19220D984 /* CMake Rules */,
+				4A4274DD422748A99E5C5CF3 /* Sources */,
+				D3DB590A40BA4921BE349BE7 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E132CDF3B714E91A1370107 /* PBXTargetDependency */,
+			);
+			name = opencv_features2d;
+			productName = opencv_features2d;
+			productReference = 19436113B66F4B00A3E8E9E8 /* opencv_features2d */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		D8B4F968AAE74766A5179B6B /* opencv_features2d_object */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB52B1E4DD3430CA3EC9A81 /* Build configuration list for PBXNativeTarget "opencv_features2d_object" */;
+			buildPhases = (
+				262E32B7A06F4D4CA98B2D02 /* CMake Rules */,
+				0EA6660411C840E6B8DACF05 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C08063D5D2B14CADA1685BA4 /* PBXTargetDependency */,
+			);
+			name = opencv_features2d_object;
+			productName = opencv_features2d_object;
+			productReference = C4506D5CC98444AAAE0042E2 /* opencv_features2d_object */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DF0F06246BD74C60B41F8D2D /* opencv_perf_features2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC8730877CEC45B78CF4C993 /* Build configuration list for PBXNativeTarget "opencv_perf_features2d" */;
+			buildPhases = (
+				45397031FC194A059C387BD1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34104C1E49774D1B958BE210 /* PBXTargetDependency */,
+				FD7AC3C90C824E59870EFE85 /* PBXTargetDependency */,
+			);
+			name = opencv_perf_features2d;
+			productName = opencv_perf_features2d;
+			productReference = 6D653AEA4F3A4B72960589ED /* opencv_perf_features2d */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A57F0EFF42B47CDBD7952C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 5CD7C8C93C464A20BBC826CA /* Build configuration list for PBXProject "opencv_features2d" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E6F26EEF7E664D43852AB325 /* Debug */,
+				165F4EA62C9A49B188CC99B4 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 71EAFF354CCA4473B3140457;
+			projectDirPath = ../../../modules/features2d;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				A4A81D7BAEAB492B9CEA053B /* opencv_features2d */,
+				D8B4F968AAE74766A5179B6B /* opencv_features2d_object */,
+				DF0F06246BD74C60B41F8D2D /* opencv_perf_features2d */,
+				9ED927F448FE4E138275A453 /* opencv_test_features2d */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1628FCB5117C417F91913CF4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		21EE4B6DFC5F40BE838DA265 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		262E32B7A06F4D4CA98B2D02 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/features2d -f /Users/elliotstaudt/opencv/build/modules/features2d/CMakeScripts/opencv_features2d_object_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3DC12BBD69734C1EA69CA00C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/features2d -f /Users/elliotstaudt/opencv/build/modules/features2d/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		40CC9D7B64E24AE19220D984 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/features2d -f /Users/elliotstaudt/opencv/build/modules/features2d/CMakeScripts/opencv_features2d_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		55CFA70AE44E48FD8AAE33D6 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/features2d -f /Users/elliotstaudt/opencv/build/modules/features2d/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		67593DB4449E4EC5BD8C87FA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/features2d -f /Users/elliotstaudt/opencv/build/modules/features2d/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		74954F50F1194EB7A8F8252E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9E824792E5054D7EAA9E6069 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D3DB590A40BA4921BE349BE7 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/features2d -f /Users/elliotstaudt/opencv/build/modules/features2d/CMakeScripts/opencv_features2d_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		FADCAD20F0444A39AACF6F6A /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/features2d -f /Users/elliotstaudt/opencv/build/modules/features2d/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EA6660411C840E6B8DACF05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12D0DAE0843438C91B21595 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp */,
+				5F56E7930974483185B4F142 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast.cpp */,
+				5C1426DD70964DB6BAC217F9 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.cpp */,
+				E118918375D34E6D9ED46C28 /* /Users/elliotstaudt/opencv/modules/features2d/src/akaze.cpp */,
+				6BF2D550FCE542D69489DBE0 /* /Users/elliotstaudt/opencv/modules/features2d/src/bagofwords.cpp */,
+				3C41C4CECF9946A9A4E3B803 /* /Users/elliotstaudt/opencv/modules/features2d/src/blobdetector.cpp */,
+				2E558555644346D888451364 /* /Users/elliotstaudt/opencv/modules/features2d/src/brisk.cpp */,
+				5AAC8D17ACCE40D1A3A71104 /* /Users/elliotstaudt/opencv/modules/features2d/src/draw.cpp */,
+				19220DB9B6764F0AA559779A /* /Users/elliotstaudt/opencv/modules/features2d/src/dynamic.cpp */,
+				526205E302BB44FD844EE63E /* /Users/elliotstaudt/opencv/modules/features2d/src/evaluation.cpp */,
+				F29EE1701473428A8D1FFCF5 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast.cpp */,
+				B6B70FE00412442587E20A25 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.cpp */,
+				90BD1C858D294F1F89FFE882 /* /Users/elliotstaudt/opencv/modules/features2d/src/feature2d.cpp */,
+				EB4BBD17C22D427FB155652F /* /Users/elliotstaudt/opencv/modules/features2d/src/gftt.cpp */,
+				FD6FCB21BDEA45E98B083123 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze.cpp */,
+				1752EAA1B24748908782DA28 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp */,
+				445435E247724E83891AA274 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp */,
+				B0014AB292F148F18D599E30 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.cpp */,
+				1D3FE251B2424A5DAA691D55 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp */,
+				1EEDADA63A6A427BA2F62F89 /* /Users/elliotstaudt/opencv/modules/features2d/src/keypoint.cpp */,
+				9405334769DC4192A9A032FE /* /Users/elliotstaudt/opencv/modules/features2d/src/matchers.cpp */,
+				5198039775C74BC28D1E3C99 /* /Users/elliotstaudt/opencv/modules/features2d/src/mser.cpp */,
+				7DD6580EF8B043ED9A89057D /* /Users/elliotstaudt/opencv/modules/features2d/src/orb.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45397031FC194A059C387BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E35450B7C5D4FFEAF48CA82 /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_brute_force_matcher.cpp */,
+				5C95C62228A846FDBDC9B008 /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_fast.cpp */,
+				0CDEA61442E8483395279051 /* /Users/elliotstaudt/opencv/modules/features2d/perf/opencl/perf_orb.cpp */,
+				1E97E44CDD5F4A6BA4F0778F /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_agast.cpp */,
+				EB07D101233C4843A99F117F /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_batchDistance.cpp */,
+				A9B7424DAC89446CBECEBAF6 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_fast.cpp */,
+				1A0AC6375FB74DA2B8B4D4FF /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_main.cpp */,
+				F0C33EDDC81E493FB4CE1493 /* /Users/elliotstaudt/opencv/modules/features2d/perf/perf_orb.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A706D9A9F44D1882B2258C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA324831639468CAB2DAC4F /* /Users/elliotstaudt/opencv/modules/features2d/test/ocl/test_brute_force_matcher.cpp */,
+				86B8EE2D23354A698BAC13EC /* /Users/elliotstaudt/opencv/modules/features2d/test/test_agast.cpp */,
+				4F5B9A7E3D34484EA8E2A12B /* /Users/elliotstaudt/opencv/modules/features2d/test/test_brisk.cpp */,
+				24E7621A67954FA68C759DD4 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_descriptors_regression.cpp */,
+				44D00B598A5D4C2B80BFC6EA /* /Users/elliotstaudt/opencv/modules/features2d/test/test_detectors_regression.cpp */,
+				6A04175E666D4406A7A79A3D /* /Users/elliotstaudt/opencv/modules/features2d/test/test_fast.cpp */,
+				9C59E063DC18425199EEA712 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_keypoints.cpp */,
+				24895976807B4CC0AA54F257 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_main.cpp */,
+				979280A0EDE64F70832C9996 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_matchers_algorithmic.cpp */,
+				C53C690248D04969A94D4863 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_mser.cpp */,
+				0AC32BB69F6142F794910731 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_nearestneighbors.cpp */,
+				B6527B8B13A04C67B54B8AB0 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_orb.cpp */,
+				C1DA8BEF9BAB4DD89332BB59 /* /Users/elliotstaudt/opencv/modules/features2d/test/test_rotation_and_scale_invariance.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4274DD422748A99E5C5CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D362728099E545C5B5E78587 /* /Users/elliotstaudt/opencv/build/modules/features2d/opencl_kernels_features2d.cpp */,
+				662D602F24FA440C8B1575D3 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast.cpp */,
+				798E50CD05B34380AB3AF2E3 /* /Users/elliotstaudt/opencv/modules/features2d/src/agast_score.cpp */,
+				5F0633B3684D48C7B24B5C01 /* /Users/elliotstaudt/opencv/modules/features2d/src/akaze.cpp */,
+				7EB61383EF394567B48E6729 /* /Users/elliotstaudt/opencv/modules/features2d/src/bagofwords.cpp */,
+				38C450D808D143368E03F28D /* /Users/elliotstaudt/opencv/modules/features2d/src/blobdetector.cpp */,
+				483E389F2138463894E0D7D7 /* /Users/elliotstaudt/opencv/modules/features2d/src/brisk.cpp */,
+				B6B7316D1C9947E4A1ABE607 /* /Users/elliotstaudt/opencv/modules/features2d/src/draw.cpp */,
+				E2FD3F7B528D460B92044D79 /* /Users/elliotstaudt/opencv/modules/features2d/src/dynamic.cpp */,
+				D8899CE7961A44FEBA383E6E /* /Users/elliotstaudt/opencv/modules/features2d/src/evaluation.cpp */,
+				16711E8E63DF4A4EB30696F5 /* /Users/elliotstaudt/opencv/modules/features2d/src/fast.cpp */,
+				8E45C958377C4C7DAE36BE2B /* /Users/elliotstaudt/opencv/modules/features2d/src/fast_score.cpp */,
+				5D20BB60EEEA4B1B90666037 /* /Users/elliotstaudt/opencv/modules/features2d/src/feature2d.cpp */,
+				0CA872C8ABA548049354A055 /* /Users/elliotstaudt/opencv/modules/features2d/src/gftt.cpp */,
+				2A61EB68168B42B2BCFC0532 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze.cpp */,
+				B60EB227F6174846BF3EEA60 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp */,
+				168E84DD52924457BDF20D09 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp */,
+				F26578E5353B4E548C179AD9 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/fed.cpp */,
+				FE9A6CDAE6104DC18CAF0C74 /* /Users/elliotstaudt/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp */,
+				9304296B2D6B4FD6BD97AC7A /* /Users/elliotstaudt/opencv/modules/features2d/src/keypoint.cpp */,
+				81EACD1A3D464F84B842453A /* /Users/elliotstaudt/opencv/modules/features2d/src/matchers.cpp */,
+				844514E052904FAEBD071707 /* /Users/elliotstaudt/opencv/modules/features2d/src/mser.cpp */,
+				FCB3CFF09657490D90857EED /* /Users/elliotstaudt/opencv/modules/features2d/src/orb.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301C84FF05DF403B9F80670E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF0F06246BD74C60B41F8D2D /* opencv_perf_features2d */;
+			targetProxy = 06FE0B4750C74F6897722401 /* PBXContainerItemProxy */;
+		};
+		3204E733F378459BA11C77E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = F37D69CA18734670832BCD1C /* PBXContainerItemProxy */;
+		};
+		34104C1E49774D1B958BE210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A81D7BAEAB492B9CEA053B /* opencv_features2d */;
+			targetProxy = 72890354A3DC4F6EA3D9A606 /* PBXContainerItemProxy */;
+		};
+		3B546DE32396432B88CF9DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ED927F448FE4E138275A453 /* opencv_test_features2d */;
+			targetProxy = EB27E55446544208840A1D41 /* PBXContainerItemProxy */;
+		};
+		3F01B942857A45A7A896F476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 89E7E4A6E6EE4291A77AC52A /* PBXContainerItemProxy */;
+		};
+		6011EAA3218A41A692858AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 798FE5597527412B8412EBAF /* PBXContainerItemProxy */;
+		};
+		6DF3E21366E746F2B55C0FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = FFE3CAE3EA4C412CA5E13784 /* PBXContainerItemProxy */;
+		};
+		6E132CDF3B714E91A1370107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 7485E4CE58D04EF385CF33B0 /* PBXContainerItemProxy */;
+		};
+		7FA6D28DD39147C180B78431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A81D7BAEAB492B9CEA053B /* opencv_features2d */;
+			targetProxy = 7E37B91B27A24CB9A477C07C /* PBXContainerItemProxy */;
+		};
+		BCF23FCA7F744AEF995F81FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4A81D7BAEAB492B9CEA053B /* opencv_features2d */;
+			targetProxy = BDB25ACEF5884B24A2E6BED7 /* PBXContainerItemProxy */;
+		};
+		C08063D5D2B14CADA1685BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 7D268023DF17447AB380F0A1 /* PBXContainerItemProxy */;
+		};
+		FD7AC3C90C824E59870EFE85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 127A31E696A14344AA022136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2403412367584108A603EEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		3797D52C2AC94D96A47E7316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		3EEB74713DCD4ACAA6C02DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/features2d/opencv_features2d.build/Release/opencv_features2d_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_features2d_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		4E3D2B3FE19F4252AC393306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		596C439E322B4C169A706CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_features2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		6231C1ADE78D47828A636703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d/build;
+			};
+			name = Release;
+		};
+		75974A47FA514851A08C1C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d/build;
+			};
+			name = Debug;
+		};
+		7A9581A1A42D4C12989E3805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_features2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		7F9144E722084FC59E6BC7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_features2d.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		A5A9C5F3DA374EB89F0896B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/features2d/opencv_features2d.build/Debug/opencv_features2d_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_features2d_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		ADA4EDF331B04E9AA5C4F979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_features2d.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		AF2CDE844591485EA84F8AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		BABEF23D1347468488B385A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		BEC87931A9684B8D95D67A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		BF82935CE4B4427AA62272F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_features2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		CE97630A69194AAF9BDE7C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		F3E2E61B6521445FAC1124BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		FD048EAE3D874F0AB06D4125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/features2d/include, /Users/elliotstaudt/opencv/modules/features2d/src, /Users/elliotstaudt/opencv/build/modules/features2d, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/ml/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/features2d/test, /Users/elliotstaudt/opencv/modules/features2d/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_features2d.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ml.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_features2d;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/features2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FCFE2CD41747128483075B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3D2B3FE19F4252AC393306 /* Debug */,
+				CE97630A69194AAF9BDE7C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2967F9B3D1EC45599B8E29DB /* Build configuration list for PBXNativeTarget "opencv_test_features2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596C439E322B4C169A706CAE /* Debug */,
+				7A9581A1A42D4C12989E3805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5CD7C8C93C464A20BBC826CA /* Build configuration list for PBXProject "opencv_features2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75974A47FA514851A08C1C01 /* Debug */,
+				6231C1ADE78D47828A636703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6C699E5FE4384A74980C8AEF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC87931A9684B8D95D67A41 /* Debug */,
+				AF2CDE844591485EA84F8AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A4BAA556FF77419ABA4A9679 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BABEF23D1347468488B385A7 /* Debug */,
+				F3E2E61B6521445FAC1124BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB777BEC4533415C8169D56E /* Build configuration list for PBXNativeTarget "opencv_features2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9144E722084FC59E6BC7A2 /* Debug */,
+				ADA4EDF331B04E9AA5C4F979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC8730877CEC45B78CF4C993 /* Build configuration list for PBXNativeTarget "opencv_perf_features2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD048EAE3D874F0AB06D4125 /* Debug */,
+				BF82935CE4B4427AA62272F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1D2B1D1BEB9475DA780766C /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2403412367584108A603EEF9 /* Debug */,
+				3797D52C2AC94D96A47E7316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FDB52B1E4DD3430CA3EC9A81 /* Build configuration list for PBXNativeTarget "opencv_features2d_object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A9C5F3DA374EB89F0896B2 /* Debug */,
+				3EEB74713DCD4ACAA6C02DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A57F0EFF42B47CDBD7952C3 /* Project object */;
+}

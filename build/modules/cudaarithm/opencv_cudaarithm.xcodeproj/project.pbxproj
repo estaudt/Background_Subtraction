@@ -1,0 +1,1724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F28C2AA750FE4729B474DEE4 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				4C566057A46848FD9D3BAFFA /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				7B848F997BBC4BE9BC0D8CAC /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D92B31FE5AA64E5E99976510 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				66CC6D474C3040B2B91E1DD8 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				92D9895ADF8D42C898D76B98 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8D572824C29849069E06DE7E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				F1709EBC7BC74CABADF62247 /* CMake Rules */,
+			);
+			dependencies = (
+				6E60202FF0E748AFB824048B /* PBXTargetDependency */,
+				43431A6AEF6F48CDA2D75EFB /* PBXTargetDependency */,
+				8531EAF21F4040AD9EB6F67B /* PBXTargetDependency */,
+				7FFBB7EB05034721966091B8 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 32F8F1B35CFE4835B465DB2C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				40EF67D7A3224DB6B767C0DE /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		015418DDCF5243FA94A52944 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_element_operations.cpp */ = {isa = PBXBuildFile; fileRef = CC535E891C554F9288D4D91A /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_element_operations.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		04089AAD5CF647408CCEC484 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 9D52258FFE3049A1BDD0E84A /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		047708C39AC14EA79A51E75A /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_stream.cpp */ = {isa = PBXBuildFile; fileRef = 7FC89474CA6A41438A563658 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_stream.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0663B51026784D6EA102835A /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_absdiff_scalar.cu.o */ = {isa = PBXBuildFile; fileRef = 516475BF73634C21801D6CF2 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_absdiff_scalar.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		06CEC83AA6604751840D0FA6 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sub_scalar.cu.o */ = {isa = PBXBuildFile; fileRef = 9AD227AC61AE4C1392BC9C8F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sub_scalar.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		0D3FA1FC09FB43A5A5995665 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_bitwise_scalar.cu.o */ = {isa = PBXBuildFile; fileRef = E5EF611A9900463A8CE5359F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_bitwise_scalar.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		11EAB3969B69415A80A5405A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_scalar.cu */ = {isa = PBXBuildFile; fileRef = 708537ECEDA6424C8753BB2E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		12A33267143B48EAB20688E8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/copy_make_border.cu */ = {isa = PBXBuildFile; fileRef = B16753E96FEC45ABAFAA6CDA /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/copy_make_border.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		12BD266B9EF642239323BC3D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_weighted.cu */ = {isa = PBXBuildFile; fileRef = 60750E0FB4CC49ABB0ED9EAB /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_weighted.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		1369A48A69714AD995D4741C /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_weighted.cu.o */ = {isa = PBXBuildFile; fileRef = D15FDA7DB6144063B0A934CB /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_weighted.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		157FE05107DB44CBA6274889 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/core.cpp */ = {isa = PBXBuildFile; fileRef = 68E0AE5E27D1425FA5359BF6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/core.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1598A7566F5046A1A5D32307 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmax.cu.o */ = {isa = PBXBuildFile; fileRef = D185A8B64F924A76B91FDA27 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmax.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		1881EB9AE9A04E00B7B94D36 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_mat.cu */ = {isa = PBXBuildFile; fileRef = FAF05224ECB94CF79DAF0B79 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		18C9F8C08BE24B8AAA48C99B /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9B2C45C00CF74D82B82E13E9 /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		1ACC3A223BF64C17AD37BF58 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_mat.cu */ = {isa = PBXBuildFile; fileRef = 60ACFF1DD01F4504A59BCB06 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		1C041BA590254475AF64785A /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_math.cu.o */ = {isa = PBXBuildFile; fileRef = D8735F3CF7BC4107AFE6DCAF /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_math.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		1D1857378C3B4D5DB69A5CE1 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 7E4172A34D784B18AF9C0E6B /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1DCD5A608A0F4AB785A42A4A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_scalar.cu */ = {isa = PBXBuildFile; fileRef = AB313A31577D4561B30F2900 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		1E2C95D23FD14BCAB0441B88 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/normalize.cu */ = {isa = PBXBuildFile; fileRef = 4F1DF7E848C742DEBD2A541A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/normalize.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		1F989D6FE3404C88B9EF91A1 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/math.cu */ = {isa = PBXBuildFile; fileRef = A236B51145D147CABFE74B9C /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/math.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		20814C7E554B40628636C0EA /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = A55312CC208D4396911C43B7 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		249C49FC15D34CC8864028B4 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = E559D4D9F76D45EFA286EFE2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		25E7CD30367A4F8AA4F10FFF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_scalar.cu */ = {isa = PBXBuildFile; fileRef = 8F43E943ADC54F38AD9616D9 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		287E6AE65B4B41AAB0FFBE2D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax.cu */ = {isa = PBXBuildFile; fileRef = 61099DF6D7EC4A53A7E4FE6B /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		2B3A1C7692C44D5DBB124CB4 /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1A7BB6D3BE3D4BA3B616336F /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		2C1DCA99680E468593970B5D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax_mat.cu */ = {isa = PBXBuildFile; fileRef = F72DA8FD07F44071911A66B3 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		2D05A63F8221416E9A4AE7AA /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/lut.cu */ = {isa = PBXBuildFile; fileRef = E6D289BF93BE441797A32430 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/lut.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		2EC279D6CA2C4FCCB64406A3 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_opengl.cpp */ = {isa = PBXBuildFile; fileRef = A7B1485D1CA04BE095F372BB /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_opengl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		30880FEA841D41F6822152EA /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_scalar.cu */ = {isa = PBXBuildFile; fileRef = 7D9498AEF0F34C58A6FB2230 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		315D1902B3AA48599671A90D /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_scalar.cu.o */ = {isa = PBXBuildFile; fileRef = 362C9480272C49A0BE1D2B2F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_scalar.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		34025698243D4E5AB838CFF5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/reductions.cpp */ = {isa = PBXBuildFile; fileRef = 0D257030DD324AAB92107366 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/reductions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		386D148B678A4BB48EF7F944 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_gpumat.cpp */ = {isa = PBXBuildFile; fileRef = AA8CF5F1814A4325A748554A /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_gpumat.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		39A0D0C862AB41CEBDCC8925 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_mat.cu */ = {isa = PBXBuildFile; fileRef = 9692740FE2844230BC936DFB /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		39FE24A6C37C4E5C91BDE3FC /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = 4CC20EC38C574C3186FAB6CD /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		3C467FF8B7864175A95ABC25 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_buffer_pool.cpp */ = {isa = PBXBuildFile; fileRef = CA4AC3CD98F14AF6ACD2076F /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_buffer_pool.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3C5D4F99F38D4F0CA6C7052F /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DE0EA701B70C49F9B6E5EEA6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		3D21830202AD4ED2A09E12F0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_mat.cu */ = {isa = PBXBuildFile; fileRef = DA9EC73C17404872945D00F5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		437AA1B65F6C42C6874C53E9 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_normalize.cu.o */ = {isa = PBXBuildFile; fileRef = 5111D85203BB440DBFB0DCBB /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_normalize.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		43876719968D42AF82D39791 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/lut.cu */ = {isa = PBXBuildFile; fileRef = B2167430728B48E8BBB681E8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/lut.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		43EB0B5D3680407BBCCDAFE1 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_scalar.cu */ = {isa = PBXBuildFile; fileRef = 0CDE6915087A4FC0AFC2E73E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		44654AAF8E54441DBD4B07B8 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_countnonzero.cu.o */ = {isa = PBXBuildFile; fileRef = F8BD9A44DF42497ABBF83A00 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_countnonzero.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		44BABF3991074D5C80C9AD95 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_scalar.cu.o */ = {isa = PBXBuildFile; fileRef = DB063A0645CA4FAA9BDB1DE6 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_scalar.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		4855F5A7CBF14B82B086122A /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_div_scalar.cu.o */ = {isa = PBXBuildFile; fileRef = 0BED7B0A6DC241D08C7152A6 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_div_scalar.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		4A90928C1352407F9B40A0D1 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/element_operations.cpp */ = {isa = PBXBuildFile; fileRef = D78A1613D25F4A31B3A8889D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/element_operations.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4F0EB03F67D142EC974A73E0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_element_operations.cpp */ = {isa = PBXBuildFile; fileRef = D18E6A9C79D943749F31B683 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_element_operations.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4F575539B4A94CE4824F3871 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_scalar.cu */ = {isa = PBXBuildFile; fileRef = 24D859C2224F43EAA7663751 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		4FC075CEF23843ADA99F7766 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_mat.cu */ = {isa = PBXBuildFile; fileRef = EDCA2E97A407425E948A1574 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		50BCE8409B314D50A98E13E3 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_core.cpp */ = {isa = PBXBuildFile; fileRef = AE6EEA9833B24F11A4AC4EF8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_core.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		536DF8FC78ED40B1BABC6045 /* /Users/elliotstaudt/opencv/modules/cudaarithm/include/opencv2/cudaarithm.hpp */ = {isa = PBXBuildFile; fileRef = 0DA97FB292A046E6919CDEF2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/include/opencv2/cudaarithm.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		57E9B7EEFE9147E39BDD5B19 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_arithm.cpp */ = {isa = PBXBuildFile; fileRef = 0FA92C970F7F421DB8155D89 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_arithm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		59B2CEBE766A40F89E13581E /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_mat.cu.o */ = {isa = PBXBuildFile; fileRef = 68E144E5AD63454CB3D28F90 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_mat.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		5ADBECB343404FC696FE340C /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_scalar.cu */ = {isa = PBXBuildFile; fileRef = 6B02787CB40046AAACB73BE8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		5CCB1B79537E4284BFFBA57B /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax.cu */ = {isa = PBXBuildFile; fileRef = 4BC36684603C4DE28C1CCC9A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		5EBE76D793CB4CA79F59B090 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmaxloc.cu.o */ = {isa = PBXBuildFile; fileRef = 5B4542D75CF5401F89A0B28B /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmaxloc.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		636F00EE473F4A8FBABA28D6 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_cmp_mat.cu.o */ = {isa = PBXBuildFile; fileRef = DF122078E7CC4BF599C7A4F4 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_cmp_mat.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		6606FE874D924888B4591706 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sum.cu.o */ = {isa = PBXBuildFile; fileRef = C3D3C24F2A4342979F879329 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sum.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		696C2D35CDCE42438949A573 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/countnonzero.cu */ = {isa = PBXBuildFile; fileRef = DD3E0F2D1CA94C438A55ACF2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/countnonzero.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		6B5D01281E4642348EFA8C7D /* /Users/elliotstaudt/opencv/modules/cudaarithm/include/opencv2/cudaarithm.hpp */ = {isa = PBXBuildFile; fileRef = ABAB09D1F8014CC5813FEF03 /* /Users/elliotstaudt/opencv/modules/cudaarithm/include/opencv2/cudaarithm.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		70E7B26F1F77412BB9BF8EFA /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_norm.cu.o */ = {isa = PBXBuildFile; fileRef = 0288CC2F10FB43BAAC523DDC /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_norm.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		7533C047BC8C4BCEA4E03779 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/reductions.cpp */ = {isa = PBXBuildFile; fileRef = 30937FE1DBF4431EA9F83F13 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/reductions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		76AAF05A819A466FA4F84B06 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/polar_cart.cu */ = {isa = PBXBuildFile; fileRef = A85AA27967A3424B8AE0BF77 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/polar_cart.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		77C80096DD734385B6BC9BE5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/reduce.cu */ = {isa = PBXBuildFile; fileRef = FD5C8BF5CAB245ABB17B6686 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/reduce.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		7906D2EFA74247F1A909D2E6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/threshold.cu */ = {isa = PBXBuildFile; fileRef = 4C622F31A0AD4CB4A99C06D1 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/threshold.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		7E771EFCF5204AC88E5BAD5F /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/element_operations.cpp */ = {isa = PBXBuildFile; fileRef = 1979B39DC9924EB3A53F12F6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/element_operations.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7FE37563FF334561978157E5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sum.cu */ = {isa = PBXBuildFile; fileRef = B3976E86A46147B7B52DAA09 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sum.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		8287200D0BEE4B8FACE51FCC /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/countnonzero.cu */ = {isa = PBXBuildFile; fileRef = 191780FB00AB4158A3C2EE45 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/countnonzero.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		829665BDFBFC42B4A65DA9C3 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/threshold.cu */ = {isa = PBXBuildFile; fileRef = BECC538C219545AA91C21DC0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/threshold.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		85EBF376204C4B65A6AA34BF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax_mat.cu */ = {isa = PBXBuildFile; fileRef = CABD1A6C9AA64ACCA9003705 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		8B1DAE0517E44A17834494CF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_mat.cu */ = {isa = PBXBuildFile; fileRef = 071F6DC706B54C9F9645464C /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		8CD1DE95CA18494EBC5B1902 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_scalar.cu */ = {isa = PBXBuildFile; fileRef = 5CCDE7B66366439AA0ACD852 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		8DF5BCDF685F4B7A9D315FEC /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/polar_cart.cu */ = {isa = PBXBuildFile; fileRef = 4766F745B6F149D99901416A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/polar_cart.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		8E04BCC21863491198818338 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_mat.cu */ = {isa = PBXBuildFile; fileRef = 6C765F0BCD714B528DFA93A0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		91A8344116A94EE9AF1A6106 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_main.cpp */ = {isa = PBXBuildFile; fileRef = ACF5FA7479CE4C58A0BC132C /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		92274A5B25F3416FAE1D2BF8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_mat.cu */ = {isa = PBXBuildFile; fileRef = 57E76947A24841EF99856F2F /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		92A37DEEF41F46B8BC168B4F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sub_mat.cu.o */ = {isa = PBXBuildFile; fileRef = A302D3BE11B84C4CB08772EF /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sub_mat.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		94E6EA7F711D4FBFA0AABFA8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/arithm.cpp */ = {isa = PBXBuildFile; fileRef = 55CB0D6A909D463AB68B30F0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/arithm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9AB066A9FA2B4870AD08DB45 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_scalar.cu */ = {isa = PBXBuildFile; fileRef = BFC9EBA0649049C693735C4D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		9CCB0A981A344E2B8C8982A9 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_lut.cu.o */ = {isa = PBXBuildFile; fileRef = 4E8A0B7922964C6282F55556 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_lut.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		9F12CAAFD1BE4330912D766C /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sum.cu */ = {isa = PBXBuildFile; fileRef = CB2A9B0EADD34A20AC32A50D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sum.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		A008EFEF94344E9F9F26AF64 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmaxloc.cu */ = {isa = PBXBuildFile; fileRef = F52E364FACBD4E0481CCE7C5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmaxloc.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		A0FBE9698CB54A65B25C40A0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DF15F3D962F24F4B81489FAA /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		A25B8EA48E3647979F40F8CF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmaxloc.cu */ = {isa = PBXBuildFile; fileRef = 7A0BF11FE6484D899E678040 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmaxloc.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		A2F076D01DE844C48F0170D0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_precomp.hpp */ = {isa = PBXBuildFile; fileRef = EC8E60208F3A41CDB4928B85 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A54EFA9A3C254EAAA9D7AF11 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = F22A334F3DD94100AA641E3D /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		AA7DBDAC3A154105A073332C /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_split_merge.cu.o */ = {isa = PBXBuildFile; fileRef = 0AD587516CC445E1BD077950 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_split_merge.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		AAD22FB559F9445DB78DF43F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_transpose.cu.o */ = {isa = PBXBuildFile; fileRef = 60E84E18671847BFA1B548ED /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_transpose.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		AB78988CD90E47CDA85BADF2 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_div_mat.cu.o */ = {isa = PBXBuildFile; fileRef = ACC7FC6561D64B4893AC46F9 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_div_mat.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		AD2D7BACEEB64AA8B6A7BE00 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_scalar.cu */ = {isa = PBXBuildFile; fileRef = 52C77C71BF564632BBA0CA96 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		ADB14946BD234025B5C5422F /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/transpose.cu */ = {isa = PBXBuildFile; fileRef = 236E2E15B11D4D9FA91538E4 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/transpose.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		ADD216EA17734EEBB7234799 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_scalar.cu */ = {isa = PBXBuildFile; fileRef = 5D31119D769E4CD5BF708590 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		B0CE2CBEE3164362ACF2F154 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/normalize.cu */ = {isa = PBXBuildFile; fileRef = 0A232DB6F9544D2F94AE61BA /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/normalize.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		B15E9BDA8DCD43D2BFCD04F0 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_threshold.cu.o */ = {isa = PBXBuildFile; fileRef = 84BFA3B33CF44F3C979CF54F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_threshold.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		B19A1499ED094C1F95622E86 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_reduce.cu.o */ = {isa = PBXBuildFile; fileRef = E4577681BD954A6DA8C41801 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_reduce.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		B2078BE300A24EEFBAF6C250 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_spectrums.cu */ = {isa = PBXBuildFile; fileRef = 5D83C981A3E243E481D14DD0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_spectrums.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		B4FFC4553D284896B4B56070 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 45BF88CA83B341CAA0949AE7 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B67E78FED1194B7B91AC356C /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_scalar.cu */ = {isa = PBXBuildFile; fileRef = 1F98ADF653FE4FBBA9112AC4 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		B68C0C9C18C7419BA7C95714 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_scalar.cu */ = {isa = PBXBuildFile; fileRef = 287D81E9603A4C6FB1A7787E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		B98532551619410BAA8602BE /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_copy_make_border.cu.o */ = {isa = PBXBuildFile; fileRef = F9FC281625F744B69C8B59A4 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_copy_make_border.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		BEC3990753594DEE8764005E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_mat.cu */ = {isa = PBXBuildFile; fileRef = 946FCB7D368649AE9F2027C8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		C2B6D902319A46EB92F39ACC /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_mat.cu */ = {isa = PBXBuildFile; fileRef = A9BE45D15F1D4F1B8F86C853 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		C5E4AED8B78F49AAB762D80B /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/integral.cu */ = {isa = PBXBuildFile; fileRef = 838DC192970F425CA13B5C62 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/integral.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		C6D153239C7F4E94A88E5B63 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_arithm.cpp */ = {isa = PBXBuildFile; fileRef = F32AF6B1E0504F5AAE1A7168 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_arithm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CA79AF98788245E8AD948BFE /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/reduce.cu */ = {isa = PBXBuildFile; fileRef = 76386C8C752041B1B2386B68 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/reduce.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		CDCDABD979394824ADAF67FD /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_integral.cu.o */ = {isa = PBXBuildFile; fileRef = C00A42B6BAC64EADB144F862 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_integral.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		CDD8C00EA0D34D17A7C2F168 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_mat.cu */ = {isa = PBXBuildFile; fileRef = 5D916B20E53542AD8F504266 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		CE0D0A69AEAF4B17AD1DF812 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/core.cpp */ = {isa = PBXBuildFile; fileRef = 8863B32FE3A94C2DBD879399 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/core.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D014748006EB404C96C5F380 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = A9BA6BD6AF154CEF9DB22CA6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D1249EA832A047A68047E9DA /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_weighted.cu */ = {isa = PBXBuildFile; fileRef = BCECCF7D83B84A4F80F2DDFD /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_weighted.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		D16FC67E86E2482B9AE4C180 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_bitwise_mat.cu.o */ = {isa = PBXBuildFile; fileRef = 33DC97355AB64110998177DE /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_bitwise_mat.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		D2FF08F623334AC08839112A /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_mat.cu.o */ = {isa = PBXBuildFile; fileRef = 60B79FAF69AD44FABBCCA6B7 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_mat.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		D831FB5BF8E349E184F99C64 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/arithm.cpp */ = {isa = PBXBuildFile; fileRef = B8DB49D31D014F6F8CADC4EF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/arithm.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DC27F4EFE40B48E7987043AD /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_spectrums.cu */ = {isa = PBXBuildFile; fileRef = DC47D6D5798B450BB78DBD9A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_spectrums.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		DCF08032584043438E8CDA14 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/norm.cu */ = {isa = PBXBuildFile; fileRef = 10BB86D780D14BE293A786C2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/norm.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		DD134DCE58D64C30819356FB /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/integral.cu */ = {isa = PBXBuildFile; fileRef = 3B01C85587554438B2F023EF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/integral.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		E0567275F81244ABB3414818 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_reductions.cpp */ = {isa = PBXBuildFile; fileRef = E13D720E1F9D4FA1B4825669 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_reductions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E14D4A8FFAEB4F5ABE9A25D4 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_mat.cu */ = {isa = PBXBuildFile; fileRef = FBCAEC9652094FE7AD13E8AF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		E29BFA6F90D34A0087CAFE5C /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_cmp_scalar.cu.o */ = {isa = PBXBuildFile; fileRef = 80BD88D361D84FF9A65E2501 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_cmp_scalar.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		E8E7498B158241768DDDAACB /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_mat.cu */ = {isa = PBXBuildFile; fileRef = 3DBB8FB25C2846C8BA4AEC42 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		EA55F823C4394B8B8E63F799 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_reductions.cpp */ = {isa = PBXBuildFile; fileRef = 183B10ADAC8044EEAA2C49DF /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_reductions.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EAC1241417F74791927A455E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/math.cu */ = {isa = PBXBuildFile; fileRef = C95846D0E0A347EE8517CA7D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/math.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		EBBBF568612C417CB650BCE0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/copy_make_border.cu */ = {isa = PBXBuildFile; fileRef = 50F736AC54564A4EADAF29DE /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/copy_make_border.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		EF6ADBDE8683483EBA029842 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_core.cpp */ = {isa = PBXBuildFile; fileRef = C07B12993B2D4EB78AFB05AE /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_core.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EFE0D57542C94B0DAFD73187 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_spectrums.cu.o */ = {isa = PBXBuildFile; fileRef = F95F500C2D064ACC82060390 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_spectrums.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		F0C52A6A76E7493288890F67 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/split_merge.cu */ = {isa = PBXBuildFile; fileRef = AC34E7D717F84AAD89199F5E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/split_merge.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		F2A9DC865684417789696AA9 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/norm.cu */ = {isa = PBXBuildFile; fileRef = F35EAD2188D34653BD5C5C13 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/norm.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		F34498746C17424CB083692A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_mat.cu */ = {isa = PBXBuildFile; fileRef = 8108513694D648C8BE9ED4B9 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_mat.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		F3C6FAF617A04087A90800F8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/transpose.cu */ = {isa = PBXBuildFile; fileRef = 3F19D4346143483DB1FD4BC5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/transpose.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		FA14BDF7B8C146139716EDBE /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_polar_cart.cu.o */ = {isa = PBXBuildFile; fileRef = 02F1576C5CD2417780425170 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_polar_cart.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		FA5B8234ECAC4DDDB7E62F70 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmax_mat.cu.o */ = {isa = PBXBuildFile; fileRef = DFA3DED8C7CC48A6B402FE19 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmax_mat.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		FC0F087ACA8B44B1BE21E995 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_absdiff_mat.cu.o */ = {isa = PBXBuildFile; fileRef = B74FCA188E1C44158DE66798 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_absdiff_mat.cu.o */; settings = {COMPILER_FLAGS = ""; }; };
+		FC58991D57D1462084AF17A5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/split_merge.cu */ = {isa = PBXBuildFile; fileRef = F2788934225D44C68E1586E2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/split_merge.cu */; settings = {COMPILER_FLAGS = ""; }; };
+		FF163FFB32314FE9BECF69E7 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_scalar.cu */ = {isa = PBXBuildFile; fileRef = 5A402C03482448468F36BED1 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_scalar.cu */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		524F9E12522F4EC69243213D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		65976A08135E4C979743B219 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C8374B210F9F4325B877EBB7 = {
+			isa = PBXBuildStyle;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		154E2FF5AFBE4E95BBAD76EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4B569E53C9A4D179964FDDC;
+			remoteInfo = opencv_test_cudaarithm;
+		};
+		2BD0A509BC8845E3AE679FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		33F1207C196040AA8251998A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		46B5EFBBB12A4027BB3DA8E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36707044A0534615B5E5A4A0;
+			remoteInfo = opencv_cudaarithm;
+		};
+		548DE14385A4477EBDF27146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		87F36A7E2C56403F92756336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		A60DF02E1E6B44248EB48255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		B81ACDCF248C4C5FAFC7559D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E401F9DD9974BC08AEC2A19;
+			remoteInfo = opencv_perf_cudaarithm;
+		};
+		C2E0253B5DE44B489B6B53AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		C2FF811868364E599621FF13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		D752E49F43D244C88044C397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36707044A0534615B5E5A4A0;
+			remoteInfo = opencv_cudaarithm;
+		};
+		D8CDC360CCF448B9BABD375D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36707044A0534615B5E5A4A0;
+			remoteInfo = opencv_cudaarithm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0288CC2F10FB43BAAC523DDC /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_norm.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_norm.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_norm.cu.o"; sourceTree = SOURCE_ROOT; };
+		02F1576C5CD2417780425170 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_polar_cart.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_polar_cart.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_polar_cart.cu.o"; sourceTree = SOURCE_ROOT; };
+		071F6DC706B54C9F9645464C /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = cmp_mat.cu; path = src/cuda/cmp_mat.cu; sourceTree = SOURCE_ROOT; };
+		0A232DB6F9544D2F94AE61BA /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/normalize.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = normalize.cu; path = src/cuda/normalize.cu; sourceTree = SOURCE_ROOT; };
+		0AD587516CC445E1BD077950 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_split_merge.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_split_merge.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_split_merge.cu.o"; sourceTree = SOURCE_ROOT; };
+		0BED7B0A6DC241D08C7152A6 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_div_scalar.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_div_scalar.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_div_scalar.cu.o"; sourceTree = SOURCE_ROOT; };
+		0CDE6915087A4FC0AFC2E73E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = sub_scalar.cu; path = src/cuda/sub_scalar.cu; sourceTree = SOURCE_ROOT; };
+		0D257030DD324AAB92107366 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/reductions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reductions.cpp; path = src/reductions.cpp; sourceTree = SOURCE_ROOT; };
+		0DA97FB292A046E6919CDEF2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/include/opencv2/cudaarithm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cudaarithm.hpp; path = include/opencv2/cudaarithm.hpp; sourceTree = SOURCE_ROOT; };
+		0FA92C970F7F421DB8155D89 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_arithm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_arithm.cpp; path = perf/perf_arithm.cpp; sourceTree = SOURCE_ROOT; };
+		10BB86D780D14BE293A786C2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/norm.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = norm.cu; path = src/cuda/norm.cu; sourceTree = SOURCE_ROOT; };
+		183B10ADAC8044EEAA2C49DF /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_reductions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_reductions.cpp; path = test/test_reductions.cpp; sourceTree = SOURCE_ROOT; };
+		191780FB00AB4158A3C2EE45 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/countnonzero.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = countnonzero.cu; path = src/cuda/countnonzero.cu; sourceTree = SOURCE_ROOT; };
+		1979B39DC9924EB3A53F12F6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/element_operations.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = element_operations.cpp; path = src/element_operations.cpp; sourceTree = SOURCE_ROOT; };
+		1A7BB6D3BE3D4BA3B616336F /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1F98ADF653FE4FBBA9112AC4 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = absdiff_scalar.cu; path = src/cuda/absdiff_scalar.cu; sourceTree = SOURCE_ROOT; };
+		236E2E15B11D4D9FA91538E4 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/transpose.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = transpose.cu; path = src/cuda/transpose.cu; sourceTree = SOURCE_ROOT; };
+		24D859C2224F43EAA7663751 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mul_scalar.cu; path = src/cuda/mul_scalar.cu; sourceTree = SOURCE_ROOT; };
+		287D81E9603A4C6FB1A7787E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = sub_scalar.cu; path = src/cuda/sub_scalar.cu; sourceTree = SOURCE_ROOT; };
+		30937FE1DBF4431EA9F83F13 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/reductions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = reductions.cpp; path = src/reductions.cpp; sourceTree = SOURCE_ROOT; };
+		33DC97355AB64110998177DE /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_bitwise_mat.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_bitwise_mat.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_bitwise_mat.cu.o"; sourceTree = SOURCE_ROOT; };
+		362C9480272C49A0BE1D2B2F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_scalar.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_mul_scalar.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_scalar.cu.o"; sourceTree = SOURCE_ROOT; };
+		3B01C85587554438B2F023EF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/integral.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = integral.cu; path = src/cuda/integral.cu; sourceTree = SOURCE_ROOT; };
+		3DBB8FB25C2846C8BA4AEC42 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = sub_mat.cu; path = src/cuda/sub_mat.cu; sourceTree = SOURCE_ROOT; };
+		3F19D4346143483DB1FD4BC5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/transpose.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = transpose.cu; path = src/cuda/transpose.cu; sourceTree = SOURCE_ROOT; };
+		45BF88CA83B341CAA0949AE7 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		4766F745B6F149D99901416A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/polar_cart.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = polar_cart.cu; path = src/cuda/polar_cart.cu; sourceTree = SOURCE_ROOT; };
+		4BC36684603C4DE28C1CCC9A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = minmax.cu; path = src/cuda/minmax.cu; sourceTree = SOURCE_ROOT; };
+		4C622F31A0AD4CB4A99C06D1 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/threshold.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = threshold.cu; path = src/cuda/threshold.cu; sourceTree = SOURCE_ROOT; };
+		4CC20EC38C574C3186FAB6CD /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		4E8A0B7922964C6282F55556 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_lut.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_lut.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_lut.cu.o"; sourceTree = SOURCE_ROOT; };
+		4F1DF7E848C742DEBD2A541A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/normalize.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = normalize.cu; path = src/cuda/normalize.cu; sourceTree = SOURCE_ROOT; };
+		50F736AC54564A4EADAF29DE /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/copy_make_border.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = copy_make_border.cu; path = src/cuda/copy_make_border.cu; sourceTree = SOURCE_ROOT; };
+		5111D85203BB440DBFB0DCBB /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_normalize.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_normalize.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_normalize.cu.o"; sourceTree = SOURCE_ROOT; };
+		516475BF73634C21801D6CF2 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_absdiff_scalar.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_absdiff_scalar.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_absdiff_scalar.cu.o"; sourceTree = SOURCE_ROOT; };
+		52C77C71BF564632BBA0CA96 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = add_scalar.cu; path = src/cuda/add_scalar.cu; sourceTree = SOURCE_ROOT; };
+		55CB0D6A909D463AB68B30F0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/arithm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arithm.cpp; path = src/arithm.cpp; sourceTree = SOURCE_ROOT; };
+		57E76947A24841EF99856F2F /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = bitwise_mat.cu; path = src/cuda/bitwise_mat.cu; sourceTree = SOURCE_ROOT; };
+		5A402C03482448468F36BED1 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = absdiff_scalar.cu; path = src/cuda/absdiff_scalar.cu; sourceTree = SOURCE_ROOT; };
+		5B4542D75CF5401F89A0B28B /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmaxloc.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_minmaxloc.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmaxloc.cu.o"; sourceTree = SOURCE_ROOT; };
+		5CCDE7B66366439AA0ACD852 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = cmp_scalar.cu; path = src/cuda/cmp_scalar.cu; sourceTree = SOURCE_ROOT; };
+		5D31119D769E4CD5BF708590 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = div_scalar.cu; path = src/cuda/div_scalar.cu; sourceTree = SOURCE_ROOT; };
+		5D83C981A3E243E481D14DD0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_spectrums.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mul_spectrums.cu; path = src/cuda/mul_spectrums.cu; sourceTree = SOURCE_ROOT; };
+		5D916B20E53542AD8F504266 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = add_mat.cu; path = src/cuda/add_mat.cu; sourceTree = SOURCE_ROOT; };
+		5DAD06C0C13B4547B5D68A3D /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		60750E0FB4CC49ABB0ED9EAB /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_weighted.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = add_weighted.cu; path = src/cuda/add_weighted.cu; sourceTree = SOURCE_ROOT; };
+		60ACFF1DD01F4504A59BCB06 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mul_mat.cu; path = src/cuda/mul_mat.cu; sourceTree = SOURCE_ROOT; };
+		60B79FAF69AD44FABBCCA6B7 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_mat.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_add_mat.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_mat.cu.o"; sourceTree = SOURCE_ROOT; };
+		60E84E18671847BFA1B548ED /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_transpose.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_transpose.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_transpose.cu.o"; sourceTree = SOURCE_ROOT; };
+		61099DF6D7EC4A53A7E4FE6B /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = minmax.cu; path = src/cuda/minmax.cu; sourceTree = SOURCE_ROOT; };
+		67AA07ED3B524F4E8FB44CCA /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		68E0AE5E27D1425FA5359BF6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/core.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = core.cpp; path = src/core.cpp; sourceTree = SOURCE_ROOT; };
+		68E144E5AD63454CB3D28F90 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_mat.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_mul_mat.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_mat.cu.o"; sourceTree = SOURCE_ROOT; };
+		6B02787CB40046AAACB73BE8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = bitwise_scalar.cu; path = src/cuda/bitwise_scalar.cu; sourceTree = SOURCE_ROOT; };
+		6C765F0BCD714B528DFA93A0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = cmp_mat.cu; path = src/cuda/cmp_mat.cu; sourceTree = SOURCE_ROOT; };
+		708537ECEDA6424C8753BB2E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = div_scalar.cu; path = src/cuda/div_scalar.cu; sourceTree = SOURCE_ROOT; };
+		755A52E65DC347339C008CE2 /* opencv_cudaarithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_cudaarithm.dylib; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		76386C8C752041B1B2386B68 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/reduce.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = reduce.cu; path = src/cuda/reduce.cu; sourceTree = SOURCE_ROOT; };
+		776BDE12D0094AAE86053DAE /* opencv_test_cudaarithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_cudaarithm; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0BF11FE6484D899E678040 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmaxloc.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = minmaxloc.cu; path = src/cuda/minmaxloc.cu; sourceTree = SOURCE_ROOT; };
+		7D9498AEF0F34C58A6FB2230 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = cmp_scalar.cu; path = src/cuda/cmp_scalar.cu; sourceTree = SOURCE_ROOT; };
+		7E4172A34D784B18AF9C0E6B /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		7FC89474CA6A41438A563658 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_stream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_stream.cpp; path = test/test_stream.cpp; sourceTree = SOURCE_ROOT; };
+		80BD88D361D84FF9A65E2501 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_cmp_scalar.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_cmp_scalar.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_cmp_scalar.cu.o"; sourceTree = SOURCE_ROOT; };
+		8108513694D648C8BE9ED4B9 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = absdiff_mat.cu; path = src/cuda/absdiff_mat.cu; sourceTree = SOURCE_ROOT; };
+		838DC192970F425CA13B5C62 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/integral.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = integral.cu; path = src/cuda/integral.cu; sourceTree = SOURCE_ROOT; };
+		84BFA3B33CF44F3C979CF54F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_threshold.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_threshold.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_threshold.cu.o"; sourceTree = SOURCE_ROOT; };
+		8863B32FE3A94C2DBD879399 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/core.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = core.cpp; path = src/core.cpp; sourceTree = SOURCE_ROOT; };
+		8F43E943ADC54F38AD9616D9 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = add_scalar.cu; path = src/cuda/add_scalar.cu; sourceTree = SOURCE_ROOT; };
+		946FCB7D368649AE9F2027C8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = bitwise_mat.cu; path = src/cuda/bitwise_mat.cu; sourceTree = SOURCE_ROOT; };
+		9692740FE2844230BC936DFB /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = sub_mat.cu; path = src/cuda/sub_mat.cu; sourceTree = SOURCE_ROOT; };
+		9AD227AC61AE4C1392BC9C8F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sub_scalar.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_sub_scalar.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sub_scalar.cu.o"; sourceTree = SOURCE_ROOT; };
+		9B2C45C00CF74D82B82E13E9 /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9D52258FFE3049A1BDD0E84A /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		A236B51145D147CABFE74B9C /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/math.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = math.cu; path = src/cuda/math.cu; sourceTree = SOURCE_ROOT; };
+		A302D3BE11B84C4CB08772EF /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sub_mat.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_sub_mat.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sub_mat.cu.o"; sourceTree = SOURCE_ROOT; };
+		A55312CC208D4396911C43B7 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		A7B1485D1CA04BE095F372BB /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_opengl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_opengl.cpp; path = test/test_opengl.cpp; sourceTree = SOURCE_ROOT; };
+		A85AA27967A3424B8AE0BF77 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/polar_cart.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = polar_cart.cu; path = src/cuda/polar_cart.cu; sourceTree = SOURCE_ROOT; };
+		A9BA6BD6AF154CEF9DB22CA6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		A9BE45D15F1D4F1B8F86C853 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mul_mat.cu; path = src/cuda/mul_mat.cu; sourceTree = SOURCE_ROOT; };
+		AA8CF5F1814A4325A748554A /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_gpumat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_gpumat.cpp; path = test/test_gpumat.cpp; sourceTree = SOURCE_ROOT; };
+		AB313A31577D4561B30F2900 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = bitwise_scalar.cu; path = src/cuda/bitwise_scalar.cu; sourceTree = SOURCE_ROOT; };
+		ABAB09D1F8014CC5813FEF03 /* /Users/elliotstaudt/opencv/modules/cudaarithm/include/opencv2/cudaarithm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cudaarithm.hpp; path = include/opencv2/cudaarithm.hpp; sourceTree = SOURCE_ROOT; };
+		AC34E7D717F84AAD89199F5E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/split_merge.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = split_merge.cu; path = src/cuda/split_merge.cu; sourceTree = SOURCE_ROOT; };
+		ACC7FC6561D64B4893AC46F9 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_div_mat.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_div_mat.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_div_mat.cu.o"; sourceTree = SOURCE_ROOT; };
+		ACF5FA7479CE4C58A0BC132C /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_main.cpp; path = perf/perf_main.cpp; sourceTree = SOURCE_ROOT; };
+		AE6EEA9833B24F11A4AC4EF8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_core.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_core.cpp; path = test/test_core.cpp; sourceTree = SOURCE_ROOT; };
+		B16753E96FEC45ABAFAA6CDA /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/copy_make_border.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = copy_make_border.cu; path = src/cuda/copy_make_border.cu; sourceTree = SOURCE_ROOT; };
+		B2167430728B48E8BBB681E8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/lut.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = lut.cu; path = src/cuda/lut.cu; sourceTree = SOURCE_ROOT; };
+		B3976E86A46147B7B52DAA09 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sum.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = sum.cu; path = src/cuda/sum.cu; sourceTree = SOURCE_ROOT; };
+		B74FCA188E1C44158DE66798 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_absdiff_mat.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_absdiff_mat.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_absdiff_mat.cu.o"; sourceTree = SOURCE_ROOT; };
+		B8DB49D31D014F6F8CADC4EF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/arithm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = arithm.cpp; path = src/arithm.cpp; sourceTree = SOURCE_ROOT; };
+		BCECCF7D83B84A4F80F2DDFD /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_weighted.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = add_weighted.cu; path = src/cuda/add_weighted.cu; sourceTree = SOURCE_ROOT; };
+		BECC538C219545AA91C21DC0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/threshold.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = threshold.cu; path = src/cuda/threshold.cu; sourceTree = SOURCE_ROOT; };
+		BFC9EBA0649049C693735C4D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_scalar.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mul_scalar.cu; path = src/cuda/mul_scalar.cu; sourceTree = SOURCE_ROOT; };
+		C00A42B6BAC64EADB144F862 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_integral.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_integral.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_integral.cu.o"; sourceTree = SOURCE_ROOT; };
+		C07B12993B2D4EB78AFB05AE /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_core.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_core.cpp; path = perf/perf_core.cpp; sourceTree = SOURCE_ROOT; };
+		C3D3C24F2A4342979F879329 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sum.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_sum.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sum.cu.o"; sourceTree = SOURCE_ROOT; };
+		C95846D0E0A347EE8517CA7D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/math.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = math.cu; path = src/cuda/math.cu; sourceTree = SOURCE_ROOT; };
+		CA4AC3CD98F14AF6ACD2076F /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_buffer_pool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_buffer_pool.cpp; path = test/test_buffer_pool.cpp; sourceTree = SOURCE_ROOT; };
+		CABD1A6C9AA64ACCA9003705 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = minmax_mat.cu; path = src/cuda/minmax_mat.cu; sourceTree = SOURCE_ROOT; };
+		CB2A9B0EADD34A20AC32A50D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sum.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = sum.cu; path = src/cuda/sum.cu; sourceTree = SOURCE_ROOT; };
+		CC535E891C554F9288D4D91A /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_element_operations.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_element_operations.cpp; path = test/test_element_operations.cpp; sourceTree = SOURCE_ROOT; };
+		D15FDA7DB6144063B0A934CB /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_weighted.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_add_weighted.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_weighted.cu.o"; sourceTree = SOURCE_ROOT; };
+		D185A8B64F924A76B91FDA27 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmax.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_minmax.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmax.cu.o"; sourceTree = SOURCE_ROOT; };
+		D18E6A9C79D943749F31B683 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_element_operations.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_element_operations.cpp; path = perf/perf_element_operations.cpp; sourceTree = SOURCE_ROOT; };
+		D78A1613D25F4A31B3A8889D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/element_operations.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = element_operations.cpp; path = src/element_operations.cpp; sourceTree = SOURCE_ROOT; };
+		D8735F3CF7BC4107AFE6DCAF /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_math.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_math.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_math.cu.o"; sourceTree = SOURCE_ROOT; };
+		DA9EC73C17404872945D00F5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = div_mat.cu; path = src/cuda/div_mat.cu; sourceTree = SOURCE_ROOT; };
+		DB063A0645CA4FAA9BDB1DE6 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_scalar.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_add_scalar.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_scalar.cu.o"; sourceTree = SOURCE_ROOT; };
+		DC47D6D5798B450BB78DBD9A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_spectrums.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mul_spectrums.cu; path = src/cuda/mul_spectrums.cu; sourceTree = SOURCE_ROOT; };
+		DD3E0F2D1CA94C438A55ACF2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/countnonzero.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = countnonzero.cu; path = src/cuda/countnonzero.cu; sourceTree = SOURCE_ROOT; };
+		DE0EA701B70C49F9B6E5EEA6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DF122078E7CC4BF599C7A4F4 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_cmp_mat.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_cmp_mat.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_cmp_mat.cu.o"; sourceTree = SOURCE_ROOT; };
+		DF15F3D962F24F4B81489FAA /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DFA3DED8C7CC48A6B402FE19 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmax_mat.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_minmax_mat.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmax_mat.cu.o"; sourceTree = SOURCE_ROOT; };
+		E13D720E1F9D4FA1B4825669 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_reductions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = perf_reductions.cpp; path = perf/perf_reductions.cpp; sourceTree = SOURCE_ROOT; };
+		E4577681BD954A6DA8C41801 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_reduce.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_reduce.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_reduce.cu.o"; sourceTree = SOURCE_ROOT; };
+		E559D4D9F76D45EFA286EFE2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		E5EF611A9900463A8CE5359F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_bitwise_scalar.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_bitwise_scalar.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_bitwise_scalar.cu.o"; sourceTree = SOURCE_ROOT; };
+		E6D289BF93BE441797A32430 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/lut.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = lut.cu; path = src/cuda/lut.cu; sourceTree = SOURCE_ROOT; };
+		E8C148167E0449CE92EFD280 /* opencv_perf_cudaarithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_perf_cudaarithm; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8E60208F3A41CDB4928B85 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = perf_precomp.hpp; path = perf/perf_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		EDCA2E97A407425E948A1574 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = add_mat.cu; path = src/cuda/add_mat.cu; sourceTree = SOURCE_ROOT; };
+		F22A334F3DD94100AA641E3D /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		F2788934225D44C68E1586E2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/split_merge.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = split_merge.cu; path = src/cuda/split_merge.cu; sourceTree = SOURCE_ROOT; };
+		F32AF6B1E0504F5AAE1A7168 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_arithm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_arithm.cpp; path = test/test_arithm.cpp; sourceTree = SOURCE_ROOT; };
+		F35EAD2188D34653BD5C5C13 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/norm.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = norm.cu; path = src/cuda/norm.cu; sourceTree = SOURCE_ROOT; };
+		F52E364FACBD4E0481CCE7C5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmaxloc.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = minmaxloc.cu; path = src/cuda/minmaxloc.cu; sourceTree = SOURCE_ROOT; };
+		F72DA8FD07F44071911A66B3 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = minmax_mat.cu; path = src/cuda/minmax_mat.cu; sourceTree = SOURCE_ROOT; };
+		F8BD9A44DF42497ABBF83A00 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_countnonzero.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_countnonzero.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_countnonzero.cu.o"; sourceTree = SOURCE_ROOT; };
+		F95F500C2D064ACC82060390 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_spectrums.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_mul_spectrums.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_spectrums.cu.o"; sourceTree = SOURCE_ROOT; };
+		F9FC281625F744B69C8B59A4 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_copy_make_border.cu.o */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; fileEncoding = 4; name = cuda_compile_generated_copy_make_border.cu.o; path = "../../build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_copy_make_border.cu.o"; sourceTree = SOURCE_ROOT; };
+		FAF05224ECB94CF79DAF0B79 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = div_mat.cu; path = src/cuda/div_mat.cu; sourceTree = SOURCE_ROOT; };
+		FBCAEC9652094FE7AD13E8AF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_mat.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = absdiff_mat.cu; path = src/cuda/absdiff_mat.cu; sourceTree = SOURCE_ROOT; };
+		FD5C8BF5CAB245ABB17B6686 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/reduce.cu */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = reduce.cu; path = src/cuda/reduce.cu; sourceTree = SOURCE_ROOT; };
+		FF98ED5BDD8F45B1B44A3B09 /* opencv_cudaarithm_object */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_cudaarithm_object.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C92F67295345F6AA0ACF63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0F087ACA8B44B1BE21E995 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_absdiff_mat.cu.o */,
+				0663B51026784D6EA102835A /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_absdiff_scalar.cu.o */,
+				D2FF08F623334AC08839112A /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_mat.cu.o */,
+				44BABF3991074D5C80C9AD95 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_scalar.cu.o */,
+				1369A48A69714AD995D4741C /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_weighted.cu.o */,
+				D16FC67E86E2482B9AE4C180 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_bitwise_mat.cu.o */,
+				0D3FA1FC09FB43A5A5995665 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_bitwise_scalar.cu.o */,
+				636F00EE473F4A8FBABA28D6 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_cmp_mat.cu.o */,
+				E29BFA6F90D34A0087CAFE5C /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_cmp_scalar.cu.o */,
+				B98532551619410BAA8602BE /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_copy_make_border.cu.o */,
+				44654AAF8E54441DBD4B07B8 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_countnonzero.cu.o */,
+				AB78988CD90E47CDA85BADF2 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_div_mat.cu.o */,
+				4855F5A7CBF14B82B086122A /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_div_scalar.cu.o */,
+				CDCDABD979394824ADAF67FD /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_integral.cu.o */,
+				9CCB0A981A344E2B8C8982A9 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_lut.cu.o */,
+				1C041BA590254475AF64785A /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_math.cu.o */,
+				1598A7566F5046A1A5D32307 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmax.cu.o */,
+				FA5B8234ECAC4DDDB7E62F70 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmax_mat.cu.o */,
+				5EBE76D793CB4CA79F59B090 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmaxloc.cu.o */,
+				59B2CEBE766A40F89E13581E /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_mat.cu.o */,
+				315D1902B3AA48599671A90D /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_scalar.cu.o */,
+				EFE0D57542C94B0DAFD73187 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_spectrums.cu.o */,
+				70E7B26F1F77412BB9BF8EFA /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_norm.cu.o */,
+				437AA1B65F6C42C6874C53E9 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_normalize.cu.o */,
+				FA14BDF7B8C146139716EDBE /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_polar_cart.cu.o */,
+				B19A1499ED094C1F95622E86 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_reduce.cu.o */,
+				AA7DBDAC3A154105A073332C /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_split_merge.cu.o */,
+				92A37DEEF41F46B8BC168B4F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sub_mat.cu.o */,
+				06CEC83AA6604751840D0FA6 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sub_scalar.cu.o */,
+				6606FE874D924888B4591706 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sum.cu.o */,
+				B15E9BDA8DCD43D2BFCD04F0 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_threshold.cu.o */,
+				AAD22FB559F9445DB78DF43F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_transpose.cu.o */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0015B319797F4458BB34B598 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E60208F3A41CDB4928B85 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		030A0A453C3347E68633FA64 /* object_libraries */ = {
+			isa = PBXGroup;
+			children = (
+				599A231929FD442EA8A9BBD4 /* opencv_cudaarithm_object */,
+			);
+			name = object_libraries;
+			sourceTree = "<group>";
+		};
+		04E0B710BAD94522B08095E2 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				88320A52D0844A268DBA943D /* CMake Rules */,
+				67AA07ED3B524F4E8FB44CCA /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		08777ADD008E4EC684A81520 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		23D66F29A5A8418F80EF7AE0 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				0FA92C970F7F421DB8155D89 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_arithm.cpp */,
+				C07B12993B2D4EB78AFB05AE /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_core.cpp */,
+				D18E6A9C79D943749F31B683 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_element_operations.cpp */,
+				ACF5FA7479CE4C58A0BC132C /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_main.cpp */,
+				E13D720E1F9D4FA1B4825669 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_reductions.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		335E0ED3B7014F6EA4F66350 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				496EC5CEA9E8429CA4CA2B59 /* Cuda */,
+				B8DB49D31D014F6F8CADC4EF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/arithm.cpp */,
+				8863B32FE3A94C2DBD879399 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/core.cpp */,
+				1979B39DC9924EB3A53F12F6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/element_operations.cpp */,
+				7E4172A34D784B18AF9C0E6B /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/precomp.hpp */,
+				0D257030DD324AAB92107366 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/reductions.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		33E6AACCFC7F4AD983603E1D /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				F32AF6B1E0504F5AAE1A7168 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_arithm.cpp */,
+				CA4AC3CD98F14AF6ACD2076F /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_buffer_pool.cpp */,
+				AE6EEA9833B24F11A4AC4EF8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_core.cpp */,
+				CC535E891C554F9288D4D91A /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_element_operations.cpp */,
+				AA8CF5F1814A4325A748554A /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_gpumat.cpp */,
+				A9BA6BD6AF154CEF9DB22CA6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_main.cpp */,
+				A7B1485D1CA04BE095F372BB /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_opengl.cpp */,
+				183B10ADAC8044EEAA2C49DF /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_reductions.cpp */,
+				7FC89474CA6A41438A563658 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_stream.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		37F28C2E026D4BDD8C684F3F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A9040464F0574CDBBD53A2BA /* CMake Rules */,
+				5DAD06C0C13B4547B5D68A3D /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3B4FEEA3399C473C8CC516F5 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				DB2400F12B844EBB86AB7F2D /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		496EC5CEA9E8429CA4CA2B59 /* Cuda */ = {
+			isa = PBXGroup;
+			children = (
+				8108513694D648C8BE9ED4B9 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_mat.cu */,
+				5A402C03482448468F36BED1 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_scalar.cu */,
+				5D916B20E53542AD8F504266 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_mat.cu */,
+				8F43E943ADC54F38AD9616D9 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_scalar.cu */,
+				60750E0FB4CC49ABB0ED9EAB /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_weighted.cu */,
+				946FCB7D368649AE9F2027C8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_mat.cu */,
+				6B02787CB40046AAACB73BE8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_scalar.cu */,
+				071F6DC706B54C9F9645464C /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_mat.cu */,
+				7D9498AEF0F34C58A6FB2230 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_scalar.cu */,
+				50F736AC54564A4EADAF29DE /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/copy_make_border.cu */,
+				191780FB00AB4158A3C2EE45 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/countnonzero.cu */,
+				DA9EC73C17404872945D00F5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_mat.cu */,
+				5D31119D769E4CD5BF708590 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_scalar.cu */,
+				3B01C85587554438B2F023EF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/integral.cu */,
+				B2167430728B48E8BBB681E8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/lut.cu */,
+				C95846D0E0A347EE8517CA7D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/math.cu */,
+				61099DF6D7EC4A53A7E4FE6B /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax.cu */,
+				F72DA8FD07F44071911A66B3 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax_mat.cu */,
+				7A0BF11FE6484D899E678040 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmaxloc.cu */,
+				A9BE45D15F1D4F1B8F86C853 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_mat.cu */,
+				24D859C2224F43EAA7663751 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_scalar.cu */,
+				5D83C981A3E243E481D14DD0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_spectrums.cu */,
+				F35EAD2188D34653BD5C5C13 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/norm.cu */,
+				0A232DB6F9544D2F94AE61BA /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/normalize.cu */,
+				4766F745B6F149D99901416A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/polar_cart.cu */,
+				FD5C8BF5CAB245ABB17B6686 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/reduce.cu */,
+				F2788934225D44C68E1586E2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/split_merge.cu */,
+				9692740FE2844230BC936DFB /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_mat.cu */,
+				287D81E9603A4C6FB1A7787E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_scalar.cu */,
+				CB2A9B0EADD34A20AC32A50D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sum.cu */,
+				4C622F31A0AD4CB4A99C06D1 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/threshold.cu */,
+				236E2E15B11D4D9FA91538E4 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/transpose.cu */,
+			);
+			name = Cuda;
+			sourceTree = "<group>";
+		};
+		4EF14233FB7548E68840F79F /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				8C03A69A2F704842AA47E96A /* Cuda */,
+				55CB0D6A909D463AB68B30F0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/arithm.cpp */,
+				68E0AE5E27D1425FA5359BF6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/core.cpp */,
+				D78A1613D25F4A31B3A8889D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/element_operations.cpp */,
+				E559D4D9F76D45EFA286EFE2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/precomp.hpp */,
+				30937FE1DBF4431EA9F83F13 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/reductions.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		599A231929FD442EA8A9BBD4 /* opencv_cudaarithm_object */ = {
+			isa = PBXGroup;
+			children = (
+				3B4FEEA3399C473C8CC516F5 /* Include */,
+				335E0ED3B7014F6EA4F66350 /* Src */,
+				8A5F1BA5B67A476885E6F341 /* Header Files */,
+				DF15F3D962F24F4B81489FAA /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */,
+			);
+			name = opencv_cudaarithm_object;
+			sourceTree = "<group>";
+		};
+		59EA85BA74F148E4BF100C21 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				7950DA4734CD46E8948863C1 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		5BC2A7F5AFC941A895BFD98D = {
+			isa = PBXGroup;
+			children = (
+				E027F853CEF64A35B62D5DE2 /* Sources */,
+				08777ADD008E4EC684A81520 /* Resources */,
+				8654251E33144DC8852713D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		688EE165B11F4588BC957FFD /* Object Files */ = {
+			isa = PBXGroup;
+			children = (
+				B74FCA188E1C44158DE66798 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_absdiff_mat.cu.o */,
+				516475BF73634C21801D6CF2 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_absdiff_scalar.cu.o */,
+				60B79FAF69AD44FABBCCA6B7 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_mat.cu.o */,
+				DB063A0645CA4FAA9BDB1DE6 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_scalar.cu.o */,
+				D15FDA7DB6144063B0A934CB /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_add_weighted.cu.o */,
+				33DC97355AB64110998177DE /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_bitwise_mat.cu.o */,
+				E5EF611A9900463A8CE5359F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_bitwise_scalar.cu.o */,
+				DF122078E7CC4BF599C7A4F4 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_cmp_mat.cu.o */,
+				80BD88D361D84FF9A65E2501 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_cmp_scalar.cu.o */,
+				F9FC281625F744B69C8B59A4 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_copy_make_border.cu.o */,
+				F8BD9A44DF42497ABBF83A00 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_countnonzero.cu.o */,
+				ACC7FC6561D64B4893AC46F9 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_div_mat.cu.o */,
+				0BED7B0A6DC241D08C7152A6 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_div_scalar.cu.o */,
+				C00A42B6BAC64EADB144F862 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_integral.cu.o */,
+				4E8A0B7922964C6282F55556 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_lut.cu.o */,
+				D8735F3CF7BC4107AFE6DCAF /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_math.cu.o */,
+				D185A8B64F924A76B91FDA27 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmax.cu.o */,
+				DFA3DED8C7CC48A6B402FE19 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmax_mat.cu.o */,
+				5B4542D75CF5401F89A0B28B /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_minmaxloc.cu.o */,
+				68E144E5AD63454CB3D28F90 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_mat.cu.o */,
+				362C9480272C49A0BE1D2B2F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_scalar.cu.o */,
+				F95F500C2D064ACC82060390 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_mul_spectrums.cu.o */,
+				0288CC2F10FB43BAAC523DDC /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_norm.cu.o */,
+				5111D85203BB440DBFB0DCBB /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_normalize.cu.o */,
+				02F1576C5CD2417780425170 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_polar_cart.cu.o */,
+				E4577681BD954A6DA8C41801 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_reduce.cu.o */,
+				0AD587516CC445E1BD077950 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_split_merge.cu.o */,
+				A302D3BE11B84C4CB08772EF /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sub_mat.cu.o */,
+				9AD227AC61AE4C1392BC9C8F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sub_scalar.cu.o */,
+				C3D3C24F2A4342979F879329 /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_sum.cu.o */,
+				84BFA3B33CF44F3C979CF54F /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_threshold.cu.o */,
+				60E84E18671847BFA1B548ED /* /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeFiles/cuda_compile.dir/src/cuda/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/cuda_compile_generated_transpose.cu.o */,
+			);
+			name = "Object Files";
+			sourceTree = "<group>";
+		};
+		7950DA4734CD46E8948863C1 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				ABAB09D1F8014CC5813FEF03 /* /Users/elliotstaudt/opencv/modules/cudaarithm/include/opencv2/cudaarithm.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		7E4D9E96C1B24664BE3C7FF0 /* opencv_perf_cudaarithm */ = {
+			isa = PBXGroup;
+			children = (
+				23D66F29A5A8418F80EF7AE0 /* Src */,
+				0015B319797F4458BB34B598 /* Include */,
+				DE0EA701B70C49F9B6E5EEA6 /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */,
+			);
+			name = opencv_perf_cudaarithm;
+			sourceTree = "<group>";
+		};
+		807411773B07493188545F36 /* tests performance */ = {
+			isa = PBXGroup;
+			children = (
+				7E4D9E96C1B24664BE3C7FF0 /* opencv_perf_cudaarithm */,
+			);
+			name = "tests performance";
+			sourceTree = "<group>";
+		};
+		8654251E33144DC8852713D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				755A52E65DC347339C008CE2 /* opencv_cudaarithm */,
+				FF98ED5BDD8F45B1B44A3B09 /* opencv_cudaarithm_object */,
+				E8C148167E0449CE92EFD280 /* opencv_perf_cudaarithm */,
+				776BDE12D0094AAE86053DAE /* opencv_test_cudaarithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88320A52D0844A268DBA943D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8A5F1BA5B67A476885E6F341 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F22A334F3DD94100AA641E3D /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				A55312CC208D4396911C43B7 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		8C03A69A2F704842AA47E96A /* Cuda */ = {
+			isa = PBXGroup;
+			children = (
+				FBCAEC9652094FE7AD13E8AF /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_mat.cu */,
+				1F98ADF653FE4FBBA9112AC4 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/absdiff_scalar.cu */,
+				EDCA2E97A407425E948A1574 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_mat.cu */,
+				52C77C71BF564632BBA0CA96 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_scalar.cu */,
+				BCECCF7D83B84A4F80F2DDFD /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/add_weighted.cu */,
+				57E76947A24841EF99856F2F /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_mat.cu */,
+				AB313A31577D4561B30F2900 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/bitwise_scalar.cu */,
+				6C765F0BCD714B528DFA93A0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_mat.cu */,
+				5CCDE7B66366439AA0ACD852 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/cmp_scalar.cu */,
+				B16753E96FEC45ABAFAA6CDA /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/copy_make_border.cu */,
+				DD3E0F2D1CA94C438A55ACF2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/countnonzero.cu */,
+				FAF05224ECB94CF79DAF0B79 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_mat.cu */,
+				708537ECEDA6424C8753BB2E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/div_scalar.cu */,
+				838DC192970F425CA13B5C62 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/integral.cu */,
+				E6D289BF93BE441797A32430 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/lut.cu */,
+				A236B51145D147CABFE74B9C /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/math.cu */,
+				4BC36684603C4DE28C1CCC9A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax.cu */,
+				CABD1A6C9AA64ACCA9003705 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmax_mat.cu */,
+				F52E364FACBD4E0481CCE7C5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/minmaxloc.cu */,
+				60ACFF1DD01F4504A59BCB06 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_mat.cu */,
+				BFC9EBA0649049C693735C4D /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_scalar.cu */,
+				DC47D6D5798B450BB78DBD9A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/mul_spectrums.cu */,
+				10BB86D780D14BE293A786C2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/norm.cu */,
+				4F1DF7E848C742DEBD2A541A /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/normalize.cu */,
+				A85AA27967A3424B8AE0BF77 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/polar_cart.cu */,
+				76386C8C752041B1B2386B68 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/reduce.cu */,
+				AC34E7D717F84AAD89199F5E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/split_merge.cu */,
+				3DBB8FB25C2846C8BA4AEC42 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_mat.cu */,
+				0CDE6915087A4FC0AFC2E73E /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sub_scalar.cu */,
+				B3976E86A46147B7B52DAA09 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/sum.cu */,
+				BECC538C219545AA91C21DC0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/threshold.cu */,
+				3F19D4346143483DB1FD4BC5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/cuda/transpose.cu */,
+			);
+			name = Cuda;
+			sourceTree = "<group>";
+		};
+		99DDFD4E534842D48F70E849 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				9D52258FFE3049A1BDD0E84A /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		A9040464F0574CDBBD53A2BA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BBDEB3F5F5C24298B4231622 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC20EC38C574C3186FAB6CD /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				45BF88CA83B341CAA0949AE7 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BC89E35F9BE1499F8D9DCDCE /* opencv_cudaarithm */ = {
+			isa = PBXGroup;
+			children = (
+				59EA85BA74F148E4BF100C21 /* Include */,
+				4EF14233FB7548E68840F79F /* Src */,
+				BBDEB3F5F5C24298B4231622 /* Header Files */,
+				688EE165B11F4588BC957FFD /* Object Files */,
+				1A7BB6D3BE3D4BA3B616336F /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */,
+			);
+			name = opencv_cudaarithm;
+			sourceTree = "<group>";
+		};
+		DB2400F12B844EBB86AB7F2D /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				0DA97FB292A046E6919CDEF2 /* /Users/elliotstaudt/opencv/modules/cudaarithm/include/opencv2/cudaarithm.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		DDD3F6305C9C43249CE7810C /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				F7F06FFEADE24ADB964C778E /* opencv_test_cudaarithm */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		E027F853CEF64A35B62D5DE2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DDD3F6305C9C43249CE7810C /* tests accuracy */,
+				030A0A453C3347E68633FA64 /* object_libraries */,
+				F11597B667B142D6A18A33CF /* modules */,
+				37F28C2E026D4BDD8C684F3F /* ALL_BUILD */,
+				04E0B710BAD94522B08095E2 /* ZERO_CHECK */,
+				807411773B07493188545F36 /* tests performance */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		F11597B667B142D6A18A33CF /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				BC89E35F9BE1499F8D9DCDCE /* opencv_cudaarithm */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		F7F06FFEADE24ADB964C778E /* opencv_test_cudaarithm */ = {
+			isa = PBXGroup;
+			children = (
+				33E6AACCFC7F4AD983603E1D /* Src */,
+				99DDFD4E534842D48F70E849 /* Include */,
+				9B2C45C00CF74D82B82E13E9 /* /Users/elliotstaudt/opencv/modules/cudaarithm/CMakeLists.txt */,
+			);
+			name = opencv_test_cudaarithm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E4AB6405CB4EF6861140B9 /* opencv_cudaarithm_object */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC23E0B0627C4E12A944E877 /* Build configuration list for PBXNativeTarget "opencv_cudaarithm_object" */;
+			buildPhases = (
+				46CF74CB07F949BEAFC94D3E /* CMake Rules */,
+				C0F6ABA7687B4A6FB87A2E1C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCDF1F66EEC431DA2266D7C /* PBXTargetDependency */,
+			);
+			name = opencv_cudaarithm_object;
+			productName = opencv_cudaarithm_object;
+			productReference = FF98ED5BDD8F45B1B44A3B09 /* opencv_cudaarithm_object */;
+			productType = "com.apple.product-type.library.static";
+		};
+		36707044A0534615B5E5A4A0 /* opencv_cudaarithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0700C031107842CF9F99F727 /* Build configuration list for PBXNativeTarget "opencv_cudaarithm" */;
+			buildPhases = (
+				C84B7890EA6849F98C5A700F /* CMake Rules */,
+				DE0DC43FA0444D19A047A3CD /* Sources */,
+				D0C92F67295345F6AA0ACF63 /* Frameworks */,
+				1307AA30335349558590C7F8 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594C3695C47C46DFB7A653F3 /* PBXTargetDependency */,
+			);
+			name = opencv_cudaarithm;
+			productName = opencv_cudaarithm;
+			productReference = 755A52E65DC347339C008CE2 /* opencv_cudaarithm */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		6E401F9DD9974BC08AEC2A19 /* opencv_perf_cudaarithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383AEB895E4840819D150257 /* Build configuration list for PBXNativeTarget "opencv_perf_cudaarithm" */;
+			buildPhases = (
+				BA3C26052CC24A098E43E593 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D76270DE95824F62AC36F8E3 /* PBXTargetDependency */,
+				C9DD5697D8F34BA8ACABC594 /* PBXTargetDependency */,
+			);
+			name = opencv_perf_cudaarithm;
+			productName = opencv_perf_cudaarithm;
+			productReference = E8C148167E0449CE92EFD280 /* opencv_perf_cudaarithm */;
+			productType = "com.apple.product-type.tool";
+		};
+		B4B569E53C9A4D179964FDDC /* opencv_test_cudaarithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D412DD8FFC641DC8FFD9461 /* Build configuration list for PBXNativeTarget "opencv_test_cudaarithm" */;
+			buildPhases = (
+				39901A7D4EB846468F008C56 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10704D1287164800AE89BA54 /* PBXTargetDependency */,
+				0AE58EC05E6D47A89865D771 /* PBXTargetDependency */,
+			);
+			name = opencv_test_cudaarithm;
+			productName = opencv_test_cudaarithm;
+			productReference = 776BDE12D0094AAE86053DAE /* opencv_test_cudaarithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AF2BEF3F06542D99BB6BD11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = A3BA10A5FE914860A2F32BE3 /* Build configuration list for PBXProject "opencv_cudaarithm" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				65976A08135E4C979743B219 /* Debug */,
+				524F9E12522F4EC69243213D /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 5BC2A7F5AFC941A895BFD98D;
+			projectDirPath = ../../../modules/cudaarithm;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				36707044A0534615B5E5A4A0 /* opencv_cudaarithm */,
+				27E4AB6405CB4EF6861140B9 /* opencv_cudaarithm_object */,
+				6E401F9DD9974BC08AEC2A19 /* opencv_perf_cudaarithm */,
+				B4B569E53C9A4D179964FDDC /* opencv_test_cudaarithm */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1307AA30335349558590C7F8 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudaarithm -f /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeScripts/opencv_cudaarithm_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		40EF67D7A3224DB6B767C0DE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudaarithm -f /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		46CF74CB07F949BEAFC94D3E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudaarithm -f /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeScripts/opencv_cudaarithm_object_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4B7DC6056D5645D388107806 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4C566057A46848FD9D3BAFFA /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudaarithm -f /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4C847DB62FD542E798D585D1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		57189F33993E41DF802FDBFC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		66CC6D474C3040B2B91E1DD8 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudaarithm -f /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A4F5263AF0FB4058A67EC0C3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C84B7890EA6849F98C5A700F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudaarithm -f /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeScripts/opencv_cudaarithm_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F1709EBC7BC74CABADF62247 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/cudaarithm -f /Users/elliotstaudt/opencv/build/modules/cudaarithm/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39901A7D4EB846468F008C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D153239C7F4E94A88E5B63 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_arithm.cpp */,
+				3C467FF8B7864175A95ABC25 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_buffer_pool.cpp */,
+				50BCE8409B314D50A98E13E3 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_core.cpp */,
+				015418DDCF5243FA94A52944 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_element_operations.cpp */,
+				386D148B678A4BB48EF7F944 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_gpumat.cpp */,
+				D014748006EB404C96C5F380 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_main.cpp */,
+				2EC279D6CA2C4FCCB64406A3 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_opengl.cpp */,
+				EA55F823C4394B8B8E63F799 /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_reductions.cpp */,
+				047708C39AC14EA79A51E75A /* /Users/elliotstaudt/opencv/modules/cudaarithm/test/test_stream.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3C26052CC24A098E43E593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E9B7EEFE9147E39BDD5B19 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_arithm.cpp */,
+				EF6ADBDE8683483EBA029842 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_core.cpp */,
+				4F0EB03F67D142EC974A73E0 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_element_operations.cpp */,
+				91A8344116A94EE9AF1A6106 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_main.cpp */,
+				E0567275F81244ABB3414818 /* /Users/elliotstaudt/opencv/modules/cudaarithm/perf/perf_reductions.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F6ABA7687B4A6FB87A2E1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D831FB5BF8E349E184F99C64 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/arithm.cpp */,
+				CE0D0A69AEAF4B17AD1DF812 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/core.cpp */,
+				7E771EFCF5204AC88E5BAD5F /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/element_operations.cpp */,
+				34025698243D4E5AB838CFF5 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/reductions.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0DC43FA0444D19A047A3CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E6EA7F711D4FBFA0AABFA8 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/arithm.cpp */,
+				157FE05107DB44CBA6274889 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/core.cpp */,
+				4A90928C1352407F9B40A0D1 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/element_operations.cpp */,
+				7533C047BC8C4BCEA4E03779 /* /Users/elliotstaudt/opencv/modules/cudaarithm/src/reductions.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AE58EC05E6D47A89865D771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = A60DF02E1E6B44248EB48255 /* PBXContainerItemProxy */;
+		};
+		10704D1287164800AE89BA54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36707044A0534615B5E5A4A0 /* opencv_cudaarithm */;
+			targetProxy = 46B5EFBBB12A4027BB3DA8E6 /* PBXContainerItemProxy */;
+		};
+		43431A6AEF6F48CDA2D75EFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36707044A0534615B5E5A4A0 /* opencv_cudaarithm */;
+			targetProxy = D8CDC360CCF448B9BABD375D /* PBXContainerItemProxy */;
+		};
+		594C3695C47C46DFB7A653F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = C2E0253B5DE44B489B6B53AE /* PBXContainerItemProxy */;
+		};
+		6E60202FF0E748AFB824048B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E401F9DD9974BC08AEC2A19 /* opencv_perf_cudaarithm */;
+			targetProxy = B81ACDCF248C4C5FAFC7559D /* PBXContainerItemProxy */;
+		};
+		7B848F997BBC4BE9BC0D8CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 33F1207C196040AA8251998A /* PBXContainerItemProxy */;
+		};
+		7FFBB7EB05034721966091B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 548DE14385A4477EBDF27146 /* PBXContainerItemProxy */;
+		};
+		8531EAF21F4040AD9EB6F67B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4B569E53C9A4D179964FDDC /* opencv_test_cudaarithm */;
+			targetProxy = 154E2FF5AFBE4E95BBAD76EE /* PBXContainerItemProxy */;
+		};
+		92D9895ADF8D42C898D76B98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 87F36A7E2C56403F92756336 /* PBXContainerItemProxy */;
+		};
+		C9DD5697D8F34BA8ACABC594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = C2FF811868364E599621FF13 /* PBXContainerItemProxy */;
+		};
+		D76270DE95824F62AC36F8E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36707044A0534615B5E5A4A0 /* opencv_cudaarithm */;
+			targetProxy = D752E49F43D244C88044C397 /* PBXContainerItemProxy */;
+		};
+		ECCDF1F66EEC431DA2266D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 2BD0A509BC8845E3AE679FD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		139761EADA6A4FB9BA885EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/cudaarithm/opencv_cudaarithm.build/Release/opencv_cudaarithm_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudaarithm_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		13C1D5A19A1B460AB7AF51ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_cudaarithm;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		1AF304BE59D142579B45BA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm/build;
+			};
+			name = Debug;
+		};
+		1C80B94C6CB84FC1AA743B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaarithm.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudaarithm.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		25293C856906423BB7D38E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaarithm.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudaarithm.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		40BEAA6A75F849DDBBD8D4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		4A704FD8400146D8BF77EE50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		53B6D07F7099487A978615B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		6619D69305384494A4F1234F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		6D556BEBF26A4D5197696424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm/build;
+			};
+			name = Release;
+		};
+		798471B509DA4E3081C3E562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/cudaarithm/opencv_cudaarithm.build/Debug/opencv_cudaarithm_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_cudaarithm_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		79E4D4DBF7A94E60855BCEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		90A0BB5F5B054FEEAE1F0EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_perf_cudaarithm;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		A5CE8DB244504FE4B882776F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_cudaarithm;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		ACADF7412B2B44F3845E3C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B65CEA8C3ED84A7988BE7B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		BBD6C4E0BF10462799CCD0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-missing-declarations -Wno-shadow         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudaarithm.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_cudaarithm;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F305B562ED424B77B21D9CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/cudaarithm/include, /Users/elliotstaudt/opencv/modules/cudaarithm/src, /Users/elliotstaudt/opencv/build/modules/cudaarithm, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /usr/local/cuda/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/cudaarithm/test, /Users/elliotstaudt/opencv/modules/cudaarithm/perf, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/cudaarithm;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0700C031107842CF9F99F727 /* Build configuration list for PBXNativeTarget "opencv_cudaarithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25293C856906423BB7D38E5C /* Debug */,
+				1C80B94C6CB84FC1AA743B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		32F8F1B35CFE4835B465DB2C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6619D69305384494A4F1234F /* Debug */,
+				40BEAA6A75F849DDBBD8D4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		383AEB895E4840819D150257 /* Build configuration list for PBXNativeTarget "opencv_perf_cudaarithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C1D5A19A1B460AB7AF51ED /* Debug */,
+				90A0BB5F5B054FEEAE1F0EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7D412DD8FFC641DC8FFD9461 /* Build configuration list for PBXNativeTarget "opencv_test_cudaarithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD6C4E0BF10462799CCD0BB /* Debug */,
+				A5CE8DB244504FE4B882776F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8D572824C29849069E06DE7E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACADF7412B2B44F3845E3C1C /* Debug */,
+				F305B562ED424B77B21D9CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A3BA10A5FE914860A2F32BE3 /* Build configuration list for PBXProject "opencv_cudaarithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF304BE59D142579B45BA39 /* Debug */,
+				6D556BEBF26A4D5197696424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D92B31FE5AA64E5E99976510 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65CEA8C3ED84A7988BE7B6A /* Debug */,
+				4A704FD8400146D8BF77EE50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DC23E0B0627C4E12A944E877 /* Build configuration list for PBXNativeTarget "opencv_cudaarithm_object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798471B509DA4E3081C3E562 /* Debug */,
+				139761EADA6A4FB9BA885EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F28C2AA750FE4729B474DEE4 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B6D07F7099487A978615B5 /* Debug */,
+				79E4D4DBF7A94E60855BCEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AF2BEF3F06542D99BB6BD11 /* Project object */;
+}

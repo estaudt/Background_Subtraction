@@ -1,0 +1,1382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E3837AD8115C401A8EA2AB70 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				046AB27348B74E799713C45C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				16308AD43EAA41228FD6171F /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 20BC1985CE664677B692C632 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				4E0670A0347C4F2B83A68F5E /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				04DF26FD1ED140C9949BDDDF /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6EE67073692B41A2AB8016EA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5EAD0E3E646A41748FD1AE6A /* CMake Rules */,
+			);
+			dependencies = (
+				A5EF00FE7EC84FAE9D9390E1 /* PBXTargetDependency */,
+				D26540A21C2F445A9CE97D33 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D401F7CF46AC4692BE0F7AD5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FC45BBBB65E549DA801E024B /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		037B21E1888F4872B3BC27AE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */ = {isa = PBXBuildFile; fileRef = AEACB27B30DC403CBD44F4DF /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		03C60F24A2564F548AA3E384 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */ = {isa = PBXBuildFile; fileRef = 948FA364F04F49C58C6D2556 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0434319D8401452C89DE1457 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRleCompressor.h */ = {isa = PBXBuildFile; fileRef = AE218752B51A4733BCD0DB6E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRleCompressor.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0605A39AE18A496FB3D9E94A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFramesPerSecond.h */ = {isa = PBXBuildFile; fileRef = 0427FC291E444D17B9EFEF01 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFramesPerSecond.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0649B48FAE1F40D98170845E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfDoubleAttribute.h */ = {isa = PBXBuildFile; fileRef = 4AD24E4C43154C7AAAE5AFAE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfDoubleAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		07E5830229F7426FA2B25644 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */ = {isa = PBXBuildFile; fileRef = F5E6B3FA2523473B9136A2FF /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		091D176688C146C79F9FCCD8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */ = {isa = PBXBuildFile; fileRef = 0767901F8FE043069831E228 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0929576531A944CCBCA39E12 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColor.h */ = {isa = PBXBuildFile; fileRef = 4F3F385A9F114AF0B6DDBFA4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColor.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0B55837694D44DE6B98F058A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */ = {isa = PBXBuildFile; fileRef = FF8651D6FB2149EAB696DF44 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0BE03C1B73BD4774A19F3CA5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFrameBuffer.h */ = {isa = PBXBuildFile; fileRef = E63BDAD730DF43B28E1749D1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFrameBuffer.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0C490B9778A448289C102F7F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRational.h */ = {isa = PBXBuildFile; fileRef = 12B989CA4F8543D78404B1D6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRational.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0D09E281922C49648E0306D2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringAttribute.h */ = {isa = PBXBuildFile; fileRef = 823714ABC767414BA103A659 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0E1C6EBDCCA44141901B6A3B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */ = {isa = PBXBuildFile; fileRef = 6DBD384944B8490CA3AE7C79 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0E27F61CF5114417ABD3D5F9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathBox.h */ = {isa = PBXBuildFile; fileRef = 7DF57E50CA80400681B6D681 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathBox.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0E95F403871A47ACBB03CA82 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColorAlgo.h */ = {isa = PBXBuildFile; fileRef = EF08D3427061432FA09FF24E /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColorAlgo.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0FE0B29DBF174BA48B1BE951 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h */ = {isa = PBXBuildFile; fileRef = 97968B2187F94E1D8927CFC0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		10E19D1F3D5B421A9625CD4D /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathShear.h */ = {isa = PBXBuildFile; fileRef = A8F87C37BEB1427DA56A23D0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathShear.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1119D0D3444440C7A12C9CC4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColorAlgo.cpp */ = {isa = PBXBuildFile; fileRef = 9474E48A2FC94CA3B27D719E /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColorAlgo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1136C08E494A44AB973F0017 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */ = {isa = PBXBuildFile; fileRef = B70F50165F264D90820627E7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		13324207DB8742A0858ADC8E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescription.h */ = {isa = PBXBuildFile; fileRef = 155F88AB145C4C49B99A9599 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescription.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1687309151F64DF98522D2E8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathHalfLimits.h */ = {isa = PBXBuildFile; fileRef = A591E9F6E4ED4FFE834A0EEC /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathHalfLimits.h */; settings = {COMPILER_FLAGS = ""; }; };
+		173F5D529B9845979959F824 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRoots.h */ = {isa = PBXBuildFile; fileRef = 877C544F3DAA4C9FAB5FFFB8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRoots.h */; settings = {COMPILER_FLAGS = ""; }; };
+		176C9151DCA548CB9FF3DA2F /* /Users/elliotstaudt/opencv/build/3rdparty/openexr/OpenEXRConfig.h */ = {isa = PBXBuildFile; fileRef = 093011BE63194972A6813217 /* /Users/elliotstaudt/opencv/build/3rdparty/openexr/OpenEXRConfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		17C6EE74612B4F479FFC606F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */ = {isa = PBXBuildFile; fileRef = CF5FC53B31B846F4BFB02AB1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1A3D5608975D4C919E70BD6D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCode.h */ = {isa = PBXBuildFile; fileRef = 7541B0739608480393B04A5F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCode.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1B781411E9284E4387CF87EA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCheckedArithmetic.h */ = {isa = PBXBuildFile; fileRef = 1CBBFA7AACE245849E9C2FBC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCheckedArithmetic.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1CC093231E7244C7ACFA62E6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfXdr.h */ = {isa = PBXBuildFile; fileRef = 86B70826DF54494B98C0C941 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfXdr.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1E561D73056C4977917A4831 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgba.h */ = {isa = PBXBuildFile; fileRef = CD1E73934F2640A9B40A1C40 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgba.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1E84DA95DF5B4D01A2A13437 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */ = {isa = PBXBuildFile; fileRef = 0311FB1A235A4210900198CA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1EC88E79E97147BBA19E36A7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFrustum.h */ = {isa = PBXBuildFile; fileRef = 1F3B29CA633249C18D8F2AAD /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFrustum.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1FF0A25B11724F1F90C46CE0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 7601133BBD924E14A069F7E8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		20DF0928F6744CA1BEE5F744 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */ = {isa = PBXBuildFile; fileRef = ABD0C3D1AB234D9183F5C160 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		223E6EAD5C354576B26D822E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfThreading.cpp */ = {isa = PBXBuildFile; fileRef = EF741B7100554E29BD69818C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfThreading.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2247F7689ED24C36881A6186 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.h */ = {isa = PBXBuildFile; fileRef = 07D0C0A226F94A8886FA886F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		234BC5691F6449C4AE50184D /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathPlatform.h */ = {isa = PBXBuildFile; fileRef = 1CA4AC7293D844C1AA4AD34F /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathPlatform.h */; settings = {COMPILER_FLAGS = ""; }; };
+		254576BE9A2449FABCC114DD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPizCompressor.h */ = {isa = PBXBuildFile; fileRef = FEE66D1665074C2EBA5C54FC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPizCompressor.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2714C8E8220140BABE17CC4B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMultiView.h */ = {isa = PBXBuildFile; fileRef = BF47172766C5463FB3750A0B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMultiView.h */; settings = {COMPILER_FLAGS = ""; }; };
+		28A17B6FFA224516B91CB8B2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 1DF11C1B394043A487E5E8D1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2D39D79D19D741DAAF3E8C75 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathPlane.h */ = {isa = PBXBuildFile; fileRef = A6E4D5AAD2C943299CE84AE2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathPlane.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2EEA7ED73F3C46EA9CEB784A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */ = {isa = PBXBuildFile; fileRef = A49FFB01E27C4FA2B581B8B2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		31D87EB692EA4008A472B397 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */ = {isa = PBXBuildFile; fileRef = FBC240D221864E05B9B1BB07 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3580D43552484DB1BD5C1B61 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/half.cpp */ = {isa = PBXBuildFile; fileRef = 8B0D2B3851B04710AE51F279 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/half.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		370650F8F1784CEBB82C84BC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 8EC822378AC040CEB63B11AA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		37C1123EE7794109B97AAA24 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/half.h */ = {isa = PBXBuildFile; fileRef = 73AF4418017B4612943E0D62 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/half.h */; settings = {COMPILER_FLAGS = ""; }; };
+		38833A933E0B4E0292A0BD1F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.h */ = {isa = PBXBuildFile; fileRef = 5B1F59F08E4F4EFA91D45DFC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		39149C2AFD9D4DB1A1B44733 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAttribute.h */ = {isa = PBXBuildFile; fileRef = 0712E0011191433CBE9BD59B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		3B7F83430FC24CD38B00C9BD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaFile.h */ = {isa = PBXBuildFile; fileRef = 74CE20C1F7D54D7BA3DAEBF2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaFile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		3B8504A6D8164609907E1722 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressor.h */ = {isa = PBXBuildFile; fileRef = 69AB7E1B90E048439F8E091A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressor.h */; settings = {COMPILER_FLAGS = ""; }; };
+		3C2C80D24D124878986DCB73 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */ = {isa = PBXBuildFile; fileRef = DC873E9AB33F4D61861082D7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3DD9DC14A8C5452F81BD765F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledMisc.h */ = {isa = PBXBuildFile; fileRef = 3BFF219F81F44A308BA44A7C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledMisc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		406337FE3C86423DA3CBA635 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathSphere.h */ = {isa = PBXBuildFile; fileRef = 51E88AFFA5BE4FFFB4C42E29 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathSphere.h */; settings = {COMPILER_FLAGS = ""; }; };
+		414702BAA3F04019B19FED7F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */ = {isa = PBXBuildFile; fileRef = C60AB3E16F5A4A05A0D84CD3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		42057A9BD08249CF8D8345F3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFun.cpp */ = {isa = PBXBuildFile; fileRef = 175197C8FA1B404AA627E12A /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFun.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		425FB2FAF26F4CBB9B5A8B7E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStandardAttributes.h */ = {isa = PBXBuildFile; fileRef = C057A5DC03854BB9B1D47D36 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStandardAttributes.h */; settings = {COMPILER_FLAGS = ""; }; };
+		42EED1A591A34BB9A5511E74 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 8E3F96DB2ABD471FB9DA089D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		43A25F4A401346378D7A0BA2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCRgbaFile.h */ = {isa = PBXBuildFile; fileRef = B06113ED5ABA49228260430A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCRgbaFile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		44271A5D8C3F49CFA7AFA6B0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfArray.h */ = {isa = PBXBuildFile; fileRef = 1A01958EA9144ED9B5CD8433 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfArray.h */; settings = {COMPILER_FLAGS = ""; }; };
+		449BB763523B43E7802FEAD2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathBoxAlgo.h */ = {isa = PBXBuildFile; fileRef = F0EE2E45D7E74EDE92B68F25 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathBoxAlgo.h */; settings = {COMPILER_FLAGS = ""; }; };
+		467291E634314006A6483CFE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMatrixAttribute.h */ = {isa = PBXBuildFile; fileRef = 92952AABD7954827BE538C53 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMatrixAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		47B7BE0D40974BC79D5C6760 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRandom.cpp */ = {isa = PBXBuildFile; fileRef = A085C323A8C24605A66905AD /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRandom.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		486B845DFC124EAD8770E7F8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.h */ = {isa = PBXBuildFile; fileRef = 2BD0024BA52A4B80BA42869C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		48797CAD58E544B8AC426C79 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFrame.h */ = {isa = PBXBuildFile; fileRef = 982678E8F2974AEDB606C94A /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFrame.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4B68BD8CD06F4F1E92EB35AF /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathInterval.h */ = {isa = PBXBuildFile; fileRef = FA452CE65DF242BFA95A3A57 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathInterval.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4C1FA30F6B1F46838CEEEA7B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */ = {isa = PBXBuildFile; fileRef = 835A3F312A6944CB91385F00 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4D7845A370504DFCA11B034A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHeader.h */ = {isa = PBXBuildFile; fileRef = 4CC5DB8F2CFA4294A517C347 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHeader.h */; settings = {COMPILER_FLAGS = ""; }; };
+		51B7CC111BFB4038BE941DF0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */ = {isa = PBXBuildFile; fileRef = D05B1FC8762A4EBEAB306D8D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		545FD8A3A12A4DA6B0FB621A /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVecAlgo.h */ = {isa = PBXBuildFile; fileRef = 95CF0B20281E46CAAF6F7E27 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVecAlgo.h */; settings = {COMPILER_FLAGS = ""; }; };
+		561E6685A89344BE962BDB91 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileOffsets.h */ = {isa = PBXBuildFile; fileRef = 39230BA5A58D499A8DF527FC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileOffsets.h */; settings = {COMPILER_FLAGS = ""; }; };
+		56AD4D37BEAE4A88A24ADCC1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */ = {isa = PBXBuildFile; fileRef = 957A2CB09CC0479DB0993766 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		56D3250E97D54F63AF0424DA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHuf.cpp */ = {isa = PBXBuildFile; fileRef = ACAFA016FE784B5A97F139C2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHuf.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5780BC5243974336B4816FAA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTestFile.cpp */ = {isa = PBXBuildFile; fileRef = 575FDABC41244D80B05FD709 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTestFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		57AEC04A557E43AEB9F93139 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStdIO.h */ = {isa = PBXBuildFile; fileRef = 9D0BF20846544B08BB2FCAA1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStdIO.h */; settings = {COMPILER_FLAGS = ""; }; };
+		58E3A9FEED2B4289A341452D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThread.h */ = {isa = PBXBuildFile; fileRef = ADA3722140314D94B859B8F9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThread.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5A0A96BAC7FB45E584ABD501 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 8EAF5E0989DB45148CF1EEDB /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5B92FC1EE8DB487FABE31AC3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */ = {isa = PBXBuildFile; fileRef = 8A2317D988C44B8EB972DBDA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5B9C230E81874C7E90987338 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/eLut.h */ = {isa = PBXBuildFile; fileRef = 4188C1CA560B4408AC922372 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/eLut.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5F2D77230EC249FF9ACEC468 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfName.h */ = {isa = PBXBuildFile; fileRef = E8564BA9398348129F2C847C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfName.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5FE905776920436AB5EE481A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImage.h */ = {isa = PBXBuildFile; fileRef = 97F5844D8490413F8ADA4AEB /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImage.h */; settings = {COMPILER_FLAGS = ""; }; };
+		602922D550C04DC08B4F8959 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 226B3082845C4E1AB9BD9FD4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		607A4E3C3DDA4E6295B05179 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexBaseExc.cpp */ = {isa = PBXBuildFile; fileRef = AB6D7650FF0341DAB7D27C86 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexBaseExc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		61EC934FDE3E478080424919 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexThrowErrnoExc.h */ = {isa = PBXBuildFile; fileRef = 997FDF45DCD74354A2B324B9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexThrowErrnoExc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6220622FFB484EF1A6A1CEF5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfThreading.h */ = {isa = PBXBuildFile; fileRef = 03445AB7A37F4167A6BE638E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfThreading.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6248FF407D6143FB97811B35 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelList.h */ = {isa = PBXBuildFile; fileRef = 85F69D7EA542458CB4641423 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelList.h */; settings = {COMPILER_FLAGS = ""; }; };
+		62D1CADF80B5496BA53603B9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/toFloat.h */ = {isa = PBXBuildFile; fileRef = 8A47F41D75544D77A30A4A7D /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/toFloat.h */; settings = {COMPILER_FLAGS = ""; }; };
+		647AFD9D05EA487398393E03 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.h */ = {isa = PBXBuildFile; fileRef = 5487151BC06A4712A067A39C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		65F0D666D3C843D9ADD53FA2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */ = {isa = PBXBuildFile; fileRef = ECAFBAE8BFA74929A964E2C9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		68095448EB1F4DD282CC9C7B /* /Users/elliotstaudt/opencv/3rdparty/openexr/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6628BF16B3D24264847D79B3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		6A6F5CBACA03489FA3172958 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutex.h */ = {isa = PBXBuildFile; fileRef = 74D703793F714E3886B1ABAC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutex.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6BEE65076BCC476E9927FD56 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */ = {isa = PBXBuildFile; fileRef = EE5F2C51F5004A6ABC6E6C2E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6D6DE14CD03B4C28A2CC2823 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */ = {isa = PBXBuildFile; fileRef = 2C033682275A444CA6166B59 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6F2A833386AD4B9ABAE1D342 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */ = {isa = PBXBuildFile; fileRef = C18E4A080EE14A0C8D9DEED6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6F318508F5BC4B2686343F97 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfZipCompressor.h */ = {isa = PBXBuildFile; fileRef = F30DC3BB150E45979F5C13E5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfZipCompressor.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6F9956378346442F8D9A9998 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrix.h */ = {isa = PBXBuildFile; fileRef = 209C8544B3BF431282F7E82C /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrix.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6FD01E222717476F93661A00 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */ = {isa = PBXBuildFile; fileRef = D01B2223DEC0424A8DBEAAFD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6FE28DBCB8CC4E6EB61154DE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledInputFile.h */ = {isa = PBXBuildFile; fileRef = DA3E34EB2AE04C318D2236B5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledInputFile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		70565AE8C1F544A1A421D8AE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */ = {isa = PBXBuildFile; fileRef = E5A0EE9380964A058EDD0BE7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		713EE6671DE74506A11F19EE /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/Iex.h */ = {isa = PBXBuildFile; fileRef = 73909628C0744EEEBA3879D8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/Iex.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7385DCC388774A06B05D6544 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFrustumTest.h */ = {isa = PBXBuildFile; fileRef = D434F7DC5DB84F388BCC56D1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFrustumTest.h */; settings = {COMPILER_FLAGS = ""; }; };
+		744C7F04541B4BA68AF1DBB1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfWav.cpp */ = {isa = PBXBuildFile; fileRef = 77BAD3D81C844BEFAFF776D5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfWav.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7641980F9F0E496C9D2EC1E6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathGLU.h */ = {isa = PBXBuildFile; fileRef = 7D13B47D5E634A9F90466712 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathGLU.h */; settings = {COMPILER_FLAGS = ""; }; };
+		768495FD604340D792D448E0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInputFile.h */ = {isa = PBXBuildFile; fileRef = CD360C409856430F857A170D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInputFile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		76879172398F44E1873EEA33 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */ = {isa = PBXBuildFile; fileRef = C809F471D4BA475E90EAD6E6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		774F562B05AA4D85A2EC06EF /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVec.cpp */ = {isa = PBXBuildFile; fileRef = E3F2DA36AC7D4228ACBB1986 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVec.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		775A7F27CC234988A476A0FB /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexErrnoExc.h */ = {isa = PBXBuildFile; fileRef = E169668BAD3F41A3860F8B3B /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexErrnoExc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		78428EAC0C174E1F856AEECD /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathLine.h */ = {isa = PBXBuildFile; fileRef = E9092A652BBD40C0A6FCDEFC /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathLine.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7BA11B526323417F9094A7BF /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */ = {isa = PBXBuildFile; fileRef = 78E8613C14BC429BA75B8696 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7E2FD0579A1A431DA849E7F5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathQuat.h */ = {isa = PBXBuildFile; fileRef = A579211D9BA14600B319CB74 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathQuat.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7FFB0E21FC0C44D4A0507BFA /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/halfLimits.h */ = {isa = PBXBuildFile; fileRef = B2AF4CB1AFF74C2999EF2147 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/halfLimits.h */; settings = {COMPILER_FLAGS = ""; }; };
+		84680D6070E44D6A9B05EA85 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVersion.cpp */ = {isa = PBXBuildFile; fileRef = 304FCA68614F446999003782 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVersion.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		86959AEABAB04F26B4D99C9E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */ = {isa = PBXBuildFile; fileRef = 9E7B61ED120643F0A4A5F618 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		874F767E162E49439869D0A1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/b44ExpLogTable.h */ = {isa = PBXBuildFile; fileRef = 7BE3A85291A04A868C46CF67 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/b44ExpLogTable.h */; settings = {COMPILER_FLAGS = ""; }; };
+		887BF63C010B4FDC80A77CC3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRational.cpp */ = {isa = PBXBuildFile; fileRef = 96CE91BE53B74485A0DC30BD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRational.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8942DBABF5C14B889CFE1F11 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmap.h */ = {isa = PBXBuildFile; fileRef = 821F3D0192C04CC99704342E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmap.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8A20589FC37B45A6B960E126 /* /Users/elliotstaudt/opencv/build/3rdparty/openexr/IlmBaseConfig.h */ = {isa = PBXBuildFile; fileRef = 37759DC7351A40AFAE555B2D /* /Users/elliotstaudt/opencv/build/3rdparty/openexr/IlmBaseConfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8ABE5E8882E549759DF04DF3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 6B365EBB66464FBC8699828B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8DD522DE26314DBFA21DB6B6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */ = {isa = PBXBuildFile; fileRef = 962C5342A2554915A8E23CC3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8E0C38E8563445B49105CC1B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */ = {isa = PBXBuildFile; fileRef = BBB9B6F491A24B17BC8433B6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8F4C68CEB863493A945E6113 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrder.h */ = {isa = PBXBuildFile; fileRef = AB97131F65D445338C5465FE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrder.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8FC84AC35F5340B6BC8A8307 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfB44Compressor.h */ = {isa = PBXBuildFile; fileRef = F236D416C27945889D932C8A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfB44Compressor.h */; settings = {COMPILER_FLAGS = ""; }; };
+		91B63D90F6E944A0BF932E4D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */ = {isa = PBXBuildFile; fileRef = 2B845C5C8AE3404191248D7A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		95A4B1056D3D416A801727C1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.h */ = {isa = PBXBuildFile; fileRef = 6C60DD86755B4782BBB9B990 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		97D939103ED441E1AC49FFE4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathEuler.h */ = {isa = PBXBuildFile; fileRef = CF7824CB2D15484C8A33EFF5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathEuler.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9BB66BF52F1543BBAAAD815B /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFun.h */ = {isa = PBXBuildFile; fileRef = C8DE9CC9AE54477A8216F212 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFun.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9CA1AD0C8976437884AD577F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTestFile.h */ = {isa = PBXBuildFile; fileRef = 06FB1C82F605415E96AEA8C0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTestFile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9CF1594696F44BA2A9FDBFEF /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFloatAttribute.h */ = {isa = PBXBuildFile; fileRef = 7039FA6DC232497AB9398750 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFloatAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9EDE6E396EFB458C95FDEA84 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLut.cpp */ = {isa = PBXBuildFile; fileRef = 029B8C6CE83F4CA68897EC59 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLut.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9F182E70160C42438E5F6281 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVec.h */ = {isa = PBXBuildFile; fileRef = 1265FCEA07E948CBADDE9651 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVec.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9F7A9FA8A2BE443AA2A985E7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOutputFile.h */ = {isa = PBXBuildFile; fileRef = A82E173F9A20447AB3105016 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOutputFile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A0E3D8D00E6B43D1BE001F6F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStdIO.cpp */ = {isa = PBXBuildFile; fileRef = 5AB903015D7C41B0AAFBAE33 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStdIO.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A4F5F437E4CC4ACFBB5F71B7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/halfFunction.h */ = {isa = PBXBuildFile; fileRef = 6DAC4E3E897C4803BF886C2D /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/halfFunction.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A670EA8D553A4001AC53A542 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathExc.h */ = {isa = PBXBuildFile; fileRef = 51F6A612747A470192C19BF5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathExc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A755CD0E932646ABA44776C3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIO.h */ = {isa = PBXBuildFile; fileRef = 154BB7E95BF14EB2839FB34B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIO.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A852370A446D47DDB598DCF1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 5DB2727E660A4AF6AAF76C07 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A92A7FDCE2C74AC3ABC5F55C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.h */ = {isa = PBXBuildFile; fileRef = 57129EA2C9ED42D6A31E1AF7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		AA663A6CFD9449E38E9429E6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.h */ = {isa = PBXBuildFile; fileRef = 0CEA3A57CF63462FB8A7472E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		AAE132EFEE0443A19D39FD00 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */ = {isa = PBXBuildFile; fileRef = 7C506DAF38E3468FB72ABD97 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		ACD1463C7D204D069EE574B4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIO.cpp */ = {isa = PBXBuildFile; fileRef = EB744C6A49434FA3BC8F1627 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIO.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AD533A01529F44148DDC25B6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompression.h */ = {isa = PBXBuildFile; fileRef = C0F2645E04AD406B9CA33C2F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompression.h */; settings = {COMPILER_FLAGS = ""; }; };
+		AD8F41C4D6C740F8936E770F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAcesFile.h */ = {isa = PBXBuildFile; fileRef = BBE700D817044856A3A358CE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAcesFile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		ADB14C509B7B41CA806A15DA /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexBaseExc.h */ = {isa = PBXBuildFile; fileRef = 7F06571C82E34EF3A24F17E4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexBaseExc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B11959FC67DF41FC8D506815 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPxr24Compressor.h */ = {isa = PBXBuildFile; fileRef = 9695B3CF1412429D81E2857D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPxr24Compressor.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B31A33F2AFDE46C5AE07508F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 4F799AE347A44311BF26CE2A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B37F80AD7C084AD0BF6D8C7B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */ = {isa = PBXBuildFile; fileRef = EC14648C00634CF4A9F02B69 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B57F8E152E5045F2822144E9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphore.h */ = {isa = PBXBuildFile; fileRef = 8BCAA3866E794AAB96D096DD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphore.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B68E1740FCB944D4B015F6E1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCode.h */ = {isa = PBXBuildFile; fileRef = A182720ED8754538AB116409 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCode.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B81EE0CD87AB40038393B196 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMisc.cpp */ = {isa = PBXBuildFile; fileRef = 45849AA18C7444339273C721 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMisc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B8B7D423EBBB47B3A8C471E1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrixAlgo.h */ = {isa = PBXBuildFile; fileRef = B61A880956754BDD8EA19533 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrixAlgo.h */; settings = {COMPILER_FLAGS = ""; }; };
+		BC6FA82353AF406DBC5A5868 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexMacros.h */ = {isa = PBXBuildFile; fileRef = 622CDF36BD304EC3A6EFBC8B /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexMacros.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C0598138E50D45EDBF84BAE3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInt64.h */ = {isa = PBXBuildFile; fileRef = FDAFC8289F00435EAA179C17 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInt64.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C18E758614CC492DB2D7FB9F /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexMathExc.h */ = {isa = PBXBuildFile; fileRef = 5E5BA93EFF644B0E88874EB2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexMathExc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C2B7A8933FA9468482E53DE0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMath.h */ = {isa = PBXBuildFile; fileRef = 39F74BA2E6234F079D19AB01 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMath.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C33EC9CFAAAA4A8BB0257B50 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAttribute.cpp */ = {isa = PBXBuildFile; fileRef = A19DB5D2B404459FB0BBB0C5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C44FDE0699BA4C35BBC0BDF9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticities.h */ = {isa = PBXBuildFile; fileRef = 368BF9D7D97247219AAA6C60 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticities.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C62497855F434ABEB6BAD990 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHuf.h */ = {isa = PBXBuildFile; fileRef = 47FD3294B4FC42F89C109BC3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHuf.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C67C65A9A77E4FE0947A23D2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */ = {isa = PBXBuildFile; fileRef = F02B7A4CBA0E4AB2A2C55184 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C7C5D60D712843D89E58CE09 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMisc.h */ = {isa = PBXBuildFile; fileRef = 39A9D619F147421AADFDF658 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMisc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CB183FAD2036461995A6DB5D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.h */ = {isa = PBXBuildFile; fileRef = 3CDC4BDAB7A3409196D60470 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CC7CBBDADC8440B68EB0C8F1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */ = {isa = PBXBuildFile; fileRef = EE46DBA869ED44CDABC543EB /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CE302E6893774A849E5225FC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfWav.h */ = {isa = PBXBuildFile; fileRef = 8823783275434049A1E112F4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfWav.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CFFC584C4EAE40F9B28261FE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMultiView.cpp */ = {isa = PBXBuildFile; fileRef = D47C34D58C464C7892379279 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMultiView.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D1BEDAE9E1F44462A450C5D7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.h */ = {isa = PBXBuildFile; fileRef = 7D943B50C7B64833892B8609 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D2EB540BEDCD47AF99FE2642 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */ = {isa = PBXBuildFile; fileRef = 8C1634AD02BC4DDEB1DB586C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D4025ADE7BF248D9B62700AD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */ = {isa = PBXBuildFile; fileRef = 6ED67206528F4730BB71AC0A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D50954AA0F57490B903E79BE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPool.h */ = {isa = PBXBuildFile; fileRef = 8CA399D8BD294397B347C539 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPool.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D53597ED1A8F478AA0F5043A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaYca.h */ = {isa = PBXBuildFile; fileRef = C1289B29A1C44A43A7DE830F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaYca.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D563DF59FAB148A3B2D7CEE7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 40FF2CF0C3FF471FAD51C231 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DB5F758999DB4CAE842A3B5A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHeader.cpp */ = {isa = PBXBuildFile; fileRef = 528E858982B04BCCAE5570C8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHeader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DD5C4CC5C5F945ADB109395C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressionAttribute.h */ = {isa = PBXBuildFile; fileRef = 3A42CD0182AD442DA498210E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressionAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E129ECE74AD14450BF2857F1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInputFile.cpp */ = {isa = PBXBuildFile; fileRef = 45C5FE92206F49DBA2A79C62 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInputFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E23081901F824C66A63690A8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathGL.h */ = {isa = PBXBuildFile; fileRef = DADD4345B071418D89ABEFE0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathGL.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E383258C239444B2BB05B197 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPixelType.h */ = {isa = PBXBuildFile; fileRef = 067915DB76734D53A48CD345 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPixelType.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E566EDF94CB04F7FA4761A11 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVecAttribute.h */ = {isa = PBXBuildFile; fileRef = 0DF6AB48621B43A0B406F9CD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVecAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E63B54D868994A70B4D6B458 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelList.cpp */ = {isa = PBXBuildFile; fileRef = 4D221074F34F43B49E7A22CF /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelList.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E66E2EEE5EFD441DB506EEE9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLut.h */ = {isa = PBXBuildFile; fileRef = AF7BA8D8001A45879C8EA07E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLut.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E6B33946140649CA874BFB33 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathLimits.h */ = {isa = PBXBuildFile; fileRef = 6F0725667B0141E3B28B6D15 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathLimits.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E706DD63144D4E8F8329AC12 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressor.cpp */ = {isa = PBXBuildFile; fileRef = 007BF8F6D9F04138AA73AAEA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressor.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E7F0D3C47B4F4B089E960F99 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIntAttribute.h */ = {isa = PBXBuildFile; fileRef = FB0A092F846D4FFB9725C715 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIntAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E8644FAD0BFB4B8686E1BF2D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */ = {isa = PBXBuildFile; fileRef = A4AC6BF2E89F4533A3B61020 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E930D0C794404E759A912647 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */ = {isa = PBXBuildFile; fileRef = 57558AE392AE4D26A7409F8C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E9EE55929A7F454CBE70B81F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */ = {isa = PBXBuildFile; fileRef = 36F266A8AE5541309C4BBF4D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EADA0C23BB3D4333ACB8971A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfBoxAttribute.h */ = {isa = PBXBuildFile; fileRef = 8248FE5666A745A39D9D274C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfBoxAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EB013E700ADE482587AEB18D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAutoArray.h */ = {isa = PBXBuildFile; fileRef = B237798594C44321A6D8EA8D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAutoArray.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EBF674A06F6C46A6BBDEAEC8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThread.cpp */ = {isa = PBXBuildFile; fileRef = C14407623F4A41C191CBB325 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThread.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EC0BCDD29F814317A90FC4A4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelListAttribute.h */ = {isa = PBXBuildFile; fileRef = 4DEE225FFBF242A9A26CDAF4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelListAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F1059C6E955B42E6B919624E /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathLineAlgo.h */ = {isa = PBXBuildFile; fileRef = 3741970BE3664ED5A6BF90FD /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathLineAlgo.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F1B5EFED48FB4D94ABFE96BC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfConvert.cpp */ = {isa = PBXBuildFile; fileRef = E18F043467D3493BAB740CE9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfConvert.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F1E07521CE8343B6A89F495F /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathInt64.h */ = {isa = PBXBuildFile; fileRef = BF8D3044FE1E471184F7CB79 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathInt64.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F27288226DBD4E1F914E570F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.h */ = {isa = PBXBuildFile; fileRef = 63E2C9EEDB5A47EBAFA48A90 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F40092F30FF8472199DE2277 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h */ = {isa = PBXBuildFile; fileRef = E1BE93A25EB84BA69A7CDB6C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F4BD6D38B80447C2A76760B8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVersion.h */ = {isa = PBXBuildFile; fileRef = D6D53564EC0640CB9F8FFA6A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVersion.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F64272116F4E42239A3401B2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRandom.h */ = {isa = PBXBuildFile; fileRef = 136F71AB9A854810895ADD2A /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRandom.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F95273B6570D42868A424DE9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfConvert.h */ = {isa = PBXBuildFile; fileRef = 2667FD26F2E5435894E05A95 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfConvert.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FA8FAC3A16244AB3886335E5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */ = {isa = PBXBuildFile; fileRef = 7DD182042B1841B187BC441F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FB660CEFA0544D15BAB7DEA8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */ = {isa = PBXBuildFile; fileRef = F88B75ED31034C388D5E56C8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FDBD3B24E264489587DEAA27 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */ = {isa = PBXBuildFile; fileRef = 1810F2F886F64EF4A621AF73 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FFD89A37EF95409AB0C50779 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRationalAttribute.h */ = {isa = PBXBuildFile; fileRef = 2BF6C666DE844B739C80DED0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRationalAttribute.h */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4CEBE671AF1C456F8FA12137 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		76AC2A30007745A0B3332803 = {
+			isa = PBXBuildStyle;
+		};
+		ADAFA215134A4A8D8F3BA135 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		21DF3F4377374F0C8E7D27A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55503983B5A447F865AD47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		5C4E07CFFC6C41EEBE7D735E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55503983B5A447F865AD47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		69D5087347D94C3080DC2BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55503983B5A447F865AD47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ED5510B7F49410EA5B7A677;
+			remoteInfo = IlmImf;
+		};
+		72EF1BDE1A354E3BB0B8DF42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55503983B5A447F865AD47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		CAA93C6B36CE44E7AF797DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55503983B5A447F865AD47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007BF8F6D9F04138AA73AAEA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfCompressor.cpp; path = IlmImf/ImfCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		029B8C6CE83F4CA68897EC59 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfLut.cpp; path = IlmImf/ImfLut.cpp; sourceTree = SOURCE_ROOT; };
+		0311FB1A235A4210900198CA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadPosix.cpp; path = IlmThread/IlmThreadPosix.cpp; sourceTree = SOURCE_ROOT; };
+		03445AB7A37F4167A6BE638E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfThreading.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfThreading.h; path = IlmImf/ImfThreading.h; sourceTree = SOURCE_ROOT; };
+		0427FC291E444D17B9EFEF01 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFramesPerSecond.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfFramesPerSecond.h; path = IlmImf/ImfFramesPerSecond.h; sourceTree = SOURCE_ROOT; };
+		067915DB76734D53A48CD345 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPixelType.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPixelType.h; path = IlmImf/ImfPixelType.h; sourceTree = SOURCE_ROOT; };
+		06FB1C82F605415E96AEA8C0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTestFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTestFile.h; path = IlmImf/ImfTestFile.h; sourceTree = SOURCE_ROOT; };
+		0712E0011191433CBE9BD59B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfAttribute.h; path = IlmImf/ImfAttribute.h; sourceTree = SOURCE_ROOT; };
+		0767901F8FE043069831E228 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphore.cpp; path = IlmThread/IlmThreadSemaphore.cpp; sourceTree = SOURCE_ROOT; };
+		07D0C0A226F94A8886FA886F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfLineOrderAttribute.h; path = IlmImf/ImfLineOrderAttribute.h; sourceTree = SOURCE_ROOT; };
+		093011BE63194972A6813217 /* /Users/elliotstaudt/opencv/build/3rdparty/openexr/OpenEXRConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OpenEXRConfig.h; path = ../../build/3rdparty/openexr/OpenEXRConfig.h; sourceTree = SOURCE_ROOT; };
+		0CEA3A57CF63462FB8A7472E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfOpaqueAttribute.h; path = IlmImf/ImfOpaqueAttribute.h; sourceTree = SOURCE_ROOT; };
+		0DF6AB48621B43A0B406F9CD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVecAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfVecAttribute.h; path = IlmImf/ImfVecAttribute.h; sourceTree = SOURCE_ROOT; };
+		1265FCEA07E948CBADDE9651 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathVec.h; path = Imath/ImathVec.h; sourceTree = SOURCE_ROOT; };
+		12B989CA4F8543D78404B1D6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRational.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRational.h; path = IlmImf/ImfRational.h; sourceTree = SOURCE_ROOT; };
+		136F71AB9A854810895ADD2A /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRandom.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathRandom.h; path = Imath/ImathRandom.h; sourceTree = SOURCE_ROOT; };
+		154BB7E95BF14EB2839FB34B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIO.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfIO.h; path = IlmImf/ImfIO.h; sourceTree = SOURCE_ROOT; };
+		155F88AB145C4C49B99A9599 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescription.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTileDescription.h; path = IlmImf/ImfTileDescription.h; sourceTree = SOURCE_ROOT; };
+		175197C8FA1B404AA627E12A /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFun.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathFun.cpp; path = Imath/ImathFun.cpp; sourceTree = SOURCE_ROOT; };
+		1810F2F886F64EF4A621AF73 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfChromaticitiesAttribute.cpp; path = IlmImf/ImfChromaticitiesAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		1A01958EA9144ED9B5CD8433 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfArray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfArray.h; path = IlmImf/ImfArray.h; sourceTree = SOURCE_ROOT; };
+		1B29A10395984B68923D5DA5 /* IlmImf */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIlmImf.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA4AC7293D844C1AA4AD34F /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathPlatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathPlatform.h; path = Imath/ImathPlatform.h; sourceTree = SOURCE_ROOT; };
+		1CBBFA7AACE245849E9C2FBC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCheckedArithmetic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCheckedArithmetic.h; path = IlmImf/ImfCheckedArithmetic.h; sourceTree = SOURCE_ROOT; };
+		1DF11C1B394043A487E5E8D1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfBoxAttribute.cpp; path = IlmImf/ImfBoxAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		1F3B29CA633249C18D8F2AAD /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFrustum.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathFrustum.h; path = Imath/ImathFrustum.h; sourceTree = SOURCE_ROOT; };
+		209C8544B3BF431282F7E82C /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathMatrix.h; path = Imath/ImathMatrix.h; sourceTree = SOURCE_ROOT; };
+		226B3082845C4E1AB9BD9FD4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfIntAttribute.cpp; path = IlmImf/ImfIntAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		2667FD26F2E5435894E05A95 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfConvert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfConvert.h; path = IlmImf/ImfConvert.h; sourceTree = SOURCE_ROOT; };
+		2B845C5C8AE3404191248D7A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfFrameBuffer.cpp; path = IlmImf/ImfFrameBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		2BD0024BA52A4B80BA42869C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfKeyCodeAttribute.h; path = IlmImf/ImfKeyCodeAttribute.h; sourceTree = SOURCE_ROOT; };
+		2BF6C666DE844B739C80DED0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRationalAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRationalAttribute.h; path = IlmImf/ImfRationalAttribute.h; sourceTree = SOURCE_ROOT; };
+		2C033682275A444CA6166B59 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTileOffsets.cpp; path = IlmImf/ImfTileOffsets.cpp; sourceTree = SOURCE_ROOT; };
+		304FCA68614F446999003782 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVersion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfVersion.cpp; path = IlmImf/ImfVersion.cpp; sourceTree = SOURCE_ROOT; };
+		368BF9D7D97247219AAA6C60 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticities.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfChromaticities.h; path = IlmImf/ImfChromaticities.h; sourceTree = SOURCE_ROOT; };
+		36F266A8AE5541309C4BBF4D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadMutex.cpp; path = IlmThread/IlmThreadMutex.cpp; sourceTree = SOURCE_ROOT; };
+		3741970BE3664ED5A6BF90FD /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathLineAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathLineAlgo.h; path = Imath/ImathLineAlgo.h; sourceTree = SOURCE_ROOT; };
+		37759DC7351A40AFAE555B2D /* /Users/elliotstaudt/opencv/build/3rdparty/openexr/IlmBaseConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmBaseConfig.h; path = ../../build/3rdparty/openexr/IlmBaseConfig.h; sourceTree = SOURCE_ROOT; };
+		39230BA5A58D499A8DF527FC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileOffsets.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTileOffsets.h; path = IlmImf/ImfTileOffsets.h; sourceTree = SOURCE_ROOT; };
+		39A9D619F147421AADFDF658 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMisc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfMisc.h; path = IlmImf/ImfMisc.h; sourceTree = SOURCE_ROOT; };
+		39F74BA2E6234F079D19AB01 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathMath.h; path = Imath/ImathMath.h; sourceTree = SOURCE_ROOT; };
+		3A42CD0182AD442DA498210E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressionAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCompressionAttribute.h; path = IlmImf/ImfCompressionAttribute.h; sourceTree = SOURCE_ROOT; };
+		3BFF219F81F44A308BA44A7C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledMisc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTiledMisc.h; path = IlmImf/ImfTiledMisc.h; sourceTree = SOURCE_ROOT; };
+		3CDC4BDAB7A3409196D60470 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfEnvmapAttribute.h; path = IlmImf/ImfEnvmapAttribute.h; sourceTree = SOURCE_ROOT; };
+		40FF2CF0C3FF471FAD51C231 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTimeCodeAttribute.cpp; path = IlmImf/ImfTimeCodeAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		4188C1CA560B4408AC922372 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/eLut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eLut.h; path = Half/eLut.h; sourceTree = SOURCE_ROOT; };
+		45849AA18C7444339273C721 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMisc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfMisc.cpp; path = IlmImf/ImfMisc.cpp; sourceTree = SOURCE_ROOT; };
+		45C5FE92206F49DBA2A79C62 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfInputFile.cpp; path = IlmImf/ImfInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		47FD3294B4FC42F89C109BC3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHuf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfHuf.h; path = IlmImf/ImfHuf.h; sourceTree = SOURCE_ROOT; };
+		4AD24E4C43154C7AAAE5AFAE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfDoubleAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfDoubleAttribute.h; path = IlmImf/ImfDoubleAttribute.h; sourceTree = SOURCE_ROOT; };
+		4CC5DB8F2CFA4294A517C347 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHeader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfHeader.h; path = IlmImf/ImfHeader.h; sourceTree = SOURCE_ROOT; };
+		4D221074F34F43B49E7A22CF /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelList.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfChannelList.cpp; path = IlmImf/ImfChannelList.cpp; sourceTree = SOURCE_ROOT; };
+		4DEE225FFBF242A9A26CDAF4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelListAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfChannelListAttribute.h; path = IlmImf/ImfChannelListAttribute.h; sourceTree = SOURCE_ROOT; };
+		4F3F385A9F114AF0B6DDBFA4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathColor.h; path = Imath/ImathColor.h; sourceTree = SOURCE_ROOT; };
+		4F799AE347A44311BF26CE2A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRationalAttribute.cpp; path = IlmImf/ImfRationalAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		51E88AFFA5BE4FFFB4C42E29 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathSphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathSphere.h; path = Imath/ImathSphere.h; sourceTree = SOURCE_ROOT; };
+		51F6A612747A470192C19BF5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathExc.h; path = Imath/ImathExc.h; sourceTree = SOURCE_ROOT; };
+		528E858982B04BCCAE5570C8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHeader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfHeader.cpp; path = IlmImf/ImfHeader.cpp; sourceTree = SOURCE_ROOT; };
+		5487151BC06A4712A067A39C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPreviewImageAttribute.h; path = IlmImf/ImfPreviewImageAttribute.h; sourceTree = SOURCE_ROOT; };
+		57129EA2C9ED42D6A31E1AF7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTimeCodeAttribute.h; path = IlmImf/ImfTimeCodeAttribute.h; sourceTree = SOURCE_ROOT; };
+		57558AE392AE4D26A7409F8C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfAcesFile.cpp; path = IlmImf/ImfAcesFile.cpp; sourceTree = SOURCE_ROOT; };
+		575FDABC41244D80B05FD709 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTestFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTestFile.cpp; path = IlmImf/ImfTestFile.cpp; sourceTree = SOURCE_ROOT; };
+		5AB903015D7C41B0AAFBAE33 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStdIO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfStdIO.cpp; path = IlmImf/ImfStdIO.cpp; sourceTree = SOURCE_ROOT; };
+		5B1F59F08E4F4EFA91D45DFC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfStringVectorAttribute.h; path = IlmImf/ImfStringVectorAttribute.h; sourceTree = SOURCE_ROOT; };
+		5DB2727E660A4AF6AAF76C07 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfPreviewImageAttribute.cpp; path = IlmImf/ImfPreviewImageAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		5E5BA93EFF644B0E88874EB2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexMathExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexMathExc.h; path = Iex/IexMathExc.h; sourceTree = SOURCE_ROOT; };
+		622CDF36BD304EC3A6EFBC8B /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexMacros.h; path = Iex/IexMacros.h; sourceTree = SOURCE_ROOT; };
+		63E2C9EEDB5A47EBAFA48A90 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfChromaticitiesAttribute.h; path = IlmImf/ImfChromaticitiesAttribute.h; sourceTree = SOURCE_ROOT; };
+		6628BF16B3D24264847D79B3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		69AB7E1B90E048439F8E091A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCompressor.h; path = IlmImf/ImfCompressor.h; sourceTree = SOURCE_ROOT; };
+		6B365EBB66464FBC8699828B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfFloatAttribute.cpp; path = IlmImf/ImfFloatAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		6C60DD86755B4782BBB9B990 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTiledRgbaFile.h; path = IlmImf/ImfTiledRgbaFile.h; sourceTree = SOURCE_ROOT; };
+		6DAC4E3E897C4803BF886C2D /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/halfFunction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = halfFunction.h; path = Half/halfFunction.h; sourceTree = SOURCE_ROOT; };
+		6DBD384944B8490CA3AE7C79 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfCRgbaFile.cpp; path = IlmImf/ImfCRgbaFile.cpp; sourceTree = SOURCE_ROOT; };
+		6ED67206528F4730BB71AC0A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphorePosixCompat.cpp; path = IlmThread/IlmThreadSemaphorePosixCompat.cpp; sourceTree = SOURCE_ROOT; };
+		6F0725667B0141E3B28B6D15 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathLimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathLimits.h; path = Imath/ImathLimits.h; sourceTree = SOURCE_ROOT; };
+		7039FA6DC232497AB9398750 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFloatAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfFloatAttribute.h; path = IlmImf/ImfFloatAttribute.h; sourceTree = SOURCE_ROOT; };
+		73909628C0744EEEBA3879D8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/Iex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Iex.h; path = Iex/Iex.h; sourceTree = SOURCE_ROOT; };
+		73AF4418017B4612943E0D62 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/half.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = half.h; path = Half/half.h; sourceTree = SOURCE_ROOT; };
+		74CE20C1F7D54D7BA3DAEBF2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRgbaFile.h; path = IlmImf/ImfRgbaFile.h; sourceTree = SOURCE_ROOT; };
+		74D703793F714E3886B1ABAC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmThreadMutex.h; path = IlmThread/IlmThreadMutex.h; sourceTree = SOURCE_ROOT; };
+		7541B0739608480393B04A5F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfKeyCode.h; path = IlmImf/ImfKeyCode.h; sourceTree = SOURCE_ROOT; };
+		7601133BBD924E14A069F7E8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfEnvmapAttribute.cpp; path = IlmImf/ImfEnvmapAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		77BAD3D81C844BEFAFF776D5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfWav.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfWav.cpp; path = IlmImf/ImfWav.cpp; sourceTree = SOURCE_ROOT; };
+		78E8613C14BC429BA75B8696 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathMatrixAlgo.cpp; path = Imath/ImathMatrixAlgo.cpp; sourceTree = SOURCE_ROOT; };
+		7BE3A85291A04A868C46CF67 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/b44ExpLogTable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = b44ExpLogTable.h; path = IlmImf/b44ExpLogTable.h; sourceTree = SOURCE_ROOT; };
+		7C506DAF38E3468FB72ABD97 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTiledOutputFile.cpp; path = IlmImf/ImfTiledOutputFile.cpp; sourceTree = SOURCE_ROOT; };
+		7D13B47D5E634A9F90466712 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathGLU.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathGLU.h; path = Imath/ImathGLU.h; sourceTree = SOURCE_ROOT; };
+		7D943B50C7B64833892B8609 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTileDescriptionAttribute.h; path = IlmImf/ImfTileDescriptionAttribute.h; sourceTree = SOURCE_ROOT; };
+		7DD182042B1841B187BC441F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfPreviewImage.cpp; path = IlmImf/ImfPreviewImage.cpp; sourceTree = SOURCE_ROOT; };
+		7DF57E50CA80400681B6D681 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathBox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathBox.h; path = Imath/ImathBox.h; sourceTree = SOURCE_ROOT; };
+		7F06571C82E34EF3A24F17E4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexBaseExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexBaseExc.h; path = Iex/IexBaseExc.h; sourceTree = SOURCE_ROOT; };
+		7FB1E66C49E345E695F81540 /* /Users/elliotstaudt/opencv/3rdparty/openexr/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		821F3D0192C04CC99704342E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfEnvmap.h; path = IlmImf/ImfEnvmap.h; sourceTree = SOURCE_ROOT; };
+		823714ABC767414BA103A659 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfStringAttribute.h; path = IlmImf/ImfStringAttribute.h; sourceTree = SOURCE_ROOT; };
+		8248FE5666A745A39D9D274C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfBoxAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfBoxAttribute.h; path = IlmImf/ImfBoxAttribute.h; sourceTree = SOURCE_ROOT; };
+		835A3F312A6944CB91385F00 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfKeyCode.cpp; path = IlmImf/ImfKeyCode.cpp; sourceTree = SOURCE_ROOT; };
+		85F69D7EA542458CB4641423 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelList.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfChannelList.h; path = IlmImf/ImfChannelList.h; sourceTree = SOURCE_ROOT; };
+		86B70826DF54494B98C0C941 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfXdr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfXdr.h; path = IlmImf/ImfXdr.h; sourceTree = SOURCE_ROOT; };
+		877C544F3DAA4C9FAB5FFFB8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRoots.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathRoots.h; path = Imath/ImathRoots.h; sourceTree = SOURCE_ROOT; };
+		8823783275434049A1E112F4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfWav.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfWav.h; path = IlmImf/ImfWav.h; sourceTree = SOURCE_ROOT; };
+		8A2317D988C44B8EB972DBDA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTiledMisc.cpp; path = IlmImf/ImfTiledMisc.cpp; sourceTree = SOURCE_ROOT; };
+		8A47F41D75544D77A30A4A7D /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/toFloat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = toFloat.h; path = Half/toFloat.h; sourceTree = SOURCE_ROOT; };
+		8B0D2B3851B04710AE51F279 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/half.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = half.cpp; path = Half/half.cpp; sourceTree = SOURCE_ROOT; };
+		8BCAA3866E794AAB96D096DD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmThreadSemaphore.h; path = IlmThread/IlmThreadSemaphore.h; sourceTree = SOURCE_ROOT; };
+		8C1634AD02BC4DDEB1DB586C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadMutexPosix.cpp; path = IlmThread/IlmThreadMutexPosix.cpp; sourceTree = SOURCE_ROOT; };
+		8CA399D8BD294397B347C539 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmThreadPool.h; path = IlmThread/IlmThreadPool.h; sourceTree = SOURCE_ROOT; };
+		8E3F96DB2ABD471FB9DA089D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTileDescriptionAttribute.cpp; path = IlmImf/ImfTileDescriptionAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		8EAF5E0989DB45148CF1EEDB /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfKeyCodeAttribute.cpp; path = IlmImf/ImfKeyCodeAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		8EC822378AC040CEB63B11AA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfOpaqueAttribute.cpp; path = IlmImf/ImfOpaqueAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		92952AABD7954827BE538C53 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMatrixAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfMatrixAttribute.h; path = IlmImf/ImfMatrixAttribute.h; sourceTree = SOURCE_ROOT; };
+		9474E48A2FC94CA3B27D719E /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColorAlgo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathColorAlgo.cpp; path = Imath/ImathColorAlgo.cpp; sourceTree = SOURCE_ROOT; };
+		948FA364F04F49C58C6D2556 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfChromaticities.cpp; path = IlmImf/ImfChromaticities.cpp; sourceTree = SOURCE_ROOT; };
+		957A2CB09CC0479DB0993766 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphorePosix.cpp; path = IlmThread/IlmThreadSemaphorePosix.cpp; sourceTree = SOURCE_ROOT; };
+		95CF0B20281E46CAAF6F7E27 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVecAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathVecAlgo.h; path = Imath/ImathVecAlgo.h; sourceTree = SOURCE_ROOT; };
+		962C5342A2554915A8E23CC3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexThrowErrnoExc.cpp; path = Iex/IexThrowErrnoExc.cpp; sourceTree = SOURCE_ROOT; };
+		9695B3CF1412429D81E2857D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPxr24Compressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPxr24Compressor.h; path = IlmImf/ImfPxr24Compressor.h; sourceTree = SOURCE_ROOT; };
+		96CE91BE53B74485A0DC30BD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRational.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRational.cpp; path = IlmImf/ImfRational.cpp; sourceTree = SOURCE_ROOT; };
+		97968B2187F94E1D8927CFC0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfScanLineInputFile.h; path = IlmImf/ImfScanLineInputFile.h; sourceTree = SOURCE_ROOT; };
+		97F5844D8490413F8ADA4AEB /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPreviewImage.h; path = IlmImf/ImfPreviewImage.h; sourceTree = SOURCE_ROOT; };
+		982678E8F2974AEDB606C94A /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFrame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathFrame.h; path = Imath/ImathFrame.h; sourceTree = SOURCE_ROOT; };
+		997FDF45DCD74354A2B324B9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexThrowErrnoExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexThrowErrnoExc.h; path = Iex/IexThrowErrnoExc.h; sourceTree = SOURCE_ROOT; };
+		9D0BF20846544B08BB2FCAA1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStdIO.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfStdIO.h; path = IlmImf/ImfStdIO.h; sourceTree = SOURCE_ROOT; };
+		9E7B61ED120643F0A4A5F618 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTiledInputFile.cpp; path = IlmImf/ImfTiledInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		A085C323A8C24605A66905AD /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRandom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathRandom.cpp; path = Imath/ImathRandom.cpp; sourceTree = SOURCE_ROOT; };
+		A182720ED8754538AB116409 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTimeCode.h; path = IlmImf/ImfTimeCode.h; sourceTree = SOURCE_ROOT; };
+		A19DB5D2B404459FB0BBB0C5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfAttribute.cpp; path = IlmImf/ImfAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		A49FFB01E27C4FA2B581B8B2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfLineOrderAttribute.cpp; path = IlmImf/ImfLineOrderAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		A4AC6BF2E89F4533A3B61020 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfPizCompressor.cpp; path = IlmImf/ImfPizCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		A579211D9BA14600B319CB74 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathQuat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathQuat.h; path = Imath/ImathQuat.h; sourceTree = SOURCE_ROOT; };
+		A591E9F6E4ED4FFE834A0EEC /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathHalfLimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathHalfLimits.h; path = Imath/ImathHalfLimits.h; sourceTree = SOURCE_ROOT; };
+		A6E4D5AAD2C943299CE84AE2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathPlane.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathPlane.h; path = Imath/ImathPlane.h; sourceTree = SOURCE_ROOT; };
+		A82E173F9A20447AB3105016 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOutputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfOutputFile.h; path = IlmImf/ImfOutputFile.h; sourceTree = SOURCE_ROOT; };
+		A8F87C37BEB1427DA56A23D0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathShear.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathShear.h; path = Imath/ImathShear.h; sourceTree = SOURCE_ROOT; };
+		AB6D7650FF0341DAB7D27C86 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexBaseExc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexBaseExc.cpp; path = Iex/IexBaseExc.cpp; sourceTree = SOURCE_ROOT; };
+		AB97131F65D445338C5465FE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfLineOrder.h; path = IlmImf/ImfLineOrder.h; sourceTree = SOURCE_ROOT; };
+		ABD0C3D1AB234D9183F5C160 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTiledRgbaFile.cpp; path = IlmImf/ImfTiledRgbaFile.cpp; sourceTree = SOURCE_ROOT; };
+		ACAFA016FE784B5A97F139C2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHuf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfHuf.cpp; path = IlmImf/ImfHuf.cpp; sourceTree = SOURCE_ROOT; };
+		ADA3722140314D94B859B8F9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IlmThread.h; path = IlmThread/IlmThread.h; sourceTree = SOURCE_ROOT; };
+		AE218752B51A4733BCD0DB6E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRleCompressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRleCompressor.h; path = IlmImf/ImfRleCompressor.h; sourceTree = SOURCE_ROOT; };
+		AEACB27B30DC403CBD44F4DF /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfFramesPerSecond.cpp; path = IlmImf/ImfFramesPerSecond.cpp; sourceTree = SOURCE_ROOT; };
+		AF7BA8D8001A45879C8EA07E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLut.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfLut.h; path = IlmImf/ImfLut.h; sourceTree = SOURCE_ROOT; };
+		B06113ED5ABA49228260430A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCRgbaFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCRgbaFile.h; path = IlmImf/ImfCRgbaFile.h; sourceTree = SOURCE_ROOT; };
+		B237798594C44321A6D8EA8D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAutoArray.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfAutoArray.h; path = IlmImf/ImfAutoArray.h; sourceTree = SOURCE_ROOT; };
+		B2AF4CB1AFF74C2999EF2147 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/halfLimits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = halfLimits.h; path = Half/halfLimits.h; sourceTree = SOURCE_ROOT; };
+		B61A880956754BDD8EA19533 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrixAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathMatrixAlgo.h; path = Imath/ImathMatrixAlgo.h; sourceTree = SOURCE_ROOT; };
+		B70F50165F264D90820627E7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfChannelListAttribute.cpp; path = IlmImf/ImfChannelListAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		BBB9B6F491A24B17BC8433B6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadPool.cpp; path = IlmThread/IlmThreadPool.cpp; sourceTree = SOURCE_ROOT; };
+		BBE700D817044856A3A358CE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAcesFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfAcesFile.h; path = IlmImf/ImfAcesFile.h; sourceTree = SOURCE_ROOT; };
+		BF47172766C5463FB3750A0B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMultiView.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfMultiView.h; path = IlmImf/ImfMultiView.h; sourceTree = SOURCE_ROOT; };
+		BF8D3044FE1E471184F7CB79 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathInt64.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathInt64.h; path = Imath/ImathInt64.h; sourceTree = SOURCE_ROOT; };
+		C057A5DC03854BB9B1D47D36 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStandardAttributes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfStandardAttributes.h; path = IlmImf/ImfStandardAttributes.h; sourceTree = SOURCE_ROOT; };
+		C0F2645E04AD406B9CA33C2F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompression.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfCompression.h; path = IlmImf/ImfCompression.h; sourceTree = SOURCE_ROOT; };
+		C1289B29A1C44A43A7DE830F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaYca.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRgbaYca.h; path = IlmImf/ImfRgbaYca.h; sourceTree = SOURCE_ROOT; };
+		C14407623F4A41C191CBB325 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThread.cpp; path = IlmThread/IlmThread.cpp; sourceTree = SOURCE_ROOT; };
+		C18E4A080EE14A0C8D9DEED6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfScanLineInputFile.cpp; path = IlmImf/ImfScanLineInputFile.cpp; sourceTree = SOURCE_ROOT; };
+		C60AB3E16F5A4A05A0D84CD3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRgbaFile.cpp; path = IlmImf/ImfRgbaFile.cpp; sourceTree = SOURCE_ROOT; };
+		C809F471D4BA475E90EAD6E6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfZipCompressor.cpp; path = IlmImf/ImfZipCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		C8DE9CC9AE54477A8216F212 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFun.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathFun.h; path = Imath/ImathFun.h; sourceTree = SOURCE_ROOT; };
+		CD1E73934F2640A9B40A1C40 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgba.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfRgba.h; path = IlmImf/ImfRgba.h; sourceTree = SOURCE_ROOT; };
+		CD360C409856430F857A170D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfInputFile.h; path = IlmImf/ImfInputFile.h; sourceTree = SOURCE_ROOT; };
+		CF5FC53B31B846F4BFB02AB1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfCompressionAttribute.cpp; path = IlmImf/ImfCompressionAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		CF7824CB2D15484C8A33EFF5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathEuler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathEuler.h; path = Imath/ImathEuler.h; sourceTree = SOURCE_ROOT; };
+		D01B2223DEC0424A8DBEAAFD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfDoubleAttribute.cpp; path = IlmImf/ImfDoubleAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		D05B1FC8762A4EBEAB306D8D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfEnvmap.cpp; path = IlmImf/ImfEnvmap.cpp; sourceTree = SOURCE_ROOT; };
+		D434F7DC5DB84F388BCC56D1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFrustumTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathFrustumTest.h; path = Imath/ImathFrustumTest.h; sourceTree = SOURCE_ROOT; };
+		D47C34D58C464C7892379279 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMultiView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfMultiView.cpp; path = IlmImf/ImfMultiView.cpp; sourceTree = SOURCE_ROOT; };
+		D5A76615D7E74EF881B816CE /* /Users/elliotstaudt/opencv/3rdparty/openexr/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D6D53564EC0640CB9F8FFA6A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfVersion.h; path = IlmImf/ImfVersion.h; sourceTree = SOURCE_ROOT; };
+		DA3E34EB2AE04C318D2236B5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledInputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTiledInputFile.h; path = IlmImf/ImfTiledInputFile.h; sourceTree = SOURCE_ROOT; };
+		DADD4345B071418D89ABEFE0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathGL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathGL.h; path = Imath/ImathGL.h; sourceTree = SOURCE_ROOT; };
+		DC873E9AB33F4D61861082D7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfPxr24Compressor.cpp; path = IlmImf/ImfPxr24Compressor.cpp; sourceTree = SOURCE_ROOT; };
+		E169668BAD3F41A3860F8B3B /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexErrnoExc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IexErrnoExc.h; path = Iex/IexErrnoExc.h; sourceTree = SOURCE_ROOT; };
+		E18F043467D3493BAB740CE9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfConvert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfConvert.cpp; path = IlmImf/ImfConvert.cpp; sourceTree = SOURCE_ROOT; };
+		E1BE93A25EB84BA69A7CDB6C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfTiledOutputFile.h; path = IlmImf/ImfTiledOutputFile.h; sourceTree = SOURCE_ROOT; };
+		E3F2DA36AC7D4228ACBB1986 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathVec.cpp; path = Imath/ImathVec.cpp; sourceTree = SOURCE_ROOT; };
+		E5A0EE9380964A058EDD0BE7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfStandardAttributes.cpp; path = IlmImf/ImfStandardAttributes.cpp; sourceTree = SOURCE_ROOT; };
+		E63BDAD730DF43B28E1749D1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFrameBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfFrameBuffer.h; path = IlmImf/ImfFrameBuffer.h; sourceTree = SOURCE_ROOT; };
+		E8564BA9398348129F2C847C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfName.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfName.h; path = IlmImf/ImfName.h; sourceTree = SOURCE_ROOT; };
+		E9092A652BBD40C0A6FCDEFC /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathLine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathLine.h; path = Imath/ImathLine.h; sourceTree = SOURCE_ROOT; };
+		EB744C6A49434FA3BC8F1627 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIO.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfIO.cpp; path = IlmImf/ImfIO.cpp; sourceTree = SOURCE_ROOT; };
+		EC14648C00634CF4A9F02B69 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfMatrixAttribute.cpp; path = IlmImf/ImfMatrixAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		ECAFBAE8BFA74929A964E2C9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfB44Compressor.cpp; path = IlmImf/ImfB44Compressor.cpp; sourceTree = SOURCE_ROOT; };
+		EE46DBA869ED44CDABC543EB /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfTimeCode.cpp; path = IlmImf/ImfTimeCode.cpp; sourceTree = SOURCE_ROOT; };
+		EE5F2C51F5004A6ABC6E6C2E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRgbaYca.cpp; path = IlmImf/ImfRgbaYca.cpp; sourceTree = SOURCE_ROOT; };
+		EF08D3427061432FA09FF24E /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColorAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathColorAlgo.h; path = Imath/ImathColorAlgo.h; sourceTree = SOURCE_ROOT; };
+		EF741B7100554E29BD69818C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfThreading.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfThreading.cpp; path = IlmImf/ImfThreading.cpp; sourceTree = SOURCE_ROOT; };
+		F02B7A4CBA0E4AB2A2C55184 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfOutputFile.cpp; path = IlmImf/ImfOutputFile.cpp; sourceTree = SOURCE_ROOT; };
+		F0EE2E45D7E74EDE92B68F25 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathBoxAlgo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathBoxAlgo.h; path = Imath/ImathBoxAlgo.h; sourceTree = SOURCE_ROOT; };
+		F236D416C27945889D932C8A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfB44Compressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfB44Compressor.h; path = IlmImf/ImfB44Compressor.h; sourceTree = SOURCE_ROOT; };
+		F30DC3BB150E45979F5C13E5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfZipCompressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfZipCompressor.h; path = IlmImf/ImfZipCompressor.h; sourceTree = SOURCE_ROOT; };
+		F5E6B3FA2523473B9136A2FF /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfVecAttribute.cpp; path = IlmImf/ImfVecAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		F88B75ED31034C388D5E56C8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfStringVectorAttribute.cpp; path = IlmImf/ImfStringVectorAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		FA452CE65DF242BFA95A3A57 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathInterval.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImathInterval.h; path = Imath/ImathInterval.h; sourceTree = SOURCE_ROOT; };
+		FB0A092F846D4FFB9725C715 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIntAttribute.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfIntAttribute.h; path = IlmImf/ImfIntAttribute.h; sourceTree = SOURCE_ROOT; };
+		FBC240D221864E05B9B1BB07 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfRleCompressor.cpp; path = IlmImf/ImfRleCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		FDAFC8289F00435EAA179C17 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInt64.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfInt64.h; path = IlmImf/ImfInt64.h; sourceTree = SOURCE_ROOT; };
+		FEE66D1665074C2EBA5C54FC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPizCompressor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ImfPizCompressor.h; path = IlmImf/ImfPizCompressor.h; sourceTree = SOURCE_ROOT; };
+		FF8651D6FB2149EAB696DF44 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImfStringAttribute.cpp; path = IlmImf/ImfStringAttribute.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		064139FFC1384EB1B0E54799 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				8B0D2B3851B04710AE51F279 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/half.cpp */,
+				AB6D7650FF0341DAB7D27C86 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexBaseExc.cpp */,
+				962C5342A2554915A8E23CC3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */,
+				57558AE392AE4D26A7409F8C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */,
+				A19DB5D2B404459FB0BBB0C5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAttribute.cpp */,
+				ECAFBAE8BFA74929A964E2C9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */,
+				1DF11C1B394043A487E5E8D1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */,
+				6DBD384944B8490CA3AE7C79 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */,
+				4D221074F34F43B49E7A22CF /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelList.cpp */,
+				B70F50165F264D90820627E7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */,
+				948FA364F04F49C58C6D2556 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */,
+				1810F2F886F64EF4A621AF73 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */,
+				CF5FC53B31B846F4BFB02AB1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */,
+				007BF8F6D9F04138AA73AAEA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressor.cpp */,
+				E18F043467D3493BAB740CE9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfConvert.cpp */,
+				D01B2223DEC0424A8DBEAAFD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */,
+				D05B1FC8762A4EBEAB306D8D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */,
+				7601133BBD924E14A069F7E8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */,
+				6B365EBB66464FBC8699828B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */,
+				2B845C5C8AE3404191248D7A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */,
+				AEACB27B30DC403CBD44F4DF /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */,
+				528E858982B04BCCAE5570C8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHeader.cpp */,
+				ACAFA016FE784B5A97F139C2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHuf.cpp */,
+				EB744C6A49434FA3BC8F1627 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIO.cpp */,
+				45C5FE92206F49DBA2A79C62 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInputFile.cpp */,
+				226B3082845C4E1AB9BD9FD4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */,
+				835A3F312A6944CB91385F00 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */,
+				8EAF5E0989DB45148CF1EEDB /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */,
+				A49FFB01E27C4FA2B581B8B2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */,
+				029B8C6CE83F4CA68897EC59 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLut.cpp */,
+				EC14648C00634CF4A9F02B69 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */,
+				45849AA18C7444339273C721 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMisc.cpp */,
+				D47C34D58C464C7892379279 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMultiView.cpp */,
+				8EC822378AC040CEB63B11AA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */,
+				F02B7A4CBA0E4AB2A2C55184 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */,
+				A4AC6BF2E89F4533A3B61020 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */,
+				7DD182042B1841B187BC441F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */,
+				5DB2727E660A4AF6AAF76C07 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */,
+				DC873E9AB33F4D61861082D7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */,
+				96CE91BE53B74485A0DC30BD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRational.cpp */,
+				4F799AE347A44311BF26CE2A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */,
+				C60AB3E16F5A4A05A0D84CD3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */,
+				EE5F2C51F5004A6ABC6E6C2E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */,
+				FBC240D221864E05B9B1BB07 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */,
+				C18E4A080EE14A0C8D9DEED6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */,
+				E5A0EE9380964A058EDD0BE7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */,
+				5AB903015D7C41B0AAFBAE33 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStdIO.cpp */,
+				FF8651D6FB2149EAB696DF44 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */,
+				F88B75ED31034C388D5E56C8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */,
+				575FDABC41244D80B05FD709 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTestFile.cpp */,
+				EF741B7100554E29BD69818C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfThreading.cpp */,
+				8E3F96DB2ABD471FB9DA089D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */,
+				2C033682275A444CA6166B59 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */,
+				9E7B61ED120643F0A4A5F618 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */,
+				8A2317D988C44B8EB972DBDA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */,
+				7C506DAF38E3468FB72ABD97 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */,
+				ABD0C3D1AB234D9183F5C160 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */,
+				EE46DBA869ED44CDABC543EB /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */,
+				40FF2CF0C3FF471FAD51C231 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */,
+				F5E6B3FA2523473B9136A2FF /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */,
+				304FCA68614F446999003782 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVersion.cpp */,
+				77BAD3D81C844BEFAFF776D5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfWav.cpp */,
+				C809F471D4BA475E90EAD6E6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */,
+				C14407623F4A41C191CBB325 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThread.cpp */,
+				36F266A8AE5541309C4BBF4D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */,
+				8C1634AD02BC4DDEB1DB586C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */,
+				BBB9B6F491A24B17BC8433B6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */,
+				0311FB1A235A4210900198CA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */,
+				0767901F8FE043069831E228 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */,
+				957A2CB09CC0479DB0993766 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */,
+				6ED67206528F4730BB71AC0A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */,
+				9474E48A2FC94CA3B27D719E /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColorAlgo.cpp */,
+				175197C8FA1B404AA627E12A /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFun.cpp */,
+				78E8613C14BC429BA75B8696 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */,
+				A085C323A8C24605A66905AD /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRandom.cpp */,
+				E3F2DA36AC7D4228ACBB1986 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVec.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		0FBC3927637B464C9AD2F93F /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				4188C1CA560B4408AC922372 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/eLut.h */,
+				73AF4418017B4612943E0D62 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/half.h */,
+				6DAC4E3E897C4803BF886C2D /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/halfFunction.h */,
+				B2AF4CB1AFF74C2999EF2147 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/halfLimits.h */,
+				8A47F41D75544D77A30A4A7D /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/toFloat.h */,
+				73909628C0744EEEBA3879D8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/Iex.h */,
+				7F06571C82E34EF3A24F17E4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexBaseExc.h */,
+				E169668BAD3F41A3860F8B3B /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexErrnoExc.h */,
+				622CDF36BD304EC3A6EFBC8B /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexMacros.h */,
+				5E5BA93EFF644B0E88874EB2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexMathExc.h */,
+				997FDF45DCD74354A2B324B9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexThrowErrnoExc.h */,
+				BBE700D817044856A3A358CE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAcesFile.h */,
+				1A01958EA9144ED9B5CD8433 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfArray.h */,
+				0712E0011191433CBE9BD59B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAttribute.h */,
+				B237798594C44321A6D8EA8D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAutoArray.h */,
+				F236D416C27945889D932C8A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfB44Compressor.h */,
+				8248FE5666A745A39D9D274C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfBoxAttribute.h */,
+				B06113ED5ABA49228260430A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCRgbaFile.h */,
+				85F69D7EA542458CB4641423 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelList.h */,
+				4DEE225FFBF242A9A26CDAF4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelListAttribute.h */,
+				1CBBFA7AACE245849E9C2FBC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCheckedArithmetic.h */,
+				368BF9D7D97247219AAA6C60 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticities.h */,
+				63E2C9EEDB5A47EBAFA48A90 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.h */,
+				C0F2645E04AD406B9CA33C2F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompression.h */,
+				3A42CD0182AD442DA498210E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressionAttribute.h */,
+				69AB7E1B90E048439F8E091A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressor.h */,
+				2667FD26F2E5435894E05A95 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfConvert.h */,
+				4AD24E4C43154C7AAAE5AFAE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfDoubleAttribute.h */,
+				821F3D0192C04CC99704342E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmap.h */,
+				3CDC4BDAB7A3409196D60470 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.h */,
+				7039FA6DC232497AB9398750 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFloatAttribute.h */,
+				E63BDAD730DF43B28E1749D1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFrameBuffer.h */,
+				0427FC291E444D17B9EFEF01 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFramesPerSecond.h */,
+				4CC5DB8F2CFA4294A517C347 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHeader.h */,
+				47FD3294B4FC42F89C109BC3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHuf.h */,
+				154BB7E95BF14EB2839FB34B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIO.h */,
+				CD360C409856430F857A170D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInputFile.h */,
+				FDAFC8289F00435EAA179C17 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInt64.h */,
+				FB0A092F846D4FFB9725C715 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIntAttribute.h */,
+				7541B0739608480393B04A5F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCode.h */,
+				2BD0024BA52A4B80BA42869C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.h */,
+				AB97131F65D445338C5465FE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrder.h */,
+				07D0C0A226F94A8886FA886F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.h */,
+				AF7BA8D8001A45879C8EA07E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLut.h */,
+				92952AABD7954827BE538C53 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMatrixAttribute.h */,
+				39A9D619F147421AADFDF658 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMisc.h */,
+				BF47172766C5463FB3750A0B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMultiView.h */,
+				E8564BA9398348129F2C847C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfName.h */,
+				0CEA3A57CF63462FB8A7472E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.h */,
+				A82E173F9A20447AB3105016 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOutputFile.h */,
+				067915DB76734D53A48CD345 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPixelType.h */,
+				FEE66D1665074C2EBA5C54FC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPizCompressor.h */,
+				97F5844D8490413F8ADA4AEB /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImage.h */,
+				5487151BC06A4712A067A39C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.h */,
+				9695B3CF1412429D81E2857D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPxr24Compressor.h */,
+				12B989CA4F8543D78404B1D6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRational.h */,
+				2BF6C666DE844B739C80DED0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRationalAttribute.h */,
+				CD1E73934F2640A9B40A1C40 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgba.h */,
+				74CE20C1F7D54D7BA3DAEBF2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaFile.h */,
+				C1289B29A1C44A43A7DE830F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaYca.h */,
+				AE218752B51A4733BCD0DB6E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRleCompressor.h */,
+				97968B2187F94E1D8927CFC0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfScanLineInputFile.h */,
+				C057A5DC03854BB9B1D47D36 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStandardAttributes.h */,
+				9D0BF20846544B08BB2FCAA1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStdIO.h */,
+				823714ABC767414BA103A659 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringAttribute.h */,
+				5B1F59F08E4F4EFA91D45DFC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.h */,
+				06FB1C82F605415E96AEA8C0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTestFile.h */,
+				03445AB7A37F4167A6BE638E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfThreading.h */,
+				155F88AB145C4C49B99A9599 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescription.h */,
+				7D943B50C7B64833892B8609 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.h */,
+				39230BA5A58D499A8DF527FC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileOffsets.h */,
+				DA3E34EB2AE04C318D2236B5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledInputFile.h */,
+				3BFF219F81F44A308BA44A7C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledMisc.h */,
+				E1BE93A25EB84BA69A7CDB6C /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledOutputFile.h */,
+				6C60DD86755B4782BBB9B990 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.h */,
+				A182720ED8754538AB116409 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCode.h */,
+				57129EA2C9ED42D6A31E1AF7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.h */,
+				0DF6AB48621B43A0B406F9CD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVecAttribute.h */,
+				D6D53564EC0640CB9F8FFA6A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVersion.h */,
+				8823783275434049A1E112F4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfWav.h */,
+				86B70826DF54494B98C0C941 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfXdr.h */,
+				F30DC3BB150E45979F5C13E5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfZipCompressor.h */,
+				7BE3A85291A04A868C46CF67 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/b44ExpLogTable.h */,
+				ADA3722140314D94B859B8F9 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThread.h */,
+				74D703793F714E3886B1ABAC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutex.h */,
+				8CA399D8BD294397B347C539 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPool.h */,
+				8BCAA3866E794AAB96D096DD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphore.h */,
+				7DF57E50CA80400681B6D681 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathBox.h */,
+				F0EE2E45D7E74EDE92B68F25 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathBoxAlgo.h */,
+				4F3F385A9F114AF0B6DDBFA4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColor.h */,
+				EF08D3427061432FA09FF24E /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColorAlgo.h */,
+				CF7824CB2D15484C8A33EFF5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathEuler.h */,
+				51F6A612747A470192C19BF5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathExc.h */,
+				982678E8F2974AEDB606C94A /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFrame.h */,
+				1F3B29CA633249C18D8F2AAD /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFrustum.h */,
+				D434F7DC5DB84F388BCC56D1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFrustumTest.h */,
+				C8DE9CC9AE54477A8216F212 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFun.h */,
+				DADD4345B071418D89ABEFE0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathGL.h */,
+				7D13B47D5E634A9F90466712 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathGLU.h */,
+				A591E9F6E4ED4FFE834A0EEC /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathHalfLimits.h */,
+				BF8D3044FE1E471184F7CB79 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathInt64.h */,
+				FA452CE65DF242BFA95A3A57 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathInterval.h */,
+				6F0725667B0141E3B28B6D15 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathLimits.h */,
+				E9092A652BBD40C0A6FCDEFC /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathLine.h */,
+				3741970BE3664ED5A6BF90FD /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathLineAlgo.h */,
+				39F74BA2E6234F079D19AB01 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMath.h */,
+				209C8544B3BF431282F7E82C /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrix.h */,
+				B61A880956754BDD8EA19533 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrixAlgo.h */,
+				A6E4D5AAD2C943299CE84AE2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathPlane.h */,
+				1CA4AC7293D844C1AA4AD34F /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathPlatform.h */,
+				A579211D9BA14600B319CB74 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathQuat.h */,
+				136F71AB9A854810895ADD2A /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRandom.h */,
+				877C544F3DAA4C9FAB5FFFB8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRoots.h */,
+				A8F87C37BEB1427DA56A23D0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathShear.h */,
+				51E88AFFA5BE4FFFB4C42E29 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathSphere.h */,
+				1265FCEA07E948CBADDE9651 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVec.h */,
+				95CF0B20281E46CAAF6F7E27 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVecAlgo.h */,
+				37759DC7351A40AFAE555B2D /* /Users/elliotstaudt/opencv/build/3rdparty/openexr/IlmBaseConfig.h */,
+				093011BE63194972A6813217 /* /Users/elliotstaudt/opencv/build/3rdparty/openexr/OpenEXRConfig.h */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		5D41B962B96144D39CFF33EE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BC600C1C8BC64F819B5FFA26 /* 3rdparty */,
+				988E708158FC447B8F7B310E /* ALL_BUILD */,
+				B6799CF4806E4416A4454906 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		881D8AF357A54BC8805034B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		988E708158FC447B8F7B310E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				FDF29B050A4E464EBA98C1C2 /* CMake Rules */,
+				D5A76615D7E74EF881B816CE /* /Users/elliotstaudt/opencv/3rdparty/openexr/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		98CD324665544256A415616C /* IlmImf */ = {
+			isa = PBXGroup;
+			children = (
+				0FBC3927637B464C9AD2F93F /* Include */,
+				064139FFC1384EB1B0E54799 /* Src */,
+				6628BF16B3D24264847D79B3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/CMakeLists.txt */,
+			);
+			name = IlmImf;
+			sourceTree = "<group>";
+		};
+		B6799CF4806E4416A4454906 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				FC9308C5B4A7435D8E2C8415 /* CMake Rules */,
+				7FB1E66C49E345E695F81540 /* /Users/elliotstaudt/opencv/3rdparty/openexr/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		BC600C1C8BC64F819B5FFA26 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				98CD324665544256A415616C /* IlmImf */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		D02DE1B94DAC49DF9297A823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B29A10395984B68923D5DA5 /* IlmImf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD95E7C276424ACD80923FA4 = {
+			isa = PBXGroup;
+			children = (
+				5D41B962B96144D39CFF33EE /* Sources */,
+				881D8AF357A54BC8805034B4 /* Resources */,
+				D02DE1B94DAC49DF9297A823 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC9308C5B4A7435D8E2C8415 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FDF29B050A4E464EBA98C1C2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ED5510B7F49410EA5B7A677 /* IlmImf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C3059E2C154D3FB6D42626 /* Build configuration list for PBXNativeTarget "IlmImf" */;
+			buildPhases = (
+				69A3EBCBADB24B2D81C9A38B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0F9DC99EE51488B91280D2B /* PBXTargetDependency */,
+			);
+			name = IlmImf;
+			productName = IlmImf;
+			productReference = 1B29A10395984B68923D5DA5 /* IlmImf */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A55503983B5A447F865AD47A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = CD53836BD45B4EF1B115837C /* Build configuration list for PBXProject "openexr" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				ADAFA215134A4A8D8F3BA135 /* Debug */,
+				4CEBE671AF1C456F8FA12137 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DD95E7C276424ACD80923FA4;
+			projectDirPath = ../../../3rdparty/openexr;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				0ED5510B7F49410EA5B7A677 /* IlmImf */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		046AB27348B74E799713C45C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/openexr -f /Users/elliotstaudt/opencv/build/3rdparty/openexr/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2B7B889E997846CD9ACF704C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4E0670A0347C4F2B83A68F5E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/openexr -f /Users/elliotstaudt/opencv/build/3rdparty/openexr/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5D9E24E966CF454D95BC3A70 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5EAD0E3E646A41748FD1AE6A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/openexr -f /Users/elliotstaudt/opencv/build/3rdparty/openexr/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B10BB38181A1485DBFD01A1C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B216FEE4E8BF4F57BE113644 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FC45BBBB65E549DA801E024B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/openexr -f /Users/elliotstaudt/opencv/build/3rdparty/openexr/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69A3EBCBADB24B2D81C9A38B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3580D43552484DB1BD5C1B61 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Half/half.cpp */,
+				607A4E3C3DDA4E6295B05179 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexBaseExc.cpp */,
+				8DD522DE26314DBFA21DB6B6 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp */,
+				E930D0C794404E759A912647 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAcesFile.cpp */,
+				C33EC9CFAAAA4A8BB0257B50 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfAttribute.cpp */,
+				65F0D666D3C843D9ADD53FA2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp */,
+				28A17B6FFA224516B91CB8B2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfBoxAttribute.cpp */,
+				0E1C6EBDCCA44141901B6A3B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCRgbaFile.cpp */,
+				E63B54D868994A70B4D6B458 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelList.cpp */,
+				1136C08E494A44AB973F0017 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChannelListAttribute.cpp */,
+				03C60F24A2564F548AA3E384 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticities.cpp */,
+				FDBD3B24E264489587DEAA27 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfChromaticitiesAttribute.cpp */,
+				17C6EE74612B4F479FFC606F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressionAttribute.cpp */,
+				E706DD63144D4E8F8329AC12 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfCompressor.cpp */,
+				F1B5EFED48FB4D94ABFE96BC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfConvert.cpp */,
+				6FD01E222717476F93661A00 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp */,
+				51B7CC111BFB4038BE941DF0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmap.cpp */,
+				1FF0A25B11724F1F90C46CE0 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfEnvmapAttribute.cpp */,
+				8ABE5E8882E549759DF04DF3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFloatAttribute.cpp */,
+				91B63D90F6E944A0BF932E4D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFrameBuffer.cpp */,
+				037B21E1888F4872B3BC27AE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfFramesPerSecond.cpp */,
+				DB5F758999DB4CAE842A3B5A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHeader.cpp */,
+				56D3250E97D54F63AF0424DA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfHuf.cpp */,
+				ACD1463C7D204D069EE574B4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIO.cpp */,
+				E129ECE74AD14450BF2857F1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfInputFile.cpp */,
+				602922D550C04DC08B4F8959 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfIntAttribute.cpp */,
+				4C1FA30F6B1F46838CEEEA7B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCode.cpp */,
+				5A0A96BAC7FB45E584ABD501 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfKeyCodeAttribute.cpp */,
+				2EEA7ED73F3C46EA9CEB784A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLineOrderAttribute.cpp */,
+				9EDE6E396EFB458C95FDEA84 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfLut.cpp */,
+				B37F80AD7C084AD0BF6D8C7B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMatrixAttribute.cpp */,
+				B81EE0CD87AB40038393B196 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMisc.cpp */,
+				CFFC584C4EAE40F9B28261FE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfMultiView.cpp */,
+				370650F8F1784CEBB82C84BC /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOpaqueAttribute.cpp */,
+				C67C65A9A77E4FE0947A23D2 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfOutputFile.cpp */,
+				E8644FAD0BFB4B8686E1BF2D /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPizCompressor.cpp */,
+				FA8FAC3A16244AB3886335E5 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp */,
+				A852370A446D47DDB598DCF1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPreviewImageAttribute.cpp */,
+				3C2C80D24D124878986DCB73 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp */,
+				887BF63C010B4FDC80A77CC3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRational.cpp */,
+				B31A33F2AFDE46C5AE07508F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRationalAttribute.cpp */,
+				414702BAA3F04019B19FED7F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaFile.cpp */,
+				6BEE65076BCC476E9927FD56 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRgbaYca.cpp */,
+				31D87EB692EA4008A472B397 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfRleCompressor.cpp */,
+				6F2A833386AD4B9ABAE1D342 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp */,
+				70565AE8C1F544A1A421D8AE /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStandardAttributes.cpp */,
+				A0E3D8D00E6B43D1BE001F6F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStdIO.cpp */,
+				0B55837694D44DE6B98F058A /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp */,
+				FB660CEFA0544D15BAB7DEA8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfStringVectorAttribute.cpp */,
+				5780BC5243974336B4816FAA /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTestFile.cpp */,
+				223E6EAD5C354576B26D822E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfThreading.cpp */,
+				42EED1A591A34BB9A5511E74 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileDescriptionAttribute.cpp */,
+				6D6DE14CD03B4C28A2CC2823 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTileOffsets.cpp */,
+				86959AEABAB04F26B4D99C9E /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledInputFile.cpp */,
+				5B92FC1EE8DB487FABE31AC3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledMisc.cpp */,
+				AAE132EFEE0443A19D39FD00 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledOutputFile.cpp */,
+				20DF0928F6744CA1BEE5F744 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTiledRgbaFile.cpp */,
+				CC7CBBDADC8440B68EB0C8F1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCode.cpp */,
+				D563DF59FAB148A3B2D7CEE7 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfTimeCodeAttribute.cpp */,
+				07E5830229F7426FA2B25644 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVecAttribute.cpp */,
+				84680D6070E44D6A9B05EA85 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfVersion.cpp */,
+				744C7F04541B4BA68AF1DBB1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfWav.cpp */,
+				76879172398F44E1873EEA33 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf/ImfZipCompressor.cpp */,
+				EBF674A06F6C46A6BBDEAEC8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThread.cpp */,
+				E9EE55929A7F454CBE70B81F /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutex.cpp */,
+				D2EB540BEDCD47AF99FE2642 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadMutexPosix.cpp */,
+				8E0C38E8563445B49105CC1B /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPool.cpp */,
+				1E84DA95DF5B4D01A2A13437 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadPosix.cpp */,
+				091D176688C146C79F9FCCD8 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphore.cpp */,
+				56AD4D37BEAE4A88A24ADCC1 /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp */,
+				D4025ADE7BF248D9B62700AD /* /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosixCompat.cpp */,
+				1119D0D3444440C7A12C9CC4 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathColorAlgo.cpp */,
+				42057A9BD08249CF8D8345F3 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathFun.cpp */,
+				7BA11B526323417F9094A7BF /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathMatrixAlgo.cpp */,
+				47B7BE0D40974BC79D5C6760 /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathRandom.cpp */,
+				774F562B05AA4D85A2EC06EF /* /Users/elliotstaudt/opencv/3rdparty/openexr/Imath/ImathVec.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DF26FD1ED140C9949BDDDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 21DF3F4377374F0C8E7D27A4 /* PBXContainerItemProxy */;
+		};
+		16308AD43EAA41228FD6171F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 72EF1BDE1A354E3BB0B8DF42 /* PBXContainerItemProxy */;
+		};
+		A5EF00FE7EC84FAE9D9390E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = CAA93C6B36CE44E7AF797DB6 /* PBXContainerItemProxy */;
+		};
+		B0F9DC99EE51488B91280D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 5C4E07CFFC6C41EEBE7D735E /* PBXContainerItemProxy */;
+		};
+		D26540A21C2F445A9CE97D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0ED5510B7F49410EA5B7A677 /* IlmImf */;
+			targetProxy = 69D5087347D94C3080DC2BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FBCBA29B54A441C9E392CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf, /Users/elliotstaudt/opencv/3rdparty/openexr/Imath, /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread, /Users/elliotstaudt/opencv/3rdparty/openexr/Iex, /Users/elliotstaudt/opencv/3rdparty/openexr/Half, /Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/openexr, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/openexr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		100FA6516715412DA9E86190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/3rdparty/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf, /Users/elliotstaudt/opencv/3rdparty/openexr/Imath, /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread, /Users/elliotstaudt/opencv/3rdparty/openexr/Iex, /Users/elliotstaudt/opencv/3rdparty/openexr/Half, /Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/openexr, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -fPIC     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmImf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/openexr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		49E695188B38495A924F22CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf, /Users/elliotstaudt/opencv/3rdparty/openexr/Imath, /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread, /Users/elliotstaudt/opencv/3rdparty/openexr/Iex, /Users/elliotstaudt/opencv/3rdparty/openexr/Half, /Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/openexr, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/openexr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		611374FA1FEC47FC9BDB4610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/openexr/build;
+			};
+			name = Release;
+		};
+		69F59F836EA146788360A379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf, /Users/elliotstaudt/opencv/3rdparty/openexr/Imath, /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread, /Users/elliotstaudt/opencv/3rdparty/openexr/Iex, /Users/elliotstaudt/opencv/3rdparty/openexr/Half, /Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/openexr, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/openexr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		70CA8DB3FCF744D686934069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf, /Users/elliotstaudt/opencv/3rdparty/openexr/Imath, /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread, /Users/elliotstaudt/opencv/3rdparty/openexr/Iex, /Users/elliotstaudt/opencv/3rdparty/openexr/Half, /Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/openexr, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/openexr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		7BD9CD5863CE48CF833625CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf, /Users/elliotstaudt/opencv/3rdparty/openexr/Imath, /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread, /Users/elliotstaudt/opencv/3rdparty/openexr/Iex, /Users/elliotstaudt/opencv/3rdparty/openexr/Half, /Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/openexr, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/openexr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		8913DE05EE34409B8C3F89D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf, /Users/elliotstaudt/opencv/3rdparty/openexr/Imath, /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread, /Users/elliotstaudt/opencv/3rdparty/openexr/Iex, /Users/elliotstaudt/opencv/3rdparty/openexr/Half, /Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/openexr, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/openexr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		8AC64384E7514156BD759911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/3rdparty/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf, /Users/elliotstaudt/opencv/3rdparty/openexr/Imath, /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread, /Users/elliotstaudt/opencv/3rdparty/openexr/Iex, /Users/elliotstaudt/opencv/3rdparty/openexr/Half, /Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/openexr, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wmissing-prototypes -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -fPIC         -DDEBUG -D_DEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmImf;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/openexr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		9E9B74D19AA442448642694E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/openexr/build;
+			};
+			name = Debug;
+		};
+		C92961E220384542952EEAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf, /Users/elliotstaudt/opencv/3rdparty/openexr/Imath, /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread, /Users/elliotstaudt/opencv/3rdparty/openexr/Iex, /Users/elliotstaudt/opencv/3rdparty/openexr/Half, /Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/openexr, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/openexr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		DA4D4F2468D64C7F93A99625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/openexr/IlmImf, /Users/elliotstaudt/opencv/3rdparty/openexr/Imath, /Users/elliotstaudt/opencv/3rdparty/openexr/IlmThread, /Users/elliotstaudt/opencv/3rdparty/openexr/Iex, /Users/elliotstaudt/opencv/3rdparty/openexr/Half, /Users/elliotstaudt/opencv/build/3rdparty/zlib, /Users/elliotstaudt/opencv/3rdparty/zlib, /Users/elliotstaudt/opencv/build/3rdparty/openexr, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/openexr;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20BC1985CE664677B692C632 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70CA8DB3FCF744D686934069 /* Debug */,
+				49E695188B38495A924F22CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6EE67073692B41A2AB8016EA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F59F836EA146788360A379 /* Debug */,
+				DA4D4F2468D64C7F93A99625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A7C3059E2C154D3FB6D42626 /* Build configuration list for PBXNativeTarget "IlmImf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC64384E7514156BD759911 /* Debug */,
+				100FA6516715412DA9E86190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CD53836BD45B4EF1B115837C /* Build configuration list for PBXProject "openexr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E9B74D19AA442448642694E /* Debug */,
+				611374FA1FEC47FC9BDB4610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D401F7CF46AC4692BE0F7AD5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8913DE05EE34409B8C3F89D4 /* Debug */,
+				C92961E220384542952EEAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E3837AD8115C401A8EA2AB70 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BD9CD5863CE48CF833625CC /* Debug */,
+				0FBCBA29B54A441C9E392CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A55503983B5A447F865AD47A /* Project object */;
+}

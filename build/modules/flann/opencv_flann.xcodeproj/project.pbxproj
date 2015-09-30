@@ -1,0 +1,1348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 320A352910BC41D3B2DA293A /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				00F799C04A8146969A2D6C1C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				1C19C363FD7B46319B7C0866 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 61075254E56F4591AC2E6846 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				96867503A8474DDF86BA6BDE /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				8ACEDC316EBB451C92B5623F /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EDB5E66EA16A46088BE14CC1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E7C80438EB74408E9DB72E6C /* CMake Rules */,
+			);
+			dependencies = (
+				21465F0A68894C9788881872 /* PBXTargetDependency */,
+				250E7D9A1D0D4D148422C229 /* PBXTargetDependency */,
+				5CCECDCFF6E447A98EAF8C85 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 283A67DAC33B4009891D0A68 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				62AF9FC4D46842E1B2EB54CE /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0227657344874B4DACE96580 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/logger.h */ = {isa = PBXBuildFile; fileRef = BFE3F9792AA942478B94D013 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/logger.h */; settings = {COMPILER_FLAGS = ""; }; };
+		05DEC8DB08A34F88B6F1A38F /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/linear_index.h */ = {isa = PBXBuildFile; fileRef = 013EC7D727D348838C93B418 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/linear_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0C176137116648F09FB4827F /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dist.h */ = {isa = PBXBuildFile; fileRef = 208816E9AE93473199E2AED9 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dist.h */; settings = {COMPILER_FLAGS = ""; }; };
+		10077E68F02F4FB18826E03E /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/logger.h */ = {isa = PBXBuildFile; fileRef = 8BD1607E4D2840248B34B43D /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/logger.h */; settings = {COMPILER_FLAGS = ""; }; };
+		10EA27FAFBA345429BDBC5ED /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h */ = {isa = PBXBuildFile; fileRef = 338BBB772E5244FCB443543A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1413EF4B8A0D409B8A2152DB /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/index_testing.h */ = {isa = PBXBuildFile; fileRef = 4CEA5F7E3CB24C36AC4AF5BE /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/index_testing.h */; settings = {COMPILER_FLAGS = ""; }; };
+		18A9FB45AF4848188451CA9B /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = 605F48949CBA4DC6AB686210 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1D322EF5AA19498DBFFC85DE /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/miniflann.hpp */ = {isa = PBXBuildFile; fileRef = 7FF8EB76AC1A450E93CC18F5 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/miniflann.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		213D6EF7861048658C25652D /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/composite_index.h */ = {isa = PBXBuildFile; fileRef = DD4D6A7EAD3045E5A891BEB9 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/composite_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		28DA8002CE7B4447AB028653 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h */ = {isa = PBXBuildFile; fileRef = 315E16B53E2343A1B6692764 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2A971F63EDC44FB1AAB5A721 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/allocator.h */ = {isa = PBXBuildFile; fileRef = D820018499EE473A96D03229 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/allocator.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2AEF2748C576478EAE28D64C /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/simplex_downhill.h */ = {isa = PBXBuildFile; fileRef = 238E18C36D194D079B4DC44A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/simplex_downhill.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2C2089B115784AA8880C6E1E /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/heap.h */ = {isa = PBXBuildFile; fileRef = 369F5343B9F946B1AAA77231 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/heap.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2E907D704D954369B568CD3A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/config.h */ = {isa = PBXBuildFile; fileRef = 5AA876B85A694C16863FE894 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		328A09A3A4C444259278DF9D /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/matrix.h */ = {isa = PBXBuildFile; fileRef = B0112D0ACEBA4A09BFB1E678 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/matrix.h */; settings = {COMPILER_FLAGS = ""; }; };
+		334A0DDA97454CA4A3A83BBF /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann.hpp */ = {isa = PBXBuildFile; fileRef = BF5E10DF17C14D4E8C8B2828 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		33C93D2D3CA74E92995FEC68 /* /Users/elliotstaudt/opencv/modules/flann/src/miniflann.cpp */ = {isa = PBXBuildFile; fileRef = 64622EC4B7E545C794D75DBE /* /Users/elliotstaudt/opencv/modules/flann/src/miniflann.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		392929F492054B979FECD0CA /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXBuildFile; fileRef = A63212458C26407BBD04D678 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3C9A5B31A4B5419A8E4F5CAF /* /Users/elliotstaudt/opencv/modules/flann/src/flann.cpp */ = {isa = PBXBuildFile; fileRef = F9AC86A5BCA746CD9FED3B6B /* /Users/elliotstaudt/opencv/modules/flann/src/flann.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3FC20471DE8F4387A76CF0F9 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h */ = {isa = PBXBuildFile; fileRef = 73015927C295404F8D6590B8 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		459ECE3098D649D5853BBFE2 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann_base.hpp */ = {isa = PBXBuildFile; fileRef = C183B160F4B14256A27C3D8C /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann_base.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4A31E2F82DBD4593B9FD139E /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/saving.h */ = {isa = PBXBuildFile; fileRef = 45FADCC44B8E4BF8AF693BC7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/saving.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4AFAF6791E574EBEA1CA8E4F /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/general.h */ = {isa = PBXBuildFile; fileRef = 49FB6A4D8E4546D492BEBFC7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/general.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4B475807DC3D45B58BF09797 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dummy.h */ = {isa = PBXBuildFile; fileRef = E56D8054EF4843BD8D176D15 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dummy.h */; settings = {COMPILER_FLAGS = ""; }; };
+		55918D5A989E4FF1A6174D93 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/simplex_downhill.h */ = {isa = PBXBuildFile; fileRef = 360E2F37ACF74564B1B76FD3 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/simplex_downhill.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5756B15FC0AD4BA2A6E008B5 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_table.h */ = {isa = PBXBuildFile; fileRef = DB4636528A0C42FAAC1AC8F5 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_table.h */; settings = {COMPILER_FLAGS = ""; }; };
+		57948F33A5AF4AAE83C3A766 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dist.h */ = {isa = PBXBuildFile; fileRef = E09EEC79D3FB47599F4B1052 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dist.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5A6F2AEC02924D67AE8FC63C /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/heap.h */ = {isa = PBXBuildFile; fileRef = 08EE0D97128E45A7A512E3F0 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/heap.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5BDF18442C4F4013BD402E3E /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/defines.h */ = {isa = PBXBuildFile; fileRef = BB239290F24B4DE8A0787AD7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/defines.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5CD0ED71035C45EE9BA3E209 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hdf5.h */ = {isa = PBXBuildFile; fileRef = 8BA85EC7EEA34C6390265A94 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hdf5.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5E03270CCBFE459BBFE13D2A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/result_set.h */ = {isa = PBXBuildFile; fileRef = F3207BC1A6264381B3904091 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/result_set.h */; settings = {COMPILER_FLAGS = ""; }; };
+		60E3BEFAE4954546AC5B467F /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_index.h */ = {isa = PBXBuildFile; fileRef = C6AA718BA06249058A7772EB /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		662DA4889E8C402FAC128992 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_index.h */ = {isa = PBXBuildFile; fileRef = D59AE55A8FD04A19B9B55E56 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		67A9060BA9C14CFCA2136C68 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/all_indices.h */ = {isa = PBXBuildFile; fileRef = 6789F44359D04479A570B013 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/all_indices.h */; settings = {COMPILER_FLAGS = ""; }; };
+		6B34548A9A5F470AAB4ACA62 /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1370AE05F219425AAED7CBF0 /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		6E0565F46DAC4D358EBD8A67 /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CB4F22F0D380408682EF1AAE /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		6F774C56ACE94779B8FA6067 /* /Users/elliotstaudt/opencv/modules/flann/src/miniflann.cpp */ = {isa = PBXBuildFile; fileRef = D7C76B4EEA8D42459E27BF1E /* /Users/elliotstaudt/opencv/modules/flann/src/miniflann.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7085524E0A504A16BC9D0DB4 /* /Users/elliotstaudt/opencv/modules/flann/test/test_main.cpp */ = {isa = PBXBuildFile; fileRef = A11859EDBA4345059869E8DB /* /Users/elliotstaudt/opencv/modules/flann/test/test_main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		733FE7D49A344567A755B324 /* /Users/elliotstaudt/opencv/modules/flann/src/flann.cpp */ = {isa = PBXBuildFile; fileRef = 10A8601D26B4490FA771A84A /* /Users/elliotstaudt/opencv/modules/flann/src/flann.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		785864C404424E6FB0B675B9 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hdf5.h */ = {isa = PBXBuildFile; fileRef = 750AF1B574264A0383648806 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hdf5.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8169DDBD40764C8096F762E8 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/miniflann.hpp */ = {isa = PBXBuildFile; fileRef = 609296BBE8DC418FB53686D1 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/miniflann.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		82E8A4A628DA49E18D52DAC5 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */ = {isa = PBXBuildFile; fileRef = 067535B512C5450EB97B18DC /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		84EBDF0987194F68A045D4C9 /* /Users/elliotstaudt/opencv/modules/flann/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = C47D443C5EFB4ADC95A732DB /* /Users/elliotstaudt/opencv/modules/flann/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		860207FB4FF34CB7A9AEFC96 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_index.h */ = {isa = PBXBuildFile; fileRef = 362F132FA6F64DFBBA73F269 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		870E77BC930C4CE4810F9048 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/ground_truth.h */ = {isa = PBXBuildFile; fileRef = 73D77AFC9D5B401392CACFAB /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/ground_truth.h */; settings = {COMPILER_FLAGS = ""; }; };
+		87A20CF114A8404DBF9F6BA1 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/random.h */ = {isa = PBXBuildFile; fileRef = 911321A983E54130AEAE52C6 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/random.h */; settings = {COMPILER_FLAGS = ""; }; };
+		896E8086FFAB41169FC27A06 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/general.h */ = {isa = PBXBuildFile; fileRef = 9DF0745E80234E1FA7C9F1BA /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/general.h */; settings = {COMPILER_FLAGS = ""; }; };
+		89738391843B49CB8FC49877 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/random.h */ = {isa = PBXBuildFile; fileRef = B40DF8B564324C499A71466A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/random.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8DA62B9121C6426C880ED1A0 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/defines.h */ = {isa = PBXBuildFile; fileRef = 4172D56E6F9445D18E344022 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/defines.h */; settings = {COMPILER_FLAGS = ""; }; };
+		90ECE457DEBA44D7AB4D7BB8 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/nn_index.h */ = {isa = PBXBuildFile; fileRef = 4455DA3FA5AE458198DCFBA7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/nn_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9366CCEE305E4DFFAD4F723B /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/any.h */ = {isa = PBXBuildFile; fileRef = 405CE6F0913C4113AF0AE3C7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/any.h */; settings = {COMPILER_FLAGS = ""; }; };
+		94564F5DCAE341F8BA8A7701 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/config.h */ = {isa = PBXBuildFile; fileRef = 51443F3D44EF4B7B8C17DD01 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		985A9B22EBBD481C8836E6EB /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/sampling.h */ = {isa = PBXBuildFile; fileRef = D2C3728E85AD486DAD261FA1 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/sampling.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9916098AB8B8456BB30D8655 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/result_set.h */ = {isa = PBXBuildFile; fileRef = 1772F5B54314400898F693D1 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/result_set.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9938F5831C6A413B8C8B337F /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/object_factory.h */ = {isa = PBXBuildFile; fileRef = 82967255396343D196332836 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/object_factory.h */; settings = {COMPILER_FLAGS = ""; }; };
+		99593F4F7BAA4200859DA82C /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h */ = {isa = PBXBuildFile; fileRef = 30EF3CC4D78342B6BF4BAB93 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9B87BBC3739E4175BEDFC656 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/saving.h */ = {isa = PBXBuildFile; fileRef = C159A1371A764CB4B0C4FD5A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/saving.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A1B02AE62D7B4CB283047264 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/linear_index.h */ = {isa = PBXBuildFile; fileRef = 2559F47B1B414515984F6C3B /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/linear_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		AD2DA8AC43D24AC98070511D /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann.hpp */ = {isa = PBXBuildFile; fileRef = 6E49D7CA6A234EDB8A7DDD9F /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AFEDB60732C54BBBB51A9F5B /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dummy.h */ = {isa = PBXBuildFile; fileRef = E118212699814B70AE4E29C4 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dummy.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B04BF116EB8A4CE7B264D97A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/index_testing.h */ = {isa = PBXBuildFile; fileRef = 2B3454BC17C14C9D9FCE18C7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/index_testing.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B06F636C9AF044ACB96EF647 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/nn_index.h */ = {isa = PBXBuildFile; fileRef = D045F0304B0147489969DBAA /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/nn_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B16095FD50F7466E8F187D8B /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kmeans_index.h */ = {isa = PBXBuildFile; fileRef = B688B7165B9E4DFBAE1A3128 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kmeans_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B187A82A573C450ABFEA7F7A /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A54398A786DB4F5EAA1A6511 /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		B1BD7BCBEDC245AA80D68F52 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/object_factory.h */ = {isa = PBXBuildFile; fileRef = BB7802EBED9D40EC90F7BDDC /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/object_factory.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B3649782123A4D5CB1810A4B /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/ground_truth.h */ = {isa = PBXBuildFile; fileRef = 0BDBD1A84E474A66813A849D /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/ground_truth.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B3DE9BBA656A422690C91C4F /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/any.h */ = {isa = PBXBuildFile; fileRef = 6D52F20040334797B19683F7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/any.h */; settings = {COMPILER_FLAGS = ""; }; };
+		BBE9EC209A644A92982361E7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann_base.hpp */ = {isa = PBXBuildFile; fileRef = 544B3E24C2F8401690586C4D /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann_base.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C02CB95AC559499AA88452D3 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/timer.h */ = {isa = PBXBuildFile; fileRef = E510F676413D4F8C9A5DE266 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/timer.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C647EA4AB47C41468A6220A4 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/sampling.h */ = {isa = PBXBuildFile; fileRef = C0D664A13CEA4138824CFBE6 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/sampling.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C882AC1962674613B5496CA7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kmeans_index.h */ = {isa = PBXBuildFile; fileRef = 2A5D6833E0294C19964C4F10 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kmeans_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C960A6B9868B46E9B368F08B /* /Users/elliotstaudt/opencv/modules/flann/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 2A3893CF71EB45ACAF9F9E5B /* /Users/elliotstaudt/opencv/modules/flann/src/precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C9D2A96E119645609BE688C4 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_table.h */ = {isa = PBXBuildFile; fileRef = 800B4EAFCDAB45DF9B7E809E /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_table.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CD6D9EE441E344D283DCA2F3 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_index.h */ = {isa = PBXBuildFile; fileRef = 3E337FAA47B64F22B3CDA157 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D404EE02DA694A0FADDCF651 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */ = {isa = PBXBuildFile; fileRef = C9DA7259964948848251A4B2 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		DCF106DAF5D24ED2B23A5C55 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/autotuned_index.h */ = {isa = PBXBuildFile; fileRef = 8B24DD1336C743D1BF6A90CD /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/autotuned_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		DF7D09A6AFAB47E6B095AC25 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/autotuned_index.h */ = {isa = PBXBuildFile; fileRef = 7A1E8A3717604877876C41F4 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/autotuned_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E2377B382874463AAC0B685B /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/params.h */ = {isa = PBXBuildFile; fileRef = 166E3AE74D9648F492654B08 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/params.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E31F6128125943B88DDAE9E6 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = A00489DBE9DA41A7AF324F24 /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E3A473A69DEB4E07BB44D990 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/params.h */ = {isa = PBXBuildFile; fileRef = 874D534C51CB4CB4B62E3BD0 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/params.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E8116D01F9CD4C78BD5B6C98 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/all_indices.h */ = {isa = PBXBuildFile; fileRef = 8B0C421A3B6C43229F18A403 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/all_indices.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E8F3368BDFD640F69694C5A6 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/matrix.h */ = {isa = PBXBuildFile; fileRef = DDBC582A31E2416284E82CCD /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/matrix.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EFF16D99735D47A7B2C7B068 /* /Users/elliotstaudt/opencv/modules/flann/test/test_precomp.hpp */ = {isa = PBXBuildFile; fileRef = 0D5D0C7A0D43460CB95B76E3 /* /Users/elliotstaudt/opencv/modules/flann/test/test_precomp.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F588A7237D344A4D99FBD6BF /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/composite_index.h */ = {isa = PBXBuildFile; fileRef = AB1F959889CA4965B734248B /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/composite_index.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F68191E178884E5DA7083E67 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/allocator.h */ = {isa = PBXBuildFile; fileRef = D19734562AE14B9191DCFE08 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/allocator.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F7EE4F75A5DB4024A0D5F531 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann.hpp */ = {isa = PBXBuildFile; fileRef = 3DD681A590774FB0A338A8EF /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FAC281E604164A03B9E523D6 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/timer.h */ = {isa = PBXBuildFile; fileRef = 014B7E2490D44CBC98DFB94C /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/timer.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FAF8293DD41549999DF24917 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXBuildFile; fileRef = E4C1C9F3E0F64122970B02CB /* /Users/elliotstaudt/opencv/build/cvconfig.h */; settings = {COMPILER_FLAGS = ""; }; };
+		FB64F02CDA704227BE63E1ED /* /Users/elliotstaudt/opencv/modules/flann/test/test_lshtable_badarg.cpp */ = {isa = PBXBuildFile; fileRef = 20F9C37AD5074A819566B3A1 /* /Users/elliotstaudt/opencv/modules/flann/test/test_lshtable_badarg.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FCBDE246A4D4457C9C1D9844 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann.hpp */ = {isa = PBXBuildFile; fileRef = 1BE910D0B6B248318AB6F879 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		534DD7F27FAC4CBAA4830EF3 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B09F58098FDC45C1A95ACEB8 = {
+			isa = PBXBuildStyle;
+		};
+		BD56FE5D5F0944FDBFB84FAC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		194A86B1C7FE4866BFD04048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E6864E28674BEEBF3CFD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		5705FC4F0BC04DCDAD52B3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E6864E28674BEEBF3CFD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		5C6B023A4C994244A7A9E0A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E6864E28674BEEBF3CFD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06B09E440A404DB49FD76768;
+			remoteInfo = opencv_test_flann;
+		};
+		633BA1C8E80F4817AB29C702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E6864E28674BEEBF3CFD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C33A1FB1CD5418E9926B697;
+			remoteInfo = opencv_flann;
+		};
+		7305F1AA3B7548CE98B5DBB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E6864E28674BEEBF3CFD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		7AC578E1C91244E3B26623BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E6864E28674BEEBF3CFD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		85878B9F4F9F42F482C1EBF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E6864E28674BEEBF3CFD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		8DA017D9BA3D4A818C58E40A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E6864E28674BEEBF3CFD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C33A1FB1CD5418E9926B697;
+			remoteInfo = opencv_flann;
+		};
+		F69C20EF1650447583E29215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E6864E28674BEEBF3CFD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013EC7D727D348838C93B418 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/linear_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = linear_index.h; path = include/opencv2/flann/linear_index.h; sourceTree = SOURCE_ROOT; };
+		014B7E2490D44CBC98DFB94C /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timer.h; path = include/opencv2/flann/timer.h; sourceTree = SOURCE_ROOT; };
+		067535B512C5450EB97B18DC /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hierarchical_clustering_index.h; path = include/opencv2/flann/hierarchical_clustering_index.h; sourceTree = SOURCE_ROOT; };
+		08EE0D97128E45A7A512E3F0 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/heap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = heap.h; path = include/opencv2/flann/heap.h; sourceTree = SOURCE_ROOT; };
+		0BDBD1A84E474A66813A849D /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/ground_truth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ground_truth.h; path = include/opencv2/flann/ground_truth.h; sourceTree = SOURCE_ROOT; };
+		0D5D0C7A0D43460CB95B76E3 /* /Users/elliotstaudt/opencv/modules/flann/test/test_precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_precomp.hpp; path = test/test_precomp.hpp; sourceTree = SOURCE_ROOT; };
+		10A8601D26B4490FA771A84A /* /Users/elliotstaudt/opencv/modules/flann/src/flann.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = flann.cpp; path = src/flann.cpp; sourceTree = SOURCE_ROOT; };
+		1370AE05F219425AAED7CBF0 /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		166E3AE74D9648F492654B08 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/params.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = params.h; path = include/opencv2/flann/params.h; sourceTree = SOURCE_ROOT; };
+		1772F5B54314400898F693D1 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/result_set.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = result_set.h; path = include/opencv2/flann/result_set.h; sourceTree = SOURCE_ROOT; };
+		1BE910D0B6B248318AB6F879 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = flann.hpp; path = include/opencv2/flann.hpp; sourceTree = SOURCE_ROOT; };
+		208816E9AE93473199E2AED9 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dist.h; path = include/opencv2/flann/dist.h; sourceTree = SOURCE_ROOT; };
+		20F9C37AD5074A819566B3A1 /* /Users/elliotstaudt/opencv/modules/flann/test/test_lshtable_badarg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_lshtable_badarg.cpp; path = test/test_lshtable_badarg.cpp; sourceTree = SOURCE_ROOT; };
+		238E18C36D194D079B4DC44A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/simplex_downhill.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = simplex_downhill.h; path = include/opencv2/flann/simplex_downhill.h; sourceTree = SOURCE_ROOT; };
+		2559F47B1B414515984F6C3B /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/linear_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = linear_index.h; path = include/opencv2/flann/linear_index.h; sourceTree = SOURCE_ROOT; };
+		27BC176FE3B041A5B7A5143D /* opencv_flann_object */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libopencv_flann_object.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3893CF71EB45ACAF9F9E5B /* /Users/elliotstaudt/opencv/modules/flann/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		2A5D6833E0294C19964C4F10 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kmeans_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kmeans_index.h; path = include/opencv2/flann/kmeans_index.h; sourceTree = SOURCE_ROOT; };
+		2B3454BC17C14C9D9FCE18C7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/index_testing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = index_testing.h; path = include/opencv2/flann/index_testing.h; sourceTree = SOURCE_ROOT; };
+		30EF3CC4D78342B6BF4BAB93 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dynamic_bitset.h; path = include/opencv2/flann/dynamic_bitset.h; sourceTree = SOURCE_ROOT; };
+		315E16B53E2343A1B6692764 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dynamic_bitset.h; path = include/opencv2/flann/dynamic_bitset.h; sourceTree = SOURCE_ROOT; };
+		338BBB772E5244FCB443543A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kdtree_single_index.h; path = include/opencv2/flann/kdtree_single_index.h; sourceTree = SOURCE_ROOT; };
+		360E2F37ACF74564B1B76FD3 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/simplex_downhill.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = simplex_downhill.h; path = include/opencv2/flann/simplex_downhill.h; sourceTree = SOURCE_ROOT; };
+		362F132FA6F64DFBBA73F269 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lsh_index.h; path = include/opencv2/flann/lsh_index.h; sourceTree = SOURCE_ROOT; };
+		369F5343B9F946B1AAA77231 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/heap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = heap.h; path = include/opencv2/flann/heap.h; sourceTree = SOURCE_ROOT; };
+		3DD681A590774FB0A338A8EF /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = flann.hpp; path = include/opencv2/flann/flann.hpp; sourceTree = SOURCE_ROOT; };
+		3E337FAA47B64F22B3CDA157 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kdtree_index.h; path = include/opencv2/flann/kdtree_index.h; sourceTree = SOURCE_ROOT; };
+		405CE6F0913C4113AF0AE3C7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/any.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = any.h; path = include/opencv2/flann/any.h; sourceTree = SOURCE_ROOT; };
+		4172D56E6F9445D18E344022 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/defines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = defines.h; path = include/opencv2/flann/defines.h; sourceTree = SOURCE_ROOT; };
+		4455DA3FA5AE458198DCFBA7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/nn_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nn_index.h; path = include/opencv2/flann/nn_index.h; sourceTree = SOURCE_ROOT; };
+		45FADCC44B8E4BF8AF693BC7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/saving.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = saving.h; path = include/opencv2/flann/saving.h; sourceTree = SOURCE_ROOT; };
+		49FB6A4D8E4546D492BEBFC7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/general.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = general.h; path = include/opencv2/flann/general.h; sourceTree = SOURCE_ROOT; };
+		4CEA5F7E3CB24C36AC4AF5BE /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/index_testing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = index_testing.h; path = include/opencv2/flann/index_testing.h; sourceTree = SOURCE_ROOT; };
+		51443F3D44EF4B7B8C17DD01 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = include/opencv2/flann/config.h; sourceTree = SOURCE_ROOT; };
+		544B3E24C2F8401690586C4D /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = flann_base.hpp; path = include/opencv2/flann/flann_base.hpp; sourceTree = SOURCE_ROOT; };
+		5AA876B85A694C16863FE894 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = include/opencv2/flann/config.h; sourceTree = SOURCE_ROOT; };
+		605F48949CBA4DC6AB686210 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		609296BBE8DC418FB53686D1 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/miniflann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = miniflann.hpp; path = include/opencv2/flann/miniflann.hpp; sourceTree = SOURCE_ROOT; };
+		64622EC4B7E545C794D75DBE /* /Users/elliotstaudt/opencv/modules/flann/src/miniflann.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = miniflann.cpp; path = src/miniflann.cpp; sourceTree = SOURCE_ROOT; };
+		6789F44359D04479A570B013 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/all_indices.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = all_indices.h; path = include/opencv2/flann/all_indices.h; sourceTree = SOURCE_ROOT; };
+		6D52F20040334797B19683F7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/any.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = any.h; path = include/opencv2/flann/any.h; sourceTree = SOURCE_ROOT; };
+		6E49D7CA6A234EDB8A7DDD9F /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = flann.hpp; path = include/opencv2/flann/flann.hpp; sourceTree = SOURCE_ROOT; };
+		73015927C295404F8D6590B8 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kdtree_single_index.h; path = include/opencv2/flann/kdtree_single_index.h; sourceTree = SOURCE_ROOT; };
+		73D77AFC9D5B401392CACFAB /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/ground_truth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ground_truth.h; path = include/opencv2/flann/ground_truth.h; sourceTree = SOURCE_ROOT; };
+		750AF1B574264A0383648806 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hdf5.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hdf5.h; path = include/opencv2/flann/hdf5.h; sourceTree = SOURCE_ROOT; };
+		7A1E8A3717604877876C41F4 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/autotuned_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = autotuned_index.h; path = include/opencv2/flann/autotuned_index.h; sourceTree = SOURCE_ROOT; };
+		7E04C9C8C1734616A39D3120 /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7FF8EB76AC1A450E93CC18F5 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/miniflann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = miniflann.hpp; path = include/opencv2/flann/miniflann.hpp; sourceTree = SOURCE_ROOT; };
+		800B4EAFCDAB45DF9B7E809E /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_table.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lsh_table.h; path = include/opencv2/flann/lsh_table.h; sourceTree = SOURCE_ROOT; };
+		82967255396343D196332836 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/object_factory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = object_factory.h; path = include/opencv2/flann/object_factory.h; sourceTree = SOURCE_ROOT; };
+		874D534C51CB4CB4B62E3BD0 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/params.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = params.h; path = include/opencv2/flann/params.h; sourceTree = SOURCE_ROOT; };
+		8B0C421A3B6C43229F18A403 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/all_indices.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = all_indices.h; path = include/opencv2/flann/all_indices.h; sourceTree = SOURCE_ROOT; };
+		8B24DD1336C743D1BF6A90CD /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/autotuned_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = autotuned_index.h; path = include/opencv2/flann/autotuned_index.h; sourceTree = SOURCE_ROOT; };
+		8BA85EC7EEA34C6390265A94 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hdf5.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hdf5.h; path = include/opencv2/flann/hdf5.h; sourceTree = SOURCE_ROOT; };
+		8BD1607E4D2840248B34B43D /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logger.h; path = include/opencv2/flann/logger.h; sourceTree = SOURCE_ROOT; };
+		911321A983E54130AEAE52C6 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/random.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = random.h; path = include/opencv2/flann/random.h; sourceTree = SOURCE_ROOT; };
+		9DF0745E80234E1FA7C9F1BA /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/general.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = general.h; path = include/opencv2/flann/general.h; sourceTree = SOURCE_ROOT; };
+		9F523F169F6F4E6F976BAC0A /* opencv_flann */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_flann.dylib; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00489DBE9DA41A7AF324F24 /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		A11859EDBA4345059869E8DB /* /Users/elliotstaudt/opencv/modules/flann/test/test_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_main.cpp; path = test/test_main.cpp; sourceTree = SOURCE_ROOT; };
+		A54398A786DB4F5EAA1A6511 /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A63212458C26407BBD04D678 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = opencv_modules.hpp; path = ../../build/opencv2/opencv_modules.hpp; sourceTree = SOURCE_ROOT; };
+		AB1F959889CA4965B734248B /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/composite_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = composite_index.h; path = include/opencv2/flann/composite_index.h; sourceTree = SOURCE_ROOT; };
+		B0112D0ACEBA4A09BFB1E678 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/matrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = matrix.h; path = include/opencv2/flann/matrix.h; sourceTree = SOURCE_ROOT; };
+		B40DF8B564324C499A71466A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/random.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = random.h; path = include/opencv2/flann/random.h; sourceTree = SOURCE_ROOT; };
+		B688B7165B9E4DFBAE1A3128 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kmeans_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kmeans_index.h; path = include/opencv2/flann/kmeans_index.h; sourceTree = SOURCE_ROOT; };
+		BB239290F24B4DE8A0787AD7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/defines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = defines.h; path = include/opencv2/flann/defines.h; sourceTree = SOURCE_ROOT; };
+		BB7802EBED9D40EC90F7BDDC /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/object_factory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = object_factory.h; path = include/opencv2/flann/object_factory.h; sourceTree = SOURCE_ROOT; };
+		BF5E10DF17C14D4E8C8B2828 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = flann.hpp; path = include/opencv2/flann.hpp; sourceTree = SOURCE_ROOT; };
+		BFE3F9792AA942478B94D013 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logger.h; path = include/opencv2/flann/logger.h; sourceTree = SOURCE_ROOT; };
+		C0D664A13CEA4138824CFBE6 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/sampling.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sampling.h; path = include/opencv2/flann/sampling.h; sourceTree = SOURCE_ROOT; };
+		C159A1371A764CB4B0C4FD5A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/saving.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = saving.h; path = include/opencv2/flann/saving.h; sourceTree = SOURCE_ROOT; };
+		C183B160F4B14256A27C3D8C /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = flann_base.hpp; path = include/opencv2/flann/flann_base.hpp; sourceTree = SOURCE_ROOT; };
+		C47D443C5EFB4ADC95A732DB /* /Users/elliotstaudt/opencv/modules/flann/src/precomp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = precomp.hpp; path = src/precomp.hpp; sourceTree = SOURCE_ROOT; };
+		C6AA718BA06249058A7772EB /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kdtree_index.h; path = include/opencv2/flann/kdtree_index.h; sourceTree = SOURCE_ROOT; };
+		C9DA7259964948848251A4B2 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hierarchical_clustering_index.h; path = include/opencv2/flann/hierarchical_clustering_index.h; sourceTree = SOURCE_ROOT; };
+		CB4F22F0D380408682EF1AAE /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D045F0304B0147489969DBAA /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/nn_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nn_index.h; path = include/opencv2/flann/nn_index.h; sourceTree = SOURCE_ROOT; };
+		D19734562AE14B9191DCFE08 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/allocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator.h; path = include/opencv2/flann/allocator.h; sourceTree = SOURCE_ROOT; };
+		D2C3728E85AD486DAD261FA1 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/sampling.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sampling.h; path = include/opencv2/flann/sampling.h; sourceTree = SOURCE_ROOT; };
+		D3977CB4B17C4967A1004BB8 /* opencv_test_flann */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = opencv_test_flann; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59AE55A8FD04A19B9B55E56 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lsh_index.h; path = include/opencv2/flann/lsh_index.h; sourceTree = SOURCE_ROOT; };
+		D68A9C536A6B4A84BCBFA6AC /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D7C76B4EEA8D42459E27BF1E /* /Users/elliotstaudt/opencv/modules/flann/src/miniflann.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = miniflann.cpp; path = src/miniflann.cpp; sourceTree = SOURCE_ROOT; };
+		D820018499EE473A96D03229 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/allocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = allocator.h; path = include/opencv2/flann/allocator.h; sourceTree = SOURCE_ROOT; };
+		DB4636528A0C42FAAC1AC8F5 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_table.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = lsh_table.h; path = include/opencv2/flann/lsh_table.h; sourceTree = SOURCE_ROOT; };
+		DD4D6A7EAD3045E5A891BEB9 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/composite_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = composite_index.h; path = include/opencv2/flann/composite_index.h; sourceTree = SOURCE_ROOT; };
+		DDBC582A31E2416284E82CCD /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/matrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = matrix.h; path = include/opencv2/flann/matrix.h; sourceTree = SOURCE_ROOT; };
+		E09EEC79D3FB47599F4B1052 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dist.h; path = include/opencv2/flann/dist.h; sourceTree = SOURCE_ROOT; };
+		E118212699814B70AE4E29C4 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dummy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dummy.h; path = include/opencv2/flann/dummy.h; sourceTree = SOURCE_ROOT; };
+		E4C1C9F3E0F64122970B02CB /* /Users/elliotstaudt/opencv/build/cvconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cvconfig.h; path = ../../build/cvconfig.h; sourceTree = SOURCE_ROOT; };
+		E510F676413D4F8C9A5DE266 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timer.h; path = include/opencv2/flann/timer.h; sourceTree = SOURCE_ROOT; };
+		E56D8054EF4843BD8D176D15 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dummy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dummy.h; path = include/opencv2/flann/dummy.h; sourceTree = SOURCE_ROOT; };
+		F3207BC1A6264381B3904091 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/result_set.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = result_set.h; path = include/opencv2/flann/result_set.h; sourceTree = SOURCE_ROOT; };
+		F9AC86A5BCA746CD9FED3B6B /* /Users/elliotstaudt/opencv/modules/flann/src/flann.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = flann.cpp; path = src/flann.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		020E86C95B36416C92429FC9 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				1D96F0B4BFC141E59CC860D7 /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		1AABA7EC10994C0FBE364E52 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				0D5D0C7A0D43460CB95B76E3 /* /Users/elliotstaudt/opencv/modules/flann/test/test_precomp.hpp */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		1D96F0B4BFC141E59CC860D7 /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				5A73578822894C83AC266817 /* flann */,
+				BF5E10DF17C14D4E8C8B2828 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		3AE6922F64394F5FB182D4FE /* flann */ = {
+			isa = PBXGroup;
+			children = (
+				6789F44359D04479A570B013 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/all_indices.h */,
+				D19734562AE14B9191DCFE08 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/allocator.h */,
+				405CE6F0913C4113AF0AE3C7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/any.h */,
+				7A1E8A3717604877876C41F4 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/autotuned_index.h */,
+				AB1F959889CA4965B734248B /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/composite_index.h */,
+				5AA876B85A694C16863FE894 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/config.h */,
+				4172D56E6F9445D18E344022 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/defines.h */,
+				208816E9AE93473199E2AED9 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dist.h */,
+				E118212699814B70AE4E29C4 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dummy.h */,
+				315E16B53E2343A1B6692764 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h */,
+				3DD681A590774FB0A338A8EF /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann.hpp */,
+				C183B160F4B14256A27C3D8C /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann_base.hpp */,
+				9DF0745E80234E1FA7C9F1BA /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/general.h */,
+				73D77AFC9D5B401392CACFAB /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/ground_truth.h */,
+				750AF1B574264A0383648806 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hdf5.h */,
+				369F5343B9F946B1AAA77231 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/heap.h */,
+				C9DA7259964948848251A4B2 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */,
+				4CEA5F7E3CB24C36AC4AF5BE /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/index_testing.h */,
+				C6AA718BA06249058A7772EB /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_index.h */,
+				73015927C295404F8D6590B8 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h */,
+				2A5D6833E0294C19964C4F10 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kmeans_index.h */,
+				2559F47B1B414515984F6C3B /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/linear_index.h */,
+				BFE3F9792AA942478B94D013 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/logger.h */,
+				362F132FA6F64DFBBA73F269 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_index.h */,
+				800B4EAFCDAB45DF9B7E809E /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_table.h */,
+				B0112D0ACEBA4A09BFB1E678 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/matrix.h */,
+				609296BBE8DC418FB53686D1 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/miniflann.hpp */,
+				D045F0304B0147489969DBAA /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/nn_index.h */,
+				BB7802EBED9D40EC90F7BDDC /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/object_factory.h */,
+				874D534C51CB4CB4B62E3BD0 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/params.h */,
+				B40DF8B564324C499A71466A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/random.h */,
+				F3207BC1A6264381B3904091 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/result_set.h */,
+				D2C3728E85AD486DAD261FA1 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/sampling.h */,
+				C159A1371A764CB4B0C4FD5A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/saving.h */,
+				360E2F37ACF74564B1B76FD3 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/simplex_downhill.h */,
+				E510F676413D4F8C9A5DE266 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/timer.h */,
+			);
+			name = flann;
+			sourceTree = "<group>";
+		};
+		3FA781F67A3044199718A1FB /* opencv_flann */ = {
+			isa = PBXGroup;
+			children = (
+				020E86C95B36416C92429FC9 /* Include */,
+				A508AD71FD9F4A47921FE47D /* Src */,
+				4929FAFAD47B4CA9A6B4CA8D /* Header Files */,
+				CB4F22F0D380408682EF1AAE /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */,
+			);
+			name = opencv_flann;
+			sourceTree = "<group>";
+		};
+		441E356B028B47EEAE7AB269 /* opencv_test_flann */ = {
+			isa = PBXGroup;
+			children = (
+				BF462F24F25140DCBF50814D /* Src */,
+				1AABA7EC10994C0FBE364E52 /* Include */,
+				A54398A786DB4F5EAA1A6511 /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */,
+			);
+			name = opencv_test_flann;
+			sourceTree = "<group>";
+		};
+		47691E103F554E13947A6FE2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4929FAFAD47B4CA9A6B4CA8D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00489DBE9DA41A7AF324F24 /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				A63212458C26407BBD04D678 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		5A73578822894C83AC266817 /* flann */ = {
+			isa = PBXGroup;
+			children = (
+				8B0C421A3B6C43229F18A403 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/all_indices.h */,
+				D820018499EE473A96D03229 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/allocator.h */,
+				6D52F20040334797B19683F7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/any.h */,
+				8B24DD1336C743D1BF6A90CD /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/autotuned_index.h */,
+				DD4D6A7EAD3045E5A891BEB9 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/composite_index.h */,
+				51443F3D44EF4B7B8C17DD01 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/config.h */,
+				BB239290F24B4DE8A0787AD7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/defines.h */,
+				E09EEC79D3FB47599F4B1052 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dist.h */,
+				E56D8054EF4843BD8D176D15 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dummy.h */,
+				30EF3CC4D78342B6BF4BAB93 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h */,
+				6E49D7CA6A234EDB8A7DDD9F /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann.hpp */,
+				544B3E24C2F8401690586C4D /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/flann_base.hpp */,
+				49FB6A4D8E4546D492BEBFC7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/general.h */,
+				0BDBD1A84E474A66813A849D /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/ground_truth.h */,
+				8BA85EC7EEA34C6390265A94 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hdf5.h */,
+				08EE0D97128E45A7A512E3F0 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/heap.h */,
+				067535B512C5450EB97B18DC /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h */,
+				2B3454BC17C14C9D9FCE18C7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/index_testing.h */,
+				3E337FAA47B64F22B3CDA157 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_index.h */,
+				338BBB772E5244FCB443543A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h */,
+				B688B7165B9E4DFBAE1A3128 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/kmeans_index.h */,
+				013EC7D727D348838C93B418 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/linear_index.h */,
+				8BD1607E4D2840248B34B43D /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/logger.h */,
+				D59AE55A8FD04A19B9B55E56 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_index.h */,
+				DB4636528A0C42FAAC1AC8F5 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/lsh_table.h */,
+				DDBC582A31E2416284E82CCD /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/matrix.h */,
+				7FF8EB76AC1A450E93CC18F5 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/miniflann.hpp */,
+				4455DA3FA5AE458198DCFBA7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/nn_index.h */,
+				82967255396343D196332836 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/object_factory.h */,
+				166E3AE74D9648F492654B08 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/params.h */,
+				911321A983E54130AEAE52C6 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/random.h */,
+				1772F5B54314400898F693D1 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/result_set.h */,
+				C0D664A13CEA4138824CFBE6 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/sampling.h */,
+				45FADCC44B8E4BF8AF693BC7 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/saving.h */,
+				238E18C36D194D079B4DC44A /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/simplex_downhill.h */,
+				014B7E2490D44CBC98DFB94C /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann/timer.h */,
+			);
+			name = flann;
+			sourceTree = "<group>";
+		};
+		70935FD35FBD4B908C28A854 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				916423D1BFCD4FD69321383B /* CMake Rules */,
+				D68A9C536A6B4A84BCBFA6AC /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		718E1A69144240A6858D86F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F523F169F6F4E6F976BAC0A /* opencv_flann */,
+				27BC176FE3B041A5B7A5143D /* opencv_flann_object */,
+				D3977CB4B17C4967A1004BB8 /* opencv_test_flann */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		763510A3C1804F458B8982FE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				47691E103F554E13947A6FE2 /* CMake Rules */,
+				7E04C9C8C1734616A39D3120 /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		763D79D1EA4142E5A4D2C54E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E4E4B57A906145E6A2413EF1 /* tests accuracy */,
+				763510A3C1804F458B8982FE /* ALL_BUILD */,
+				85C548A4533C461DB0D4AE42 /* object_libraries */,
+				70935FD35FBD4B908C28A854 /* ZERO_CHECK */,
+				C21C7F89AA9441B490F139AA /* modules */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		85C548A4533C461DB0D4AE42 /* object_libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BF102A6D2E1D4C02AD76853F /* opencv_flann_object */,
+			);
+			name = object_libraries;
+			sourceTree = "<group>";
+		};
+		916423D1BFCD4FD69321383B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A2D5D62450504A228A099B9E /* opencv2 */ = {
+			isa = PBXGroup;
+			children = (
+				3AE6922F64394F5FB182D4FE /* flann */,
+				1BE910D0B6B248318AB6F879 /* /Users/elliotstaudt/opencv/modules/flann/include/opencv2/flann.hpp */,
+			);
+			name = opencv2;
+			sourceTree = "<group>";
+		};
+		A508AD71FD9F4A47921FE47D /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				F9AC86A5BCA746CD9FED3B6B /* /Users/elliotstaudt/opencv/modules/flann/src/flann.cpp */,
+				64622EC4B7E545C794D75DBE /* /Users/elliotstaudt/opencv/modules/flann/src/miniflann.cpp */,
+				2A3893CF71EB45ACAF9F9E5B /* /Users/elliotstaudt/opencv/modules/flann/src/precomp.hpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		A5F52CAC8A1B45489CD70A30 = {
+			isa = PBXGroup;
+			children = (
+				763D79D1EA4142E5A4D2C54E /* Sources */,
+				D7B799347E3642EBB022822C /* Resources */,
+				718E1A69144240A6858D86F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF102A6D2E1D4C02AD76853F /* opencv_flann_object */ = {
+			isa = PBXGroup;
+			children = (
+				C7C27997CEA24C83A4F7DDDA /* Include */,
+				CFE215BA9FFE4EE0877D9F33 /* Src */,
+				F6A4001238414CA381C3058F /* Header Files */,
+				1370AE05F219425AAED7CBF0 /* /Users/elliotstaudt/opencv/modules/flann/CMakeLists.txt */,
+			);
+			name = opencv_flann_object;
+			sourceTree = "<group>";
+		};
+		BF462F24F25140DCBF50814D /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				20F9C37AD5074A819566B3A1 /* /Users/elliotstaudt/opencv/modules/flann/test/test_lshtable_badarg.cpp */,
+				A11859EDBA4345059869E8DB /* /Users/elliotstaudt/opencv/modules/flann/test/test_main.cpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		C21C7F89AA9441B490F139AA /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				3FA781F67A3044199718A1FB /* opencv_flann */,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		C7C27997CEA24C83A4F7DDDA /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				A2D5D62450504A228A099B9E /* opencv2 */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		CFE215BA9FFE4EE0877D9F33 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				10A8601D26B4490FA771A84A /* /Users/elliotstaudt/opencv/modules/flann/src/flann.cpp */,
+				D7C76B4EEA8D42459E27BF1E /* /Users/elliotstaudt/opencv/modules/flann/src/miniflann.cpp */,
+				C47D443C5EFB4ADC95A732DB /* /Users/elliotstaudt/opencv/modules/flann/src/precomp.hpp */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		D7B799347E3642EBB022822C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E4E4B57A906145E6A2413EF1 /* tests accuracy */ = {
+			isa = PBXGroup;
+			children = (
+				441E356B028B47EEAE7AB269 /* opencv_test_flann */,
+			);
+			name = "tests accuracy";
+			sourceTree = "<group>";
+		};
+		F6A4001238414CA381C3058F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4C1C9F3E0F64122970B02CB /* /Users/elliotstaudt/opencv/build/cvconfig.h */,
+				605F48949CBA4DC6AB686210 /* /Users/elliotstaudt/opencv/build/opencv2/opencv_modules.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06B09E440A404DB49FD76768 /* opencv_test_flann */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77913E01388C442A83513754 /* Build configuration list for PBXNativeTarget "opencv_test_flann" */;
+			buildPhases = (
+				1DF2749F082946599F03F996 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF456852C5FD41A1B7FF645B /* PBXTargetDependency */,
+				86175F49BFD248FF98ECB952 /* PBXTargetDependency */,
+			);
+			name = opencv_test_flann;
+			productName = opencv_test_flann;
+			productReference = D3977CB4B17C4967A1004BB8 /* opencv_test_flann */;
+			productType = "com.apple.product-type.tool";
+		};
+		0C33A1FB1CD5418E9926B697 /* opencv_flann */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AEC95F1427487393139472 /* Build configuration list for PBXNativeTarget "opencv_flann" */;
+			buildPhases = (
+				28F9D5C786154CAFA4759385 /* Sources */,
+				6E43A11244A7446496A5E47B /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D17B9031ECBB43D0B7F2A441 /* PBXTargetDependency */,
+			);
+			name = opencv_flann;
+			productName = opencv_flann;
+			productReference = 9F523F169F6F4E6F976BAC0A /* opencv_flann */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		0E4583CE6C9F498AB5329394 /* opencv_flann_object */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9CEABFF9A740F29858D8BB /* Build configuration list for PBXNativeTarget "opencv_flann_object" */;
+			buildPhases = (
+				0F689DB91AE0409A8D9CB0F2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9653BEAC62C347AFA237BEB4 /* PBXTargetDependency */,
+			);
+			name = opencv_flann_object;
+			productName = opencv_flann_object;
+			productReference = 27BC176FE3B041A5B7A5143D /* opencv_flann_object */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36E6864E28674BEEBF3CFD66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = E0D46617ACEA48C7A1B7B2F6 /* Build configuration list for PBXProject "opencv_flann" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				534DD7F27FAC4CBAA4830EF3 /* Debug */,
+				BD56FE5D5F0944FDBFB84FAC /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A5F52CAC8A1B45489CD70A30;
+			projectDirPath = ../../../modules/flann;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				0C33A1FB1CD5418E9926B697 /* opencv_flann */,
+				0E4583CE6C9F498AB5329394 /* opencv_flann_object */,
+				06B09E440A404DB49FD76768 /* opencv_test_flann */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00F799C04A8146969A2D6C1C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/flann -f /Users/elliotstaudt/opencv/build/modules/flann/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2FAA6AC08C8B4EE7ACF9C1BC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		62AF9FC4D46842E1B2EB54CE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/flann -f /Users/elliotstaudt/opencv/build/modules/flann/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6E43A11244A7446496A5E47B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/flann -f /Users/elliotstaudt/opencv/build/modules/flann/CMakeScripts/opencv_flann_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7FD63EA369384848A30C3D41 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8610F894E8DD4806A5B52D4E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		96867503A8474DDF86BA6BDE /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/flann -f /Users/elliotstaudt/opencv/build/modules/flann/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B35D0C3C0C9B402CBC8B22A0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E7C80438EB74408E9DB72E6C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/modules/flann -f /Users/elliotstaudt/opencv/build/modules/flann/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F689DB91AE0409A8D9CB0F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				733FE7D49A344567A755B324 /* /Users/elliotstaudt/opencv/modules/flann/src/flann.cpp */,
+				6F774C56ACE94779B8FA6067 /* /Users/elliotstaudt/opencv/modules/flann/src/miniflann.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF2749F082946599F03F996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB64F02CDA704227BE63E1ED /* /Users/elliotstaudt/opencv/modules/flann/test/test_lshtable_badarg.cpp */,
+				7085524E0A504A16BC9D0DB4 /* /Users/elliotstaudt/opencv/modules/flann/test/test_main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F9D5C786154CAFA4759385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9A5B31A4B5419A8E4F5CAF /* /Users/elliotstaudt/opencv/modules/flann/src/flann.cpp */,
+				33C93D2D3CA74E92995FEC68 /* /Users/elliotstaudt/opencv/modules/flann/src/miniflann.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C19C363FD7B46319B7C0866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = F69C20EF1650447583E29215 /* PBXContainerItemProxy */;
+		};
+		21465F0A68894C9788881872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06B09E440A404DB49FD76768 /* opencv_test_flann */;
+			targetProxy = 5C6B023A4C994244A7A9E0A2 /* PBXContainerItemProxy */;
+		};
+		250E7D9A1D0D4D148422C229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C33A1FB1CD5418E9926B697 /* opencv_flann */;
+			targetProxy = 633BA1C8E80F4817AB29C702 /* PBXContainerItemProxy */;
+		};
+		5CCECDCFF6E447A98EAF8C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 194A86B1C7FE4866BFD04048 /* PBXContainerItemProxy */;
+		};
+		86175F49BFD248FF98ECB952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 7AC578E1C91244E3B26623BF /* PBXContainerItemProxy */;
+		};
+		8ACEDC316EBB451C92B5623F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 5705FC4F0BC04DCDAD52B3C3 /* PBXContainerItemProxy */;
+		};
+		9653BEAC62C347AFA237BEB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 85878B9F4F9F42F482C1EBF9 /* PBXContainerItemProxy */;
+		};
+		AF456852C5FD41A1B7FF645B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C33A1FB1CD5418E9926B697 /* opencv_flann */;
+			targetProxy = 8DA017D9BA3D4A818C58E40A /* PBXContainerItemProxy */;
+		};
+		D17B9031ECBB43D0B7F2A441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = 7305F1AA3B7548CE98B5DBB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		200A98A89477481DBD92F9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/flann/opencv_flann.build/Release/opencv_flann_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_flann_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		2DE784DD6DA04B56BC82DEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		2EF7136B7BF243AE8DFDCFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann/build;
+			};
+			name = Release;
+		};
+		370CCE8C8FA74525BFB2A724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		3C922F21D682484F9F125034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		43EEC19D5C884449A3014518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Debug;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_flann.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		4B35F96F6C6140C2B0927F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		5C8115F0886C4E3286F1F74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/lib/Release;
+				DYLIB_COMPATIBILITY_VERSION = 3.0.0;
+				DYLIB_CURRENT_VERSION = 3.0.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.dylib  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_flann.3.0.0;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		5C895A9AA6314226828C1C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Release/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Release/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Release/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Release/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_flann;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		8E696AAD47B640F2B68ADF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		91EFF52EEB124FE8AE812049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/elliotstaudt/opencv/build/modules/flann/opencv_flann.build/Debug/opencv_flann_object.build/Objects-normal/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", CVAPI_EXPORTS, "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG -fPIC  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_flann_object;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		979E245817BF4E7AAD2D5F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann/build;
+			};
+			name = Debug;
+		};
+		C4B850518E8C4212B9D7C765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		CC638D99B0B84DC6B23EA3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/cuda/lib;
+				LIBRARY_SEARCH_PATHS = " /usr/local/cuda/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/cuda/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden         -DDEBUG -D_DEBUG  ";
+				OTHER_LDFLAGS = "    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_ts.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_flann.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_highgui.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_videoio.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgcodecs.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_imgproc.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_core.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_cudev.3.0.0.dylib /Users/elliotstaudt/opencv/build/lib/Debug/libopencv_hal.a /Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/lib/libippicv.a -lcudart -lnppc -lnppi -lnpps -lcufft";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = opencv_test_flann;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F02A50A7563844E1BE148EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'__OPENCV_BUILD=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		F8C4831B9B4C41A29216325D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/ippicv/unpack/ippicv_osx/include, /Users/elliotstaudt/opencv/build, /Users/elliotstaudt/opencv/modules/flann/include, /Users/elliotstaudt/opencv/modules/flann/src, /Users/elliotstaudt/opencv/build/modules/flann, /Users/elliotstaudt/opencv/modules/cudev/include, /Users/elliotstaudt/opencv/modules/hal/include, /Users/elliotstaudt/opencv/modules/core/include, /Users/elliotstaudt/opencv/modules/ts/include, /Users/elliotstaudt/opencv/modules/imgcodecs/include, /Users/elliotstaudt/opencv/modules/videoio/include, /Users/elliotstaudt/opencv/modules/imgproc/include, /Users/elliotstaudt/opencv/modules/highgui/include, /Users/elliotstaudt/opencv/modules/flann/test, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/modules/flann;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283A67DAC33B4009891D0A68 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE784DD6DA04B56BC82DEC2 /* Debug */,
+				4B35F96F6C6140C2B0927F6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		320A352910BC41D3B2DA293A /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C4831B9B4C41A29216325D /* Debug */,
+				3C922F21D682484F9F125034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		61075254E56F4591AC2E6846 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B850518E8C4212B9D7C765 /* Debug */,
+				8E696AAD47B640F2B68ADF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		77913E01388C442A83513754 /* Build configuration list for PBXNativeTarget "opencv_test_flann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC638D99B0B84DC6B23EA3FB /* Debug */,
+				5C895A9AA6314226828C1C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB9CEABFF9A740F29858D8BB /* Build configuration list for PBXNativeTarget "opencv_flann_object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91EFF52EEB124FE8AE812049 /* Debug */,
+				200A98A89477481DBD92F9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D4AEC95F1427487393139472 /* Build configuration list for PBXNativeTarget "opencv_flann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43EEC19D5C884449A3014518 /* Debug */,
+				5C8115F0886C4E3286F1F74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E0D46617ACEA48C7A1B7B2F6 /* Build configuration list for PBXProject "opencv_flann" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979E245817BF4E7AAD2D5F5B /* Debug */,
+				2EF7136B7BF243AE8DFDCFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDB5E66EA16A46088BE14CC1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370CCE8C8FA74525BFB2A724 /* Debug */,
+				F02A50A7563844E1BE148EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36E6864E28674BEEBF3CFD66 /* Project object */;
+}

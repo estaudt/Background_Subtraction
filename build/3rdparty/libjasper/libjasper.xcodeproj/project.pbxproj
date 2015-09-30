@@ -1,0 +1,994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31613DB07150419D8029959F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 853FEDA0A47F4456A5E8FA76 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				E2F637B0D3AB4F64BC001935 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				2015D1E4A25E45A7A5A9572B /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		3DBD8CEA4A4C4E43B84C72EA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 242DACB0A3564E919763D102 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				11A7123ACEB346868D79035E /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				D054EC9035A148E9B90D5A87 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		3FF355423DF84D7DA789A862 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9629608237794238800F92F4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8E97610ADCE64F2A80589BD1 /* CMake Rules */,
+			);
+			dependencies = (
+				2D8D20C3DE694A2DADC0A574 /* PBXTargetDependency */,
+				C0C5FEFD48C542DAA4AEA3FA /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		47D02146361446C7B5B35956 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CC5FA92EF6E54435AABE0B75 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				BBD6D4AB9FAB4F6E9EDDE9FE /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		023BB834D4124B358D500476 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_dec.c */ = {isa = PBXBuildFile; fileRef = CF8ADB59EC504A1D8D948BC9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_dec.c */; settings = {COMPILER_FLAGS = ""; }; };
+		064B4E3CC4104BFE9B01EEAD /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_stream.c */ = {isa = PBXBuildFile; fileRef = 16C930FEB0FE4435B1E3369F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_stream.c */; settings = {COMPILER_FLAGS = ""; }; };
+		06559AC45D694E959A688A0F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_init.h */ = {isa = PBXBuildFile; fileRef = B8614B347BFB43A5B0B32D62 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_init.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0B28881E064C46B5A00C43CA /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_config.h */ = {isa = PBXBuildFile; fileRef = B609D4CF4B264B60B148F1B4 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0F70FE719D524EE88B9F2A00 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_config2.h */ = {isa = PBXBuildFile; fileRef = 7F83EB808C7643DF8A4CE2D0 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_config2.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1137D92436AE471390708168 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_tmr.c */ = {isa = PBXBuildFile; fileRef = B3570B71248741DE9D08E2C3 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_tmr.c */; settings = {COMPILER_FLAGS = ""; }; };
+		1441D4E7DAB64921A6B8DA8A /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jasper.h */ = {isa = PBXBuildFile; fileRef = 2C39AE98317945D0AE81A8B6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jasper.h */; settings = {COMPILER_FLAGS = ""; }; };
+		1CD9ED22B9AC4445A3F2C578 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9974D8EB5A3F4D6B8A156336 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		1E05DA8602FA4FD9B9A33C7A /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tagtree.c */ = {isa = PBXBuildFile; fileRef = BA8C4C82FA78495593C11E33 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tagtree.c */; settings = {COMPILER_FLAGS = ""; }; };
+		215A0FBC0BC24E9BAF6BC23A /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_init.c */ = {isa = PBXBuildFile; fileRef = 1E090167AE02494488F21043 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_init.c */; settings = {COMPILER_FLAGS = ""; }; };
+		22A0E135AC1F4E1CAD3F5DBA /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1dec.h */ = {isa = PBXBuildFile; fileRef = E248F3CCD0BF492C989A3AE2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1dec.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2471EC74504C45F1BA6FF18F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_malloc.h */ = {isa = PBXBuildFile; fileRef = 000EF66E7853434F95F6EEDD /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_malloc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		24C9225854794A5AA4F75B59 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_getopt.c */ = {isa = PBXBuildFile; fileRef = E883E40C7BF04D37B7A94467 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_getopt.c */; settings = {COMPILER_FLAGS = ""; }; };
+		29B6EC12B4294F18A38D546C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_tmr.h */ = {isa = PBXBuildFile; fileRef = 1C6D4C27978C43BBBCA12908 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_tmr.h */; settings = {COMPILER_FLAGS = ""; }; };
+		2D20EFC416904534945685DB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2enc.c */ = {isa = PBXBuildFile; fileRef = 1E2F44FAB24446F3ABFAD33D /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2enc.c */; settings = {COMPILER_FLAGS = ""; }; };
+		31FF16AD0DA6453AAA18EF6F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_dec.c */ = {isa = PBXBuildFile; fileRef = A4CCB1337FE0497283E083E2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_dec.c */; settings = {COMPILER_FLAGS = ""; }; };
+		36A466D64BD3486CA1708E90 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_tvp.h */ = {isa = PBXBuildFile; fileRef = 9BA20E633B83440381177A30 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_tvp.h */; settings = {COMPILER_FLAGS = ""; }; };
+		3C41F65227C6469ABD3CD6FA /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_debug.c */ = {isa = PBXBuildFile; fileRef = 37E897AA294F4E89AE000B79 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_debug.c */; settings = {COMPILER_FLAGS = ""; }; };
+		3C5322BD9B5F4C51A13FBF17 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqdec.c */ = {isa = PBXBuildFile; fileRef = B420BA3882C04381A42FF9B0 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqdec.c */; settings = {COMPILER_FLAGS = ""; }; };
+		42059EEACF484BBCB9A15ADB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_image.h */ = {isa = PBXBuildFile; fileRef = 0E412321E421444D97041B5C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_image.h */; settings = {COMPILER_FLAGS = ""; }; };
+		42B598D0A26B4A44A5F14F5E /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2dec.h */ = {isa = PBXBuildFile; fileRef = 40B8C986349D4D748EEA3CD1 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2dec.h */; settings = {COMPILER_FLAGS = ""; }; };
+		46FCAEEF56F4417D8A4F7F09 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_tvp.c */ = {isa = PBXBuildFile; fileRef = A5794518EB2E4A4DB48FC1D3 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_tvp.c */; settings = {COMPILER_FLAGS = ""; }; };
+		482BFA9F41244A86A2B02CA9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_cod.c */ = {isa = PBXBuildFile; fileRef = 0B1C63CFAABE443DB9C3161C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_cod.c */; settings = {COMPILER_FLAGS = ""; }; };
+		48EF8711FFD04CEC931DA8AB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_malloc.c */ = {isa = PBXBuildFile; fileRef = C7E9A790C2724A9C92961A5A /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_malloc.c */; settings = {COMPILER_FLAGS = ""; }; };
+		49B21F94DB8543E9B469913F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_seq.c */ = {isa = PBXBuildFile; fileRef = FEC0738AABF9412F98A9E113 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_seq.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4A57C3BE92454794A759BA05 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mct.c */ = {isa = PBXBuildFile; fileRef = 0A8D3622BD2A4D36A91C4038 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mct.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4AE9EAA700F84BE5AD2FAB8C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_enc.c */ = {isa = PBXBuildFile; fileRef = 10377B84C5DA48AF91B8FB33 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_enc.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4D68372369FC45228E236459 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqcod.h */ = {isa = PBXBuildFile; fileRef = 88ADB0E81501448E9481CFB4 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqcod.h */; settings = {COMPILER_FLAGS = ""; }; };
+		4DB613B0FDC448768D9C5549 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqcod.c */ = {isa = PBXBuildFile; fileRef = E791D4D3C55B48B2A0A1A2CE /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqcod.c */; settings = {COMPILER_FLAGS = ""; }; };
+		52CF2C6106F4498096A34CDB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqdec.h */ = {isa = PBXBuildFile; fileRef = 0F136AEC925E43C2943794AE /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqdec.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5899DA04E80545E5A1837B71 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_fix.h */ = {isa = PBXBuildFile; fileRef = 31554C9BA65C457F8086BD40 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_fix.h */; settings = {COMPILER_FLAGS = ""; }; };
+		59FD951DEF88471382C404A0 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1cod.h */ = {isa = PBXBuildFile; fileRef = F21114CB55E24FE6BCC2DAAB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1cod.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5D8B90A67FE54E2E8E69C713 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_seq.h */ = {isa = PBXBuildFile; fileRef = 1A2205E2173E484A978CC907 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_seq.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5ED591E567524D449C57EF34 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2enc.h */ = {isa = PBXBuildFile; fileRef = E1C4F352DFC442ACA3BC75DF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2enc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		693A5955E700467996C8EFE2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_util.h */ = {isa = PBXBuildFile; fileRef = E20612EDF5934AA393FCD4AF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_util.h */; settings = {COMPILER_FLAGS = ""; }; };
+		698EDAD843004FF1A2322C94 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1dec.c */ = {isa = PBXBuildFile; fileRef = 2BE575E851F943759918B251 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1dec.c */; settings = {COMPILER_FLAGS = ""; }; };
+		77E386E76A784346927DD951 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_math.h */ = {isa = PBXBuildFile; fileRef = 514312D263434C928EFBB96E /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_math.h */; settings = {COMPILER_FLAGS = ""; }; };
+		78941FA3149849549CE830C5 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_getopt.h */ = {isa = PBXBuildFile; fileRef = 2B274A69CD39452E85EB28D9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_getopt.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7CC8C7BC389E4DF1AB72A4B8 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqenc.h */ = {isa = PBXBuildFile; fileRef = 8E8D55A23C524C7AB1CF98D2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqenc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		7F27F44B6B3B4547A016FE92 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_icc.c */ = {isa = PBXBuildFile; fileRef = 52AB402F134E49BBA90F152C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_icc.c */; settings = {COMPILER_FLAGS = ""; }; };
+		808E9A923FC54EABBE3BBF92 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tsfb.h */ = {isa = PBXBuildFile; fileRef = 810267DA547145F488D68CA9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tsfb.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8232A441B60E474FB7999A68 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_math.c */ = {isa = PBXBuildFile; fileRef = B9B8F189382A46EAB0B27E23 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_math.c */; settings = {COMPILER_FLAGS = ""; }; };
+		85256A3481DD4DC7A66818EA /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_iccdata.c */ = {isa = PBXBuildFile; fileRef = 5FE985D9BBF347C9B92F56A2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_iccdata.c */; settings = {COMPILER_FLAGS = ""; }; };
+		8603E710629140FEB7B03748 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_types.h */ = {isa = PBXBuildFile; fileRef = 8EC56FDC4E6E4B69B40C18E6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_types.h */; settings = {COMPILER_FLAGS = ""; }; };
+		8A1F4AE3179C4665B037EA39 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_util.c */ = {isa = PBXBuildFile; fileRef = F0704149BE8D4E18A224DE57 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_util.c */; settings = {COMPILER_FLAGS = ""; }; };
+		8E8FAEF54596407C8302BB5E /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_string.c */ = {isa = PBXBuildFile; fileRef = C9D27BDED73145B6A14BE412 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_string.c */; settings = {COMPILER_FLAGS = ""; }; };
+		914F281EDFE546DA97E3BC2C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1enc.h */ = {isa = PBXBuildFile; fileRef = 1F1F857979B64E9F9F1A5612 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1enc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		9E43BF50CF3A490980918821 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_enc.h */ = {isa = PBXBuildFile; fileRef = 7C3D07BC9A794D298735867C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_enc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A7F09FC4576B4342AD7D981E /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cs.c */ = {isa = PBXBuildFile; fileRef = 8EEADD807C754CB1B842D147 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cs.c */; settings = {COMPILER_FLAGS = ""; }; };
+		A80ABDA5D75B4FFCAD21D77E /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_dec.h */ = {isa = PBXBuildFile; fileRef = C2AC8EBECD5A479DB96B8517 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_dec.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A8154F4E0DA542068E97F98C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2cod.c */ = {isa = PBXBuildFile; fileRef = F6C772EA5B654020B1C08F74 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2cod.c */; settings = {COMPILER_FLAGS = ""; }; };
+		A824731E71AD4D1A920E9004 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_math.h */ = {isa = PBXBuildFile; fileRef = 61B373DB2ADB4E248C57EB00 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_math.h */; settings = {COMPILER_FLAGS = ""; }; };
+		ABDD23CE64A44680870CA79B /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_enc.c */ = {isa = PBXBuildFile; fileRef = 660491E021564FE0A86B48A9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_enc.c */; settings = {COMPILER_FLAGS = ""; }; };
+		AC4D2AB73E2E47CCB0C49F2A /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_string.h */ = {isa = PBXBuildFile; fileRef = 6435C3B1F5AD426480D889CF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_string.h */; settings = {COMPILER_FLAGS = ""; }; };
+		AE555DDB7CE94121A40F9627 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_version.h */ = {isa = PBXBuildFile; fileRef = DE275AC187DA43B3B2948269 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_version.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B2AC6F3D6F184E378DCB2C06 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqenc.c */ = {isa = PBXBuildFile; fileRef = D1BC6722F016467A990C8C82 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqenc.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B53E22B7A49C4543B80D30FF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_version.c */ = {isa = PBXBuildFile; fileRef = A5B99F0FBDAB446F878CB2B2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_version.c */; settings = {COMPILER_FLAGS = ""; }; };
+		B5BB128FE59B4F3DBFD12CCF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cod.h */ = {isa = PBXBuildFile; fileRef = ECF3EF4E93364EAFA4EBBB5B /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cod.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B5C8D49965ED4312B46A0D8C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_debug.h */ = {isa = PBXBuildFile; fileRef = 708B1B8E323045F2A5EE490B /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_debug.h */; settings = {COMPILER_FLAGS = ""; }; };
+		B6BECD416BDC4AA8A4F069A1 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2dec.c */ = {isa = PBXBuildFile; fileRef = B245043243B545919F1ACADB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2dec.c */; settings = {COMPILER_FLAGS = ""; }; };
+		C640BC2B07AB4C2BAD43677B /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_stream.h */ = {isa = PBXBuildFile; fileRef = 80797BE098F9428FB29BB93F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_stream.h */; settings = {COMPILER_FLAGS = ""; }; };
+		C7E80A6365764AFB9CE33B24 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_cm.c */ = {isa = PBXBuildFile; fileRef = D51C8DFE6B5A41E490194745 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_cm.c */; settings = {COMPILER_FLAGS = ""; }; };
+		CA770907FB694924AC4EB4D7 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_qmfb.h */ = {isa = PBXBuildFile; fileRef = 5C7AF4E0EC7548CEACB662B6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_qmfb.h */; settings = {COMPILER_FLAGS = ""; }; };
+		CFC9EAB3759545EE8A54ABDC /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1cod.c */ = {isa = PBXBuildFile; fileRef = BBB7D8F557C44E0599FC3C92 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1cod.c */; settings = {COMPILER_FLAGS = ""; }; };
+		D24D3648ED1C456082564D28 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cs.h */ = {isa = PBXBuildFile; fileRef = 35A7F003F5AE40FC93E2D418 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cs.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D6917F0F5AD94E108C172756 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_image.c */ = {isa = PBXBuildFile; fileRef = 6156D0D9AE2E4B24A1E345AB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_image.c */; settings = {COMPILER_FLAGS = ""; }; };
+		DAE091464530480D98603F50 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tsfb.c */ = {isa = PBXBuildFile; fileRef = C5B4A2F6E063499A9A56A6F8 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tsfb.c */; settings = {COMPILER_FLAGS = ""; }; };
+		DAF2E441E01A4735B001AAC7 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1enc.c */ = {isa = PBXBuildFile; fileRef = 0DA070693E134D8083404BEF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1enc.c */; settings = {COMPILER_FLAGS = ""; }; };
+		DBCA1BF91280411FAE977549 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_flt.h */ = {isa = PBXBuildFile; fileRef = D3636AB2E4ED4E308BD94FE6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_flt.h */; settings = {COMPILER_FLAGS = ""; }; };
+		DC0CF7211EEB4130BFD976E3 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_qmfb.c */ = {isa = PBXBuildFile; fileRef = 49009A2A4FA74BFAA458F04A /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_qmfb.c */; settings = {COMPILER_FLAGS = ""; }; };
+		DD7E86C360994DD9A5DEFC45 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_icc.h */ = {isa = PBXBuildFile; fileRef = FFFAF5409B6D446199D916A4 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_icc.h */; settings = {COMPILER_FLAGS = ""; }; };
+		DD98531179CA4B4D880D2F75 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_cod.h */ = {isa = PBXBuildFile; fileRef = E9EDBE6BC1874F5A8B68F339 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_cod.h */; settings = {COMPILER_FLAGS = ""; }; };
+		E336E6F5B475469FA91448AA /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_bs.c */ = {isa = PBXBuildFile; fileRef = C081EBCE5B3D445B93490404 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_bs.c */; settings = {COMPILER_FLAGS = ""; }; };
+		EA6DDD6A649F49D0AD21D251 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2cod.h */ = {isa = PBXBuildFile; fileRef = 3458D8874EA0428C944D6518 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2cod.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EA6F842B15304CE0B9FF79AB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_bs.h */ = {isa = PBXBuildFile; fileRef = D7D81256527A4D7E8C314152 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_bs.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EB111D2712CD48BA8C79F8BA /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mct.h */ = {isa = PBXBuildFile; fileRef = 73904EE2A6F249F0B40C297E /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mct.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EBA5E13413AD4D3C84FAA20F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_fix.h */ = {isa = PBXBuildFile; fileRef = 9258312C9DB24663AAEE11D7 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_fix.h */; settings = {COMPILER_FLAGS = ""; }; };
+		EE6FD3298FB1452AA134F2EB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_cm.h */ = {isa = PBXBuildFile; fileRef = 8B44F485D6EB4B65A692E5D6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_cm.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F2282A6ED56A414BBB125157 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_dec.h */ = {isa = PBXBuildFile; fileRef = 40FCB8D6B22E46DCA4559750 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_dec.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F4E07C5F9F974F29BA703598 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tagtree.h */ = {isa = PBXBuildFile; fileRef = EFB9C719A228417FA0A24F83 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tagtree.h */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0CA8C35C678E4C0DBF9BD1F6 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		9E8FB4DFA30C4B00BF3AB0B5 = {
+			isa = PBXBuildStyle;
+		};
+		B51EE765BB504D1B9110F9F0 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		8594FDA958B94B3D987541E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C316F0C8A67648C0A6C074CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		A5511F31D3D44336AB0AF56B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C316F0C8A67648C0A6C074CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED57412E5BD41D59068A89C;
+			remoteInfo = libjasper;
+		};
+		D9915A40103F469986C18066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C316F0C8A67648C0A6C074CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+		DBADD5CC8BB24322ADDF8776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C316F0C8A67648C0A6C074CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF355423DF84D7DA789A862;
+			remoteInfo = ALL_BUILD;
+		};
+		E7781A0C1AEC43349587F999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C316F0C8A67648C0A6C074CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D02146361446C7B5B35956;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000EF66E7853434F95F6EEDD /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_malloc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_malloc.h; path = jasper/jas_malloc.h; sourceTree = SOURCE_ROOT; };
+		0A8D3622BD2A4D36A91C4038 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_mct.c; path = jpc_mct.c; sourceTree = SOURCE_ROOT; };
+		0B1C63CFAABE443DB9C3161C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_cod.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jp2_cod.c; path = jp2_cod.c; sourceTree = SOURCE_ROOT; };
+		0DA070693E134D8083404BEF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_t1enc.c; path = jpc_t1enc.c; sourceTree = SOURCE_ROOT; };
+		0E412321E421444D97041B5C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_image.h; path = jasper/jas_image.h; sourceTree = SOURCE_ROOT; };
+		0F136AEC925E43C2943794AE /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqdec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_mqdec.h; path = jpc_mqdec.h; sourceTree = SOURCE_ROOT; };
+		10377B84C5DA48AF91B8FB33 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jp2_enc.c; path = jp2_enc.c; sourceTree = SOURCE_ROOT; };
+		16C930FEB0FE4435B1E3369F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_stream.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_stream.c; path = jas_stream.c; sourceTree = SOURCE_ROOT; };
+		1A2205E2173E484A978CC907 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_seq.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_seq.h; path = jasper/jas_seq.h; sourceTree = SOURCE_ROOT; };
+		1C6D4C27978C43BBBCA12908 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_tmr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_tmr.h; path = jasper/jas_tmr.h; sourceTree = SOURCE_ROOT; };
+		1E090167AE02494488F21043 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_init.c; path = jas_init.c; sourceTree = SOURCE_ROOT; };
+		1E2F44FAB24446F3ABFAD33D /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_t2enc.c; path = jpc_t2enc.c; sourceTree = SOURCE_ROOT; };
+		1F1F857979B64E9F9F1A5612 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_t1enc.h; path = jpc_t1enc.h; sourceTree = SOURCE_ROOT; };
+		2B274A69CD39452E85EB28D9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_getopt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_getopt.h; path = jasper/jas_getopt.h; sourceTree = SOURCE_ROOT; };
+		2BE575E851F943759918B251 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_t1dec.c; path = jpc_t1dec.c; sourceTree = SOURCE_ROOT; };
+		2C39AE98317945D0AE81A8B6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jasper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jasper.h; path = jasper/jasper.h; sourceTree = SOURCE_ROOT; };
+		31554C9BA65C457F8086BD40 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_fix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_fix.h; path = jasper/jas_fix.h; sourceTree = SOURCE_ROOT; };
+		3458D8874EA0428C944D6518 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2cod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_t2cod.h; path = jpc_t2cod.h; sourceTree = SOURCE_ROOT; };
+		35A7F003F5AE40FC93E2D418 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_cs.h; path = jpc_cs.h; sourceTree = SOURCE_ROOT; };
+		37E897AA294F4E89AE000B79 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_debug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_debug.c; path = jas_debug.c; sourceTree = SOURCE_ROOT; };
+		40B8C986349D4D748EEA3CD1 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_t2dec.h; path = jpc_t2dec.h; sourceTree = SOURCE_ROOT; };
+		40FCB8D6B22E46DCA4559750 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_dec.h; path = jpc_dec.h; sourceTree = SOURCE_ROOT; };
+		49009A2A4FA74BFAA458F04A /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_qmfb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_qmfb.c; path = jpc_qmfb.c; sourceTree = SOURCE_ROOT; };
+		514312D263434C928EFBB96E /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_math.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_math.h; path = jasper/jas_math.h; sourceTree = SOURCE_ROOT; };
+		52AB402F134E49BBA90F152C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_icc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_icc.c; path = jas_icc.c; sourceTree = SOURCE_ROOT; };
+		5C7AF4E0EC7548CEACB662B6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_qmfb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_qmfb.h; path = jpc_qmfb.h; sourceTree = SOURCE_ROOT; };
+		5FE985D9BBF347C9B92F56A2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_iccdata.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_iccdata.c; path = jas_iccdata.c; sourceTree = SOURCE_ROOT; };
+		6156D0D9AE2E4B24A1E345AB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_image.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_image.c; path = jas_image.c; sourceTree = SOURCE_ROOT; };
+		61B373DB2ADB4E248C57EB00 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_math.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_math.h; path = jpc_math.h; sourceTree = SOURCE_ROOT; };
+		6435C3B1F5AD426480D889CF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_string.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_string.h; path = jasper/jas_string.h; sourceTree = SOURCE_ROOT; };
+		660491E021564FE0A86B48A9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_enc.c; path = jpc_enc.c; sourceTree = SOURCE_ROOT; };
+		708B1B8E323045F2A5EE490B /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_debug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_debug.h; path = jasper/jas_debug.h; sourceTree = SOURCE_ROOT; };
+		73904EE2A6F249F0B40C297E /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_mct.h; path = jpc_mct.h; sourceTree = SOURCE_ROOT; };
+		7C3D07BC9A794D298735867C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_enc.h; path = jpc_enc.h; sourceTree = SOURCE_ROOT; };
+		7F83EB808C7643DF8A4CE2D0 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_config2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_config2.h; path = jasper/jas_config2.h; sourceTree = SOURCE_ROOT; };
+		80797BE098F9428FB29BB93F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_stream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_stream.h; path = jasper/jas_stream.h; sourceTree = SOURCE_ROOT; };
+		810267DA547145F488D68CA9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tsfb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_tsfb.h; path = jpc_tsfb.h; sourceTree = SOURCE_ROOT; };
+		88ADB0E81501448E9481CFB4 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqcod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_mqcod.h; path = jpc_mqcod.h; sourceTree = SOURCE_ROOT; };
+		8B44F485D6EB4B65A692E5D6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_cm.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_cm.h; path = jasper/jas_cm.h; sourceTree = SOURCE_ROOT; };
+		8E8D55A23C524C7AB1CF98D2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqenc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_mqenc.h; path = jpc_mqenc.h; sourceTree = SOURCE_ROOT; };
+		8EC56FDC4E6E4B69B40C18E6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_types.h; path = jasper/jas_types.h; sourceTree = SOURCE_ROOT; };
+		8EEADD807C754CB1B842D147 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_cs.c; path = jpc_cs.c; sourceTree = SOURCE_ROOT; };
+		9258312C9DB24663AAEE11D7 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_fix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_fix.h; path = jpc_fix.h; sourceTree = SOURCE_ROOT; };
+		9974D8EB5A3F4D6B8A156336 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9BA20E633B83440381177A30 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_tvp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_tvp.h; path = jasper/jas_tvp.h; sourceTree = SOURCE_ROOT; };
+		A4CCB1337FE0497283E083E2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jp2_dec.c; path = jp2_dec.c; sourceTree = SOURCE_ROOT; };
+		A5794518EB2E4A4DB48FC1D3 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_tvp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_tvp.c; path = jas_tvp.c; sourceTree = SOURCE_ROOT; };
+		A5B99F0FBDAB446F878CB2B2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_version.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_version.c; path = jas_version.c; sourceTree = SOURCE_ROOT; };
+		B245043243B545919F1ACADB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_t2dec.c; path = jpc_t2dec.c; sourceTree = SOURCE_ROOT; };
+		B3570B71248741DE9D08E2C3 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_tmr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_tmr.c; path = jas_tmr.c; sourceTree = SOURCE_ROOT; };
+		B420BA3882C04381A42FF9B0 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqdec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_mqdec.c; path = jpc_mqdec.c; sourceTree = SOURCE_ROOT; };
+		B609D4CF4B264B60B148F1B4 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_config.h; path = jasper/jas_config.h; sourceTree = SOURCE_ROOT; };
+		B8614B347BFB43A5B0B32D62 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_init.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_init.h; path = jasper/jas_init.h; sourceTree = SOURCE_ROOT; };
+		B9B8F189382A46EAB0B27E23 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_math.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_math.c; path = jpc_math.c; sourceTree = SOURCE_ROOT; };
+		BA8C4C82FA78495593C11E33 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tagtree.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_tagtree.c; path = jpc_tagtree.c; sourceTree = SOURCE_ROOT; };
+		BBB7D8F557C44E0599FC3C92 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1cod.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_t1cod.c; path = jpc_t1cod.c; sourceTree = SOURCE_ROOT; };
+		C081EBCE5B3D445B93490404 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_bs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_bs.c; path = jpc_bs.c; sourceTree = SOURCE_ROOT; };
+		C1844E044AC246E380F47597 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C2AC8EBECD5A479DB96B8517 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jp2_dec.h; path = jp2_dec.h; sourceTree = SOURCE_ROOT; };
+		C5B4A2F6E063499A9A56A6F8 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tsfb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_tsfb.c; path = jpc_tsfb.c; sourceTree = SOURCE_ROOT; };
+		C7E9A790C2724A9C92961A5A /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_malloc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_malloc.c; path = jas_malloc.c; sourceTree = SOURCE_ROOT; };
+		C9D27BDED73145B6A14BE412 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_string.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_string.c; path = jas_string.c; sourceTree = SOURCE_ROOT; };
+		CF8ADB59EC504A1D8D948BC9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_dec.c; path = jpc_dec.c; sourceTree = SOURCE_ROOT; };
+		D1BC6722F016467A990C8C82 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqenc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_mqenc.c; path = jpc_mqenc.c; sourceTree = SOURCE_ROOT; };
+		D3636AB2E4ED4E308BD94FE6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_flt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_flt.h; path = jpc_flt.h; sourceTree = SOURCE_ROOT; };
+		D51C8DFE6B5A41E490194745 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_cm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_cm.c; path = jas_cm.c; sourceTree = SOURCE_ROOT; };
+		D7D81256527A4D7E8C314152 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_bs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_bs.h; path = jpc_bs.h; sourceTree = SOURCE_ROOT; };
+		DE275AC187DA43B3B2948269 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_version.h; path = jasper/jas_version.h; sourceTree = SOURCE_ROOT; };
+		E1C4F352DFC442ACA3BC75DF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_t2enc.h; path = jpc_t2enc.h; sourceTree = SOURCE_ROOT; };
+		E20612EDF5934AA393FCD4AF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_util.h; path = jpc_util.h; sourceTree = SOURCE_ROOT; };
+		E248F3CCD0BF492C989A3AE2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_t1dec.h; path = jpc_t1dec.h; sourceTree = SOURCE_ROOT; };
+		E791D4D3C55B48B2A0A1A2CE /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqcod.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_mqcod.c; path = jpc_mqcod.c; sourceTree = SOURCE_ROOT; };
+		E883E40C7BF04D37B7A94467 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_getopt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_getopt.c; path = jas_getopt.c; sourceTree = SOURCE_ROOT; };
+		E9EDBE6BC1874F5A8B68F339 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_cod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jp2_cod.h; path = jp2_cod.h; sourceTree = SOURCE_ROOT; };
+		ECF3EF4E93364EAFA4EBBB5B /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_cod.h; path = jpc_cod.h; sourceTree = SOURCE_ROOT; };
+		EFB9C719A228417FA0A24F83 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tagtree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_tagtree.h; path = jpc_tagtree.h; sourceTree = SOURCE_ROOT; };
+		F0704149BE8D4E18A224DE57 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_util.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_util.c; path = jpc_util.c; sourceTree = SOURCE_ROOT; };
+		F07239CC2763430AA8B9FFB7 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F21114CB55E24FE6BCC2DAAB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1cod.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpc_t1cod.h; path = jpc_t1cod.h; sourceTree = SOURCE_ROOT; };
+		F6C772EA5B654020B1C08F74 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2cod.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jpc_t2cod.c; path = jpc_t2cod.c; sourceTree = SOURCE_ROOT; };
+		FB152077137F46B4B16A9D05 /* libjasper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibjasper.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC0738AABF9412F98A9E113 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_seq.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jas_seq.c; path = jas_seq.c; sourceTree = SOURCE_ROOT; };
+		FFFAF5409B6D446199D916A4 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_icc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jas_icc.h; path = jasper/jas_icc.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1AFBEC8FACFD4BEC944C4286 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		22C16509C596454FB8F34AAB /* libjasper */ = {
+			isa = PBXGroup;
+			children = (
+				2DA090D6A3514985B83F36E4 /* Source Files */,
+				D2B1787419F643E094EA6EFB /* Header Files */,
+				9974D8EB5A3F4D6B8A156336 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/CMakeLists.txt */,
+			);
+			name = libjasper;
+			sourceTree = "<group>";
+		};
+		2DA090D6A3514985B83F36E4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D51C8DFE6B5A41E490194745 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_cm.c */,
+				37E897AA294F4E89AE000B79 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_debug.c */,
+				E883E40C7BF04D37B7A94467 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_getopt.c */,
+				52AB402F134E49BBA90F152C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_icc.c */,
+				5FE985D9BBF347C9B92F56A2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_iccdata.c */,
+				6156D0D9AE2E4B24A1E345AB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_image.c */,
+				1E090167AE02494488F21043 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_init.c */,
+				C7E9A790C2724A9C92961A5A /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_malloc.c */,
+				FEC0738AABF9412F98A9E113 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_seq.c */,
+				16C930FEB0FE4435B1E3369F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_stream.c */,
+				C9D27BDED73145B6A14BE412 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_string.c */,
+				B3570B71248741DE9D08E2C3 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_tmr.c */,
+				A5794518EB2E4A4DB48FC1D3 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_tvp.c */,
+				A5B99F0FBDAB446F878CB2B2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_version.c */,
+				0B1C63CFAABE443DB9C3161C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_cod.c */,
+				A4CCB1337FE0497283E083E2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_dec.c */,
+				10377B84C5DA48AF91B8FB33 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_enc.c */,
+				C081EBCE5B3D445B93490404 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_bs.c */,
+				8EEADD807C754CB1B842D147 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cs.c */,
+				CF8ADB59EC504A1D8D948BC9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_dec.c */,
+				660491E021564FE0A86B48A9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_enc.c */,
+				B9B8F189382A46EAB0B27E23 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_math.c */,
+				0A8D3622BD2A4D36A91C4038 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mct.c */,
+				E791D4D3C55B48B2A0A1A2CE /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqcod.c */,
+				B420BA3882C04381A42FF9B0 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqdec.c */,
+				D1BC6722F016467A990C8C82 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqenc.c */,
+				49009A2A4FA74BFAA458F04A /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_qmfb.c */,
+				BBB7D8F557C44E0599FC3C92 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1cod.c */,
+				2BE575E851F943759918B251 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1dec.c */,
+				0DA070693E134D8083404BEF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1enc.c */,
+				F6C772EA5B654020B1C08F74 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2cod.c */,
+				B245043243B545919F1ACADB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2dec.c */,
+				1E2F44FAB24446F3ABFAD33D /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2enc.c */,
+				BA8C4C82FA78495593C11E33 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tagtree.c */,
+				C5B4A2F6E063499A9A56A6F8 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tsfb.c */,
+				F0704149BE8D4E18A224DE57 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_util.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		353EEC4361964A658C49C762 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				1AFBEC8FACFD4BEC944C4286 /* CMake Rules */,
+				F07239CC2763430AA8B9FFB7 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		3D5CCEB336714DECB0A494A9 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				68FA6A8FF6AA474ABAE5DC16 /* CMake Rules */,
+				C1844E044AC246E380F47597 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5BED98EB42C741938C4F0520 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				22C16509C596454FB8F34AAB /* libjasper */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		68FA6A8FF6AA474ABAE5DC16 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6C47A042C10F4EBD9DFD4B2A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7C1A6FD828504042942F268A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB152077137F46B4B16A9D05 /* libjasper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		872EC425A9D541A1832DC14F = {
+			isa = PBXGroup;
+			children = (
+				C76DA021DED84FB0B9C64B57 /* Sources */,
+				6C47A042C10F4EBD9DFD4B2A /* Resources */,
+				7C1A6FD828504042942F268A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C76DA021DED84FB0B9C64B57 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3D5CCEB336714DECB0A494A9 /* ALL_BUILD */,
+				353EEC4361964A658C49C762 /* ZERO_CHECK */,
+				5BED98EB42C741938C4F0520 /* 3rdparty */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		D2B1787419F643E094EA6EFB /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B44F485D6EB4B65A692E5D6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_cm.h */,
+				B609D4CF4B264B60B148F1B4 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_config.h */,
+				7F83EB808C7643DF8A4CE2D0 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_config2.h */,
+				708B1B8E323045F2A5EE490B /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_debug.h */,
+				31554C9BA65C457F8086BD40 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_fix.h */,
+				2B274A69CD39452E85EB28D9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_getopt.h */,
+				FFFAF5409B6D446199D916A4 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_icc.h */,
+				0E412321E421444D97041B5C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_image.h */,
+				B8614B347BFB43A5B0B32D62 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_init.h */,
+				000EF66E7853434F95F6EEDD /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_malloc.h */,
+				514312D263434C928EFBB96E /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_math.h */,
+				1A2205E2173E484A978CC907 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_seq.h */,
+				80797BE098F9428FB29BB93F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_stream.h */,
+				6435C3B1F5AD426480D889CF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_string.h */,
+				1C6D4C27978C43BBBCA12908 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_tmr.h */,
+				9BA20E633B83440381177A30 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_tvp.h */,
+				8EC56FDC4E6E4B69B40C18E6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_types.h */,
+				DE275AC187DA43B3B2948269 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jas_version.h */,
+				2C39AE98317945D0AE81A8B6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jasper/jasper.h */,
+				E9EDBE6BC1874F5A8B68F339 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_cod.h */,
+				C2AC8EBECD5A479DB96B8517 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_dec.h */,
+				D7D81256527A4D7E8C314152 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_bs.h */,
+				ECF3EF4E93364EAFA4EBBB5B /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cod.h */,
+				35A7F003F5AE40FC93E2D418 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cs.h */,
+				40FCB8D6B22E46DCA4559750 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_dec.h */,
+				7C3D07BC9A794D298735867C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_enc.h */,
+				9258312C9DB24663AAEE11D7 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_fix.h */,
+				D3636AB2E4ED4E308BD94FE6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_flt.h */,
+				61B373DB2ADB4E248C57EB00 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_math.h */,
+				73904EE2A6F249F0B40C297E /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mct.h */,
+				88ADB0E81501448E9481CFB4 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqcod.h */,
+				0F136AEC925E43C2943794AE /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqdec.h */,
+				8E8D55A23C524C7AB1CF98D2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqenc.h */,
+				5C7AF4E0EC7548CEACB662B6 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_qmfb.h */,
+				F21114CB55E24FE6BCC2DAAB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1cod.h */,
+				E248F3CCD0BF492C989A3AE2 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1dec.h */,
+				1F1F857979B64E9F9F1A5612 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1enc.h */,
+				3458D8874EA0428C944D6518 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2cod.h */,
+				40B8C986349D4D748EEA3CD1 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2dec.h */,
+				E1C4F352DFC442ACA3BC75DF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2enc.h */,
+				EFB9C719A228417FA0A24F83 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tagtree.h */,
+				810267DA547145F488D68CA9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tsfb.h */,
+				E20612EDF5934AA393FCD4AF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_util.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BED57412E5BD41D59068A89C /* libjasper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60AB6D2D0DA4AC7ACAE2355 /* Build configuration list for PBXNativeTarget "libjasper" */;
+			buildPhases = (
+				76B422318CB64EF5B1441150 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D97812D2E1E48DCBB103CDE /* PBXTargetDependency */,
+			);
+			name = libjasper;
+			productName = libjasper;
+			productReference = FB152077137F46B4B16A9D05 /* libjasper */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C316F0C8A67648C0A6C074CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 92649357B0D142EDAEB0E9FC /* Build configuration list for PBXProject "libjasper" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0CA8C35C678E4C0DBF9BD1F6 /* Debug */,
+				B51EE765BB504D1B9110F9F0 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 872EC425A9D541A1832DC14F;
+			projectDirPath = ../../../3rdparty/libjasper;
+			projectRoot = "";
+			targets = (
+				3FF355423DF84D7DA789A862 /* ALL_BUILD */,
+				47D02146361446C7B5B35956 /* ZERO_CHECK */,
+				3DBD8CEA4A4C4E43B84C72EA /* install */,
+				BED57412E5BD41D59068A89C /* libjasper */,
+				31613DB07150419D8029959F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11A7123ACEB346868D79035E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libjasper -f /Users/elliotstaudt/opencv/build/3rdparty/libjasper/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		45B5847DDAA54986ABC9133D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		549787BF3C3C43408DC67DEA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8E97610ADCE64F2A80589BD1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libjasper -f /Users/elliotstaudt/opencv/build/3rdparty/libjasper/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B393805D7FE244AA9094BF98 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BBD6D4AB9FAB4F6E9EDDE9FE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libjasper -f /Users/elliotstaudt/opencv/build/3rdparty/libjasper/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C1BA49C499594803AE7C0EE1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E2F637B0D3AB4F64BC001935 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/elliotstaudt/opencv/build/3rdparty/libjasper -f /Users/elliotstaudt/opencv/build/3rdparty/libjasper/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76B422318CB64EF5B1441150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E80A6365764AFB9CE33B24 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_cm.c */,
+				3C41F65227C6469ABD3CD6FA /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_debug.c */,
+				24C9225854794A5AA4F75B59 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_getopt.c */,
+				7F27F44B6B3B4547A016FE92 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_icc.c */,
+				85256A3481DD4DC7A66818EA /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_iccdata.c */,
+				D6917F0F5AD94E108C172756 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_image.c */,
+				215A0FBC0BC24E9BAF6BC23A /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_init.c */,
+				48EF8711FFD04CEC931DA8AB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_malloc.c */,
+				49B21F94DB8543E9B469913F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_seq.c */,
+				064B4E3CC4104BFE9B01EEAD /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_stream.c */,
+				8E8FAEF54596407C8302BB5E /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_string.c */,
+				1137D92436AE471390708168 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_tmr.c */,
+				46FCAEEF56F4417D8A4F7F09 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_tvp.c */,
+				B53E22B7A49C4543B80D30FF /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jas_version.c */,
+				482BFA9F41244A86A2B02CA9 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_cod.c */,
+				31FF16AD0DA6453AAA18EF6F /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_dec.c */,
+				4AE9EAA700F84BE5AD2FAB8C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jp2_enc.c */,
+				E336E6F5B475469FA91448AA /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_bs.c */,
+				A7F09FC4576B4342AD7D981E /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_cs.c */,
+				023BB834D4124B358D500476 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_dec.c */,
+				ABDD23CE64A44680870CA79B /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_enc.c */,
+				8232A441B60E474FB7999A68 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_math.c */,
+				4A57C3BE92454794A759BA05 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mct.c */,
+				4DB613B0FDC448768D9C5549 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqcod.c */,
+				3C5322BD9B5F4C51A13FBF17 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqdec.c */,
+				B2AC6F3D6F184E378DCB2C06 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_mqenc.c */,
+				DC0CF7211EEB4130BFD976E3 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_qmfb.c */,
+				CFC9EAB3759545EE8A54ABDC /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1cod.c */,
+				698EDAD843004FF1A2322C94 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1dec.c */,
+				DAF2E441E01A4735B001AAC7 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t1enc.c */,
+				A8154F4E0DA542068E97F98C /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2cod.c */,
+				B6BECD416BDC4AA8A4F069A1 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2dec.c */,
+				2D20EFC416904534945685DB /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_t2enc.c */,
+				1E05DA8602FA4FD9B9A33C7A /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tagtree.c */,
+				DAE091464530480D98603F50 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_tsfb.c */,
+				8A1F4AE3179C4665B037EA39 /* /Users/elliotstaudt/opencv/3rdparty/libjasper/jpc_util.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2015D1E4A25E45A7A5A9572B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = 8594FDA958B94B3D987541E9 /* PBXContainerItemProxy */;
+		};
+		2D8D20C3DE694A2DADC0A574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED57412E5BD41D59068A89C /* libjasper */;
+			targetProxy = A5511F31D3D44336AB0AF56B /* PBXContainerItemProxy */;
+		};
+		8D97812D2E1E48DCBB103CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = E7781A0C1AEC43349587F999 /* PBXContainerItemProxy */;
+		};
+		C0C5FEFD48C542DAA4AEA3FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D02146361446C7B5B35956 /* ZERO_CHECK */;
+			targetProxy = D9915A40103F469986C18066 /* PBXContainerItemProxy */;
+		};
+		D054EC9035A148E9B90D5A87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF355423DF84D7DA789A862 /* ALL_BUILD */;
+			targetProxy = DBADD5CC8BB24322ADDF8776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C8A86819B454B589105B4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", EXCLUDE_MIF_SUPPORT, EXCLUDE_PNM_SUPPORT, EXCLUDE_BMP_SUPPORT, EXCLUDE_RAS_SUPPORT, EXCLUDE_JPG_SUPPORT, EXCLUDE_PGX_SUPPORT, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjasper, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjasper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		14D3F98D20624B2EBAFC85CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", EXCLUDE_MIF_SUPPORT, EXCLUDE_PNM_SUPPORT, EXCLUDE_BMP_SUPPORT, EXCLUDE_RAS_SUPPORT, EXCLUDE_JPG_SUPPORT, EXCLUDE_PGX_SUPPORT, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjasper, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjasper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		224D046BD185492B8709D416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjasper/build;
+			};
+			name = Release;
+		};
+		3704A2C553714C4CBFC213EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjasper, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjasper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		3F26FF77172A4B7FA224D169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/3rdparty/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", EXCLUDE_MIF_SUPPORT, EXCLUDE_PNM_SUPPORT, EXCLUDE_BMP_SUPPORT, EXCLUDE_RAS_SUPPORT, EXCLUDE_JPG_SUPPORT, EXCLUDE_PGX_SUPPORT, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjasper, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-unused-parameter -fPIC     -DNDEBUG  -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libjasper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjasper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		4DAE419CA0304498A37E8B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", EXCLUDE_MIF_SUPPORT, EXCLUDE_PNM_SUPPORT, EXCLUDE_BMP_SUPPORT, EXCLUDE_RAS_SUPPORT, EXCLUDE_JPG_SUPPORT, EXCLUDE_PGX_SUPPORT, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjasper, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjasper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		5D6F548814B445759D213A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", EXCLUDE_MIF_SUPPORT, EXCLUDE_PNM_SUPPORT, EXCLUDE_BMP_SUPPORT, EXCLUDE_RAS_SUPPORT, EXCLUDE_JPG_SUPPORT, EXCLUDE_PGX_SUPPORT, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjasper, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjasper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		706FDED6D11643E48D411505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjasper, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjasper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		8BC9DCFA9DF4454A9E8474DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjasper, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjasper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		AD88BC7AE53F4594858AD525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjasper/build;
+			};
+			name = Debug;
+		};
+		C1F0A20D8E01463CB0C2A45E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjasper, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjasper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		DBFEFC92438D444EBACD001E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/elliotstaudt/opencv/build/3rdparty/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", EXCLUDE_MIF_SUPPORT, EXCLUDE_PNM_SUPPORT, EXCLUDE_BMP_SUPPORT, EXCLUDE_RAS_SUPPORT, EXCLUDE_JPG_SUPPORT, EXCLUDE_PGX_SUPPORT, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/elliotstaudt/opencv/3rdparty/libjasper, /Users/elliotstaudt/opencv/build, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Wno-long-long -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -msse -msse2 -mno-avx -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-unused-parameter -fPIC         -DDEBUG -D_DEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libjasper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/elliotstaudt/opencv/build/3rdparty/libjasper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242DACB0A3564E919763D102 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706FDED6D11643E48D411505 /* Debug */,
+				3704A2C553714C4CBFC213EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		853FEDA0A47F4456A5E8FA76 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F0A20D8E01463CB0C2A45E /* Debug */,
+				8BC9DCFA9DF4454A9E8474DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		92649357B0D142EDAEB0E9FC /* Build configuration list for PBXProject "libjasper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD88BC7AE53F4594858AD525 /* Debug */,
+				224D046BD185492B8709D416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9629608237794238800F92F4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAE419CA0304498A37E8B58 /* Debug */,
+				0C8A86819B454B589105B4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC5FA92EF6E54435AABE0B75 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D3F98D20624B2EBAFC85CE /* Debug */,
+				5D6F548814B445759D213A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F60AB6D2D0DA4AC7ACAE2355 /* Build configuration list for PBXNativeTarget "libjasper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBFEFC92438D444EBACD001E /* Debug */,
+				3F26FF77172A4B7FA224D169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C316F0C8A67648C0A6C074CD /* Project object */;
+}

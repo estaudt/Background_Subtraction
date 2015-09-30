@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone=no>
+<!-- Parameters for Background Subtraction -->
+<Configuration>
+	<videoFile attribute = "something" >
+		/Users/elliotstaudt/Dropbox/Goodputs/09162008_1_4_1_470-3.avi
+	</videoFile>
+	<ParameterSet Type = "Default">
+		<!--Motion detection related parameters.-->
+		<min_motion_reg> 200 </min_motion_reg>							<!--Minimum width of the detected motion region.-->
+		<max_motion_reg> 2000 </max_motion_reg>;						<!--Maximum width of the detected motion region.-->
+		<alpha> 0.5 </alpha>											<!--Update rate of the background model.-->
+		<dilate_size> 16 </dilate_size>;								<!--Motion region dilation.-->
+		<erosion_size_1> 1 </erosion_size_1>							<!--Motion region erosion.-->
+		<erosion_size_2> 12 </erosion_size_2>
+
+		<!--Object classification related parameters.-->
+		<min_object_size> 20 </min_object_size>							<!--Minimum width of the detected peoples-->
+		<max_object_size> 50 </max_object_size>							<!--Maximum width of the detected peoples-->
+		<overlap_percent> 75 </overlap_percent>							<!--Overlapping detections to be aggregated-->
+		<people_cascade_name> </people_cascade_name>					<!--Cascade classifier xml file-->
+
+		<!--Tracking related parameters.-->
+		<start_frame> 0 </start_frame>									<!--Starting frame in the video to initialize tracking-->
+		<age_limit> = 3 </age_limit>									<!--Number of frames an object needed to persist to initialize a tracker.-->
+		<track_without_detection> 3 </track_without_detection>			<!--Number of frames an object will be tracked without measurement.-->
+		<N> 5 </N>														<!--Number of frames needed to compute initial background model for each video segment.-->
+		<vid_seg> 50 </vid_seg>											<!--Size of the video segment.-->
+		<offset_xl> 40 </offset_xl>										<!--x offset boundary for each frame-->
+		<offset_xr> 40 </offset_xr>
+		<offset_yt> 40 </offset_yt>										<!--y offset boundary for each frame-->
+		<offset_yb> 40 </offset_yb>
+		
+		<!--Visualization related parametres.-->
+		<show_frame> false </show_frame>								<!--Show video frame during program running-->
+		<show_foreground> false </show_foreground>						<!--Show forground moving regions during program running-->
+		<show_detection>true </show_detection>							<!--Show people detection result during program running-->
+		<show_tracking> true </show_tracking>							<!--Show tracking result during program running-->
+		<show_boundary> false </show_boundary>							<!--Show boundary-->
+		<save_video_frame> true </save_video_frame>						<!--Save video-->
+		<built_in_homography> false </built_in_homography>				<!--Build homography with virat dataset is used or not-->
+		<strategy> 2 </strategy>										<!--1:only motion, 2: only detection, 3: detection + salient motion region, 4: motion+detection-->
+	</ParameterSet>
+</Configuration>
